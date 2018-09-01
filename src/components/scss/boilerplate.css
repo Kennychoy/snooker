@@ -1,0 +1,9 @@
+@media screen and (min-width: 1200px) {} // .min-width: 1200
+
+@media screen and (min-width: 992px) and (max-width: 1199px){} // 992 - 1199
+
+@media screen and (min-width: 768px) and (max-width: 991px){} // 768 - 991
+
+@media screen and (min-width: 576px) and (max-width: 767px){} // 576 - 767
+
+@media screen and (max-width: 575px){} // max 575

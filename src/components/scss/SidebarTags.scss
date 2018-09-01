@@ -1,0 +1,129 @@
+@media screen and (min-width: 1200px) {
+	.sidebar-tags {
+		margin-top: 30px;
+		.tags-wrapper {
+			margin-top: 30px;
+			button {
+				background: #FFF;
+				color: #151515;
+				border: 1px solid #e1e1e1;
+				border-radius: 5px;
+				transition: .3s all;
+				padding: 5px 10px;
+				margin: 3px;
+				text-transform: uppercase;
+				font-size: 14px;
+				&:hover {
+					cursor: pointer;
+					color: #FFF;
+					background: #15b095;
+					border-color: #15b095;
+				}
+			}
+		}
+	}
+} // .min-width: 1200
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.sidebar-tags {
+		margin-top: 30px;
+		.tags-wrapper {
+			margin-top: 30px;
+			button {
+				background: #FFF;
+				color: #151515;
+				border: 1px solid #e1e1e1;
+				border-radius: 5px;
+				transition: .3s all;
+				padding: 5px 10px;
+				margin: 3px;
+				text-transform: uppercase;
+				font-size: 14px;
+				&:hover {
+					cursor: pointer;
+					color: #FFF;
+					background: #15b095;
+					border-color: #15b095;
+				}
+			}
+		}
+	}
+} // 992 - 1199
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.sidebar-tags {
+		margin-top: 30px;
+		.tags-wrapper {
+			margin-top: 30px;
+			button {
+				background: #FFF;
+				color: #151515;
+				border: 1px solid #e1e1e1;
+				border-radius: 5px;
+				transition: .3s all;
+				padding: 5px 10px;
+				margin: 3px;
+				text-transform: uppercase;
+				font-size: 14px;
+				&:hover {
+					cursor: pointer;
+					color: #FFF;
+					background: #15b095;
+					border-color: #15b095;
+				}
+			}
+		}
+	}
+} // 768 - 991
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+	.sidebar-tags {
+		margin-top: 30px;
+		.tags-wrapper {
+			margin-top: 30px;
+			button {
+				background: #FFF;
+				color: #151515;
+				border: 1px solid #e1e1e1;
+				border-radius: 5px;
+				transition: .3s all;
+				padding: 5px 10px;
+				margin: 3px;
+				text-transform: uppercase;
+				font-size: 14px;
+				&:hover {
+					cursor: pointer;
+					color: #FFF;
+					background: #15b095;
+					border-color: #15b095;
+				}
+			}
+		}
+	}
+} // 576 - 767
+
+@media screen and (max-width: 575px){
+	.sidebar-tags {
+		margin-top: 30px;
+		.tags-wrapper {
+			margin-top: 30px;
+			button {
+				background: #FFF;
+				color: #151515;
+				border: 1px solid #e1e1e1;
+				border-radius: 5px;
+				transition: .3s all;
+				padding: 5px 10px;
+				margin: 3px;
+				text-transform: uppercase;
+				font-size: 14px;
+				&:hover {
+					cursor: pointer;
+					color: #FFF;
+					background: #15b095;
+					border-color: #15b095;
+				}
+			}
+		}
+	}
+} // max 575

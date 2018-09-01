@@ -1,0 +1,240 @@
+@media screen and (min-width: 1200px) {
+	.page-portal {
+		.container-fluid {
+			background: url("./bg-img/portal.png") no-repeat center center;
+			background-size: cover;
+			padding: 100px 0;
+			color: #FFF;
+			.page-desc {
+				.page-location {
+					h1 {
+						font-size: 33px;
+						text-transform: uppercase;
+					}
+				}
+				.page-path {
+					nav {
+						display: flex;
+						ol {
+							margin: auto;
+							background: none;
+							li {
+								&:first-of-type {
+									&:before {
+										content: "";
+									}
+									a {
+										color: #15b095;
+									}
+								}
+								&:before {
+									content: ">";
+									color: #FFF;
+								}
+								a {
+									color: #FFF;
+									font-weigth: 600;
+									&:hover {
+										text-decoration: none;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	} // .page-portal
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.page-portal {
+		.container-fluid {
+			background: url("./bg-img/portal.png") no-repeat center center;
+			background-size: cover;
+			padding: 100px 0;
+			color: #FFF;
+			.page-desc {
+				.page-location {
+					h1 {
+						font-size: 33px;
+					}
+				}
+				.page-path {
+					nav {
+						display: flex;
+						ol {
+							margin: auto;
+							background: none;
+							li {
+								&:first-of-type {
+									&:before {
+										content: "";
+									}
+									a {
+										color: #15b095;
+									}
+								}
+								&:before {
+									content: ">";
+									color: #FFF;
+								}
+								a {
+									color: #FFF;
+									font-weigth: 600;
+									&:hover {
+										text-decoration: none;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	} // .page-portal
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.page-portal {
+		.container-fluid {
+			background: url("./bg-img/portal.png") no-repeat center center;
+			background-size: cover;
+			padding: 100px 0;
+			color: #FFF;
+			.page-desc {
+				.page-location {
+					h1 {
+						font-size: 33px;
+					}
+				}
+				.page-path {
+					nav {
+						display: flex;
+						ol {
+							margin: auto;
+							background: none;
+							li {
+								&:first-of-type {
+									&:before {
+										content: "";
+									}
+									a {
+										color: #15b095;
+									}
+								}
+								&:before {
+									content: ">";
+									color: #FFF;
+								}
+								a {
+									color: #FFF;
+									font-weigth: 600;
+									&:hover {
+										text-decoration: none;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	} // .page-portal
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+	.page-portal {
+		.container-fluid {
+			background: url("./bg-img/portal.png") no-repeat center center;
+			background-size: cover;
+			padding: 100px 0;
+			color: #FFF;
+			.page-desc {
+				.page-location {
+					h1 {
+						font-size: 33px;
+					}
+				}
+				.page-path {
+					nav {
+						display: flex;
+						ol {
+							margin: auto;
+							background: none;
+							li {
+								&:first-of-type {
+									&:before {
+										content: "";
+									}
+									a {
+										color: #15b095;
+									}
+								}
+								&:before {
+									content: ">";
+									color: #FFF;
+								}
+								a {
+									color: #FFF;
+									font-weigth: 600;
+									&:hover {
+										text-decoration: none;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	} // .page-portal
+}
+
+@media screen and (max-width: 575px){
+	.page-portal {
+		.container-fluid {
+			background: url("./bg-img/portal.png") no-repeat center center;
+			background-size: cover;
+			padding: 100px 0;
+			color: #FFF;
+			.page-desc {
+				.page-location {
+					h1 {
+						font-size: 33px;
+					}
+				}
+				.page-path {
+					nav {
+						display: flex;
+						ol {
+							margin: auto;
+							background: none;
+							li {
+								&:first-of-type {
+									&:before {
+										content: "";
+									}
+									a {
+										color: #15b095;
+									}
+								}
+								&:before {
+									content: ">";
+									color: #FFF;
+								}
+								a {
+									color: #FFF;
+									font-weigth: 600;
+									&:hover {
+										text-decoration: none;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	} // .page-portal
+}

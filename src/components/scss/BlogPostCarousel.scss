@@ -1,0 +1,304 @@
+@media screen and (min-width: 1200px) {
+	.blogpost-carousel {
+		margin-top: 30px;
+		.container {
+			.slick-slider {
+				position: relative;
+				button {}
+				.slick-arrow {
+					position: absolute;
+					top: -30px;
+					right: 0;
+					border: 1px solid #151515;
+					display: flex !important;
+					align-items: center;
+					justify-content: center;
+					line-height: 1;
+					transition: .3s all;
+					&:before {
+						color: #151515;
+						font-family: "Font Awesome 5 Free";
+						font-weight: 900;
+						transition: .3s all;
+					}
+					&:hover {
+						background: #15b095;
+						&:before {
+							color: #FFF;
+						}
+					}
+				}
+				.slick-prev {
+					left: 90%;
+					&:before {
+						content: "\f104";
+					}
+				}
+				.slick-next {
+					right: 20px;
+					&:before {
+						content: "\f105";						
+					}
+				}
+				.slick-list {
+					.slick-track {
+						.slick-slide {
+							.blogpost-carousel-item {
+								padding: 15px;
+								a {
+									img {
+										width: 100%;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+} // .min-width: 1200
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.blogpost-carousel {
+		margin-top: 30px;
+		.container {
+			.slick-slider {
+				position: relative;
+				button {}
+				.slick-arrow {
+					position: absolute;
+					top: -30px;
+					right: 0;
+					border: 1px solid #151515;
+					display: flex !important;
+					align-items: center;
+					justify-content: center;
+					line-height: 1;
+					transition: .3s all;
+					&:before {
+						color: #151515;
+						font-family: "Font Awesome 5 Free";
+						font-weight: 900;
+						transition: .3s all;
+					}
+					&:hover {
+						background: #15b095;
+						&:before {
+							color: #FFF;
+						}
+					}
+				}
+				.slick-prev {
+					left: 88%;
+					&:before {
+						content: "\f104";
+					}
+				}
+				.slick-next {
+					right: 20px;
+					&:before {
+						content: "\f105";						
+					}
+				}
+				.slick-list {
+					.slick-track {
+						.slick-slide {
+							.blogpost-carousel-item {
+								padding: 15px;
+								a {
+									img {
+										width: 100%;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+} // 992 - 1199
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.blogpost-carousel {
+		margin-top: 30px;
+		.container {
+			.slick-slider {
+				position: relative;
+				button {}
+				.slick-arrow {
+					position: absolute;
+					top: -30px;
+					right: 0;
+					border: 1px solid #151515;
+					display: flex !important;
+					align-items: center;
+					justify-content: center;
+					line-height: 1;
+					transition: .3s all;
+					&:before {
+						color: #151515;
+						font-family: "Font Awesome 5 Free";
+						font-weight: 900;
+						transition: .3s all;
+					}
+					&:hover {
+						background: #15b095;
+						&:before {
+							color: #FFF;
+						}
+					}
+				}
+				.slick-prev {
+					left: 88%;
+					&:before {
+						content: "\f104";
+					}
+				}
+				.slick-next {
+					right: 20px;
+					&:before {
+						content: "\f105";						
+					}
+				}
+				.slick-list {
+					.slick-track {
+						.slick-slide {
+							.blogpost-carousel-item {
+								padding: 15px;
+								a {
+									img {
+										width: 100%;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+} // 768 - 991
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+	.blogpost-carousel {
+		margin-top: 30px;
+		.container {
+			.slick-slider {
+				position: relative;
+				button {}
+				.slick-arrow {
+					position: absolute;
+					top: -30px;
+					right: 0;
+					border: 1px solid #151515;
+					display: flex !important;
+					align-items: center;
+					justify-content: center;
+					line-height: 1;
+					transition: .3s all;
+					&:before {
+						color: #151515;
+						font-family: "Font Awesome 5 Free";
+						font-weight: 900;
+						transition: .3s all;
+					}
+					&:hover {
+						background: #15b095;
+						&:before {
+							color: #FFF;
+						}
+					}
+				}
+				.slick-prev {
+					left: 85%;
+					&:before {
+						content: "\f104";
+					}
+				}
+				.slick-next {
+					right: 20px;
+					&:before {
+						content: "\f105";						
+					}
+				}
+				.slick-list {
+					.slick-track {
+						.slick-slide {
+							.blogpost-carousel-item {
+								padding: 15px;
+								a {
+									img {
+										width: 100%;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+} // 576 - 767
+
+@media screen and (max-width: 575px){
+	.blogpost-carousel {
+		margin-top: 30px;
+		.container {
+			.slick-slider {
+				position: relative;
+				button {}
+				.slick-arrow {
+					position: absolute;
+					top: -35px;
+					right: 0;
+					border: 1px solid #151515;
+					display: flex !important;
+					align-items: center;
+					justify-content: center;
+					line-height: 1;
+					transition: .3s all;
+					&:before {
+						color: #151515;
+						font-family: "Font Awesome 5 Free";
+						font-weight: 900;
+						transition: .3s all;
+					}
+					&:hover {
+						background: #15b095;
+						&:before {
+							color: #FFF;
+						}
+					}
+				}
+				.slick-prev {
+					left: 75%;
+					&:before {
+						content: "\f104";
+					}
+				}
+				.slick-next {
+					right: 20px;
+					&:before {
+						content: "\f105";						
+					}
+				}
+				.slick-list {
+					.slick-track {
+						.slick-slide {
+							.blogpost-carousel-item {
+								padding: 15px;
+								a {
+									img {
+										width: 100%;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+} // max 575

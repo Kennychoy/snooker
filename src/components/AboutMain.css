@@ -1,0 +1,1176 @@
+@media screen and (min-width: 1200px) {
+  /* line 2, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main {
+    background: #edeff4;
+  }
+  /* line 6, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 {
+    margin-top: 50px;
+  }
+  /* line 8, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major {
+    margin-top: 30px;
+  }
+  /* line 10, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview {
+    background: #FFF;
+  }
+  /* line 12, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+  }
+  /* line 17, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-img {
+    flex: 1;
+    overflow: hidden;
+  }
+  /* line 20, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-img img {
+    width: 100%;
+    transition: .3s all;
+  }
+  /* line 23, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-img img:hover {
+    transform: scale(1.1);
+  }
+  /* line 28, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+  }
+  /* line 35, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-info .about-player-name {
+    color: #151515;
+    font-size: 20px;
+  }
+  /* line 39, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-info .about-player-birthplace {
+    font-size: 14px;
+    color: #15b095;
+  }
+  /* line 44, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-misc {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* line 48, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-misc .about-misc-subtle {
+    flex: 50%;
+    display: flex;
+    padding-right: 15px;
+    justify-content: space-between;
+  }
+  /* line 53, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-misc .about-misc-subtle .about-misc-key {
+    color: #9b9b9b;
+  }
+  /* line 56, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-misc .about-misc-subtle .about-misc-value {
+    color: #151515;
+  }
+  /* line 61, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills {
+    width: 100%;
+  }
+  /* line 63, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* line 68, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container:first-child input {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.95, #15b095), color-stop(0.95, #ccc));
+  }
+  /* line 73, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container:last-child input {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.8, #15b095), color-stop(0.8, #ccc));
+  }
+  /* line 77, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container label {
+    min-width: 70px;
+  }
+  /* line 80, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container input {
+    width: 50%;
+    appearance: none;
+    height: 5px;
+    outline: none;
+    opacity: .7;
+  }
+  /* line 86, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container input::-webkit-slider-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #15b095;
+    cursor: pointer;
+  }
+  /* line 94, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container input::-moz-range-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #15b095;
+    cursor: pointer;
+  }
+  /* line 109, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio {
+    padding: 15px;
+  }
+  /* line 111, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio .bio-title {
+    font-size: 24px;
+    line-height: 1.25;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 117, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio .bio-intro {
+    font-size: 18px;
+    letter-spacing: .05rem;
+    color: #9b9b9b;
+    padding-left: 90px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  /* line 124, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio .bio-intro:before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    top: 12px;
+    left: 5px;
+    background: #9b9b9b;
+  }
+  /* line 135, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio .bio-desc p {
+    font-size: 14px;
+    color: #151515;
+  }
+  /* line 142, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements {
+    padding: 15px;
+    position: relative;
+  }
+  /* line 145, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements:before {
+    content: "";
+    height: 100%;
+    width: 1px;
+    background: #9b9b9b;
+    left: 45px;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+  }
+  /* line 155, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement {
+    padding: 15px;
+  }
+  /* line 157, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title {
+    display: flex;
+  }
+  /* line 159, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title .achievement-time {
+    z-index: 2;
+    background: #FFF;
+    border: 1px solid #9b9b9b;
+    padding: 5px 10px;
+    position: relative;
+  }
+  /* line 165, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title .achievement-time:before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: -1px;
+    right: -15px;
+    width: 15px;
+    height: 36px;
+    border-top: 1px solid #9b9b9b;
+    border-right: none;
+    border-bottom: none;
+    border-left: 1px solid #fff;
+  }
+  /* line 178, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title .achievement-time:after {
+    position: absolute;
+    content: "";
+    right: -9px;
+    top: -5px;
+    width: 15px;
+    height: 39px;
+    border-right: 1px solid #9b9b9b;
+    transform: rotate(25deg);
+  }
+  /* line 189, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title .achievement-title {
+    text-indent: 30px;
+    text-transform: uppercase;
+  }
+  /* line 194, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-text {
+    color: #9b9b9b;
+    letter-spacing: 0.025rem;
+    padding-left: 60px;
+    margin-top: 15px;
+  }
+  /* line 209, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .upcoming-event {
+    background: #edeff4 !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 217, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main {
+    background: #edeff4;
+  }
+  /* line 221, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 {
+    margin-top: 50px;
+  }
+  /* line 223, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major {
+    margin-top: 30px;
+  }
+  /* line 225, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview {
+    background: #FFF;
+  }
+  /* line 227, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+  }
+  /* line 232, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-img {
+    flex: 1;
+    overflow: hidden;
+  }
+  /* line 235, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-img img {
+    width: 100%;
+    transition: .3s all;
+  }
+  /* line 238, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-img img:hover {
+    transform: scale(1.1);
+  }
+  /* line 243, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+  }
+  /* line 250, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-info .about-player-name {
+    color: #151515;
+    font-size: 20px;
+  }
+  /* line 254, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-info .about-player-birthplace {
+    font-size: 14px;
+    color: #15b095;
+  }
+  /* line 259, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-misc {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* line 263, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-misc .about-misc-subtle {
+    flex: 50%;
+    display: flex;
+    padding-right: 15px;
+    justify-content: space-between;
+  }
+  /* line 268, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-misc .about-misc-subtle .about-misc-key {
+    color: #9b9b9b;
+  }
+  /* line 271, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-misc .about-misc-subtle .about-misc-value {
+    color: #151515;
+  }
+  /* line 276, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills {
+    width: 100%;
+  }
+  /* line 278, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* line 283, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container:first-child input {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.95, #15b095), color-stop(0.95, #ccc));
+  }
+  /* line 288, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container:last-child input {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.8, #15b095), color-stop(0.8, #ccc));
+  }
+  /* line 292, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container label {
+    min-width: 70px;
+  }
+  /* line 295, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container input {
+    width: 50%;
+    appearance: none;
+    height: 5px;
+    outline: none;
+    opacity: .7;
+  }
+  /* line 301, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container input::-webkit-slider-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #15b095;
+    cursor: pointer;
+  }
+  /* line 309, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container input::-moz-range-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #15b095;
+    cursor: pointer;
+  }
+  /* line 324, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio {
+    padding: 15px;
+  }
+  /* line 326, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio .bio-title {
+    font-size: 24px;
+    line-height: 1.25;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 332, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio .bio-intro {
+    font-size: 18px;
+    letter-spacing: .05rem;
+    color: #9b9b9b;
+    padding-left: 90px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  /* line 339, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio .bio-intro:before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    top: 12px;
+    left: 5px;
+    background: #9b9b9b;
+  }
+  /* line 350, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio .bio-desc p {
+    font-size: 14px;
+    color: #151515;
+  }
+  /* line 357, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements {
+    padding: 15px;
+    position: relative;
+  }
+  /* line 360, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements:before {
+    content: "";
+    height: 100%;
+    width: 1px;
+    background: #9b9b9b;
+    left: 45px;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+  }
+  /* line 370, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement {
+    padding: 15px;
+  }
+  /* line 372, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title {
+    display: flex;
+  }
+  /* line 374, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title .achievement-time {
+    z-index: 2;
+    background: #FFF;
+    border: 1px solid #9b9b9b;
+    padding: 5px 10px;
+    position: relative;
+  }
+  /* line 380, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title .achievement-time:before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: -1px;
+    right: -15px;
+    width: 15px;
+    height: 36px;
+    border-top: 1px solid #9b9b9b;
+    border-right: none;
+    border-bottom: none;
+    border-left: 1px solid #fff;
+  }
+  /* line 393, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title .achievement-time:after {
+    position: absolute;
+    content: "";
+    right: -9px;
+    top: -5px;
+    width: 15px;
+    height: 39px;
+    border-right: 1px solid #9b9b9b;
+    transform: rotate(25deg);
+  }
+  /* line 404, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title .achievement-title {
+    text-indent: 30px;
+    text-transform: uppercase;
+  }
+  /* line 409, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-text {
+    color: #9b9b9b;
+    letter-spacing: 0.025rem;
+    padding-left: 60px;
+    margin-top: 15px;
+  }
+  /* line 424, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .upcoming-event {
+    background: #edeff4 !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 432, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main {
+    background: #edeff4;
+  }
+  /* line 436, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 {
+    margin-top: 50px;
+  }
+  /* line 438, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major {
+    margin-top: 30px;
+  }
+  /* line 440, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview {
+    background: #FFF;
+  }
+  /* line 442, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+  }
+  /* line 447, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-img {
+    flex: 1;
+    overflow: hidden;
+  }
+  /* line 450, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-img img {
+    width: 100%;
+    transition: .3s all;
+  }
+  /* line 453, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-img img:hover {
+    transform: scale(1.1);
+  }
+  /* line 458, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+  }
+  /* line 465, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-info .about-player-name {
+    color: #151515;
+    font-size: 20px;
+  }
+  /* line 469, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-info .about-player-birthplace {
+    font-size: 14px;
+    color: #15b095;
+  }
+  /* line 474, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-misc {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* line 478, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-misc .about-misc-subtle {
+    flex: 50%;
+    display: flex;
+    padding-right: 15px;
+    justify-content: space-between;
+  }
+  /* line 483, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-misc .about-misc-subtle .about-misc-key {
+    color: #9b9b9b;
+  }
+  /* line 486, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-misc .about-misc-subtle .about-misc-value {
+    color: #151515;
+  }
+  /* line 491, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills {
+    width: 100%;
+  }
+  /* line 493, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* line 498, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container:first-child input {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.95, #15b095), color-stop(0.95, #ccc));
+  }
+  /* line 503, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container:last-child input {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.8, #15b095), color-stop(0.8, #ccc));
+  }
+  /* line 507, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container label {
+    min-width: 70px;
+  }
+  /* line 510, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container input {
+    width: 50%;
+    appearance: none;
+    height: 5px;
+    outline: none;
+    opacity: .7;
+  }
+  /* line 516, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container input::-webkit-slider-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #15b095;
+    cursor: pointer;
+  }
+  /* line 524, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container input::-moz-range-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #15b095;
+    cursor: pointer;
+  }
+  /* line 539, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio {
+    padding: 15px;
+  }
+  /* line 541, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio .bio-title {
+    font-size: 24px;
+    line-height: 1.25;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 547, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio .bio-intro {
+    font-size: 18px;
+    letter-spacing: .05rem;
+    color: #9b9b9b;
+    padding-left: 90px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  /* line 554, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio .bio-intro:before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    top: 12px;
+    left: 5px;
+    background: #9b9b9b;
+  }
+  /* line 565, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio .bio-desc p {
+    font-size: 14px;
+    color: #151515;
+  }
+  /* line 572, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements {
+    padding: 15px;
+    position: relative;
+  }
+  /* line 575, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements:before {
+    content: "";
+    height: 100%;
+    width: 1px;
+    background: #9b9b9b;
+    left: 45px;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+  }
+  /* line 585, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement {
+    padding: 15px;
+  }
+  /* line 587, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title {
+    display: flex;
+  }
+  /* line 589, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title .achievement-time {
+    z-index: 2;
+    background: #FFF;
+    border: 1px solid #9b9b9b;
+    padding: 5px 10px;
+    position: relative;
+  }
+  /* line 595, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title .achievement-time:before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: -1px;
+    right: -15px;
+    width: 15px;
+    height: 36px;
+    border-top: 1px solid #9b9b9b;
+    border-right: none;
+    border-bottom: none;
+    border-left: 1px solid #fff;
+  }
+  /* line 608, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title .achievement-time:after {
+    position: absolute;
+    content: "";
+    right: -9px;
+    top: -5px;
+    width: 15px;
+    height: 39px;
+    border-right: 1px solid #9b9b9b;
+    transform: rotate(25deg);
+  }
+  /* line 619, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title .achievement-title {
+    text-indent: 30px;
+    text-transform: uppercase;
+  }
+  /* line 624, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-text {
+    color: #9b9b9b;
+    letter-spacing: 0.025rem;
+    padding-left: 60px;
+    margin-top: 15px;
+  }
+  /* line 639, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .upcoming-event {
+    background: #edeff4 !important;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 647, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main {
+    background: #edeff4;
+  }
+  /* line 651, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 {
+    margin-top: 50px;
+  }
+  /* line 653, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major {
+    margin-top: 30px;
+  }
+  /* line 655, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview {
+    background: #FFF;
+  }
+  /* line 657, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+  }
+  /* line 662, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-img {
+    flex: 1;
+    overflow: hidden;
+  }
+  /* line 665, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-img img {
+    width: 100%;
+    transition: .3s all;
+  }
+  /* line 668, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-img img:hover {
+    transform: scale(1.1);
+  }
+  /* line 673, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+  }
+  /* line 680, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-info .about-player-name {
+    color: #151515;
+    font-size: 20px;
+  }
+  /* line 684, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-info .about-player-birthplace {
+    font-size: 14px;
+    color: #15b095;
+  }
+  /* line 689, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-misc {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* line 693, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-misc .about-misc-subtle {
+    flex: 50%;
+    display: flex;
+    padding-right: 15px;
+    justify-content: space-between;
+  }
+  /* line 698, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-misc .about-misc-subtle .about-misc-key {
+    color: #9b9b9b;
+  }
+  /* line 701, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-misc .about-misc-subtle .about-misc-value {
+    color: #151515;
+  }
+  /* line 706, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills {
+    width: 100%;
+  }
+  /* line 708, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* line 713, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container:first-child input {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.95, #15b095), color-stop(0.95, #ccc));
+  }
+  /* line 718, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container:last-child input {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.8, #15b095), color-stop(0.8, #ccc));
+  }
+  /* line 722, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container label {
+    min-width: 70px;
+  }
+  /* line 725, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container input {
+    width: 50%;
+    appearance: none;
+    height: 5px;
+    outline: none;
+    opacity: .7;
+  }
+  /* line 731, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container input::-webkit-slider-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #15b095;
+    cursor: pointer;
+  }
+  /* line 739, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container input::-moz-range-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #15b095;
+    cursor: pointer;
+  }
+  /* line 754, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio {
+    padding: 15px;
+  }
+  /* line 756, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio .bio-title {
+    font-size: 24px;
+    line-height: 1.25;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 762, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio .bio-intro {
+    font-size: 18px;
+    letter-spacing: .05rem;
+    color: #9b9b9b;
+    padding-left: 90px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  /* line 769, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio .bio-intro:before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    top: 12px;
+    left: 5px;
+    background: #9b9b9b;
+  }
+  /* line 780, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio .bio-desc p {
+    font-size: 14px;
+    color: #151515;
+  }
+  /* line 787, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements {
+    padding: 15px;
+    position: relative;
+  }
+  /* line 790, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements:before {
+    content: "";
+    height: 100%;
+    width: 1px;
+    background: #9b9b9b;
+    left: 45px;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+  }
+  /* line 800, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement {
+    padding: 15px;
+  }
+  /* line 802, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title {
+    display: flex;
+  }
+  /* line 804, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title .achievement-time {
+    z-index: 2;
+    background: #FFF;
+    border: 1px solid #9b9b9b;
+    padding: 5px 10px;
+    position: relative;
+  }
+  /* line 810, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title .achievement-time:before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: -1px;
+    right: -15px;
+    width: 15px;
+    height: 36px;
+    border-top: 1px solid #9b9b9b;
+    border-right: none;
+    border-bottom: none;
+    border-left: 1px solid #fff;
+  }
+  /* line 823, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title .achievement-time:after {
+    position: absolute;
+    content: "";
+    right: -9px;
+    top: -5px;
+    width: 15px;
+    height: 39px;
+    border-right: 1px solid #9b9b9b;
+    transform: rotate(25deg);
+  }
+  /* line 834, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title .achievement-title {
+    text-indent: 30px;
+    text-transform: uppercase;
+  }
+  /* line 839, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-text {
+    color: #9b9b9b;
+    letter-spacing: 0.025rem;
+    padding-left: 60px;
+    margin-top: 15px;
+  }
+  /* line 854, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .upcoming-event {
+    background: #edeff4 !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 862, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main {
+    background: #edeff4;
+  }
+  /* line 866, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 {
+    margin-top: 50px;
+  }
+  /* line 868, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major {
+    margin-top: 30px;
+  }
+  /* line 870, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview {
+    background: #FFF;
+  }
+  /* line 872, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+  }
+  /* line 877, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-img {
+    flex: 1;
+    overflow: hidden;
+  }
+  /* line 880, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-img img {
+    width: 100%;
+    transition: .3s all;
+  }
+  /* line 883, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-img img:hover {
+    transform: scale(1.1);
+  }
+  /* line 888, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+  }
+  /* line 895, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-info .about-player-name {
+    color: #151515;
+    font-size: 20px;
+  }
+  /* line 899, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-info .about-player-birthplace {
+    font-size: 14px;
+    color: #15b095;
+  }
+  /* line 904, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-misc {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  /* line 909, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-misc .about-misc-subtle {
+    flex: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 913, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-misc .about-misc-subtle .about-misc-key {
+    color: #9b9b9b;
+  }
+  /* line 916, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-misc .about-misc-subtle .about-misc-value {
+    color: #151515;
+  }
+  /* line 921, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills {
+    width: 100%;
+  }
+  /* line 923, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* line 928, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container:first-child input {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.95, #15b095), color-stop(0.95, #ccc));
+  }
+  /* line 933, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container:last-child input {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.8, #15b095), color-stop(0.8, #ccc));
+  }
+  /* line 937, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container label {
+    min-width: 40px;
+  }
+  /* line 940, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container input {
+    width: 50%;
+    appearance: none;
+    height: 5px;
+    outline: none;
+    opacity: .7;
+  }
+  /* line 946, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container input::-webkit-slider-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #15b095;
+    cursor: pointer;
+  }
+  /* line 954, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-head .about-player-desc .about-player-skills .range-container input::-moz-range-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #15b095;
+    cursor: pointer;
+  }
+  /* line 969, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio {
+    padding: 15px;
+  }
+  /* line 971, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio .bio-title {
+    font-size: 24px;
+    line-height: 1.25;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 977, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio .bio-intro {
+    font-size: 18px;
+    letter-spacing: .05rem;
+    color: #9b9b9b;
+    padding-left: 90px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  /* line 984, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio .bio-intro:before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    top: 12px;
+    left: 5px;
+    background: #9b9b9b;
+  }
+  /* line 995, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .about-player-bio .bio-desc p {
+    font-size: 14px;
+    color: #151515;
+  }
+  /* line 1002, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements {
+    padding: 15px;
+    position: relative;
+  }
+  /* line 1005, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements:before {
+    content: "";
+    height: 100%;
+    width: 1px;
+    background: #9b9b9b;
+    left: 45px;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+  }
+  /* line 1015, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement {
+    padding: 15px;
+  }
+  /* line 1017, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title {
+    display: flex;
+  }
+  /* line 1019, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title .achievement-time {
+    z-index: 2;
+    background: #FFF;
+    border: 1px solid #9b9b9b;
+    padding: 5px 10px;
+    position: relative;
+  }
+  /* line 1025, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title .achievement-time:before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: -1px;
+    right: -15px;
+    width: 15px;
+    height: 36px;
+    border-top: 1px solid #9b9b9b;
+    border-right: none;
+    border-bottom: none;
+    border-left: 1px solid #fff;
+  }
+  /* line 1038, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title .achievement-time:after {
+    position: absolute;
+    content: "";
+    right: -9px;
+    top: -5px;
+    width: 15px;
+    height: 39px;
+    border-right: 1px solid #9b9b9b;
+    transform: rotate(25deg);
+  }
+  /* line 1049, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-time-title .achievement-title {
+    text-indent: 30px;
+    text-transform: uppercase;
+  }
+  /* line 1054, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .container .row .col-lg-8 .about-major .player-overview .achievements .achievement .achievement-text {
+    color: #9b9b9b;
+    letter-spacing: 0.025rem;
+    padding-left: 60px;
+    margin-top: 15px;
+  }
+  /* line 1069, C:/Users/User/snooker2/src/components/scss/AboutMain.scss */
+  .about-main .upcoming-event {
+    background: #edeff4 !important;
+  }
+}
+
+/*# sourceMappingURL=../AboutMain.map */

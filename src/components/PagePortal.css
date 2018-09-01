@@ -1,0 +1,227 @@
+@media screen and (min-width: 1200px) {
+  /* line 3, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid {
+    background: url("./bg-img/portal.png") no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    color: #FFF;
+  }
+  /* line 10, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-location h1 {
+    font-size: 33px;
+    text-transform: uppercase;
+  }
+  /* line 16, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav {
+    display: flex;
+  }
+  /* line 18, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol {
+    margin: auto;
+    background: none;
+  }
+  /* line 23, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li:first-of-type:before {
+    content: "";
+  }
+  /* line 26, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li:first-of-type a {
+    color: #15b095;
+  }
+  /* line 30, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li:before {
+    content: ">";
+    color: #FFF;
+  }
+  /* line 34, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li a {
+    color: #FFF;
+    font-weigth: 600;
+  }
+  /* line 37, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li a:hover {
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 52, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid {
+    background: url("./bg-img/portal.png") no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    color: #FFF;
+  }
+  /* line 59, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-location h1 {
+    font-size: 33px;
+  }
+  /* line 64, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav {
+    display: flex;
+  }
+  /* line 66, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol {
+    margin: auto;
+    background: none;
+  }
+  /* line 71, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li:first-of-type:before {
+    content: "";
+  }
+  /* line 74, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li:first-of-type a {
+    color: #15b095;
+  }
+  /* line 78, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li:before {
+    content: ">";
+    color: #FFF;
+  }
+  /* line 82, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li a {
+    color: #FFF;
+    font-weigth: 600;
+  }
+  /* line 85, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li a:hover {
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 100, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid {
+    background: url("./bg-img/portal.png") no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    color: #FFF;
+  }
+  /* line 107, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-location h1 {
+    font-size: 33px;
+  }
+  /* line 112, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav {
+    display: flex;
+  }
+  /* line 114, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol {
+    margin: auto;
+    background: none;
+  }
+  /* line 119, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li:first-of-type:before {
+    content: "";
+  }
+  /* line 122, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li:first-of-type a {
+    color: #15b095;
+  }
+  /* line 126, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li:before {
+    content: ">";
+    color: #FFF;
+  }
+  /* line 130, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li a {
+    color: #FFF;
+    font-weigth: 600;
+  }
+  /* line 133, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li a:hover {
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 148, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid {
+    background: url("./bg-img/portal.png") no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    color: #FFF;
+  }
+  /* line 155, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-location h1 {
+    font-size: 33px;
+  }
+  /* line 160, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav {
+    display: flex;
+  }
+  /* line 162, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol {
+    margin: auto;
+    background: none;
+  }
+  /* line 167, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li:first-of-type:before {
+    content: "";
+  }
+  /* line 170, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li:first-of-type a {
+    color: #15b095;
+  }
+  /* line 174, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li:before {
+    content: ">";
+    color: #FFF;
+  }
+  /* line 178, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li a {
+    color: #FFF;
+    font-weigth: 600;
+  }
+  /* line 181, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li a:hover {
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 196, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid {
+    background: url("./bg-img/portal.png") no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    color: #FFF;
+  }
+  /* line 203, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-location h1 {
+    font-size: 33px;
+  }
+  /* line 208, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav {
+    display: flex;
+  }
+  /* line 210, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol {
+    margin: auto;
+    background: none;
+  }
+  /* line 215, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li:first-of-type:before {
+    content: "";
+  }
+  /* line 218, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li:first-of-type a {
+    color: #15b095;
+  }
+  /* line 222, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li:before {
+    content: ">";
+    color: #FFF;
+  }
+  /* line 226, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li a {
+    color: #FFF;
+    font-weigth: 600;
+  }
+  /* line 229, C:/Users/User/snooker2/src/components/scss/PagePortal.scss */
+  .page-portal .container-fluid .page-desc .page-path nav ol li a:hover {
+    text-decoration: none;
+  }
+}
+
+/*# sourceMappingURL=../PagePortal.map */

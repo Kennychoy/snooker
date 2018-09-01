@@ -1,0 +1,2207 @@
+@media screen and (min-width: 1200px) {
+  /* line 4, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 9, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  /* line 16, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .page-title {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  /* line 19, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .page-title h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+    margin-bottom: 0;
+  }
+  /* line 25, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .page-title h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 36, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  /* line 40, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls {
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  /* line 44, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 24px;
+    border: 1px solid #d1d1d1;
+    margin: 0 5px;
+    min-width: 165px;
+  }
+  /* line 51, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper:hover {
+    cursor: pointer;
+  }
+  /* line 54, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper .ul-head {
+    padding: 0 20px;
+    position: relative;
+  }
+  /* line 57, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper .ul-head:after {
+    position: absolute;
+    content: "\f107";
+    right: 5px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    transition: .3s all;
+  }
+  /* line 66, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper ul {
+    list-style: none;
+    position: absolute;
+    top: 21px;
+    border: 1px solid #d1d1d1;
+    width: 100%;
+  }
+  /* line 71, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper ul li {
+    padding-left: 20px;
+    margin: 3px 0;
+    transition: .3s all;
+  }
+  /* line 78, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .expand-ul {
+    overflow: visible;
+    z-index: 3;
+  }
+  /* line 81, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .expand-ul .ul-head:after {
+    transform: rotate(180deg);
+  }
+  /* line 87, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .expand-ul ul li:hover {
+    color: #FFF;
+    background: #15b095;
+    cursor: pointer;
+  }
+  /* line 98, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .grid-stacks i:last-of-type {
+    margin-left: 15px;
+  }
+  /* line 101, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .grid-stacks i:hover {
+    cursor: pointer;
+  }
+  /* line 105, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .grid-stacks .active {
+    color: #15b095;
+  }
+  /* line 111, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section {
+    display: flex;
+    flex-wrap: wrap;
+    transition: .3s all;
+  }
+  /* line 115, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer {
+    margin-top: 30px;
+    flex-basis: 33.33%;
+    padding: 0 15px;
+  }
+  /* line 119, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner {
+    display: flex;
+    flex-direction: column;
+    transition: .3s all;
+  }
+  /* line 123, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner:hover {
+    box-shadow: 0 3px 10px 0 rgba(1, 3, 4, 0.35);
+    cursor: pointer;
+  }
+  /* line 127, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner:hover .product-img img {
+    transform: scale(1.1);
+  }
+  /* line 131, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner:hover .product-img .product-outer-ul li {
+    opacity: 1;
+  }
+  /* line 138, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img {
+    position: relative;
+    overflow: hidden;
+  }
+  /* line 141, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-badge {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    z-index: 3;
+  }
+  /* line 146, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-badge span {
+    text-transform: uppercase;
+  }
+  /* line 148, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-badge span i {
+    margin-left: 5px;
+  }
+  /* line 153, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img img {
+    width: 100%;
+    transition: .3s all;
+  }
+  /* line 157, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    list-style: none;
+    z-index: 2;
+    margin-bottom: 0;
+  }
+  /* line 166, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li {
+    background: #FFF;
+    margin: 5px 0;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    opacity: 0;
+    transition: .3s all;
+  }
+  /* line 173, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:first-of-type {
+    transition-delay: 0.2s;
+  }
+  /* line 176, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:nth-of-type(2) {
+    transition-delay: 0.3s;
+  }
+  /* line 179, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:last-of-type {
+    transition-delay: 0.4s;
+  }
+  /* line 182, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li i {
+    color: #151515;
+    font-size: 24px;
+    padding: 10px;
+    transition: .3s all;
+  }
+  /* line 188, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:hover {
+    border-color: #15b095;
+  }
+  /* line 190, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:hover i {
+    color: #15b095;
+  }
+  /* line 195, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background: #FFF;
+    color: #151515;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: .3s all;
+  }
+  /* line 212, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul li {
+    opacity: 1;
+    border: none;
+    font-size: 12px;
+    margin: 0;
+  }
+  /* line 217, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul li i {
+    color: #151515;
+    font-size: 14px;
+    transition: .3s all;
+  }
+  /* line 223, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul li:hover i {
+    color: #15b095;
+  }
+  /* line 231, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details {
+    background: #15b095;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 238, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-price {
+    display: flex;
+  }
+  /* line 240, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-price .original-price {
+    text-decoration-line: line-through;
+    color: #e1e1e1;
+  }
+  /* line 244, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-price .current-price {
+    margin-left: 10px;
+  }
+  /* line 248, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-ratings {
+    position: relative;
+    display: inline-block;
+  }
+  /* line 251, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-ratings:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 200;
+    color: #f2f2f2;
+    width: 100%;
+  }
+  /* line 258, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-ratings .product-ratings-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50%;
+  }
+  /* line 265, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-ratings .product-ratings-inner:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ffcc00;
+  }
+  /* line 273, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-desc {
+    display: none;
+  }
+  /* line 276, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-btns {
+    display: none;
+  }
+  /* line 300, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  /* line 304, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer {
+    margin-top: 30px;
+    flex-basis: 100%;
+    padding: 0 15px;
+    overflow: hidden;
+    display: flex;
+    flex: 1;
+  }
+  /* line 311, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  /* line 316, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner:hover img {
+    transform: scale(1) !important;
+  }
+  /* line 320, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-img {
+    position: relative;
+    width: 50%;
+  }
+  /* line 323, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-img .product-badge {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+  }
+  /* line 327, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-img .product-badge span {
+    text-transform: uppercase;
+  }
+  /* line 329, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-img .product-badge span i {
+    margin-left: 5px;
+  }
+  /* line 334, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-img img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 338, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-img .product-outer-ul {
+    display: none;
+  }
+  /* line 342, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details {
+    width: 50%;
+    background: #15b095;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    align-items: flex-start;
+  }
+  /* line 351, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-name {
+    font-size: 24px;
+    color: #151515;
+    order: 1;
+  }
+  /* line 356, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-price {
+    display: flex;
+    order: 3;
+  }
+  /* line 359, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-price .original-price {
+    text-decoration-line: line-through;
+    color: #e1e1e1;
+  }
+  /* line 363, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-price .current-price {
+    margin-left: 10px;
+  }
+  /* line 367, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-ratings {
+    position: relative;
+    display: inline-block;
+    order: 2;
+  }
+  /* line 371, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-ratings:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 200;
+    color: #f2f2f2;
+    width: 100%;
+  }
+  /* line 378, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-ratings .product-ratings-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50%;
+  }
+  /* line 385, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-ratings .product-ratings-inner:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ffcc00;
+  }
+  /* line 393, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-desc {
+    display: block;
+    margin: 15px 0;
+    order: 4;
+  }
+  /* line 398, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns {
+    display: flex;
+    font-size: 18px;
+    order: 5;
+    align-items: center;
+  }
+  /* line 403, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-addToCart {
+    margin-right: 15px;
+  }
+  /* line 405, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-addToCart button {
+    background: #FFF;
+    border: 1px solid #151515;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: .3s all;
+  }
+  /* line 411, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-addToCart button:hover {
+    background: #e45d5d;
+    color: #FFF;
+    cursor: pointer;
+  }
+  /* line 418, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper {
+    display: flex;
+    max-width: 173px;
+  }
+  /* line 421, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .stack-share {
+    width: 100%;
+    transition: .3s all;
+    overflow: hidden;
+  }
+  /* line 425, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .stack-share i {
+    border: 1px solid #151515;
+    background: #e45d5d;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  /* line 432, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .product-expand-share {
+    width: 0;
+    overflow: hidden;
+    transition: .3s all;
+  }
+  /* line 436, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .product-expand-share ul {
+    display: flex;
+    list-style: none;
+    background: #FFF;
+    margin-bottom: 0;
+    border-radius: 5px;
+    border: 1px solid #9b9b9b;
+    align-items: center;
+  }
+  /* line 444, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .product-expand-share ul li {
+    color: #9b9b9b;
+    padding: 5px;
+  }
+  /* line 447, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .product-expand-share ul li:first-of-type {
+    font-size: 12px;
+  }
+  /* line 451, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .product-expand-share ul li a i {
+    color: #151515;
+  }
+  /* line 453, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .product-expand-share ul li a i:hover {
+    color: #15b095;
+  }
+  /* line 475, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer:nth-of-type(even) .product-inner .product-img {
+    order: 2;
+  }
+  /* line 476, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer:nth-of-type(even) .product-inner .product-details {
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 491, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 496, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  /* line 503, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .page-title {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  /* line 506, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .page-title h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+    margin-bottom: 0;
+  }
+  /* line 512, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .page-title h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 523, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  /* line 527, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls {
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  /* line 531, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 24px;
+    border: 1px solid #d1d1d1;
+    margin: 0 5px;
+    min-width: 165px;
+  }
+  /* line 538, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper:hover {
+    cursor: pointer;
+  }
+  /* line 541, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper .ul-head {
+    padding: 0 20px;
+    position: relative;
+  }
+  /* line 544, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper .ul-head:after {
+    position: absolute;
+    content: "\f107";
+    right: 5px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    transition: .3s all;
+  }
+  /* line 553, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper ul {
+    list-style: none;
+    position: absolute;
+    top: 21px;
+    border: 1px solid #d1d1d1;
+    width: 100%;
+  }
+  /* line 558, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper ul li {
+    padding-left: 20px;
+    margin: 3px 0;
+    transition: .3s all;
+  }
+  /* line 565, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .expand-ul {
+    overflow: visible;
+    z-index: 3;
+  }
+  /* line 568, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .expand-ul .ul-head:after {
+    transform: rotate(180deg);
+  }
+  /* line 574, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .expand-ul ul li:hover {
+    color: #FFF;
+    background: #15b095;
+    cursor: pointer;
+  }
+  /* line 585, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .grid-stacks i:last-of-type {
+    margin-left: 15px;
+  }
+  /* line 588, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .grid-stacks i:hover {
+    cursor: pointer;
+  }
+  /* line 592, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .grid-stacks .active {
+    color: #15b095;
+  }
+  /* line 598, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section {
+    display: flex;
+    flex-wrap: wrap;
+    transition: .3s all;
+  }
+  /* line 602, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer {
+    margin-top: 30px;
+    flex-basis: 33.33%;
+    padding: 0 15px;
+  }
+  /* line 606, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner {
+    display: flex;
+    flex-direction: column;
+    transition: .3s all;
+  }
+  /* line 610, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner:hover {
+    box-shadow: 0 3px 10px 0 rgba(1, 3, 4, 0.35);
+    cursor: pointer;
+  }
+  /* line 614, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner:hover .product-img img {
+    transform: scale(1.1);
+  }
+  /* line 618, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner:hover .product-img .product-outer-ul li {
+    opacity: 1;
+  }
+  /* line 625, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img {
+    position: relative;
+    overflow: hidden;
+  }
+  /* line 628, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-badge {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    z-index: 3;
+  }
+  /* line 633, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-badge span {
+    text-transform: uppercase;
+  }
+  /* line 635, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-badge span i {
+    margin-left: 5px;
+  }
+  /* line 640, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img img {
+    width: 100%;
+    transition: .3s all;
+  }
+  /* line 644, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    list-style: none;
+    z-index: 2;
+    margin-bottom: 0;
+  }
+  /* line 653, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li {
+    background: #FFF;
+    margin: 5px 0;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    opacity: 0;
+    transition: .3s all;
+  }
+  /* line 660, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:first-of-type {
+    transition-delay: 0.2s;
+  }
+  /* line 663, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:nth-of-type(2) {
+    transition-delay: 0.3s;
+  }
+  /* line 666, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:last-of-type {
+    transition-delay: 0.4s;
+  }
+  /* line 669, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li i {
+    color: #151515;
+    font-size: 24px;
+    padding: 10px;
+    transition: .3s all;
+  }
+  /* line 675, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:hover {
+    border-color: #15b095;
+  }
+  /* line 677, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:hover i {
+    color: #15b095;
+  }
+  /* line 682, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background: #FFF;
+    color: #151515;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: .3s all;
+  }
+  /* line 699, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul li {
+    opacity: 1;
+    border: none;
+    font-size: 12px;
+    margin: 0;
+  }
+  /* line 704, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul li i {
+    color: #151515;
+    font-size: 14px;
+    transition: .3s all;
+  }
+  /* line 710, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul li:hover i {
+    color: #15b095;
+  }
+  /* line 718, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details {
+    background: #15b095;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 725, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-price {
+    display: flex;
+  }
+  /* line 727, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-price .original-price {
+    text-decoration-line: line-through;
+    color: #e1e1e1;
+  }
+  /* line 731, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-price .current-price {
+    margin-left: 10px;
+  }
+  /* line 735, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-ratings {
+    position: relative;
+    display: inline-block;
+  }
+  /* line 738, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-ratings:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 200;
+    color: #f2f2f2;
+    width: 100%;
+  }
+  /* line 745, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-ratings .product-ratings-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50%;
+  }
+  /* line 752, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-ratings .product-ratings-inner:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ffcc00;
+  }
+  /* line 760, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-desc {
+    display: none;
+  }
+  /* line 763, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-btns {
+    display: none;
+  }
+  /* line 787, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  /* line 791, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer {
+    margin-top: 30px;
+    flex-basis: 100%;
+    padding: 0 15px;
+    overflow: hidden;
+    display: flex;
+    flex: 1;
+  }
+  /* line 798, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  /* line 803, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner:hover img {
+    transform: scale(1) !important;
+  }
+  /* line 807, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-img {
+    position: relative;
+    width: 50%;
+  }
+  /* line 810, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-img .product-badge {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+  }
+  /* line 814, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-img .product-badge span {
+    text-transform: uppercase;
+  }
+  /* line 816, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-img .product-badge span i {
+    margin-left: 5px;
+  }
+  /* line 821, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-img img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 825, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-img .product-outer-ul {
+    display: none;
+  }
+  /* line 829, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details {
+    width: 50%;
+    background: #15b095;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    align-items: flex-start;
+  }
+  /* line 838, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-name {
+    font-size: 24px;
+    color: #151515;
+    order: 1;
+  }
+  /* line 843, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-price {
+    display: flex;
+    order: 3;
+  }
+  /* line 846, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-price .original-price {
+    text-decoration-line: line-through;
+    color: #e1e1e1;
+  }
+  /* line 850, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-price .current-price {
+    margin-left: 10px;
+  }
+  /* line 854, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-ratings {
+    position: relative;
+    display: inline-block;
+    order: 2;
+  }
+  /* line 858, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-ratings:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 200;
+    color: #f2f2f2;
+    width: 100%;
+  }
+  /* line 865, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-ratings .product-ratings-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50%;
+  }
+  /* line 872, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-ratings .product-ratings-inner:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ffcc00;
+  }
+  /* line 880, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-desc {
+    display: block;
+    margin: 15px 0;
+    order: 4;
+  }
+  /* line 885, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns {
+    display: flex;
+    font-size: 18px;
+    order: 5;
+    align-items: center;
+  }
+  /* line 890, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-addToCart {
+    margin-right: 15px;
+  }
+  /* line 892, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-addToCart button {
+    background: #FFF;
+    border: 1px solid #151515;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: .3s all;
+  }
+  /* line 898, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-addToCart button:hover {
+    background: #e45d5d;
+    color: #FFF;
+    cursor: pointer;
+  }
+  /* line 905, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper {
+    display: flex;
+    max-width: 173px;
+  }
+  /* line 908, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .stack-share {
+    width: 100%;
+    transition: .3s all;
+    overflow: hidden;
+  }
+  /* line 912, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .stack-share i {
+    border: 1px solid #151515;
+    background: #e45d5d;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  /* line 919, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .product-expand-share {
+    width: 0;
+    overflow: hidden;
+    transition: .3s all;
+  }
+  /* line 923, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .product-expand-share ul {
+    display: flex;
+    list-style: none;
+    background: #FFF;
+    margin-bottom: 0;
+    border-radius: 5px;
+    border: 1px solid #9b9b9b;
+    align-items: center;
+  }
+  /* line 931, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .product-expand-share ul li {
+    color: #9b9b9b;
+    padding: 5px;
+  }
+  /* line 934, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .product-expand-share ul li:first-of-type {
+    font-size: 12px;
+  }
+  /* line 938, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .product-expand-share ul li a i {
+    color: #151515;
+  }
+  /* line 940, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .product-expand-share ul li a i:hover {
+    color: #15b095;
+  }
+  /* line 962, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer:nth-of-type(even) .product-inner .product-img {
+    order: 2;
+  }
+  /* line 963, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer:nth-of-type(even) .product-inner .product-details {
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 978, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 983, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  /* line 989, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .page-title {
+    padding-bottom: 0;
+    border-bottom: none;
+    margin-bottom: 15px;
+  }
+  /* line 993, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .page-title h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+    margin-bottom: 0;
+  }
+  /* line 999, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .page-title h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 1010, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  /* line 1014, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls {
+    display: flex;
+  }
+  /* line 1016, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 24px;
+    border: 1px solid #d1d1d1;
+    margin: 0 5px;
+    min-width: 165px;
+  }
+  /* line 1023, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper:hover {
+    cursor: pointer;
+  }
+  /* line 1026, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper .ul-head {
+    padding: 0 20px;
+    position: relative;
+  }
+  /* line 1029, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper .ul-head:after {
+    position: absolute;
+    content: "\f107";
+    right: 5px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    transition: .3s all;
+  }
+  /* line 1038, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper ul {
+    list-style: none;
+    position: absolute;
+    top: 21px;
+    border: 1px solid #d1d1d1;
+    width: 100%;
+  }
+  /* line 1043, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper ul li {
+    padding-left: 20px;
+    margin: 3px 0;
+    transition: .3s all;
+  }
+  /* line 1049, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper:first-of-type {
+    margin-left: 0;
+  }
+  /* line 1053, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .expand-ul {
+    overflow: visible;
+    z-index: 3;
+  }
+  /* line 1056, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .expand-ul .ul-head:after {
+    transform: rotate(180deg);
+  }
+  /* line 1062, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .expand-ul ul li:hover {
+    color: #FFF;
+    background: #15b095;
+    cursor: pointer;
+  }
+  /* line 1073, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .grid-stacks i:last-of-type {
+    margin-left: 15px;
+  }
+  /* line 1076, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .grid-stacks i:hover {
+    cursor: pointer;
+  }
+  /* line 1080, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .grid-stacks .active {
+    color: #15b095;
+  }
+  /* line 1086, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section {
+    display: flex;
+    flex-wrap: wrap;
+    transition: .3s all;
+  }
+  /* line 1090, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer {
+    margin-top: 30px;
+    flex-basis: 50%;
+    padding: 0 15px;
+  }
+  /* line 1094, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner {
+    display: flex;
+    flex-direction: column;
+    transition: .3s all;
+  }
+  /* line 1098, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner:hover {
+    box-shadow: 0 3px 10px 0 rgba(1, 3, 4, 0.35);
+    cursor: pointer;
+  }
+  /* line 1102, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner:hover .product-img img {
+    transform: scale(1.1);
+  }
+  /* line 1106, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner:hover .product-img .product-outer-ul li {
+    opacity: 1;
+  }
+  /* line 1113, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img {
+    position: relative;
+    overflow: hidden;
+  }
+  /* line 1116, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-badge {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    z-index: 3;
+  }
+  /* line 1121, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-badge span {
+    text-transform: uppercase;
+  }
+  /* line 1123, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-badge span i {
+    margin-left: 5px;
+  }
+  /* line 1128, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img img {
+    width: 100%;
+    transition: .3s all;
+  }
+  /* line 1132, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    list-style: none;
+    z-index: 2;
+    margin-bottom: 0;
+  }
+  /* line 1141, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li {
+    background: #FFF;
+    margin: 5px 0;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    opacity: 0;
+    transition: .3s all;
+  }
+  /* line 1148, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:first-of-type {
+    transition-delay: 0.2s;
+  }
+  /* line 1151, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:nth-of-type(2) {
+    transition-delay: 0.3s;
+  }
+  /* line 1154, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:last-of-type {
+    transition-delay: 0.4s;
+  }
+  /* line 1157, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li i {
+    color: #151515;
+    font-size: 24px;
+    padding: 10px;
+    transition: .3s all;
+  }
+  /* line 1163, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:hover {
+    border-color: #15b095;
+  }
+  /* line 1165, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:hover i {
+    color: #15b095;
+  }
+  /* line 1170, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background: #FFF;
+    color: #151515;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: .3s all;
+  }
+  /* line 1187, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul li {
+    opacity: 1;
+    border: none;
+    font-size: 12px;
+    margin: 0;
+  }
+  /* line 1192, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul li i {
+    color: #151515;
+    font-size: 14px;
+    transition: .3s all;
+  }
+  /* line 1198, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul li:hover i {
+    color: #15b095;
+  }
+  /* line 1206, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details {
+    background: #15b095;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 1213, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-price {
+    display: flex;
+  }
+  /* line 1215, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-price .original-price {
+    text-decoration-line: line-through;
+    color: #e1e1e1;
+  }
+  /* line 1219, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-price .current-price {
+    margin-left: 10px;
+  }
+  /* line 1223, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-ratings {
+    position: relative;
+    display: inline-block;
+  }
+  /* line 1226, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-ratings:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 200;
+    color: #f2f2f2;
+    width: 100%;
+  }
+  /* line 1233, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-ratings .product-ratings-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50%;
+  }
+  /* line 1240, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-ratings .product-ratings-inner:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ffcc00;
+  }
+  /* line 1248, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-desc {
+    display: none;
+  }
+  /* line 1251, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-btns {
+    display: none;
+  }
+  /* line 1275, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  /* line 1279, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer {
+    margin-top: 30px;
+    flex-basis: 100%;
+    padding: 0 15px;
+    overflow: hidden;
+    display: flex;
+    flex: 1;
+  }
+  /* line 1286, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  /* line 1291, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner:hover img {
+    transform: scale(1) !important;
+  }
+  /* line 1295, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-img {
+    position: relative;
+    width: 50%;
+  }
+  /* line 1298, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-img .product-badge {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+  }
+  /* line 1302, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-img .product-badge span {
+    text-transform: uppercase;
+  }
+  /* line 1304, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-img .product-badge span i {
+    margin-left: 5px;
+  }
+  /* line 1309, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-img img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 1313, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-img .product-outer-ul {
+    display: none;
+  }
+  /* line 1317, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details {
+    width: 50%;
+    background: #15b095;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    align-items: flex-start;
+  }
+  /* line 1326, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-name {
+    font-size: 24px;
+    color: #151515;
+    order: 1;
+  }
+  /* line 1331, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-price {
+    display: flex;
+    order: 3;
+  }
+  /* line 1334, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-price .original-price {
+    text-decoration-line: line-through;
+    color: #e1e1e1;
+  }
+  /* line 1338, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-price .current-price {
+    margin-left: 10px;
+  }
+  /* line 1342, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-ratings {
+    position: relative;
+    display: inline-block;
+    order: 2;
+  }
+  /* line 1346, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-ratings:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 200;
+    color: #f2f2f2;
+    width: 100%;
+  }
+  /* line 1353, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-ratings .product-ratings-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50%;
+  }
+  /* line 1360, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-ratings .product-ratings-inner:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ffcc00;
+  }
+  /* line 1368, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-desc {
+    display: block;
+    margin: 15px 0;
+    order: 4;
+  }
+  /* line 1373, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns {
+    display: flex;
+    font-size: 14px;
+    order: 5;
+    align-items: center;
+  }
+  /* line 1378, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-addToCart {
+    margin-right: 15px;
+  }
+  /* line 1380, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-addToCart button {
+    background: #FFF;
+    border: 1px solid #151515;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: .3s all;
+  }
+  /* line 1386, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-addToCart button:hover {
+    background: #e45d5d;
+    color: #FFF;
+    cursor: pointer;
+  }
+  /* line 1393, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper {
+    display: flex;
+    max-width: 173px;
+  }
+  /* line 1396, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .stack-share {
+    width: 100%;
+    transition: .3s all;
+    overflow: hidden;
+  }
+  /* line 1400, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .stack-share i {
+    border: 1px solid #151515;
+    background: #e45d5d;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  /* line 1407, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .product-expand-share {
+    width: 0;
+    overflow: hidden;
+    transition: .3s all;
+  }
+  /* line 1411, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .product-expand-share ul {
+    display: flex;
+    list-style: none;
+    background: #FFF;
+    margin-bottom: 0;
+    border-radius: 5px;
+    border: 1px solid #9b9b9b;
+    align-items: center;
+  }
+  /* line 1419, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .product-expand-share ul li {
+    color: #9b9b9b;
+    padding: 5px;
+  }
+  /* line 1422, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .product-expand-share ul li:first-of-type {
+    font-size: 12px;
+  }
+  /* line 1426, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .product-expand-share ul li a i {
+    color: #151515;
+  }
+  /* line 1428, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer .product-inner .product-details .product-btns .product-share-wrapper .product-expand-share ul li a i:hover {
+    color: #15b095;
+  }
+  /* line 1450, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer:nth-of-type(even) .product-inner .product-img {
+    order: 2;
+  }
+  /* line 1451, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .displayStack .product-outer:nth-of-type(even) .product-inner .product-details {
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 1466, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 1471, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  /* line 1477, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .page-title {
+    padding-bottom: 0;
+    border-bottom: none;
+    margin-bottom: 15px;
+  }
+  /* line 1481, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .page-title h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+    margin-bottom: 0;
+  }
+  /* line 1487, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .page-title h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 1498, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  /* line 1502, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls {
+    display: flex;
+  }
+  /* line 1504, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 24px;
+    border: 1px solid #d1d1d1;
+    margin: 0 5px;
+    min-width: 165px;
+  }
+  /* line 1511, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper:hover {
+    cursor: pointer;
+  }
+  /* line 1514, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper .ul-head {
+    padding: 0 20px;
+    position: relative;
+  }
+  /* line 1517, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper .ul-head:after {
+    position: absolute;
+    content: "\f107";
+    right: 5px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    transition: .3s all;
+  }
+  /* line 1526, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper ul {
+    list-style: none;
+    position: absolute;
+    top: 21px;
+    border: 1px solid #d1d1d1;
+    width: 100%;
+  }
+  /* line 1531, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper ul li {
+    padding-left: 20px;
+    margin: 3px 0;
+    transition: .3s all;
+  }
+  /* line 1537, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper:first-of-type {
+    margin-left: 0;
+  }
+  /* line 1541, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .expand-ul {
+    overflow: visible;
+    z-index: 3;
+  }
+  /* line 1544, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .expand-ul .ul-head:after {
+    transform: rotate(180deg);
+  }
+  /* line 1550, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .expand-ul ul li:hover {
+    color: #FFF;
+    background: #15b095;
+    cursor: pointer;
+  }
+  /* line 1559, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .grid-stacks {
+    display: none;
+  }
+  /* line 1562, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .grid-stacks i:last-of-type {
+    margin-left: 15px;
+  }
+  /* line 1565, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .grid-stacks i:hover {
+    cursor: pointer;
+  }
+  /* line 1569, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .grid-stacks .active {
+    color: #15b095;
+  }
+  /* line 1575, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section {
+    display: flex;
+    flex-wrap: wrap;
+    transition: .3s all;
+  }
+  /* line 1579, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer {
+    margin-top: 30px;
+    flex-basis: 50%;
+    padding: 0 15px;
+  }
+  /* line 1583, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner {
+    display: flex;
+    flex-direction: column;
+    transition: .3s all;
+  }
+  /* line 1587, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner:hover {
+    box-shadow: 0 3px 10px 0 rgba(1, 3, 4, 0.35);
+    cursor: pointer;
+  }
+  /* line 1591, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner:hover .product-img img {
+    transform: scale(1.1);
+  }
+  /* line 1595, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner:hover .product-img .product-outer-ul li {
+    opacity: 1;
+  }
+  /* line 1602, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img {
+    position: relative;
+    overflow: hidden;
+  }
+  /* line 1605, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-badge {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    z-index: 3;
+  }
+  /* line 1610, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-badge span {
+    text-transform: uppercase;
+  }
+  /* line 1612, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-badge span i {
+    margin-left: 5px;
+  }
+  /* line 1617, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img img {
+    width: 100%;
+    transition: .3s all;
+  }
+  /* line 1621, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    list-style: none;
+    z-index: 2;
+    margin-bottom: 0;
+  }
+  /* line 1630, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li {
+    background: #FFF;
+    margin: 5px 0;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    opacity: 0;
+    transition: .3s all;
+  }
+  /* line 1637, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:first-of-type {
+    transition-delay: 0.2s;
+  }
+  /* line 1640, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:nth-of-type(2) {
+    transition-delay: 0.3s;
+  }
+  /* line 1643, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:last-of-type {
+    transition-delay: 0.4s;
+  }
+  /* line 1646, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li i {
+    color: #151515;
+    font-size: 24px;
+    padding: 10px;
+    transition: .3s all;
+  }
+  /* line 1652, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:hover {
+    border-color: #15b095;
+  }
+  /* line 1654, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:hover i {
+    color: #15b095;
+  }
+  /* line 1659, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background: #FFF;
+    color: #151515;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: .3s all;
+  }
+  /* line 1676, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul li {
+    opacity: 1;
+    border: none;
+    font-size: 12px;
+    margin: 0;
+  }
+  /* line 1681, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul li i {
+    color: #151515;
+    font-size: 14px;
+    transition: .3s all;
+  }
+  /* line 1687, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul li:hover i {
+    color: #15b095;
+  }
+  /* line 1695, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details {
+    background: #15b095;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 1702, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-price {
+    display: flex;
+  }
+  /* line 1704, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-price .original-price {
+    text-decoration-line: line-through;
+    color: #e1e1e1;
+  }
+  /* line 1708, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-price .current-price {
+    margin-left: 10px;
+  }
+  /* line 1712, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-ratings {
+    position: relative;
+    display: inline-block;
+  }
+  /* line 1715, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-ratings:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 200;
+    color: #f2f2f2;
+    width: 100%;
+  }
+  /* line 1722, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-ratings .product-ratings-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50%;
+  }
+  /* line 1729, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-ratings .product-ratings-inner:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ffcc00;
+  }
+  /* line 1737, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-desc {
+    display: none;
+  }
+  /* line 1740, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-btns {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 1775, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 1780, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  /* line 1786, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .page-title {
+    padding-bottom: 0;
+    border-bottom: none;
+    margin-bottom: 15px;
+  }
+  /* line 1790, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .page-title h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+    margin-bottom: 0;
+  }
+  /* line 1796, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .page-title h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 1807, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+  /* line 1811, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 1814, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 24px;
+    border: 1px solid #d1d1d1;
+    margin: 10px 5px;
+    width: 90%;
+    border-radius: 5px;
+  }
+  /* line 1822, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper:hover {
+    cursor: pointer;
+  }
+  /* line 1825, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper .ul-head {
+    padding: 0 20px;
+    position: relative;
+  }
+  /* line 1828, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper .ul-head:after {
+    position: absolute;
+    content: "\f107";
+    right: 5px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    transition: .3s all;
+  }
+  /* line 1837, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper ul {
+    list-style: none;
+    position: absolute;
+    top: 21px;
+    border: 1px solid #d1d1d1;
+    width: 100%;
+    z-index: 3;
+    background: #FFF;
+  }
+  /* line 1845, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .ul-wrapper ul li {
+    padding-left: 20px;
+    margin: 3px 0;
+    transition: .3s all;
+  }
+  /* line 1852, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .expand-ul {
+    overflow: visible;
+    z-index: 3;
+  }
+  /* line 1855, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .expand-ul .ul-head:after {
+    transform: rotate(180deg);
+  }
+  /* line 1861, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .btn-uls .expand-ul ul li:hover {
+    color: #FFF;
+    background: #15b095;
+    cursor: pointer;
+  }
+  /* line 1870, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .grid-stacks {
+    display: none;
+  }
+  /* line 1873, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .grid-stacks i:last-of-type {
+    margin-left: 15px;
+  }
+  /* line 1876, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .grid-stacks i:hover {
+    cursor: pointer;
+  }
+  /* line 1880, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .gridshop-header .gridshop-header-btns .grid-stacks .active {
+    color: #15b095;
+  }
+  /* line 1886, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section {
+    display: flex;
+    flex-wrap: wrap;
+    transition: .3s all;
+  }
+  /* line 1890, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer {
+    margin-top: 30px;
+    flex-basis: 100%;
+    padding: 0 15px;
+  }
+  /* line 1894, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner {
+    display: flex;
+    flex-direction: column;
+    transition: .3s all;
+  }
+  /* line 1898, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img {
+    position: relative;
+    overflow: hidden;
+  }
+  /* line 1901, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-badge {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    z-index: 3;
+  }
+  /* line 1906, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-badge span {
+    text-transform: uppercase;
+  }
+  /* line 1908, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-badge span i {
+    margin-left: 5px;
+  }
+  /* line 1913, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img img {
+    width: 100%;
+    transition: .3s all;
+  }
+  /* line 1917, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    list-style: none;
+    z-index: 2;
+    margin-bottom: 0;
+  }
+  /* line 1926, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li {
+    background: #FFF;
+    margin: 5px 0;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    opacity: 1;
+    transition: .3s all;
+  }
+  /* line 1933, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:first-of-type {
+    transition-delay: 0.2s;
+  }
+  /* line 1936, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:nth-of-type(2) {
+    transition-delay: 0.3s;
+  }
+  /* line 1939, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:last-of-type {
+    display: none;
+    transition-delay: 0.4s;
+  }
+  /* line 1943, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li i {
+    color: #151515;
+    font-size: 24px;
+    padding: 10px;
+    transition: .3s all;
+  }
+  /* line 1949, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:hover {
+    border-color: #15b095;
+  }
+  /* line 1951, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul li:hover i {
+    color: #15b095;
+  }
+  /* line 1956, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul {
+    position: absolute;
+    left: 60px;
+    bottom: 5px;
+    width: auto;
+    height: auto;
+    background: #FFF;
+    color: #151515;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid #9b9b9b;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 1972, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul li {
+    opacity: 1;
+    border: none;
+    font-size: 12px;
+    margin: 0;
+  }
+  /* line 1977, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul li i {
+    color: #151515;
+    font-size: 14px;
+    transition: .3s all;
+  }
+  /* line 1983, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul li:hover i {
+    color: #15b095;
+  }
+  /* line 1987, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul li:first-of-type {
+    display: none;
+  }
+  /* line 1990, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-img .product-outer-ul .product-inner-ul li:last-of-type {
+    display: block;
+  }
+  /* line 1997, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details {
+    background: #15b095;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 2004, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-price {
+    display: flex;
+  }
+  /* line 2006, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-price .original-price {
+    text-decoration-line: line-through;
+    color: #e1e1e1;
+  }
+  /* line 2010, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-price .current-price {
+    margin-left: 10px;
+  }
+  /* line 2014, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-ratings {
+    position: relative;
+    display: inline-block;
+  }
+  /* line 2017, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-ratings:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 200;
+    color: #f2f2f2;
+    width: 100%;
+  }
+  /* line 2024, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-ratings .product-ratings-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50%;
+  }
+  /* line 2031, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-ratings .product-ratings-inner:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ffcc00;
+  }
+  /* line 2039, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-desc {
+    display: none;
+  }
+  /* line 2042, C:/Users/User/snooker2/src/components/scss/GridShop.scss */
+  .gridshop .gridshop-inner .container .row .gridshop-products .grid-product-section .product-outer .product-inner .product-details .product-btns {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=../GridShop.map */

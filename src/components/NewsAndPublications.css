@@ -1,0 +1,726 @@
+@media screen and (min-width: 1200px) {
+  /* line 2, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications {
+    margin-top: 50px;
+  }
+  /* line 4, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .homepage-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+    text-transform: uppercase;
+  }
+  /* line 12, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .homepage-titles h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 17, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .homepage-titles h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 26, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .homepage-titles h5 i {
+    margin-right: 5px;
+    color: #fd6565;
+  }
+  /* line 33, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    margin-top: 30px;
+  }
+  /* line 39, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  /* line 43, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li:hover {
+    cursor: pointer;
+  }
+  /* line 45, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li:hover a {
+    border: 1px solid transparent;
+    color: #FFF;
+    background: #15b095;
+  }
+  /* line 51, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li a {
+    font-size: 14px;
+    color: #9b9b9b;
+    margin: 0;
+    position: relative;
+    border-radius: 0;
+    transition: .3s all;
+  }
+  /* line 59, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li .active {
+    border: 1px solid transparent !important;
+    color: #FFF !important;
+    background: #15b095 !important;
+  }
+  /* line 63, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li .active:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 40px;
+    border-width: 15px 15px 0;
+    border-style: solid;
+    border-color: #15b095 transparent;
+    display: block;
+    width: 0;
+  }
+  /* line 78, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content {
+    margin-top: 15px;
+  }
+  /* line 82, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 {
+    margin-top: 15px;
+  }
+  /* line 84, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner {
+    padding: 8px;
+    display: flex;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    flex-direction: row;
+  }
+  /* line 90, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-img {
+    flex: 1;
+  }
+  /* line 92, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-img img {
+    width: 100%;
+  }
+  /* line 96, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content {
+    flex: 1.5;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  /* line 103, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content .publication-content-title a {
+    font-size: 16px;
+    color: #151515;
+    letter-spacing: .05em;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .3s all;
+  }
+  /* line 110, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content .publication-content-title a:hover {
+    color: #15b095;
+    text-decoration: none;
+  }
+  /* line 116, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content .publication-content-time {
+    color: #b7b7b7;
+    font-size: 14px;
+  }
+  /* line 120, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content .publication-content-time time {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 134, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications {
+    margin-top: 50px;
+  }
+  /* line 136, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .homepage-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+    text-transform: uppercase;
+  }
+  /* line 144, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .homepage-titles h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 149, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .homepage-titles h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 158, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .homepage-titles h5 i {
+    margin-right: 5px;
+    color: #fd6565;
+  }
+  /* line 165, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    margin-top: 30px;
+  }
+  /* line 171, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  /* line 175, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li:hover {
+    cursor: pointer;
+  }
+  /* line 177, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li:hover a {
+    border: 1px solid transparent;
+    color: #FFF;
+    background: #15b095;
+  }
+  /* line 183, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li a {
+    font-size: 14px;
+    color: #9b9b9b;
+    margin: 0;
+    position: relative;
+    border-radius: 0;
+    transition: .3s all;
+  }
+  /* line 191, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li .active {
+    border: 1px solid transparent !important;
+    color: #FFF !important;
+    background: #15b095 !important;
+  }
+  /* line 195, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li .active:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 40px;
+    border-width: 15px 15px 0;
+    border-style: solid;
+    border-color: #15b095 transparent;
+    display: block;
+    width: 0;
+  }
+  /* line 210, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content {
+    margin-top: 15px;
+  }
+  /* line 214, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 {
+    margin-top: 15px;
+  }
+  /* line 216, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner {
+    padding: 8px;
+    display: flex;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    flex-direction: row;
+  }
+  /* line 222, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-img {
+    flex: 1;
+  }
+  /* line 224, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-img img {
+    width: 100%;
+  }
+  /* line 228, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content {
+    flex: 1.5;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  /* line 235, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content .publication-content-title a {
+    font-size: 14px;
+    color: #151515;
+    letter-spacing: .05em;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .3s all;
+  }
+  /* line 242, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content .publication-content-title a:hover {
+    color: #15b095;
+    text-decoration: none;
+  }
+  /* line 248, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content .publication-content-time {
+    color: #b7b7b7;
+    font-size: 14px;
+  }
+  /* line 252, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content .publication-content-time time {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 266, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications {
+    margin-top: 50px;
+  }
+  /* line 268, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .homepage-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+    text-transform: uppercase;
+  }
+  /* line 276, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .homepage-titles h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 281, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .homepage-titles h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 290, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .homepage-titles h5 i {
+    margin-right: 5px;
+    color: #fd6565;
+  }
+  /* line 297, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    margin-top: 30px;
+  }
+  /* line 303, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  /* line 307, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li:hover {
+    cursor: pointer;
+  }
+  /* line 309, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li:hover a {
+    border: 1px solid transparent;
+    color: #FFF;
+    background: #15b095;
+  }
+  /* line 315, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li a {
+    font-size: 14px;
+    color: #9b9b9b;
+    margin: 0;
+    position: relative;
+    border-radius: 0;
+    transition: .3s all;
+  }
+  /* line 323, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li .active {
+    border: 1px solid transparent !important;
+    color: #FFF !important;
+    background: #15b095 !important;
+  }
+  /* line 327, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li .active:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 40px;
+    border-width: 15px 15px 0;
+    border-style: solid;
+    border-color: #15b095 transparent;
+    display: block;
+    width: 0;
+  }
+  /* line 342, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content {
+    margin-top: 15px;
+  }
+  /* line 346, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 {
+    margin-top: 15px;
+  }
+  /* line 348, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner {
+    padding: 8px;
+    display: flex;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    flex-direction: row;
+  }
+  /* line 354, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-img {
+    flex: 1;
+  }
+  /* line 356, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-img img {
+    width: 100%;
+  }
+  /* line 360, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content {
+    flex: 1.5;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  /* line 367, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content .publication-content-title a {
+    font-size: 14px;
+    color: #151515;
+    letter-spacing: .05em;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .3s all;
+  }
+  /* line 374, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content .publication-content-title a:hover {
+    color: #15b095;
+    text-decoration: none;
+  }
+  /* line 380, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content .publication-content-time {
+    color: #b7b7b7;
+    font-size: 14px;
+  }
+  /* line 384, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content .publication-content-time time {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 398, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications {
+    margin-top: 50px;
+  }
+  /* line 400, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .homepage-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+    text-transform: uppercase;
+  }
+  /* line 408, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .homepage-titles h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 413, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .homepage-titles h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 422, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .homepage-titles h5 i {
+    margin-right: 5px;
+    color: #fd6565;
+  }
+  /* line 429, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    margin-top: 30px;
+  }
+  /* line 435, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  /* line 439, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li:hover {
+    cursor: pointer;
+  }
+  /* line 441, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li:hover a {
+    border: 1px solid transparent;
+    color: #FFF;
+    background: #15b095;
+  }
+  /* line 447, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li a {
+    font-size: 14px;
+    color: #9b9b9b;
+    margin: 0;
+    position: relative;
+    border-radius: 0;
+    transition: .3s all;
+  }
+  /* line 455, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li .active {
+    border: 1px solid transparent !important;
+    color: #FFF !important;
+    background: #15b095 !important;
+  }
+  /* line 459, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li .active:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 40%;
+    border-width: 15px 15px 0;
+    border-style: solid;
+    border-color: #15b095 transparent;
+    display: block;
+    width: 0;
+  }
+  /* line 474, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content {
+    margin-top: 15px;
+  }
+  /* line 478, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 {
+    margin-top: 15px;
+  }
+  /* line 480, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner {
+    padding: 8px;
+    display: flex;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    flex-direction: row;
+  }
+  /* line 486, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-img {
+    flex: 1;
+  }
+  /* line 488, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-img img {
+    width: 100%;
+  }
+  /* line 492, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content {
+    flex: 1.5;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  /* line 499, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content .publication-content-title a {
+    font-size: 14px;
+    color: #151515;
+    letter-spacing: .05em;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .3s all;
+  }
+  /* line 506, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content .publication-content-title a:hover {
+    color: #15b095;
+    text-decoration: none;
+  }
+  /* line 512, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content .publication-content-time {
+    color: #b7b7b7;
+    font-size: 14px;
+  }
+  /* line 516, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content .publication-content-time time {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 530, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications {
+    margin-top: 50px;
+  }
+  /* line 532, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .homepage-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+    text-transform: uppercase;
+  }
+  /* line 540, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .homepage-titles h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 545, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .homepage-titles h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 554, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .homepage-titles h5 i {
+    margin-right: 5px;
+    color: #fd6565;
+  }
+  /* line 561, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    margin-top: 30px;
+  }
+  /* line 567, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  /* line 571, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li:hover {
+    cursor: pointer;
+  }
+  /* line 573, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li:hover a {
+    border: 1px solid transparent;
+    color: #FFF;
+    background: #15b095;
+  }
+  /* line 579, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li a {
+    font-size: 14px;
+    color: #9b9b9b;
+    margin: 0;
+    position: relative;
+    border-radius: 0;
+    transition: .3s all;
+  }
+  /* line 587, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li .active {
+    border: 1px solid transparent !important;
+    color: #FFF !important;
+    background: #15b095 !important;
+  }
+  /* line 591, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications ul li .active:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 40%;
+    border-width: 15px 15px 0;
+    border-style: solid;
+    border-color: #15b095 transparent;
+    display: block;
+    width: 0;
+  }
+  /* line 606, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content {
+    margin-top: 15px;
+  }
+  /* line 610, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 {
+    margin-top: 15px;
+  }
+  /* line 612, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner {
+    padding: 8px;
+    display: flex;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    flex-direction: row;
+  }
+  /* line 618, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-img {
+    flex: 1;
+  }
+  /* line 620, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-img img {
+    width: 100%;
+  }
+  /* line 624, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content {
+    flex: 1.5;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  /* line 631, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content .publication-content-title a {
+    font-size: 14px;
+    color: #151515;
+    letter-spacing: .05em;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .3s all;
+  }
+  /* line 638, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content .publication-content-title a:hover {
+    color: #15b095;
+    text-decoration: none;
+  }
+  /* line 644, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content .publication-content-time {
+    color: #b7b7b7;
+    font-size: 14px;
+  }
+  /* line 648, C:/Users/User/snooker2/src/components/scss/NewsAndPublications.scss */
+  .newsAndPublications .tab-content .tab-pane .row .col-sm-12 .publication-inner .publication-content .publication-content-time time {
+    margin-left: 15px;
+  }
+}
+
+/*# sourceMappingURL=../NewsAndPublications.map */

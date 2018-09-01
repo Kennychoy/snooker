@@ -1,0 +1,887 @@
+@media screen and (min-width: 1200px) {
+  /* line 2, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result {
+    margin-top: 30px;
+  }
+  /* line 4, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  /* line 12, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .head-text h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 17, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .head-text h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 28, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper {
+    display: flex;
+  }
+  /* line 31, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown button {
+    background: transparent;
+    color: #151515;
+    padding: 3px 6px;
+    font-size: 14px;
+    transition: .3s all;
+  }
+  /* line 36, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown button:focus {
+    box-shadow: none;
+  }
+  /* line 40, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown .dropdown-menu {
+    background: #edeff4;
+  }
+  /* line 42, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown .dropdown-menu .dropdown-item {
+    transition: .3s all;
+  }
+  /* line 44, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown .dropdown-menu .dropdown-item:hover {
+    cursor: pointer;
+    color: #FFF;
+    background: #15b095;
+  }
+  /* line 51, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown:nth-of-type(2) {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  /* line 56, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown:last-of-type .dropdown-menu {
+    min-width: 60px;
+  }
+  /* line 67, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #c9dbda;
+    transition: .3s all;
+  }
+  /* line 75, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14);
+  }
+  /* line 78, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 30px 15px 15px 15px;
+  }
+  /* line 85, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player {
+    display: flex;
+    flex-direction: column;
+    max-width: 140px;
+  }
+  /* line 89, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-img {
+    width: 100%;
+    border: 1px solid #e1e1e1;
+  }
+  /* line 92, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-img .about-player-img-inner {
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+  }
+  /* line 96, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-img .about-player-img-inner img {
+    width: 100%;
+  }
+  /* line 102, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-text .about-player-name {
+    font-size: 14px;
+  }
+  /* line 105, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-text .about-player-country {
+    color: #e1e1e1;
+    font-size: 12px;
+  }
+  /* line 111, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 114, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .about-frames {
+    color: #151515;
+    font-size: 24px;
+  }
+  /* line 118, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .won {
+    position: relative;
+  }
+  /* line 120, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .won:after {
+    position: absolute;
+    content: "WIN";
+    color: #FFF;
+    background: #15b095;
+    top: -30px;
+    left: -5px;
+    padding: 3px 6px;
+    font-size: 12px;
+  }
+  /* line 130, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .won:before {
+    position: absolute;
+    content: "";
+    border-width: 10px 10px 0;
+    border-style: solid;
+    border-color: #15b095 transparent;
+    top: -12px;
+    left: 15%;
+  }
+  /* line 140, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .result-colon {
+    color: #e1e1e1;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  /* line 149, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-results-location {
+    color: #e1e1e1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 162, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result {
+    margin-top: 30px;
+  }
+  /* line 164, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  /* line 172, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .head-text h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 177, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .head-text h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 188, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper {
+    display: flex;
+  }
+  /* line 191, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown button {
+    background: transparent;
+    color: #151515;
+    padding: 3px 6px;
+    font-size: 14px;
+    transition: .3s all;
+  }
+  /* line 196, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown button:focus {
+    box-shadow: none;
+  }
+  /* line 200, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown .dropdown-menu {
+    background: #edeff4;
+  }
+  /* line 202, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown .dropdown-menu .dropdown-item {
+    transition: .3s all;
+  }
+  /* line 204, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown .dropdown-menu .dropdown-item:hover {
+    cursor: pointer;
+    color: #FFF;
+    background: #15b095;
+  }
+  /* line 211, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown:nth-of-type(2) {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  /* line 214, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown:nth-of-type(2) .dropdown-menu {
+    min-width: 60px;
+  }
+  /* line 219, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown:last-of-type .dropdown-menu {
+    min-width: 60px;
+  }
+  /* line 230, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #c9dbda;
+    transition: .3s all;
+  }
+  /* line 238, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14);
+  }
+  /* line 241, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 30px 15px 15px 15px;
+  }
+  /* line 248, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player {
+    display: flex;
+    flex-direction: column;
+    max-width: 140px;
+  }
+  /* line 252, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-img {
+    width: 100%;
+    border: 1px solid #e1e1e1;
+  }
+  /* line 255, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-img .about-player-img-inner {
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+  }
+  /* line 259, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-img .about-player-img-inner img {
+    width: 100%;
+  }
+  /* line 265, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-text .about-player-name {
+    font-size: 14px;
+  }
+  /* line 268, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-text .about-player-country {
+    color: #e1e1e1;
+    font-size: 12px;
+  }
+  /* line 274, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 277, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .about-frames {
+    color: #151515;
+    font-size: 24px;
+  }
+  /* line 281, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .won {
+    position: relative;
+  }
+  /* line 283, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .won:after {
+    position: absolute;
+    content: "WIN";
+    color: #FFF;
+    background: #15b095;
+    top: -30px;
+    left: -5px;
+    padding: 3px 6px;
+    font-size: 12px;
+  }
+  /* line 293, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .won:before {
+    position: absolute;
+    content: "";
+    border-width: 10px 10px 0;
+    border-style: solid;
+    border-color: #15b095 transparent;
+    top: -12px;
+    left: 15%;
+  }
+  /* line 303, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .result-colon {
+    color: #e1e1e1;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  /* line 312, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-results-location {
+    color: #e1e1e1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 325, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result {
+    margin-top: 30px;
+  }
+  /* line 327, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  /* line 335, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .head-text h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 340, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .head-text h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 351, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper {
+    display: flex;
+  }
+  /* line 354, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown button {
+    background: transparent;
+    color: #151515;
+    padding: 3px 6px;
+    font-size: 14px;
+    transition: .3s all;
+  }
+  /* line 359, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown button:focus {
+    box-shadow: none;
+  }
+  /* line 363, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown .dropdown-menu {
+    background: #edeff4;
+  }
+  /* line 365, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown .dropdown-menu .dropdown-item {
+    transition: .3s all;
+  }
+  /* line 367, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown .dropdown-menu .dropdown-item:hover {
+    cursor: pointer;
+    color: #FFF;
+    background: #15b095;
+  }
+  /* line 374, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown:nth-of-type(2) {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  /* line 377, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown:nth-of-type(2) .dropdown-menu {
+    min-width: 60px;
+  }
+  /* line 382, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown:last-of-type .dropdown-menu {
+    min-width: 60px;
+  }
+  /* line 393, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #c9dbda;
+    transition: .3s all;
+  }
+  /* line 401, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14);
+  }
+  /* line 404, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 30px 15px 15px 15px;
+  }
+  /* line 411, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player {
+    display: flex;
+    flex-direction: column;
+    max-width: 140px;
+  }
+  /* line 415, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-img {
+    width: 100%;
+    border: 1px solid #e1e1e1;
+  }
+  /* line 418, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-img .about-player-img-inner {
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+  }
+  /* line 422, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-img .about-player-img-inner img {
+    width: 100%;
+  }
+  /* line 428, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-text .about-player-name {
+    font-size: 14px;
+  }
+  /* line 431, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-text .about-player-country {
+    color: #e1e1e1;
+    font-size: 12px;
+  }
+  /* line 437, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 440, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .about-frames {
+    color: #151515;
+    font-size: 24px;
+  }
+  /* line 444, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .won {
+    position: relative;
+  }
+  /* line 446, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .won:after {
+    position: absolute;
+    content: "WIN";
+    color: #FFF;
+    background: #15b095;
+    top: -30px;
+    left: -5px;
+    padding: 3px 6px;
+    font-size: 12px;
+  }
+  /* line 456, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .won:before {
+    position: absolute;
+    content: "";
+    border-width: 10px 10px 0;
+    border-style: solid;
+    border-color: #15b095 transparent;
+    top: -12px;
+    left: 15%;
+  }
+  /* line 466, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .result-colon {
+    color: #e1e1e1;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  /* line 475, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-results-location {
+    color: #e1e1e1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 488, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result {
+    margin-top: 30px;
+  }
+  /* line 490, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  /* line 498, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .head-text h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 503, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .head-text h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 514, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper {
+    display: flex;
+  }
+  /* line 517, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown button {
+    background: transparent;
+    color: #151515;
+    padding: 3px 6px;
+    font-size: 14px;
+    transition: .3s all;
+  }
+  /* line 522, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown button:focus {
+    box-shadow: none;
+  }
+  /* line 526, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown .dropdown-menu {
+    background: #edeff4;
+  }
+  /* line 528, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown .dropdown-menu .dropdown-item {
+    transition: .3s all;
+  }
+  /* line 530, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown .dropdown-menu .dropdown-item:hover {
+    cursor: pointer;
+    color: #FFF;
+    background: #15b095;
+  }
+  /* line 537, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown:nth-of-type(2) {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  /* line 540, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown:nth-of-type(2) .dropdown-menu {
+    min-width: 60px;
+  }
+  /* line 545, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown:last-of-type .dropdown-menu {
+    min-width: 60px;
+  }
+  /* line 556, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #c9dbda;
+    transition: .3s all;
+  }
+  /* line 564, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14);
+  }
+  /* line 567, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 30px 15px 15px 15px;
+  }
+  /* line 574, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player {
+    display: flex;
+    flex-direction: column;
+    max-width: 140px;
+  }
+  /* line 578, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-img {
+    width: 100%;
+    border: 1px solid #e1e1e1;
+  }
+  /* line 581, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-img .about-player-img-inner {
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+  }
+  /* line 585, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-img .about-player-img-inner img {
+    width: 100%;
+  }
+  /* line 591, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-text .about-player-name {
+    font-size: 14px;
+  }
+  /* line 594, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-text .about-player-country {
+    color: #e1e1e1;
+    font-size: 12px;
+  }
+  /* line 600, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 603, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .about-frames {
+    color: #151515;
+    font-size: 24px;
+  }
+  /* line 607, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .won {
+    position: relative;
+  }
+  /* line 609, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .won:after {
+    position: absolute;
+    content: "WIN";
+    color: #FFF;
+    background: #15b095;
+    top: -30px;
+    left: -5px;
+    padding: 3px 6px;
+    font-size: 12px;
+  }
+  /* line 619, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .won:before {
+    position: absolute;
+    content: "";
+    border-width: 10px 10px 0;
+    border-style: solid;
+    border-color: #15b095 transparent;
+    top: -12px;
+    left: 15%;
+  }
+  /* line 629, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .result-colon {
+    color: #e1e1e1;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  /* line 638, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-results-location {
+    color: #e1e1e1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 651, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result {
+    margin-top: 30px;
+  }
+  /* line 653, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  /* line 661, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .head-text h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 666, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .head-text h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 677, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper {
+    display: flex;
+  }
+  /* line 680, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown button {
+    background: transparent;
+    color: #151515;
+    padding: 3px 6px;
+    font-size: 14px;
+    transition: .3s all;
+  }
+  /* line 685, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown button:focus {
+    box-shadow: none;
+  }
+  /* line 689, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown .dropdown-menu {
+    background: #edeff4;
+  }
+  /* line 691, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown .dropdown-menu .dropdown-item {
+    transition: .3s all;
+  }
+  /* line 693, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown .dropdown-menu .dropdown-item:hover {
+    cursor: pointer;
+    color: #FFF;
+    background: #15b095;
+  }
+  /* line 700, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown:nth-of-type(2) {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  /* line 703, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown:nth-of-type(2) .dropdown-menu {
+    min-width: 60px;
+  }
+  /* line 708, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .section-head .select-wrapper .dropdown:last-of-type .dropdown-menu {
+    min-width: 60px;
+  }
+  /* line 719, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #c9dbda;
+    transition: .3s all;
+  }
+  /* line 727, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14);
+  }
+  /* line 730, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 30px 15px 15px 15px;
+  }
+  /* line 737, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player {
+    display: flex;
+    flex-direction: column;
+    max-width: 120px;
+  }
+  /* line 741, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-img {
+    width: 100%;
+    border: 1px solid #e1e1e1;
+  }
+  /* line 744, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-img .about-player-img-inner {
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+  }
+  /* line 748, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-img .about-player-img-inner img {
+    width: 100%;
+  }
+  /* line 754, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-text .about-player-name {
+    font-size: 12px;
+  }
+  /* line 757, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-player .about-player-text .about-player-country {
+    color: #e1e1e1;
+    font-size: 10px;
+  }
+  /* line 763, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 766, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .about-frames {
+    color: #151515;
+    font-size: 16px;
+  }
+  /* line 770, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .won {
+    position: relative;
+  }
+  /* line 772, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .won:after {
+    position: absolute;
+    content: "W";
+    color: #FFF;
+    background: #15b095;
+    top: -30px;
+    left: -5px;
+    padding: 3px 6px;
+    font-size: 12px;
+  }
+  /* line 782, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .won:before {
+    position: absolute;
+    content: "";
+    border-width: 8px 8px 0;
+    border-style: solid;
+    border-color: #15b095 transparent;
+    top: -10px;
+    left: -5%;
+  }
+  /* line 792, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-result-details .about-score .result-colon {
+    color: #e1e1e1;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  /* line 801, C:/Users/User/snooker2/src/components/scss/AboutResults.scss */
+  .about-result .container .row .col-12 .about-result-wrapper .about-results-location {
+    color: #e1e1e1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/*# sourceMappingURL=../AboutResults.map */

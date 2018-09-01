@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "scss/AboutSidebar.css",
+	"sources": [
+		"scss/AboutSidebar.scss"
+	],
+	"sourcesContent": [
+		"@media screen and (min-width: 1200px) {\r\n\t.about-sidebar {\r\n\t\t.row {\r\n\t\t\t.about-sidebar-single {\r\n\t\t\t\t\r\n\t\t\t\t#player-awards {\r\n\t\t\t\t\tmargin-top: 30px;\r\n\r\n\t\t\t\t} // #player-award\r\n\r\n\t\t\t}\t\t\t\t\t\t\t\t\t\r\n\t\t}\r\n\t} // .about-sidebar\r\n}\r\n\r\n@media screen and (min-width: 992px) and (max-width: 1199px){\r\n\t.about-sidebar {\r\n\t\t.row {\r\n\t\t\t.about-sidebar-single {\r\n\t\t\t\t\r\n\t\t\t\t#player-awards {\r\n\t\t\t\t\tmargin-top: 30px;\r\n\r\n\t\t\t\t} // #player-award\r\n\r\n\t\t\t}\t\t\t\t\t\t\t\t\t\r\n\t\t}\r\n\t} // .about-sidebar\r\n}\r\n\r\n@media screen and (min-width: 768px) and (max-width: 991px){\r\n\t.about-sidebar {\r\n\t\t.row {\r\n\t\t\t.about-sidebar-single {\r\n\t\t\t\t\r\n\t\t\t\t#player-awards {\r\n\t\t\t\t\tmargin-top: 50px;\r\n\r\n\t\t\t\t} // #player-award\r\n\r\n\t\t\t}\t\t\t\t\t\t\t\t\t\r\n\t\t}\r\n\t} // .about-sidebar\r\n}\r\n\r\n@media screen and (min-width: 576px) and (max-width: 767px){\r\n\t.about-sidebar {\r\n\t\t.row {\r\n\t\t\t.about-sidebar-single {\r\n\t\t\t\t\r\n\t\t\t\t#player-awards {\r\n\t\t\t\t\tmargin-top: 50px;\r\n\r\n\t\t\t\t} // #player-award\r\n\r\n\t\t\t}\t\t\t\t\t\t\t\t\t\r\n\t\t}\r\n\t} // .about-sidebar\r\n}\r\n\r\n@media screen and (max-width: 575px){\r\n\t.about-sidebar {\r\n\t\t.row {\r\n\t\t\t.about-sidebar-single {\r\n\t\t\t\t\r\n\t\t\t\t#player-awards {\r\n\t\t\t\t\tmargin-top: 30px;\r\n\r\n\t\t\t\t} // #player-award\r\n\r\n\t\t\t}\t\t\t\t\t\t\t\t\t\r\n\t\t}\r\n\t} // .about-sidebar\r\n}"
+	],
+	"mappings": "AAAA,MAAM,CAAN,MAAM,MAAM,SAAS,EAAE,MAAM;;EAC5B,AAIG,cAJW,CACb,IAAI,CACH,qBAAqB,CAEpB,cAAc,CAAC;IACd,UAAU,EAAE,IAAK;GAEjB;;;AAOL,MAAM,CAAN,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,MAAM;;EACnD,AAIG,cAJW,CACb,IAAI,CACH,qBAAqB,CAEpB,cAAc,CAAC;IACd,UAAU,EAAE,IAAK;GAEjB;;;AAOL,MAAM,CAAN,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;;EAClD,AAIG,cAJW,CACb,IAAI,CACH,qBAAqB,CAEpB,cAAc,CAAC;IACd,UAAU,EAAE,IAAK;GAEjB;;;AAOL,MAAM,CAAN,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;;EAClD,AAIG,cAJW,CACb,IAAI,CACH,qBAAqB,CAEpB,cAAc,CAAC;IACd,UAAU,EAAE,IAAK;GAEjB;;;AAOL,MAAM,CAAN,MAAM,MAAM,SAAS,EAAE,KAAK;;EAC3B,AAIG,cAJW,CACb,IAAI,CACH,qBAAqB,CAEpB,cAAc,CAAC;IACd,UAAU,EAAE,IAAK;GAEjB",
+	"names": []
+}

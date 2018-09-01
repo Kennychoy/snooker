@@ -1,0 +1,473 @@
+@media screen and (min-width: 1200px) {
+	#about-carousel {
+		margin-top: 30px;
+		background: rgb(49, 81, 98);
+		padding: 15px;
+		.about-carousel-inner {
+			padding: 30px;
+			background: rgb(49, 81, 98);
+			border: 1px solid #9b9b9b;
+			.carousel-indicators {
+				align-items: center;
+				li {
+					width: 15px;
+					height: 15px;
+					background: #FFF;
+					border-radius: 50%;
+					&:before {}
+					&:after {}
+				}
+				.active {
+					background: red;
+					width: 18px;
+					height: 18px;
+				}
+			}
+			.carousel-inner {
+				position: relative;width: 100%;
+				.carousel-item {
+					img {
+						opacity: 0;
+					}
+					.carousel-caption {
+						opacity: 0;
+						.award-name {}
+						.award-time {}
+					}
+				}
+				.active {
+					width: 100%;
+					display: flex !important;
+					flex-direction: row !important;
+					position: relative;
+					justify-content: space-between;
+					.img-wrapper {
+						order: 2;
+						width: 100%;flex-basis: 1;
+						img {
+							width: 100%;
+							opacity: 1;
+							order: 2;
+							padding-left: 15px;
+							position: relative;
+						}
+					}
+					.carousel-caption {		
+						order: 1;
+						width: 100%;
+						padding: 15px;
+						overflow: hidden;
+						opacity: 1;
+						position: relative;
+						justify-content: flex-start;
+						bottom: 0;
+						top: 0;
+						left: 0;flex-basis: 2;
+						.award-name {
+							.first {
+								color: #f05c5c;
+								font-size: 22px;
+							}
+							font-size: 16px;
+						}
+						.award-time {
+							color: #15b095;
+							font-size: 16px;
+							margin-top: 10px;
+							position: relative;
+							&:before {
+								content: "";
+								position: absolute;
+								top: 0;
+								left: 25%;
+								background: #ccc;
+								width: 50%;
+								height: 1px;
+							}
+						}
+					}
+				}
+			}
+		}
+	} // #about-carousel
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	#about-carousel {
+		margin-top: 30px;
+		background: rgb(49, 81, 98);
+		padding: 15px;
+		.about-carousel-inner {
+			padding: 30px;
+			background: rgb(49, 81, 98);
+			border: 1px solid #9b9b9b;
+			.carousel-indicators {
+				align-items: center;
+				li {
+					width: 13px;
+					height: 13px;
+					background: #FFF;
+					border-radius: 50%;
+					&:before {}
+					&:after {}
+				}
+				.active {
+					background: red;
+					width: 15px;
+					height: 15px;
+				}
+			}
+			.carousel-inner {
+				position: relative;
+				width: 100%;
+				.carousel-item {
+					img {
+						opacity: 0;
+					}
+					.carousel-caption {
+						opacity: 0;
+						.award-name {}
+						.award-time {}
+					}
+				}
+				.active {
+					width: 100%;
+					display: flex !important;
+					flex-direction: row !important;
+					position: relative;
+					justify-content: space-between;
+					.img-wrapper {
+						order: 2;
+						width: 100%;flex-basis: 1;
+						img {
+							width: 100%;
+							opacity: 1;
+							order: 2;
+							padding-left: 15px;
+							position: relative;
+						}
+					}
+					.carousel-caption {		
+						order: 1;
+						width: 100%;
+						padding: 15px;
+						overflow: hidden;
+						opacity: 1;
+						position: relative;
+						justify-content: flex-start;
+						bottom: 0;
+						top: 0;
+						left: 0;flex-basis: 2;
+						.award-name {
+							.first {
+								color: #f05c5c;
+								font-size: 18px;
+							}
+							font-size: 14px;
+						}
+						.award-time {
+							color: #15b095;
+							font-size: 14px;
+							margin-top: 10px;
+							position: relative;
+							&:before {
+								content: "";
+								position: absolute;
+								top: 0;
+								left: 25%;
+								background: #ccc;
+								width: 50%;
+								height: 1px;
+							}
+						}
+					}
+				}
+			}
+		}
+	} // #about-carousel
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	#about-carousel {
+		margin-top: 30px;
+		background: rgb(49, 81, 98);
+		padding: 15px;
+		.about-carousel-inner {
+			padding: 30px;
+			background: rgb(49, 81, 98);
+			border: 1px solid #9b9b9b;
+			.carousel-indicators {
+				align-items: center;
+				li {
+					width: 15px;
+					height: 15px;
+					background: #FFF;
+					border-radius: 50%;
+					&:before {}
+					&:after {}
+				}
+				.active {
+					background: red;
+					width: 18px;
+					height: 18px;
+				}
+			}
+			.carousel-inner {
+				position: relative;
+				width: 100%;
+				.carousel-item {
+					img {
+						opacity: 0;
+					}
+					.carousel-caption {
+						opacity: 0;
+						.award-name {}
+						.award-time {}
+					}
+				}
+				.active {
+					width: 100%;
+					display: flex !important;
+					flex-direction: row !important;
+					position: relative;
+					justify-content: space-between;
+					.img-wrapper {
+						order: 2;
+						width: 100%;flex-basis: 1;
+						img {
+							width: 100%;
+							opacity: 1;
+							order: 2;
+							padding-left: 15px;
+							position: relative;
+						}
+					}
+					.carousel-caption {		
+						order: 1;
+						width: 100%;
+						padding: 15px;
+						overflow: hidden;
+						opacity: 1;
+						position: relative;
+						justify-content: flex-start;
+						bottom: 0;
+						top: 0;
+						left: 0;flex-basis: 2;
+						.award-name {
+							.first {
+								color: #f05c5c;
+								font-size: 20px;
+							}
+							font-size: 16px;
+						}
+						.award-time {
+							color: #15b095;
+							font-size: 16px;
+							margin-top: 10px;
+							position: relative;
+							&:before {
+								content: "";
+								position: absolute;
+								top: 0;
+								left: 25%;
+								background: #ccc;
+								width: 50%;
+								height: 1px;
+							}
+						}
+					}
+				}
+			}
+		}
+	} // #about-carousel
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+	#about-carousel {
+		margin-top: 30px;
+		background: rgb(49, 81, 98);
+		padding: 15px;
+		.about-carousel-inner {
+			padding: 30px;
+			background: rgb(49, 81, 98);
+			border: 1px solid #9b9b9b;
+			.carousel-indicators {
+				align-items: center;
+				li {
+					width: 15px;
+					height: 15px;
+					background: #FFF;
+					border-radius: 50%;
+					&:before {}
+					&:after {}
+				}
+				.active {
+					background: red;
+					width: 18px;
+					height: 18px;
+				}
+			}
+			.carousel-inner {
+				position: relative;
+				width: 100%;
+				.carousel-item {
+					img {
+						opacity: 0;
+					}
+					.carousel-caption {
+						opacity: 0;
+						.award-name {}
+						.award-time {}
+					}
+				}
+				.active {
+					width: 100%;
+					display: flex !important;
+					flex-direction: row !important;
+					position: relative;
+					justify-content: space-between;
+					.img-wrapper {
+						order: 2;
+						width: 100%;flex-basis: 1;
+						img {
+							width: 100%;
+							opacity: 1;
+							order: 2;
+							padding-left: 15px;
+							position: relative;
+						}
+					}
+					.carousel-caption {		
+						order: 1;
+						width: 100%;
+						padding: 15px;
+						overflow: hidden;
+						opacity: 1;
+						position: relative;
+						justify-content: flex-start;
+						bottom: 0;
+						top: 0;
+						left: 0;flex-basis: 2;
+						.award-name {
+							.first {
+								color: #f05c5c;
+								font-size: 20px;
+							}
+							font-size: 16px;
+						}
+						.award-time {
+							color: #15b095;
+							font-size: 16px;
+							margin-top: 10px;
+							position: relative;
+							&:before {
+								content: "";
+								position: absolute;
+								top: 0;
+								left: 25%;
+								background: #ccc;
+								width: 50%;
+								height: 1px;
+							}
+						}
+					}
+				}
+			}
+		}
+	} // #about-carousel
+}
+
+@media screen and (max-width: 575px){
+	#about-carousel {
+		margin-top: 30px;
+		background: rgb(49, 81, 98);
+		padding: 15px;
+		.about-carousel-inner {
+			padding: 30px;
+			background: rgb(49, 81, 98);
+			border: 1px solid #9b9b9b;
+			.carousel-indicators {
+				align-items: center;
+				li {
+					width: 15px;
+					height: 15px;
+					background: #FFF;
+					border-radius: 50%;
+					&:before {}
+					&:after {}
+				}
+				.active {
+					background: red;
+					width: 18px;
+					height: 18px;
+				}
+			}
+			.carousel-inner {
+				position: relative;
+				width: 100%;
+				.carousel-item {
+					img {
+						opacity: 0;
+					}
+					.carousel-caption {
+						opacity: 0;
+						.award-name {}
+						.award-time {}
+					}
+				}
+				.active {
+					width: 100%;
+					display: flex !important;
+					flex-direction: row !important;
+					position: relative;
+					justify-content: space-between;
+					.img-wrapper {
+						order: 2;
+						width: 100%;flex-basis: 1;
+						img {
+							width: 100%;
+							opacity: 1;
+							order: 2;
+							padding-left: 15px;
+							position: relative;
+						}
+					}
+					.carousel-caption {		
+						order: 1;
+						width: 100%;
+						padding: 15px;
+						overflow: hidden;
+						opacity: 1;
+						position: relative;
+						justify-content: flex-start;
+						bottom: 0;
+						top: 0;
+						left: 0;flex-basis: 2;
+						.award-name {
+							.first {
+								color: #f05c5c;
+								font-size: 20px;
+							}
+							font-size: 16px;
+						}
+						.award-time {
+							color: #15b095;
+							font-size: 16px;
+							margin-top: 10px;
+							position: relative;
+							&:before {
+								content: "";
+								position: absolute;
+								top: 0;
+								left: 25%;
+								background: #ccc;
+								width: 50%;
+								height: 1px;
+							}
+						}
+					}
+				}
+			}
+		}
+	} // #about-carousel
+}

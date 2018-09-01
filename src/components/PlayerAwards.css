@@ -1,0 +1,36 @@
+@media screen and (min-width: 1200px) {
+  /* line 2, C:/Users/User/snooker2/src/components/scss/PlayerAwards.scss */
+  #player-awards {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 8, C:/Users/User/snooker2/src/components/scss/PlayerAwards.scss */
+  #player-awards {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 14, C:/Users/User/snooker2/src/components/scss/PlayerAwards.scss */
+  #player-awards {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 20, C:/Users/User/snooker2/src/components/scss/PlayerAwards.scss */
+  #player-awards {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 26, C:/Users/User/snooker2/src/components/scss/PlayerAwards.scss */
+  #player-awards {
+    margin-top: 30px;
+  }
+}
+
+/*# sourceMappingURL=../PlayerAwards.map */

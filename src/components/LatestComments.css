@@ -1,0 +1,526 @@
+@media screen and (min-width: 1200px) {
+  /* line 2, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  /* line 5, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper {
+    margin-top: 30px;
+  }
+  /* line 7, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    border: 1px solid #e1e1e1;
+    position: relative;
+  }
+  /* line 14, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single:after {
+    position: absolute;
+    content: "\f10e";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    color: #e1e1e1;
+    top: 30px;
+    right: 30px;
+    font-size: 18px;
+  }
+  /* line 24, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc {
+    display: flex;
+  }
+  /* line 26, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-avatar {
+    flex-basis: 20%;
+    margin-right: 15px;
+  }
+  /* line 29, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-avatar img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  /* line 34, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-name-time {
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* line 39, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-name-time .commentor-name {
+    text-transform: uppercase;
+    color: #151515;
+  }
+  /* line 43, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-name-time .commentor-time {
+    color: #9b9b9b;
+  }
+  /* line 48, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-text {
+    color: #9b9b9b;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 53, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title {
+    margin-left: 30px;
+  }
+  /* line 55, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title a {
+    text-transform: uppercase;
+    color: #15b095;
+    position: relative;
+    transition: .3s all;
+  }
+  /* line 60, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title a:hover {
+    cursor: pointer;
+    color: #0d6c5b;
+    text-decoration: none;
+  }
+  /* line 65, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title a:before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: -30px;
+    width: 20px;
+    height: 20px;
+    border-left: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    display: block;
+  }
+  /* line 76, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title a:after {
+    position: absolute;
+    content: ">";
+    left: -15px;
+    top: 8.5px;
+    color: #e1e1e1;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 91, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  /* line 94, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper {
+    margin-top: 30px;
+  }
+  /* line 96, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    border: 1px solid #e1e1e1;
+    position: relative;
+  }
+  /* line 103, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single:after {
+    position: absolute;
+    content: "\f10e";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    color: #e1e1e1;
+    top: 30px;
+    right: 30px;
+    font-size: 18px;
+  }
+  /* line 113, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc {
+    display: flex;
+  }
+  /* line 115, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-avatar {
+    flex-basis: 20%;
+    margin-right: 15px;
+  }
+  /* line 118, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-avatar img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  /* line 123, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-name-time {
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* line 128, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-name-time .commentor-name {
+    text-transform: uppercase;
+    color: #151515;
+  }
+  /* line 132, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-name-time .commentor-time {
+    color: #9b9b9b;
+  }
+  /* line 137, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-text {
+    color: #9b9b9b;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 142, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title {
+    margin-left: 30px;
+  }
+  /* line 144, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title a {
+    text-transform: uppercase;
+    color: #15b095;
+    position: relative;
+    transition: .3s all;
+  }
+  /* line 149, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title a:hover {
+    cursor: pointer;
+    color: #0d6c5b;
+    text-decoration: none;
+  }
+  /* line 154, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title a:before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: -30px;
+    width: 20px;
+    height: 20px;
+    border-left: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    display: block;
+  }
+  /* line 165, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title a:after {
+    position: absolute;
+    content: ">";
+    left: -15px;
+    top: 8.5px;
+    color: #e1e1e1;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 180, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  /* line 183, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper {
+    margin-top: 30px;
+  }
+  /* line 185, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    border: 1px solid #e1e1e1;
+    position: relative;
+  }
+  /* line 192, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single:after {
+    position: absolute;
+    content: "\f10e";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    color: #e1e1e1;
+    top: 30px;
+    right: 30px;
+    font-size: 18px;
+  }
+  /* line 202, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc {
+    display: flex;
+  }
+  /* line 204, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-avatar {
+    flex-basis: 20%;
+    margin-right: 15px;
+  }
+  /* line 207, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-avatar img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  /* line 212, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-name-time {
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* line 217, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-name-time .commentor-name {
+    text-transform: uppercase;
+    color: #151515;
+  }
+  /* line 221, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-name-time .commentor-time {
+    color: #9b9b9b;
+  }
+  /* line 226, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-text {
+    color: #9b9b9b;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 231, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title {
+    margin-left: 30px;
+  }
+  /* line 233, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title a {
+    text-transform: uppercase;
+    color: #15b095;
+    position: relative;
+    transition: .3s all;
+  }
+  /* line 238, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title a:hover {
+    cursor: pointer;
+    color: #0d6c5b;
+    text-decoration: none;
+  }
+  /* line 243, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title a:before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: -30px;
+    width: 20px;
+    height: 20px;
+    border-left: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    display: block;
+  }
+  /* line 254, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title a:after {
+    position: absolute;
+    content: ">";
+    left: -15px;
+    top: 1px;
+    color: #e1e1e1;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 269, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  /* line 272, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper {
+    margin-top: 30px;
+  }
+  /* line 274, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    border: 1px solid #e1e1e1;
+    position: relative;
+  }
+  /* line 281, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single:after {
+    position: absolute;
+    content: "\f10e";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    color: #e1e1e1;
+    top: 30px;
+    right: 30px;
+    font-size: 18px;
+  }
+  /* line 291, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc {
+    display: flex;
+  }
+  /* line 293, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-avatar {
+    flex-basis: 20%;
+    margin-right: 15px;
+  }
+  /* line 296, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-avatar img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  /* line 301, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-name-time {
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* line 306, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-name-time .commentor-name {
+    text-transform: uppercase;
+    color: #151515;
+  }
+  /* line 310, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-name-time .commentor-time {
+    color: #9b9b9b;
+  }
+  /* line 315, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-text {
+    color: #9b9b9b;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 320, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title {
+    margin-left: 30px;
+  }
+  /* line 322, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title a {
+    text-transform: uppercase;
+    color: #15b095;
+    position: relative;
+    transition: .3s all;
+  }
+  /* line 327, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title a:hover {
+    cursor: pointer;
+    color: #0d6c5b;
+    text-decoration: none;
+  }
+  /* line 332, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title a:before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: -30px;
+    width: 20px;
+    height: 20px;
+    border-left: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    display: block;
+  }
+  /* line 343, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title a:after {
+    position: absolute;
+    content: ">";
+    left: -15px;
+    top: 8.5px;
+    color: #e1e1e1;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 358, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  /* line 361, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper {
+    margin-top: 30px;
+  }
+  /* line 363, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    border: 1px solid #e1e1e1;
+    position: relative;
+  }
+  /* line 370, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single:after {
+    position: absolute;
+    content: "\f10e";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    color: #e1e1e1;
+    top: 30px;
+    right: 30px;
+    font-size: 18px;
+  }
+  /* line 380, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc {
+    display: flex;
+  }
+  /* line 382, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-avatar {
+    flex-basis: 20%;
+    margin-right: 15px;
+  }
+  /* line 385, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-avatar img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  /* line 390, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-name-time {
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* line 395, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-name-time .commentor-name {
+    text-transform: uppercase;
+    color: #151515;
+  }
+  /* line 399, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .commentor-misc .commentor-name-time .commentor-time {
+    color: #9b9b9b;
+  }
+  /* line 404, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-text {
+    color: #9b9b9b;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 409, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title {
+    margin-left: 30px;
+  }
+  /* line 411, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title a {
+    text-transform: uppercase;
+    color: #15b095;
+    position: relative;
+    transition: .3s all;
+  }
+  /* line 416, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title a:hover {
+    cursor: pointer;
+    color: #0d6c5b;
+    text-decoration: none;
+  }
+  /* line 421, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title a:before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: -30px;
+    width: 20px;
+    height: 20px;
+    border-left: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    display: block;
+  }
+  /* line 432, C:/Users/User/snooker2/src/components/scss/LatestComments.scss */
+  .latest-comments .latest-comments-wrapper .latest-comments-single .comment-title a:after {
+    position: absolute;
+    content: ">";
+    left: -15px;
+    top: 8.5px;
+    color: #e1e1e1;
+  }
+}
+
+/*# sourceMappingURL=../LatestComments.map */

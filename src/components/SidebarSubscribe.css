@@ -1,0 +1,272 @@
+@media screen and (min-width: 1200px) {
+  /* line 2, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe {
+    margin-top: 30px;
+  }
+  /* line 4, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  /* line 9, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper input {
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  /* line 16, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper input::placeholder {
+    text-align: center;
+    font-size: 16px;
+    color: #e1e1e1;
+  }
+  /* line 21, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper input:focus {
+    outline: none;
+    border-color: #15b095;
+  }
+  /* line 24, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper input:focus::placeholder {
+    color: transparent;
+  }
+  /* line 29, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper button {
+    width: 100%;
+    color: #FFF;
+    background: #15b095;
+    border: 1px solid #15b095;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: .3s all;
+  }
+  /* line 38, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper button:hover {
+    cursor: pointer;
+    background: #f05c5c;
+    border: 1px solid #f05c5c;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 49, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe {
+    margin-top: 30px;
+  }
+  /* line 51, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  /* line 56, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper input {
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  /* line 62, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper input::placeholder {
+    text-align: center;
+    font-size: 16px;
+    color: #e1e1e1;
+  }
+  /* line 67, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper input:focus {
+    outline: none;
+    border-color: #15b095;
+  }
+  /* line 70, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper input:focus::placeholder {
+    color: transparent;
+  }
+  /* line 75, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper button {
+    width: 100%;
+    color: #FFF;
+    background: #15b095;
+    border: 1px solid #15b095;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: .3s all;
+  }
+  /* line 84, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper button:hover {
+    cursor: pointer;
+    background: #f05c5c;
+    border: 1px solid #f05c5c;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 95, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe {
+    margin-top: 30px;
+  }
+  /* line 97, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  /* line 102, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper input {
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  /* line 108, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper input::placeholder {
+    text-align: center;
+    font-size: 16px;
+    color: #e1e1e1;
+  }
+  /* line 113, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper input:focus {
+    outline: none;
+    border-color: #15b095;
+  }
+  /* line 116, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper input:focus::placeholder {
+    color: transparent;
+  }
+  /* line 121, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper button {
+    width: 100%;
+    color: #FFF;
+    background: #15b095;
+    border: 1px solid #15b095;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: .3s all;
+  }
+  /* line 130, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper button:hover {
+    cursor: pointer;
+    background: #f05c5c;
+    border: 1px solid #f05c5c;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 141, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe {
+    margin-top: 30px;
+  }
+  /* line 143, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  /* line 148, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper input {
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  /* line 154, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper input::placeholder {
+    text-align: center;
+    font-size: 16px;
+    color: #e1e1e1;
+  }
+  /* line 159, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper input:focus {
+    outline: none;
+    border-color: #15b095;
+  }
+  /* line 162, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper input:focus::placeholder {
+    color: transparent;
+  }
+  /* line 167, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper button {
+    width: 100%;
+    color: #FFF;
+    background: #15b095;
+    border: 1px solid #15b095;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: .3s all;
+  }
+  /* line 176, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper button:hover {
+    cursor: pointer;
+    background: #f05c5c;
+    border: 1px solid #f05c5c;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 187, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe {
+    margin-top: 30px;
+  }
+  /* line 189, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  /* line 194, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper input {
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  /* line 200, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper input::placeholder {
+    text-align: center;
+    font-size: 16px;
+    color: #e1e1e1;
+  }
+  /* line 205, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper input:focus {
+    outline: none;
+    border-color: #15b095;
+  }
+  /* line 208, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper input:focus::placeholder {
+    color: transparent;
+  }
+  /* line 213, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper button {
+    width: 100%;
+    color: #FFF;
+    background: #15b095;
+    border: 1px solid #15b095;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: .3s all;
+  }
+  /* line 222, C:/Users/User/snooker2/src/components/scss/SidebarSubscribe.scss */
+  .sidebarSubscribe .sidebarSubscribe-wrapper button:hover {
+    cursor: pointer;
+    background: #f05c5c;
+    border: 1px solid #f05c5c;
+  }
+}
+
+/*# sourceMappingURL=../SidebarSubscribe.map */

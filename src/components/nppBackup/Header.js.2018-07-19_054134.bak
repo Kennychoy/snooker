@@ -1,0 +1,216 @@
+import React, { Component } from 'react';
+
+import {Link, NavLink} from "react-router-dom";
+
+class Header extends Component {
+	render(){
+		return (
+			<div className="nav-wrapper">
+			
+				<div className="top-nav">					
+					
+					<div className="container">
+					
+						<button className="d-xl-none">halo</button>
+					
+						<nav className="top-nav-left navbar">
+							<ul className="navbar-nav">
+								<li className="nav-item">
+									<Link to="#" className="nav-link">About Us</Link>
+								</li>
+								<li className="nav-item">
+									<Link to="#" className="nav-link">News</Link>
+								</li>
+								<li className="nav-item">
+									<Link to="#" className="nav-link">Shop</Link>
+								</li>
+								<li className="nav-item">
+									<Link to="#" className="nav-link">Contact Us</Link>
+								</li>
+								<li className="nav-item">
+									<Link to="#" className="nav-link">Watch Live</Link>
+								</li>
+							</ul>
+						</nav>
+						
+						<div className="top-nav-right">
+							<ul className="top-right-outer-ul d-flex">
+								<li className="select-lang" onMouseEnter={this.unfoldLang} onMouseLeave={this.foldLang}>
+									<i className="fas fa-caret-down"></i>
+									<ul className="top-right-inner-ul">
+										<li className="show-lang">EN</li>
+										<li>EN</li>
+										<li>DE</li>
+										<li>FR</li>
+									</ul>									
+								</li>								
+								<li>
+									<i className="fas fa-shopping-cart"></i>
+									<span className="items-in-cart">2</span>
+								</li>
+								<li className="ur-ac">
+									<i className="fas fa-sign-out-alt"></i>
+									<Link to="#">YOUR ACCOUNT</Link>
+								</li>
+							</ul>
+						</div>
+						
+					{/* .container */}
+					</div>
+				{/* .top-nav */}
+				</div>
+				
+				<div className="main-nav bg-dark">
+				
+					<div className="main-nav-top">
+						<div className="container">
+						
+							<div className="logo">
+								<Link to="#"><img src="./img/logo.png" alt="" /></Link>
+							</div>
+							
+							<div className="main-top-subtle d-flex">
+							
+								<div className="main-top-contacts">
+									<div className="main-top-contacts-icon">
+										<i className="fas fa-users"></i>
+									</div>
+									<div className="main-top-contacts-text">
+										<div className="main-top-contacts-desc">JOIN US</div>
+										<div className="main-top-contacts-email">demo@snooker.com</div>
+									</div>
+								</div>
+								
+								<div className="main-top-contacts">
+									<div className="main-top-contacts-icon">
+										<i className="far fa-envelope"></i>
+									</div>
+									<div className="main-top-contacts-text">
+										<div className="main-top-contacts-desc">CONTACT US</div>
+										<div className="main-top-contacts-email">email@snooker.com</div>
+									</div>
+								</div>
+								
+								<div className="main-top-search input-group">
+									<input type="text" placeholder="Enter keywords..."/>
+									<div className="input-group-append">
+										<button type="submit" className="btn" formAction="#">
+											<i className="fas fa-search"></i>
+										</button>
+									</div>									
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					
+					<div className="main-nav-bottom">
+						<div className="container">
+						
+							<nav className="navbar navbar-expand-lg">
+								<ul className="navbar-nav">
+									<li><NavLink to="/">HOME</NavLink></li>
+									<li><NavLink to="#">ABOUT US</NavLink></li>
+									<li className="has-dropdown">
+										<NavLink to="#">NEWS<i className="fas fa-caret-down"></i></NavLink>
+										<ul className="dropdown-ul">
+											<li>
+												<div className="li-item-wrapper">
+													<i className="fas fa-angle-right"></i>
+													<Link to="#">MORE NEWS</Link>
+												</div>
+											</li>
+										</ul>
+									</li>
+									<li className="has-dropdown">
+										<NavLink to="#">SHOP<i className="fas fa-caret-down"></i></NavLink>
+										<ul className="dropdown-ul">
+											<li>
+												<div className="li-item-wrapper">
+													<i className="fas fa-angle-right"></i>
+													<Link to="#">GRID SHOP</Link>
+												</div>
+											</li>
+											<li>
+												<div className="li-item-wrapper">
+													<i className="fas fa-angle-right"></i>
+													<Link to="#">LIST SHOP</Link>
+												</div>
+											</li>
+											<li>
+												<div className="li-item-wrapper">
+													<i className="fas fa-angle-right"></i>
+													<Link to="#">PRODUCT PAGE</Link>
+												</div>
+											</li>
+											<li>
+												<div className="li-item-wrapper">
+													<i className="fas fa-angle-right"></i>
+													<Link to="#">SHOPPING CART</Link>
+												</div>
+											</li>
+											<li>
+												<div className="li-item-wrapper">
+													<i className="fas fa-angle-right"></i>
+													<Link to="#">CHECKOUT</Link>
+												</div>
+											</li>
+										</ul>
+									</li>
+									<li><NavLink to="#">CONTACT US</NavLink></li>
+								</ul>
+							</nav>
+						
+						</div>
+					</div>
+					
+				{/* .main-nav */}
+				</div>
+				
+			{/* .nav-wrapper*/}	
+			</div>
+		);
+	}
+	
+	unfoldLang = () => {
+		document.querySelector(".select-lang").addEventListener("mouseenter", () => {
+			document.querySelector(".select-lang").style.overflowY = "visible";
+			document.querySelector(".select-lang .fa-caret-down").style.transform = "rotate(180deg)"
+			document.querySelectorAll(".top-right-inner-ul li").forEach( li => {
+				li.addEventListener("mouseenter", () => {
+					document.querySelector(".top-right-inner-ul li").innerHTML = li.innerHTML;
+				});
+			})
+		});
+	}
+	
+	foldLang = () => {
+		document.querySelector(".select-lang").addEventListener("mouseleave", () => {
+			document.querySelector(".select-lang").style.overflowY = "hidden";
+			document.querySelector(".select-lang .fa-caret-down").style.transform = "rotate(0deg)"
+		});
+	}
+	
+	componentDidMount(){
+		
+		document.querySelectorAll(".has-dropdown").forEach(el => {
+			el.addEventListener("mouseenter", () => {
+				let dropdown = el.children[1];
+				dropdown.style.transform = "translateY(0)";
+				dropdown.style.opacity = 1;
+				dropdown.style.zIndex = 2;
+			});
+		});
+		
+		document.querySelectorAll(".has-dropdown").forEach(el => {
+			el.addEventListener("mouseleave", () => {
+				let dropdown = el.children[1];
+				dropdown.style.transform = "translateY(100%)";
+				dropdown.style.opacity = 0;
+				dropdown.style.zIndex = -1;
+			});
+		});
+	}
+}
+
+export default Header;

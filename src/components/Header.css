@@ -1,0 +1,2121 @@
+@media screen and (min-width: 1200px) {
+  /* line 3, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav {
+    background: #1d252d;
+  }
+  /* line 5, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 10, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left ul {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 13, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left ul li {
+    margin-right: 40px;
+  }
+  /* line 15, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left ul li a {
+    color: #707279;
+    transition: .3s all;
+  }
+  /* line 18, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left ul li a:hover {
+    color: #f05c5c;
+  }
+  /* line 25, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right {
+    display: flex;
+    align-items: center;
+  }
+  /* line 28, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul {
+    color: #FFF;
+    margin-bottom: 0;
+  }
+  /* line 31, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li {
+    position: relative;
+    list-style: none;
+    padding: 0 15px;
+    margin-left: 15px;
+  }
+  /* line 36, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type {
+    background: #f05c5c;
+    height: 24px;
+    overflow-y: hidden;
+    padding: 0;
+  }
+  /* line 41, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type:hover {
+    cursor: pointer;
+  }
+  /* line 44, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type i {
+    position: absolute;
+    right: 3px;
+    top: 4px;
+    z-index: 3;
+  }
+  /* line 51, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type ul li {
+    background: #f05c5c;
+    padding: 0 15px;
+    margin-left: 0;
+    z-index: 2;
+  }
+  /* line 56, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type ul li:hover {
+    background: #e45d5d;
+  }
+  /* line 59, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type ul li:first-of-type {
+    padding: 0 15px;
+  }
+  /* line 65, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  /* line 69, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2):before {
+    content: "";
+    position: absolute;
+    height: 70%;
+    left: 0;
+    width: 1.5px;
+    background: rgba(255, 255, 255, 0.16);
+  }
+  /* line 77, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2):after {
+    content: "";
+    position: absolute;
+    height: 70%;
+    right: 0;
+    width: 1.5px;
+    background: rgba(255, 255, 255, 0.16);
+  }
+  /* line 85, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2) .fa-shopping-cart {
+    color: #15b095;
+    margin-right: 5px;
+  }
+  /* line 89, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2) .items-in-cart {
+    color: #FFF;
+    background: #f05c5c;
+    padding: 0 8px;
+    border-radius: 50%;
+    transition: .3s all;
+  }
+  /* line 95, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2) .items-in-cart:hover {
+    cursor: pointer;
+    background: #15b095;
+  }
+  /* line 101, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3) {
+    margin-left: 0;
+  }
+  /* line 103, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3) .fa-sign-out-alt {
+    color: #15b095;
+    transition: .3s all;
+  }
+  /* line 107, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3) a {
+    color: #FFF;
+    margin-left: 5px;
+    transition: .3s all;
+  }
+  /* line 113, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3):hover .fa-sign-out-alt {
+    color: #FFF;
+  }
+  /* line 116, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3):hover a {
+    color: #15b095;
+    text-decoration: none;
+  }
+  /* line 129, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav {
+    background: #2a343d;
+    color: #FFF;
+  }
+  /* line 132, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 136, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 139, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .logo {
+    width: 70px;
+  }
+  /* line 142, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .logo a img {
+    width: 100%;
+  }
+  /* line 148, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 20px;
+    position: relative;
+  }
+  /* line 154, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts:after {
+    content: "";
+    position: absolute;
+    right: -10px;
+    width: 1.5px;
+    height: 50%;
+    background: rgba(255, 255, 255, 0.16);
+  }
+  /* line 163, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-icon i {
+    color: #15b095;
+    font-size: 2.5rem;
+  }
+  /* line 168, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-text {
+    margin-left: 10px;
+  }
+  /* line 170, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-text .main-top-contacts-desc {
+    color: #707279;
+  }
+  /* line 173, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-text .main-top-contacts-email {
+    transition: .3s all;
+  }
+  /* line 175, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-text .main-top-contacts-email:hover {
+    cursor: pointer;
+    color: #f05c5c;
+  }
+  /* line 182, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  /* line 186, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search input {
+    height: 48px;
+    border: none;
+    padding: 0 15px;
+    background: #3c4752;
+  }
+  /* line 191, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search input:focus {
+    outline: none;
+  }
+  /* line 196, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search .input-group-append button {
+    border: none;
+    background: #3c4752;
+    padding: 12px;
+  }
+  /* line 201, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search .input-group-append button:hover i {
+    color: #15b095;
+  }
+  /* line 205, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search .input-group-append button i {
+    color: #707279;
+    transition: .3s all;
+  }
+  /* line 215, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom {
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 219, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 224, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul li {
+    position: relative;
+    margin-right: 60px;
+  }
+  /* line 227, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul li a {
+    color: #FFF;
+    padding: 6px 12px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 232, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul li a:hover {
+    background: #15b095;
+    text-decoration: none;
+  }
+  /* line 237, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul li .active {
+    background: #15b095;
+  }
+  /* line 243, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown:hover .dropdown-ul {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  /* line 248, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown:hover a i {
+    transform: rotate(180deg);
+  }
+  /* line 254, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown a i {
+    transition: .3s all;
+  }
+  /* line 258, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul {
+    position: absolute;
+    transform: translateY(9999px);
+    opacity: 0;
+    transition: .3s all;
+    transition-delay: .2s;
+    top: 45px;
+    z-index: 1;
+  }
+  /* line 266, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li {
+    margin-right: 0;
+    list-style: none;
+    background: #FFF;
+    color: #151515;
+    width: 200px;
+    padding: 5px 15px;
+    border-bottom: 1px solid black;
+  }
+  /* line 274, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li:last-of-type {
+    border-bottom: none;
+  }
+  /* line 283, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper {
+    transform: translateX(-25px);
+    padding: 10px 0;
+    transition: .3s all;
+  }
+  /* line 287, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper:hover {
+    transform: translateX(0px);
+  }
+  /* line 289, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper:hover i {
+    color: #15b095;
+    opacity: 1;
+  }
+  /* line 295, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper i {
+    opacity: 0;
+    transition: .3s all;
+  }
+  /* line 299, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper a {
+    color: #151515;
+    background: none;
+    transition: .3s all;
+  }
+  /* line 303, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper a:hover {
+    color: #15b095;
+  }
+  /* line 317, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .social-nav ul li a {
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 320, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .social-nav ul li a:hover {
+    color: #f05c5c;
+  }
+  /* line 329, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .stickTop {
+    position: fixed;
+    top: 0;
+    z-index: 16;
+    background: #2a343d;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 342, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav {
+    background: #1d252d;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 16;
+    width: 100%;
+  }
+  /* line 352, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav button {
+    background: transparent;
+    border: none;
+    margin-left: 15px;
+  }
+  /* line 356, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav button:hover {
+    cursor: pointer;
+  }
+  /* line 359, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav button:focus {
+    outline: none;
+  }
+  /* line 362, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav button span {
+    width: 35px;
+    height: 5px;
+    background: #b7b7b7;
+    margin: 6px 0;
+    display: block;
+    border-radius: 5px;
+    transition: .3s;
+  }
+  /* line 373, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .hamburger .hamburger-bar-one {
+    transform: rotate(45deg) translate(8px, 12px);
+  }
+  /* line 376, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .hamburger .hamburger-bar-two {
+    opacity: 0;
+  }
+  /* line 379, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .hamburger .hamburger-bar-three {
+    transform: rotate(-45deg) translate(4px, -8px);
+  }
+  /* line 383, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+  }
+  /* line 387, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left {
+    display: none;
+  }
+  /* line 389, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left ul {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 392, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left ul li {
+    margin-right: 40px;
+  }
+  /* line 394, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left ul li a {
+    color: #707279;
+    transition: .3s all;
+  }
+  /* line 397, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left ul li a:hover {
+    color: #f05c5c;
+  }
+  /* line 404, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right {
+    display: flex;
+    align-items: center;
+  }
+  /* line 407, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul {
+    color: #FFF;
+    margin-bottom: 0;
+  }
+  /* line 410, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li {
+    position: relative;
+    list-style: none;
+    padding: 0 15px;
+    margin-left: 15px;
+  }
+  /* line 415, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:hover {
+    cursor: pointer;
+  }
+  /* line 418, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type {
+    background: #f05c5c;
+    height: 24px;
+    overflow-y: hidden;
+    padding: 0;
+  }
+  /* line 423, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type:hover {
+    cursor: pointer;
+  }
+  /* line 426, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type i {
+    position: absolute;
+    right: 3px;
+    top: 4px;
+    z-index: 3;
+  }
+  /* line 433, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type ul li {
+    background: #f05c5c;
+    padding: 0 15px;
+    margin-left: 0;
+    z-index: 2;
+  }
+  /* line 438, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type ul li:hover {
+    background: #e45d5d;
+  }
+  /* line 441, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type ul li:first-of-type {
+    padding: 0 15px;
+  }
+  /* line 447, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  /* line 451, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2):before {
+    content: "";
+    position: absolute;
+    height: 70%;
+    left: 0;
+    width: 1.5px;
+    background: rgba(255, 255, 255, 0.16);
+  }
+  /* line 459, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2):after {
+    content: "";
+    position: absolute;
+    height: 70%;
+    right: 0;
+    width: 1.5px;
+    background: rgba(255, 255, 255, 0.16);
+  }
+  /* line 467, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2) .fa-shopping-cart {
+    color: #15b095;
+    margin-right: 5px;
+  }
+  /* line 471, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2) .items-in-cart {
+    color: #FFF;
+    background: #f05c5c;
+    padding: 0 8px;
+    border-radius: 50%;
+    transition: .3s all;
+  }
+  /* line 477, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2) .items-in-cart:hover {
+    cursor: pointer;
+    background: #15b095;
+  }
+  /* line 483, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3) {
+    margin-left: 0;
+  }
+  /* line 485, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3) .fa-sign-out-alt {
+    font-size: 20px;
+    color: #15b095;
+    transition: .3s all;
+  }
+  /* line 490, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3) a {
+    color: #FFF;
+    margin-left: 5px;
+    transition: .3s all;
+    display: none;
+  }
+  /* line 497, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3):hover .fa-sign-out-alt {
+    color: #FFF;
+  }
+  /* line 500, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3):hover a {
+    color: #15b095;
+    text-decoration: none;
+  }
+  /* line 513, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .show-main-nav {
+    transform: translateX(0) !important;
+  }
+  /* line 516, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav {
+    background: #2a343d;
+    color: #FFF;
+    width: 300px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 69px;
+    z-index: 6;
+    height: 100vh;
+    max-height: 100vh;
+    transform: translateX(-100%);
+    transition: .3s all;
+  }
+  /* line 529, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 533, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 537, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .logo {
+    width: 70px;
+  }
+  /* line 540, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .logo a img {
+    width: 100%;
+  }
+  /* line 545, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 549, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 556, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-icon i {
+    color: #15b095;
+    font-size: 2.5rem;
+  }
+  /* line 561, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-text {
+    margin-left: 10px;
+  }
+  /* line 563, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-text .main-top-contacts-desc {
+    color: #707279;
+  }
+  /* line 566, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-text .main-top-contacts-email {
+    transition: .3s all;
+  }
+  /* line 568, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-text .main-top-contacts-email:hover {
+    cursor: pointer;
+    color: #f05c5c;
+  }
+  /* line 575, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* line 579, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search input {
+    height: 48px;
+    width: 60%;
+    border: none;
+    padding: 0 15px;
+    background: #3c4752;
+  }
+  /* line 585, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search input:focus {
+    outline: none;
+  }
+  /* line 590, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search .input-group-append button {
+    border: none;
+    background: #3c4752;
+    padding: 12px;
+  }
+  /* line 595, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search .input-group-append button:hover i {
+    color: #15b095;
+  }
+  /* line 599, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search .input-group-append button i {
+    color: #707279;
+    transition: .3s all;
+  }
+  /* line 609, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom {
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 613, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  /* line 617, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg {
+    padding: 0;
+  }
+  /* line 619, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul {
+    display: flex;
+    flex-direction: column;
+    padding: inherit;
+    width: 100%;
+  }
+  /* line 624, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul li {
+    position: relative;
+    width: 100%;
+  }
+  /* line 627, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul li a {
+    color: #ccc;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    transition: .3s all;
+  }
+  /* line 633, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul li a:hover {
+    background: #15b095;
+    color: #FFF;
+    text-decoration: none;
+  }
+  /* line 639, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul li .active {
+    background: #15b095;
+    color: #FFF;
+  }
+  /* line 646, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown:hover .dropdown-ul {
+    opacity: 1;
+  }
+  /* line 653, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown a {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 656, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown a i {
+    transition: .3s all;
+  }
+  /* line 659, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown a .rotate-caret-down {
+    transform: rotate(90deg);
+  }
+  /* line 663, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .showDropdown {
+    height: auto !important;
+  }
+  /* line 666, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul {
+    position: relative;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    padding-left: 0px;
+    transition: .3s all;
+  }
+  /* line 673, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li {
+    list-style: none;
+    color: #151515;
+  }
+  /* line 676, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li:last-of-type {
+    border-bottom: none;
+  }
+  /* line 685, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper {
+    transition: .3s all;
+  }
+  /* line 687, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper:hover {
+    transform: translateX(0px);
+  }
+  /* line 689, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper:hover i {
+    color: #15b095;
+    opacity: 1;
+  }
+  /* line 695, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper i {
+    display: none;
+  }
+  /* line 698, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper a {
+    color: #FFF;
+    background: none;
+    text-indent: 15px;
+    transition: .3s all;
+  }
+  /* line 703, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper a:hover {
+    color: #fff;
+    background: #15b095;
+  }
+  /* line 718, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .social-nav ul li a {
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 721, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .social-nav ul li a:hover {
+    color: #f05c5c;
+  }
+  /* line 730, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .stickTop {
+    position: fixed;
+    top: 0;
+    z-index: 16;
+    background: #2a343d;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 743, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav {
+    background: #1d252d;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 16;
+    width: 100%;
+  }
+  /* line 753, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav button {
+    background: transparent;
+    border: none;
+    margin-left: 15px;
+  }
+  /* line 757, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav button:hover {
+    cursor: pointer;
+  }
+  /* line 760, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav button:focus {
+    outline: none;
+  }
+  /* line 763, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav button span {
+    width: 35px;
+    height: 5px;
+    background: #b7b7b7;
+    margin: 6px 0;
+    display: block;
+    border-radius: 5px;
+    transition: .3s;
+  }
+  /* line 774, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .hamburger .hamburger-bar-one {
+    transform: rotate(45deg) translate(8px, 12px);
+  }
+  /* line 777, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .hamburger .hamburger-bar-two {
+    opacity: 0;
+  }
+  /* line 780, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .hamburger .hamburger-bar-three {
+    transform: rotate(-45deg) translate(4px, -8px);
+  }
+  /* line 784, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+  }
+  /* line 788, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left {
+    display: none;
+  }
+  /* line 790, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left ul {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 793, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left ul li {
+    margin-right: 40px;
+  }
+  /* line 795, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left ul li a {
+    color: #707279;
+    transition: .3s all;
+  }
+  /* line 798, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left ul li a:hover {
+    color: #f05c5c;
+  }
+  /* line 805, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right {
+    display: flex;
+    align-items: center;
+  }
+  /* line 808, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul {
+    color: #FFF;
+    margin-bottom: 0;
+  }
+  /* line 811, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li {
+    position: relative;
+    list-style: none;
+    padding: 0 15px;
+    margin-left: 15px;
+  }
+  /* line 816, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:hover {
+    cursor: pointer;
+  }
+  /* line 819, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type {
+    background: #f05c5c;
+    height: 24px;
+    overflow-y: hidden;
+    padding: 0;
+  }
+  /* line 824, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type:hover {
+    cursor: pointer;
+  }
+  /* line 827, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type i {
+    position: absolute;
+    right: 3px;
+    top: 4px;
+    z-index: 3;
+  }
+  /* line 834, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type ul li {
+    background: #f05c5c;
+    padding: 0 15px;
+    margin-left: 0;
+    z-index: 2;
+  }
+  /* line 839, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type ul li:hover {
+    background: #e45d5d;
+  }
+  /* line 842, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type ul li:first-of-type {
+    padding: 0 15px;
+  }
+  /* line 848, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  /* line 852, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2):before {
+    content: "";
+    position: absolute;
+    height: 70%;
+    left: 0;
+    width: 1.5px;
+    background: rgba(255, 255, 255, 0.16);
+  }
+  /* line 860, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2):after {
+    content: "";
+    position: absolute;
+    height: 70%;
+    right: 0;
+    width: 1.5px;
+    background: rgba(255, 255, 255, 0.16);
+  }
+  /* line 868, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2) .fa-shopping-cart {
+    color: #15b095;
+    margin-right: 5px;
+  }
+  /* line 872, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2) .items-in-cart {
+    color: #FFF;
+    background: #f05c5c;
+    padding: 0 8px;
+    border-radius: 50%;
+    transition: .3s all;
+  }
+  /* line 878, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2) .items-in-cart:hover {
+    cursor: pointer;
+    background: #15b095;
+  }
+  /* line 884, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3) {
+    margin-left: 0;
+  }
+  /* line 886, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3) .fa-sign-out-alt {
+    font-size: 20px;
+    color: #15b095;
+    transition: .3s all;
+  }
+  /* line 891, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3) a {
+    color: #FFF;
+    margin-left: 5px;
+    transition: .3s all;
+    display: none;
+  }
+  /* line 898, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3):hover .fa-sign-out-alt {
+    color: #FFF;
+  }
+  /* line 901, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3):hover a {
+    color: #15b095;
+    text-decoration: none;
+  }
+  /* line 914, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .show-main-nav {
+    transform: translateX(0) !important;
+  }
+  /* line 917, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav {
+    background: #2a343d;
+    color: #FFF;
+    width: 300px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 69px;
+    z-index: 6;
+    height: 100vh;
+    max-height: 100vh;
+    transform: translateX(-100%);
+    transition: .3s all;
+  }
+  /* line 930, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 934, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 938, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .logo {
+    width: 70px;
+  }
+  /* line 941, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .logo a img {
+    width: 100%;
+  }
+  /* line 946, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 950, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 957, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-icon i {
+    color: #15b095;
+    font-size: 2.5rem;
+  }
+  /* line 962, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-text {
+    margin-left: 10px;
+  }
+  /* line 964, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-text .main-top-contacts-desc {
+    color: #707279;
+  }
+  /* line 967, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-text .main-top-contacts-email {
+    transition: .3s all;
+  }
+  /* line 969, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-text .main-top-contacts-email:hover {
+    cursor: pointer;
+    color: #f05c5c;
+  }
+  /* line 976, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* line 980, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search input {
+    height: 48px;
+    width: 60%;
+    border: none;
+    padding: 0 15px;
+    background: #3c4752;
+  }
+  /* line 986, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search input:focus {
+    outline: none;
+  }
+  /* line 991, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search .input-group-append button {
+    border: none;
+    background: #3c4752;
+    padding: 12px;
+  }
+  /* line 996, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search .input-group-append button:hover i {
+    color: #15b095;
+  }
+  /* line 1000, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search .input-group-append button i {
+    color: #707279;
+    transition: .3s all;
+  }
+  /* line 1010, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom {
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 1014, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  /* line 1018, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg {
+    padding: 0;
+  }
+  /* line 1020, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul {
+    display: flex;
+    flex-direction: column;
+    padding: inherit;
+    width: 100%;
+  }
+  /* line 1025, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul li {
+    position: relative;
+    width: 100%;
+  }
+  /* line 1028, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul li a {
+    color: #ccc;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    transition: .3s all;
+  }
+  /* line 1034, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul li a:hover {
+    background: #15b095;
+    color: #FFF;
+    text-decoration: none;
+  }
+  /* line 1040, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul li .active {
+    background: #15b095;
+    color: #FFF;
+  }
+  /* line 1047, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown:hover .dropdown-ul {
+    opacity: 1;
+  }
+  /* line 1054, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown a {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 1057, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown a i {
+    transition: .3s all;
+  }
+  /* line 1060, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown a .rotate-caret-down {
+    transform: rotate(90deg);
+  }
+  /* line 1064, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .showDropdown {
+    height: auto !important;
+  }
+  /* line 1067, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul {
+    position: relative;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    transition: .3s all;
+  }
+  /* line 1073, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li {
+    list-style: none;
+    color: #151515;
+  }
+  /* line 1076, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li:last-of-type {
+    border-bottom: none;
+  }
+  /* line 1085, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper {
+    transition: .3s all;
+  }
+  /* line 1087, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper:hover {
+    transform: translateX(0px);
+  }
+  /* line 1089, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper:hover i {
+    color: #15b095;
+    opacity: 1;
+  }
+  /* line 1095, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper i {
+    display: none;
+  }
+  /* line 1098, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper a {
+    color: #FFF;
+    background: none;
+    text-indent: 15px;
+    transition: .3s all;
+  }
+  /* line 1103, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper a:hover {
+    color: #fff;
+    background: #15b095;
+  }
+  /* line 1118, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .social-nav ul li a {
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 1121, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .social-nav ul li a:hover {
+    color: #f05c5c;
+  }
+  /* line 1130, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .stickTop {
+    position: fixed;
+    top: 0;
+    z-index: 16;
+    background: #2a343d;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 1143, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav {
+    background: #1d252d;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 16;
+    width: 100%;
+  }
+  /* line 1153, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav button {
+    background: transparent;
+    border: none;
+    margin-left: 15px;
+  }
+  /* line 1157, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav button:hover {
+    cursor: pointer;
+  }
+  /* line 1160, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav button:focus {
+    outline: none;
+  }
+  /* line 1163, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav button span {
+    width: 35px;
+    height: 5px;
+    background: #b7b7b7;
+    margin: 6px 0;
+    display: block;
+    border-radius: 5px;
+    transition: .3s;
+  }
+  /* line 1174, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .hamburger .hamburger-bar-one {
+    transform: rotate(45deg) translate(8px, 12px);
+  }
+  /* line 1177, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .hamburger .hamburger-bar-two {
+    opacity: 0;
+  }
+  /* line 1180, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .hamburger .hamburger-bar-three {
+    transform: rotate(-45deg) translate(4px, -8px);
+  }
+  /* line 1184, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+  }
+  /* line 1188, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left {
+    display: none;
+  }
+  /* line 1190, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left ul {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 1193, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left ul li {
+    margin-right: 40px;
+  }
+  /* line 1195, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left ul li a {
+    color: #707279;
+    transition: .3s all;
+  }
+  /* line 1198, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left ul li a:hover {
+    color: #f05c5c;
+  }
+  /* line 1205, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right {
+    display: flex;
+    align-items: center;
+  }
+  /* line 1208, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul {
+    color: #FFF;
+    margin-bottom: 0;
+  }
+  /* line 1211, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li {
+    position: relative;
+    list-style: none;
+    padding: 0 15px;
+    margin-left: 15px;
+  }
+  /* line 1216, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:hover {
+    cursor: pointer;
+  }
+  /* line 1219, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type {
+    background: #f05c5c;
+    height: 24px;
+    overflow-y: hidden;
+    padding: 0;
+  }
+  /* line 1224, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type:hover {
+    cursor: pointer;
+  }
+  /* line 1227, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type i {
+    position: absolute;
+    right: 3px;
+    top: 4px;
+    z-index: 3;
+  }
+  /* line 1234, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type ul li {
+    background: #f05c5c;
+    padding: 0 15px;
+    margin-left: 0;
+    z-index: 2;
+  }
+  /* line 1239, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type ul li:hover {
+    background: #e45d5d;
+  }
+  /* line 1242, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type ul li:first-of-type {
+    padding: 0 15px;
+  }
+  /* line 1248, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  /* line 1252, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2):before {
+    content: "";
+    position: absolute;
+    height: 70%;
+    left: 0;
+    width: 1.5px;
+    background: rgba(255, 255, 255, 0.16);
+  }
+  /* line 1260, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2):after {
+    content: "";
+    position: absolute;
+    height: 70%;
+    right: 0;
+    width: 1.5px;
+    background: rgba(255, 255, 255, 0.16);
+  }
+  /* line 1268, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2) .fa-shopping-cart {
+    color: #15b095;
+    margin-right: 5px;
+  }
+  /* line 1272, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2) .items-in-cart {
+    color: #FFF;
+    background: #f05c5c;
+    padding: 0 8px;
+    border-radius: 50%;
+    transition: .3s all;
+  }
+  /* line 1278, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2) .items-in-cart:hover {
+    cursor: pointer;
+    background: #15b095;
+  }
+  /* line 1284, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3) {
+    margin-left: 0;
+  }
+  /* line 1286, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3) .fa-sign-out-alt {
+    font-size: 20px;
+    color: #15b095;
+    transition: .3s all;
+  }
+  /* line 1291, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3) a {
+    color: #FFF;
+    margin-left: 5px;
+    transition: .3s all;
+    display: none;
+  }
+  /* line 1298, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3):hover .fa-sign-out-alt {
+    color: #FFF;
+  }
+  /* line 1301, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3):hover a {
+    color: #15b095;
+    text-decoration: none;
+  }
+  /* line 1314, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .show-main-nav {
+    transform: translateX(0) !important;
+  }
+  /* line 1317, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav {
+    background: #2a343d;
+    color: #FFF;
+    width: 300px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 69px;
+    z-index: 6;
+    height: 100vh;
+    max-height: 100vh;
+    transform: translateX(-100%);
+    transition: .3s all;
+  }
+  /* line 1330, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 1334, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 1338, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .logo {
+    width: 70px;
+  }
+  /* line 1341, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .logo a img {
+    width: 100%;
+  }
+  /* line 1346, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 1350, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 1357, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-icon i {
+    color: #15b095;
+    font-size: 2.5rem;
+  }
+  /* line 1362, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-text {
+    margin-left: 10px;
+  }
+  /* line 1364, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-text .main-top-contacts-desc {
+    color: #707279;
+  }
+  /* line 1367, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-text .main-top-contacts-email {
+    transition: .3s all;
+  }
+  /* line 1369, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-text .main-top-contacts-email:hover {
+    cursor: pointer;
+    color: #f05c5c;
+  }
+  /* line 1376, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* line 1380, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search input {
+    height: 48px;
+    width: 60%;
+    border: none;
+    padding: 0 15px;
+    background: #3c4752;
+  }
+  /* line 1386, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search input:focus {
+    outline: none;
+  }
+  /* line 1391, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search .input-group-append button {
+    border: none;
+    background: #3c4752;
+    padding: 12px;
+  }
+  /* line 1396, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search .input-group-append button:hover i {
+    color: #15b095;
+  }
+  /* line 1400, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search .input-group-append button i {
+    color: #707279;
+    transition: .3s all;
+  }
+  /* line 1410, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom {
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 1414, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  /* line 1418, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg {
+    padding: 0;
+  }
+  /* line 1420, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul {
+    display: flex;
+    flex-direction: column;
+    padding: inherit;
+    width: 100%;
+  }
+  /* line 1425, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul li {
+    position: relative;
+    width: 100%;
+  }
+  /* line 1428, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul li a {
+    color: #ccc;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    transition: .3s all;
+  }
+  /* line 1434, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul li a:hover {
+    background: #15b095;
+    color: #FFF;
+    text-decoration: none;
+  }
+  /* line 1440, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul li .active {
+    background: #15b095;
+    color: #FFF;
+  }
+  /* line 1447, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown:hover .dropdown-ul {
+    opacity: 1;
+  }
+  /* line 1454, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown a {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 1457, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown a i {
+    transition: .3s all;
+  }
+  /* line 1460, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown a .rotate-caret-down {
+    transform: rotate(90deg);
+  }
+  /* line 1464, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .showDropdown {
+    height: auto !important;
+  }
+  /* line 1467, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul {
+    position: relative;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    transition: .3s all;
+  }
+  /* line 1473, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li {
+    list-style: none;
+    color: #151515;
+  }
+  /* line 1476, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li:last-of-type {
+    border-bottom: none;
+  }
+  /* line 1485, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper {
+    transition: .3s all;
+  }
+  /* line 1487, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper:hover {
+    transform: translateX(0px);
+  }
+  /* line 1489, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper:hover i {
+    color: #15b095;
+    opacity: 1;
+  }
+  /* line 1495, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper i {
+    display: none;
+  }
+  /* line 1498, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper a {
+    color: #FFF;
+    background: none;
+    text-indent: 15px;
+    transition: .3s all;
+  }
+  /* line 1503, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper a:hover {
+    color: #fff;
+    background: #15b095;
+  }
+  /* line 1518, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .social-nav ul li a {
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 1521, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .social-nav ul li a:hover {
+    color: #f05c5c;
+  }
+  /* line 1530, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .stickTop {
+    position: fixed;
+    top: 0;
+    z-index: 16;
+    background: #2a343d;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 1543, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav {
+    background: #1d252d;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 16;
+    width: 100%;
+  }
+  /* line 1553, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav button {
+    background: transparent;
+    border: none;
+    margin-left: 15px;
+  }
+  /* line 1557, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav button:hover {
+    cursor: pointer;
+  }
+  /* line 1560, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav button:focus {
+    outline: none;
+  }
+  /* line 1563, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav button span {
+    width: 35px;
+    height: 5px;
+    background: #b7b7b7;
+    margin: 6px 0;
+    display: block;
+    border-radius: 5px;
+    transition: .3s;
+  }
+  /* line 1574, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .hamburger .hamburger-bar-one {
+    transform: rotate(45deg) translate(8px, 12px);
+  }
+  /* line 1577, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .hamburger .hamburger-bar-two {
+    opacity: 0;
+  }
+  /* line 1580, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .hamburger .hamburger-bar-three {
+    transform: rotate(-45deg) translate(4px, -8px);
+  }
+  /* line 1584, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+  }
+  /* line 1588, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left {
+    display: none;
+  }
+  /* line 1590, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left ul {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 1593, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left ul li {
+    margin-right: 40px;
+  }
+  /* line 1595, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left ul li a {
+    color: #707279;
+    transition: .3s all;
+  }
+  /* line 1598, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-left ul li a:hover {
+    color: #f05c5c;
+  }
+  /* line 1605, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right {
+    display: flex;
+    align-items: center;
+  }
+  /* line 1608, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul {
+    color: #FFF;
+    margin-bottom: 0;
+  }
+  /* line 1611, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li {
+    position: relative;
+    list-style: none;
+    padding: 0 15px;
+    margin-left: 15px;
+  }
+  /* line 1616, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:hover {
+    cursor: pointer;
+  }
+  /* line 1619, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type {
+    background: #f05c5c;
+    height: 24px;
+    overflow-y: hidden;
+    padding: 0;
+  }
+  /* line 1624, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type:hover {
+    cursor: pointer;
+  }
+  /* line 1627, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type i {
+    position: absolute;
+    right: 3px;
+    top: 4px;
+    z-index: 3;
+  }
+  /* line 1634, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type ul li {
+    background: #f05c5c;
+    padding: 0 15px;
+    margin-left: 0;
+    z-index: 2;
+  }
+  /* line 1639, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type ul li:hover {
+    background: #e45d5d;
+  }
+  /* line 1642, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:first-of-type ul li:first-of-type {
+    padding: 0 15px;
+  }
+  /* line 1648, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  /* line 1652, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2):before {
+    content: "";
+    position: absolute;
+    height: 70%;
+    left: 0;
+    width: 1.5px;
+    background: rgba(255, 255, 255, 0.16);
+  }
+  /* line 1660, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2):after {
+    content: "";
+    position: absolute;
+    height: 70%;
+    right: 0;
+    width: 1.5px;
+    background: rgba(255, 255, 255, 0.16);
+  }
+  /* line 1668, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2) .fa-shopping-cart {
+    color: #15b095;
+    margin-right: 5px;
+  }
+  /* line 1672, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2) .items-in-cart {
+    color: #FFF;
+    background: #f05c5c;
+    padding: 0 8px;
+    border-radius: 50%;
+    transition: .3s all;
+  }
+  /* line 1678, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(2) .items-in-cart:hover {
+    cursor: pointer;
+    background: #15b095;
+  }
+  /* line 1684, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3) {
+    margin-left: 0;
+  }
+  /* line 1686, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3) .fa-sign-out-alt {
+    font-size: 20px;
+    color: #15b095;
+    transition: .3s all;
+  }
+  /* line 1691, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3) a {
+    color: #FFF;
+    margin-left: 5px;
+    transition: .3s all;
+    display: none;
+  }
+  /* line 1698, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3):hover .fa-sign-out-alt {
+    color: #FFF;
+  }
+  /* line 1701, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .top-nav .container .top-nav-right .top-right-outer-ul li:nth-of-type(3):hover a {
+    color: #15b095;
+    text-decoration: none;
+  }
+  /* line 1714, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .show-main-nav {
+    transform: translateX(0) !important;
+  }
+  /* line 1717, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav {
+    background: #2a343d;
+    color: #FFF;
+    width: 300px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 69px;
+    overflow-y: scroll;
+    height: 100%;
+    z-index: 17;
+    transform: translateX(-100%);
+    transition: .3s all;
+  }
+  /* line 1730, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 1734, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 1738, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .logo {
+    width: 50px;
+  }
+  /* line 1741, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .logo a img {
+    width: 100%;
+  }
+  /* line 1746, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 1750, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 1757, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-icon i {
+    color: #15b095;
+    font-size: 2rem;
+  }
+  /* line 1762, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-text {
+    margin-left: 10px;
+  }
+  /* line 1764, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-text .main-top-contacts-desc {
+    color: #707279;
+    font-size: 14px;
+  }
+  /* line 1768, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-text .main-top-contacts-email {
+    font-size: 12px;
+    transition: .3s all;
+  }
+  /* line 1771, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-contacts .main-top-contacts-text .main-top-contacts-email:hover {
+    cursor: pointer;
+    color: #f05c5c;
+  }
+  /* line 1778, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* line 1782, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search input {
+    height: 48px;
+    width: 60%;
+    border: none;
+    padding: 0 15px;
+    background: #3c4752;
+  }
+  /* line 1788, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search input:focus {
+    outline: none;
+  }
+  /* line 1793, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search .input-group-append button {
+    border: none;
+    background: #3c4752;
+    padding: 12px;
+  }
+  /* line 1798, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search .input-group-append button:hover i {
+    color: #15b095;
+  }
+  /* line 1802, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-top .container .main-top-subtle .main-top-search .input-group-append button i {
+    color: #707279;
+    transition: .3s all;
+  }
+  /* line 1812, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom {
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 150px;
+  }
+  /* line 1816, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  /* line 1820, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg {
+    padding: 0;
+  }
+  /* line 1822, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul {
+    display: flex;
+    flex-direction: column;
+    padding: inherit;
+    width: 100%;
+  }
+  /* line 1827, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul li {
+    position: relative;
+    width: 100%;
+  }
+  /* line 1830, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul li a {
+    color: #ccc;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    transition: .3s all;
+  }
+  /* line 1836, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul li a:hover {
+    background: #15b095;
+    color: #FFF;
+    text-decoration: none;
+  }
+  /* line 1842, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul li .active {
+    background: #15b095;
+    color: #FFF;
+  }
+  /* line 1849, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown:hover .dropdown-ul {
+    opacity: 1;
+  }
+  /* line 1856, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown a {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 1859, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown a i {
+    transition: .3s all;
+  }
+  /* line 1862, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown a .rotate-caret-down {
+    transform: rotate(90deg);
+  }
+  /* line 1866, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .showDropdown {
+    height: auto !important;
+  }
+  /* line 1869, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul {
+    position: relative;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    transition: .3s all;
+  }
+  /* line 1875, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li {
+    list-style: none;
+    color: #151515;
+  }
+  /* line 1878, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li:last-of-type {
+    border-bottom: none;
+  }
+  /* line 1887, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper {
+    transition: .3s all;
+  }
+  /* line 1889, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper:hover {
+    transform: translateX(0px);
+  }
+  /* line 1891, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper:hover i {
+    color: #15b095;
+    opacity: 1;
+  }
+  /* line 1897, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper i {
+    display: none;
+  }
+  /* line 1900, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper a {
+    color: #FFF;
+    background: none;
+    text-indent: 15px;
+    transition: .3s all;
+  }
+  /* line 1905, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .navbar-expand-lg ul .has-dropdown .dropdown-ul li .li-item-wrapper a:hover {
+    color: #fff;
+    background: #15b095;
+  }
+  /* line 1920, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .social-nav ul li a {
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 1923, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .main-nav-bottom .container .social-nav ul li a:hover {
+    color: #f05c5c;
+  }
+  /* line 1932, C:/Users/User/snooker2/src/components/scss/Header.scss */
+  .nav-wrapper .main-nav .stickTop {
+    position: fixed;
+    top: 0;
+    z-index: 16;
+    background: #2a343d;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=../Header.map */

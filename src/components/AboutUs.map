@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "scss/AboutUs.css",
+	"sources": [
+		"scss/AboutUs.scss"
+	],
+	"sourcesContent": [
+		"@media screen and (min-width: 1200px) {\r\n\t.about-us {} // .about-us\r\n}\r\n\r\n@media screen and (min-width: 992px) and (max-width: 1199px){\r\n\t.about-us {\r\n\t\tmargin-top: 69px;\r\n\t}\r\n}\r\n\r\n@media screen and (min-width: 768px) and (max-width: 991px){\r\n\t.about-us {\r\n\t\tmargin-top: 69px;\r\n\t}\r\n}\r\n\r\n@media screen and (min-width: 576px) and (max-width: 767px){\r\n\t.about-us {\r\n\t\tmargin-top: 69px;\r\n\t}\r\n}\r\n\r\n@media screen and (max-width: 575px){\r\n\t.about-us {\r\n\t\tmargin-top: 69px;\r\n\t}\r\n}"
+	],
+	"mappings": "AAIA,MAAM,CAAN,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,MAAM;;EACnD,AAAA,SAAS,CAAC;IACT,UAAU,EAAE,IAAK;GACjB;;;AAGF,MAAM,CAAN,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;;EAClD,AAAA,SAAS,CAAC;IACT,UAAU,EAAE,IAAK;GACjB;;;AAGF,MAAM,CAAN,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;;EAClD,AAAA,SAAS,CAAC;IACT,UAAU,EAAE,IAAK;GACjB;;;AAGF,MAAM,CAAN,MAAM,MAAM,SAAS,EAAE,KAAK;;EAC3B,AAAA,SAAS,CAAC;IACT,UAAU,EAAE,IAAK;GACjB",
+	"names": []
+}

@@ -1,0 +1,41 @@
+@media screen and (min-width: 1200px) {
+  /* line 3, C:/Users/User/snooker2/src/components/scss/BlogPost.scss */
+  .blogpost .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 15, C:/Users/User/snooker2/src/components/scss/BlogPost.scss */
+  .blogpost .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 27, C:/Users/User/snooker2/src/components/scss/BlogPost.scss */
+  .blogpost .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 39, C:/Users/User/snooker2/src/components/scss/BlogPost.scss */
+  .blogpost .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 51, C:/Users/User/snooker2/src/components/scss/BlogPost.scss */
+  .blogpost .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+/*# sourceMappingURL=../BlogPost.map */

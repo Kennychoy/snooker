@@ -1,0 +1,28 @@
+{
+  "name": "snooker",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "nouislider-react": "^1.5.1",
+    "owl.carousel": "^2.3.4",
+    "react": "^16.3.2",
+    "react-bootstrap": "^0.32.1",
+    "react-bootstrap-carousel": "^3.1.0",
+    "react-dom": "^16.4.1",
+    "react-js-google-maps": "^1.5.2",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-slick": "^0.23.1",
+    "reactstrap": "^6.3.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "https://kennytesting.000webhostapp.com/snooker/"
+}

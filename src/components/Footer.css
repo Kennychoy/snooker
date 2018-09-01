@@ -1,0 +1,1416 @@
+@media screen and (min-width: 1200px) {
+  /* line 2, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer {
+    background: #2a343d;
+    color: #5a666d;
+  }
+  /* line 5, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer {
+    padding-top: 30px;
+  }
+  /* line 8, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+  }
+  /* line 14, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .col-lg-2 h5 {
+    color: #FFF;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  /* line 19, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .col-lg-2 img {
+    width: 100%;
+    transform: scale(0.7);
+  }
+  /* line 25, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .sponsors-logos img {
+    opacity: .5;
+    transition: .3s all;
+  }
+  /* line 29, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .sponsors-logos:hover {
+    cursor: pointer;
+  }
+  /* line 31, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .sponsors-logos:hover img {
+    opacity: 1;
+  }
+  /* line 39, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer {
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  /* line 46, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .col-12 .md-footer-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  /* line 51, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .col-12 .md-footer-title:after {
+    content: "";
+    position: absolute;
+    background: #15b095;
+    width: 20%;
+    height: 2px;
+    bottom: -10px;
+    display: block;
+  }
+  /* line 62, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+  }
+  /* line 66, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  /* line 70, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-top .md-left-logo {
+    display: flex;
+    align-items: center;
+  }
+  /* line 73, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-top .md-left-logo img {
+    width: 60px;
+    height: auto;
+  }
+  /* line 78, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-top .md-left-desc {
+    font-size: 14px;
+  }
+  /* line 82, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+  }
+  /* line 86, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom button {
+    background: transparent;
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    padding: 9px 30px;
+    transition: .3s all;
+  }
+  /* line 93, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom button:hover {
+    cursor: pointer;
+    background: #15b095;
+    border-color: #15b095;
+  }
+  /* line 99, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-bottom: 0;
+  }
+  /* line 105, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul li {
+    background: #47525b;
+    margin-left: 15px;
+    display: flex;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
+    transition: .3s all;
+  }
+  /* line 113, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul li:first-of-type {
+    margin-left: 0;
+  }
+  /* line 116, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul li:hover {
+    background: #15b095;
+  }
+  /* line 120, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul li a i {
+    color: #FFF;
+  }
+  /* line 128, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 133, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 136, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news:last-of-type {
+    margin-top: 30px;
+  }
+  /* line 139, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-headline {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .03rem;
+  }
+  /* line 144, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-headline a {
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 147, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-headline a:hover {
+    color: #15b095;
+    text-decoration: none;
+  }
+  /* line 153, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-time {
+    font-size: 12px;
+    color: #5a666d;
+    margin-top: 10px;
+  }
+  /* line 158, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-time time {
+    margin-left: 10px;
+    text-transform: uppercase;
+  }
+  /* line 165, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right {
+    color: #FFF;
+  }
+  /* line 167, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  /* line 171, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts:last-of-type {
+    margin-top: 30px;
+  }
+  /* line 174, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-icon {
+    margin-right: 15px;
+  }
+  /* line 176, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-icon i {
+    font-size: 30px;
+    color: #5a666d;
+  }
+  /* line 182, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-text .main-top-contacts-desc {
+    font-size: 16px;
+    color: #5a666d;
+  }
+  /* line 186, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-text .main-top-contacts-email {
+    font-size: 13px;
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 190, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-text .main-top-contacts-email:hover {
+    color: #15b095;
+    cursor: pointer;
+  }
+  /* line 202, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer {
+    background: #1d252d;
+  }
+  /* line 205, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 209, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  /* line 213, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul li {
+    margin-left: 40px;
+  }
+  /* line 215, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul li:first-of-type {
+    margin-left: 0;
+  }
+  /* line 218, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul li a {
+    color: #5a666d;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: .3s all;
+  }
+  /* line 223, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul li a:hover {
+    text-decoration: none;
+    color: #f05c5c;
+  }
+  /* line 231, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-copyright {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+  }
+  /* line 235, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-copyright a {
+    color: #5a666d;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-left: 5px;
+    transition: .3s all;
+  }
+  /* line 241, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-copyright a:hover {
+    color: #15b095;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 254, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer {
+    background: #2a343d;
+    color: #5a666d;
+  }
+  /* line 257, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer {
+    padding-top: 30px;
+  }
+  /* line 260, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+  }
+  /* line 266, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .col-lg-2 h5 {
+    color: #FFF;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  /* line 271, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .col-lg-2 img {
+    width: 100%;
+    transform: scale(0.7);
+  }
+  /* line 277, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .sponsors-logos img {
+    opacity: .5;
+    transition: .3s all;
+  }
+  /* line 281, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .sponsors-logos:hover {
+    cursor: pointer;
+  }
+  /* line 283, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .sponsors-logos:hover img {
+    opacity: 1;
+  }
+  /* line 291, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer {
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  /* line 298, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .col-12 .md-footer-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  /* line 303, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .col-12 .md-footer-title:after {
+    content: "";
+    position: absolute;
+    background: #15b095;
+    width: 20%;
+    height: 2px;
+    bottom: -10px;
+    display: block;
+  }
+  /* line 314, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+  }
+  /* line 318, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  /* line 322, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-top .md-left-logo {
+    display: flex;
+    align-items: center;
+  }
+  /* line 325, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-top .md-left-logo img {
+    width: 60px;
+    height: auto;
+  }
+  /* line 330, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-top .md-left-desc {
+    font-size: 14px;
+  }
+  /* line 334, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+  }
+  /* line 338, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom button {
+    background: transparent;
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    padding: 9px 30px;
+    transition: .3s all;
+  }
+  /* line 345, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom button:hover {
+    cursor: pointer;
+    background: #15b095;
+    border-color: #15b095;
+  }
+  /* line 351, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-bottom: 0;
+  }
+  /* line 357, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul li {
+    background: #47525b;
+    margin-left: 15px;
+    display: flex;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
+    transition: .3s all;
+  }
+  /* line 365, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul li:first-of-type {
+    margin-left: 0;
+  }
+  /* line 368, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul li:hover {
+    background: #15b095;
+  }
+  /* line 372, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul li a i {
+    color: #FFF;
+  }
+  /* line 380, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 385, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 388, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news:last-of-type {
+    margin-top: 30px;
+  }
+  /* line 391, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-headline {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .03rem;
+  }
+  /* line 396, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-headline a {
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 399, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-headline a:hover {
+    color: #15b095;
+    text-decoration: none;
+  }
+  /* line 405, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-time {
+    font-size: 12px;
+    color: #5a666d;
+    margin-top: 10px;
+  }
+  /* line 410, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-time time {
+    margin-left: 10px;
+    text-transform: uppercase;
+  }
+  /* line 417, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right {
+    color: #FFF;
+  }
+  /* line 419, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  /* line 423, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts:last-of-type {
+    margin-top: 30px;
+  }
+  /* line 426, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-icon {
+    margin-right: 15px;
+  }
+  /* line 428, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-icon i {
+    font-size: 30px;
+    color: #5a666d;
+  }
+  /* line 434, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-text .main-top-contacts-desc {
+    font-size: 16px;
+    color: #5a666d;
+  }
+  /* line 438, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-text .main-top-contacts-email {
+    font-size: 13px;
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 442, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-text .main-top-contacts-email:hover {
+    color: #15b095;
+    cursor: pointer;
+  }
+  /* line 454, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer {
+    background: #1d252d;
+  }
+  /* line 457, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 461, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  /* line 465, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul li {
+    margin-left: 40px;
+  }
+  /* line 467, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul li:first-of-type {
+    margin-left: 0;
+  }
+  /* line 470, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul li a {
+    color: #5a666d;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: .3s all;
+  }
+  /* line 475, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul li a:hover {
+    text-decoration: none;
+    color: #f05c5c;
+  }
+  /* line 483, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-copyright {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+  }
+  /* line 487, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-copyright a {
+    color: #5a666d;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-left: 5px;
+    transition: .3s all;
+  }
+  /* line 493, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-copyright a:hover {
+    color: #15b095;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 506, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer {
+    background: #2a343d;
+    color: #5a666d;
+  }
+  /* line 509, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer {
+    padding-top: 30px;
+  }
+  /* line 512, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+  }
+  /* line 517, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .our-sponsors {
+    text-align: center;
+  }
+  /* line 521, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .col-lg-2 h5 {
+    color: #FFF;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  /* line 526, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .col-lg-2 img {
+    width: 100%;
+    transform: scale(0.7);
+  }
+  /* line 532, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .sponsors-logos img {
+    opacity: .5;
+    transition: .3s all;
+  }
+  /* line 536, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .sponsors-logos:hover {
+    cursor: pointer;
+  }
+  /* line 538, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .sponsors-logos:hover img {
+    opacity: 1;
+  }
+  /* line 546, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  /* line 552, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .col-12 .md-footer-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  /* line 557, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .col-12 .md-footer-title:after {
+    content: "";
+    position: absolute;
+    background: #15b095;
+    width: 20%;
+    height: 2px;
+    bottom: -10px;
+    display: block;
+  }
+  /* line 568, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  /* line 574, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-top {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  /* line 579, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-top .md-left-logo {
+    display: flex;
+    align-items: center;
+  }
+  /* line 582, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-top .md-left-logo img {
+    width: 60px;
+    height: auto;
+  }
+  /* line 587, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-top .md-left-desc {
+    font-size: 14px;
+  }
+  /* line 591, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 595, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom button {
+    background: transparent;
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    padding: 9px 30px;
+    transition: .3s all;
+  }
+  /* line 602, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom button:hover {
+    cursor: pointer;
+    background: #15b095;
+    border-color: #15b095;
+  }
+  /* line 608, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-bottom: 0;
+  }
+  /* line 614, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul li {
+    background: #47525b;
+    margin-left: 15px;
+    display: flex;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
+    transition: .3s all;
+  }
+  /* line 622, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul li:first-of-type {
+    margin-left: 0;
+  }
+  /* line 625, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul li:hover {
+    background: #15b095;
+  }
+  /* line 629, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul li a i {
+    color: #FFF;
+  }
+  /* line 637, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 642, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 645, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news:last-of-type {
+    margin-top: 30px;
+  }
+  /* line 648, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-headline {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .03rem;
+  }
+  /* line 653, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-headline a {
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 656, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-headline a:hover {
+    color: #15b095;
+    text-decoration: none;
+  }
+  /* line 662, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-time {
+    font-size: 12px;
+    color: #5a666d;
+    margin-top: 10px;
+  }
+  /* line 667, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-time time {
+    margin-left: 10px;
+    text-transform: uppercase;
+  }
+  /* line 674, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right {
+    color: #FFF;
+  }
+  /* line 676, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  /* line 680, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts:last-of-type {
+    margin-top: 30px;
+  }
+  /* line 683, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-icon {
+    margin-right: 15px;
+  }
+  /* line 685, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-icon i {
+    font-size: 30px;
+    color: #5a666d;
+  }
+  /* line 691, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-text .main-top-contacts-desc {
+    font-size: 16px;
+    color: #5a666d;
+  }
+  /* line 695, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-text .main-top-contacts-email {
+    font-size: 13px;
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 699, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-text .main-top-contacts-email:hover {
+    color: #15b095;
+    cursor: pointer;
+  }
+  /* line 711, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer {
+    background: #1d252d;
+  }
+  /* line 714, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 718, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  /* line 722, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul li {
+    margin-left: 40px;
+  }
+  /* line 724, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul li:first-of-type {
+    margin-left: 0;
+  }
+  /* line 727, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul li a {
+    color: #5a666d;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: .3s all;
+  }
+  /* line 732, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul li a:hover {
+    text-decoration: none;
+    color: #f05c5c;
+  }
+  /* line 740, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-copyright {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+  }
+  /* line 744, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-copyright a {
+    color: #5a666d;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-left: 5px;
+    transition: .3s all;
+  }
+  /* line 750, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-copyright a:hover {
+    color: #15b095;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 763, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer {
+    background: #2a343d;
+    color: #5a666d;
+  }
+  /* line 766, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer {
+    padding-top: 30px;
+  }
+  /* line 769, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+  }
+  /* line 774, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .our-sponsors {
+    text-align: center;
+  }
+  /* line 778, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .col-lg-2 h5 {
+    color: #FFF;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  /* line 783, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .col-lg-2 img {
+    width: 100%;
+    transform: scale(0.7);
+  }
+  /* line 789, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .sponsors-logos img {
+    opacity: .5;
+    transition: .3s all;
+  }
+  /* line 793, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .sponsors-logos:hover {
+    cursor: pointer;
+  }
+  /* line 795, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .sponsors-logos:hover img {
+    opacity: 1;
+  }
+  /* line 803, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  /* line 809, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .col-12 .md-footer-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  /* line 814, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .col-12 .md-footer-title:after {
+    content: "";
+    position: absolute;
+    background: #15b095;
+    width: 20%;
+    height: 2px;
+    bottom: -10px;
+    display: block;
+  }
+  /* line 825, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  /* line 831, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  /* line 836, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-top .md-left-logo {
+    display: flex;
+    align-items: center;
+  }
+  /* line 839, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-top .md-left-logo img {
+    width: 60px;
+    height: auto;
+  }
+  /* line 844, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-top .md-left-desc {
+    font-size: 14px;
+  }
+  /* line 848, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 851, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom button {
+    background: transparent;
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    padding: 9px 30px;
+    transition: .3s all;
+  }
+  /* line 858, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom button:hover {
+    cursor: pointer;
+    background: #15b095;
+    border-color: #15b095;
+  }
+  /* line 864, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-bottom: 0;
+  }
+  /* line 870, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul li {
+    background: #47525b;
+    margin-left: 15px;
+    display: flex;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
+    transition: .3s all;
+  }
+  /* line 878, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul li:first-of-type {
+    margin-left: 0;
+  }
+  /* line 881, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul li:hover {
+    background: #15b095;
+  }
+  /* line 885, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul li a i {
+    color: #FFF;
+  }
+  /* line 893, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  /* line 899, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 902, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news:last-of-type {
+    margin-top: 30px;
+  }
+  /* line 905, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-headline {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .03rem;
+  }
+  /* line 910, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-headline a {
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 913, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-headline a:hover {
+    color: #15b095;
+    text-decoration: none;
+  }
+  /* line 919, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-time {
+    font-size: 12px;
+    color: #5a666d;
+    margin-top: 10px;
+  }
+  /* line 924, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-time time {
+    margin-left: 10px;
+    text-transform: uppercase;
+  }
+  /* line 931, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right {
+    color: #FFF;
+  }
+  /* line 933, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  /* line 937, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts:last-of-type {
+    margin-top: 30px;
+  }
+  /* line 940, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-icon {
+    margin-right: 15px;
+  }
+  /* line 942, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-icon i {
+    font-size: 30px;
+    color: #5a666d;
+  }
+  /* line 948, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-text .main-top-contacts-desc {
+    font-size: 16px;
+    color: #5a666d;
+  }
+  /* line 952, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-text .main-top-contacts-email {
+    font-size: 13px;
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 956, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-text .main-top-contacts-email:hover {
+    color: #15b095;
+    cursor: pointer;
+  }
+  /* line 968, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer {
+    background: #1d252d;
+  }
+  /* line 971, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 975, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  /* line 979, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul li {
+    margin-left: 40px;
+  }
+  /* line 981, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul li:first-of-type {
+    margin-left: 0;
+  }
+  /* line 984, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul li a {
+    color: #5a666d;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: .3s all;
+  }
+  /* line 989, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul li a:hover {
+    text-decoration: none;
+    color: #f05c5c;
+  }
+  /* line 997, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-copyright {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+  }
+  /* line 1001, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-copyright a {
+    color: #5a666d;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-left: 5px;
+    transition: .3s all;
+  }
+  /* line 1007, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-copyright a:hover {
+    color: #15b095;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 1020, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer {
+    background: #2a343d;
+    color: #5a666d;
+  }
+  /* line 1023, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer {
+    padding-top: 30px;
+  }
+  /* line 1026, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+  }
+  /* line 1031, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .our-sponsors {
+    text-align: center;
+  }
+  /* line 1035, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .col-lg-2 h5 {
+    color: #FFF;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  /* line 1040, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .col-lg-2 img {
+    width: 100%;
+    transform: scale(0.7);
+  }
+  /* line 1046, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .sponsors-logos img {
+    opacity: .5;
+    transition: .3s all;
+  }
+  /* line 1050, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .sponsors-logos:hover {
+    cursor: pointer;
+  }
+  /* line 1052, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .top-footer .container .row .sponsors-logos:hover img {
+    opacity: 1;
+  }
+  /* line 1060, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  /* line 1066, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .col-12 .md-footer-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  /* line 1071, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .col-12 .md-footer-title:after {
+    content: "";
+    position: absolute;
+    background: #15b095;
+    width: 20%;
+    height: 2px;
+    bottom: -10px;
+    display: block;
+  }
+  /* line 1082, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  /* line 1088, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  /* line 1093, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-top .md-left-logo {
+    display: flex;
+    align-items: center;
+  }
+  /* line 1096, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-top .md-left-logo img {
+    width: 60px;
+    height: auto;
+  }
+  /* line 1101, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-top .md-left-desc {
+    font-size: 14px;
+  }
+  /* line 1105, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 1108, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom button {
+    font-size: 12px;
+    background: transparent;
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: .3s all;
+  }
+  /* line 1116, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom button:hover {
+    cursor: pointer;
+    background: #15b095;
+    border-color: #15b095;
+  }
+  /* line 1122, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-bottom: 0;
+  }
+  /* line 1128, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul li {
+    background: #47525b;
+    margin-left: 15px;
+    display: flex;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
+    transition: .3s all;
+  }
+  /* line 1136, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul li:first-of-type {
+    margin-left: 0;
+  }
+  /* line 1139, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul li:hover {
+    background: #15b095;
+  }
+  /* line 1143, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-left .md-left-bottom ul li a i {
+    color: #FFF;
+  }
+  /* line 1151, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  /* line 1157, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 1160, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news:last-of-type {
+    margin-top: 30px;
+  }
+  /* line 1163, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-headline {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .03rem;
+  }
+  /* line 1168, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-headline a {
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 1171, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-headline a:hover {
+    color: #15b095;
+    text-decoration: none;
+  }
+  /* line 1177, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-time {
+    font-size: 12px;
+    color: #5a666d;
+    margin-top: 10px;
+  }
+  /* line 1182, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-md .footer-news .footer-news-time time {
+    margin-left: 10px;
+    text-transform: uppercase;
+  }
+  /* line 1189, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right {
+    color: #FFF;
+  }
+  /* line 1191, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  /* line 1195, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts:last-of-type {
+    margin-top: 30px;
+  }
+  /* line 1198, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-icon {
+    margin-right: 15px;
+  }
+  /* line 1200, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-icon i {
+    font-size: 30px;
+    color: #5a666d;
+  }
+  /* line 1206, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-text .main-top-contacts-desc {
+    font-size: 16px;
+    color: #5a666d;
+  }
+  /* line 1210, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-text .main-top-contacts-email {
+    font-size: 13px;
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 1214, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .middle-footer .container .row .footer-md-right .main-top-contacts .main-top-contacts-text .main-top-contacts-email:hover {
+    color: #15b095;
+    cursor: pointer;
+  }
+  /* line 1226, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer {
+    background: #1d252d;
+  }
+  /* line 1229, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 1233, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  /* line 1237, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul li {
+    margin-left: 15px;
+  }
+  /* line 1239, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul li:first-of-type {
+    margin-left: 0;
+  }
+  /* line 1242, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul li a {
+    color: #5a666d;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: .3s all;
+  }
+  /* line 1247, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-nav ul li a:hover {
+    text-decoration: none;
+    color: #f05c5c;
+  }
+  /* line 1255, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-copyright {
+    font-size: 12px;
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+  }
+  /* line 1260, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-copyright a {
+    color: #5a666d;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-left: 5px;
+    transition: .3s all;
+  }
+  /* line 1266, C:/Users/User/snooker2/src/components/scss/Footer.scss */
+  footer .bottom-footer .container .row .footer-copyright a:hover {
+    color: #15b095;
+    text-decoration: none;
+  }
+}
+
+/*# sourceMappingURL=../Footer.map */

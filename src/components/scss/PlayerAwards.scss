@@ -1,0 +1,29 @@
+@media screen and (min-width: 1200px) {
+	#player-awards {
+		margin-top: 30px;
+	  }
+} // .min-width: 1200
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	#player-awards {
+		margin-top: 30px;
+	  }
+} // 992 - 1199
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	#player-awards {
+		margin-top: 30px;
+	  }
+} // 768 - 991
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+	#player-awards {
+		margin-top: 30px;
+	  }
+} // 576 - 767
+
+@media screen and (max-width: 575px){
+	#player-awards {
+		margin-top: 30px;
+	  }
+} // max 575

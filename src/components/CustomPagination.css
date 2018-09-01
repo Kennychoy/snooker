@@ -1,0 +1,220 @@
+@media screen and (min-width: 1200px) {
+  /* line 2, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  /* line 9, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul li {
+    margin: 0 5px;
+  }
+  /* line 11, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul li a {
+    border-radius: 0;
+    color: #151515;
+    background: #FFF;
+    transition: .3s all;
+  }
+  /* line 16, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul li a:focus {
+    box-shadow: none;
+  }
+  /* line 21, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul li:hover a {
+    border: 1px solid #f05c5c;
+    background: #f05c5c;
+    color: #FFF;
+  }
+  /* line 29, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul .active a {
+    border: 1px solid #f05c5c !important;
+    background: #f05c5c !important;
+    color: #FFF !important;
+  }
+  /* line 38, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul .etc:hover a {
+    color: #151515;
+    background: #FFF;
+    border: 1px solid #dee2e6;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 50, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  /* line 57, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul li {
+    margin: 0 5px;
+  }
+  /* line 59, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul li a {
+    border-radius: 0;
+    color: #151515;
+    background: #FFF;
+    transition: .3s all;
+  }
+  /* line 64, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul li a:focus {
+    box-shadow: none;
+  }
+  /* line 69, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul li:hover a {
+    border: 1px solid #f05c5c;
+    background: #f05c5c;
+    color: #FFF;
+  }
+  /* line 77, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul .active a {
+    border: 1px solid #f05c5c !important;
+    background: #f05c5c !important;
+    color: #FFF !important;
+  }
+  /* line 85, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul .etc:hover a {
+    color: #151515;
+    background: #FFF;
+    border: 1px solid #dee2e6;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 97, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  /* line 104, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul li {
+    margin: 0 5px;
+  }
+  /* line 106, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul li a {
+    border-radius: 0;
+    color: #151515;
+    background: #FFF;
+    transition: .3s all;
+  }
+  /* line 111, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul li a:focus {
+    box-shadow: none;
+  }
+  /* line 116, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul li:hover a {
+    border: 1px solid #f05c5c;
+    background: #f05c5c;
+    color: #FFF;
+  }
+  /* line 124, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul .active a {
+    border: 1px solid #f05c5c !important;
+    background: #f05c5c !important;
+    color: #FFF !important;
+  }
+  /* line 132, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul .etc:hover a {
+    color: #151515;
+    background: #FFF;
+    border: 1px solid #dee2e6;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 144, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  /* line 151, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul li {
+    margin: 0 5px;
+  }
+  /* line 153, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul li a {
+    border-radius: 0;
+    color: #151515;
+    background: #FFF;
+    transition: .3s all;
+  }
+  /* line 158, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul li a:focus {
+    box-shadow: none;
+  }
+  /* line 163, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul li:hover a {
+    border: 1px solid #f05c5c;
+    background: #f05c5c;
+    color: #FFF;
+  }
+  /* line 171, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul .active a {
+    border: 1px solid #f05c5c !important;
+    background: #f05c5c !important;
+    color: #FFF !important;
+  }
+  /* line 179, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul .etc:hover a {
+    color: #151515;
+    background: #FFF;
+    border: 1px solid #dee2e6;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 191, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination {
+    font-size: 12px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  /* line 197, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul li {
+    margin: 0 5px;
+  }
+  /* line 199, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul li a {
+    border-radius: 0;
+    color: #151515;
+    background: #FFF;
+    transition: .3s all;
+  }
+  /* line 204, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul li a:focus {
+    box-shadow: none;
+  }
+  /* line 209, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul li:hover a {
+    border: 1px solid #f05c5c;
+    background: #f05c5c;
+    color: #FFF;
+  }
+  /* line 217, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul .active a {
+    border: 1px solid #f05c5c !important;
+    background: #f05c5c !important;
+    color: #FFF !important;
+  }
+  /* line 225, C:/Users/User/snooker2/src/components/scss/CustomPagination.scss */
+  .customPagination ul .etc:hover a {
+    color: #151515;
+    background: #FFF;
+    border: 1px solid #dee2e6;
+  }
+}
+
+/*# sourceMappingURL=../CustomPagination.map */

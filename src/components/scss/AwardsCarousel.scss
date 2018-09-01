@@ -1,0 +1,424 @@
+@media screen and (min-width: 1200px) {
+	.awards-carousel {
+		margin-top: 30px;
+		.container {
+			width: 100%;
+			max-width: 100%;
+			padding: 0;
+			margin-top: 30px;
+			.slick-slider {
+				.slick-list {
+					.slick-track {
+						.slick-slide {
+							.awards-carousel-outer {
+								padding: 15px;
+								background: rgb(49, 81, 98);
+								.awards-carousel-inner {
+									border: 1px solid #fff;
+									padding: 30px 15px;
+									display: flex;
+									.awards-carousel-desc {
+										flex-basis: 50%;
+										display: flex;
+										flex-direction: column;
+										justify-content: center;
+										align-items: center;
+										color: #fff;
+										.awards-name {
+											font-size: 24px;
+											text-align: center;
+											.first {
+												color: #f05c5c;
+												font-size: 28px;
+											}
+										}
+										.awards-year {
+											font-size: 24px;
+											color: #15b095;
+											position: relative;
+											&:before {
+												position: absolute;
+												content: "";
+												top: 0px;
+												width: 100%;
+												height: 1px;
+												background: #15b095;
+											}
+										}
+									}
+									.awards-carousel-pic {
+										flex-basis: 50%;
+										img {
+											width: 100%;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				.slick-dots {
+					position: absolute;
+					bottom: 18px;
+					li {						
+						button {
+							&:before {
+								color: #FFF;
+								font-size: 15px;
+								opacity: 1;
+							}
+						}
+					}
+					.slick-active {
+						button {
+							&:before {
+								color: #f05c5c;
+								font-size: 20px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+} // .min-width: 1200
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.awards-carousel {
+		margin-top: 30px;
+		.container {
+			width: 100%;
+			max-width: 100%;
+			padding: 0;
+			margin-top: 30px;
+			.slick-slider {
+				.slick-list {
+					.slick-track {
+						.slick-slide {
+							.awards-carousel-outer {
+								padding: 15px;
+								background: rgb(49, 81, 98);
+								.awards-carousel-inner {
+									border: 1px solid #fff;
+									padding: 30px 15px;
+									display: flex;
+									.awards-carousel-desc {
+										flex-basis: 50%;
+										display: flex;
+										flex-direction: column;
+										justify-content: center;
+										align-items: center;
+										color: #fff;
+										.awards-name {
+											font-size: 24px;
+											text-align: center;
+											.first {
+												color: #f05c5c;
+												font-size: 28px;
+											}
+										}
+										.awards-year {
+											font-size: 24px;
+											color: #15b095;
+											position: relative;
+											&:before {
+												position: absolute;
+												content: "";
+												top: 0px;
+												width: 100%;
+												height: 1px;
+												background: #15b095;
+											}
+										}
+									}
+									.awards-carousel-pic {
+										flex-basis: 50%;
+										img {
+											width: 100%;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				.slick-dots {
+					position: absolute;
+					bottom: 18px;
+					li {						
+						button {
+							&:before {
+								color: #FFF;
+								font-size: 15px;
+								opacity: 1;
+							}
+						}
+					}
+					.slick-active {
+						button {
+							&:before {
+								color: #f05c5c;
+								font-size: 20px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+} // 992 - 1199
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.awards-carousel {
+		margin-top: 30px;
+		.container {
+			width: 100%;
+			max-width: 100%;
+			padding: 0;
+			margin-top: 30px;
+			.slick-slider {
+				.slick-list {
+					.slick-track {
+						.slick-slide {
+							.awards-carousel-outer {
+								padding: 15px;
+								background: rgb(49, 81, 98);
+								.awards-carousel-inner {
+									border: 1px solid #fff;
+									padding: 30px 15px;
+									display: flex;
+									.awards-carousel-desc {
+										flex-basis: 50%;
+										display: flex;
+										flex-direction: column;
+										justify-content: center;
+										align-items: center;
+										color: #fff;
+										.awards-name {
+											font-size: 24px;
+											text-align: center;
+											.first {
+												color: #f05c5c;
+												font-size: 28px;
+											}
+										}
+										.awards-year {
+											font-size: 24px;
+											color: #15b095;
+											position: relative;
+											&:before {
+												position: absolute;
+												content: "";
+												top: 0px;
+												width: 100%;
+												height: 1px;
+												background: #15b095;
+											}
+										}
+									}
+									.awards-carousel-pic {
+										flex-basis: 50%;
+										img {
+											width: 100%;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				.slick-dots {
+					position: absolute;
+					bottom: 18px;
+					li {						
+						button {
+							&:before {
+								color: #FFF;
+								font-size: 15px;
+								opacity: 1;
+							}
+						}
+					}
+					.slick-active {
+						button {
+							&:before {
+								color: #f05c5c;
+								font-size: 20px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+} // 768 - 991
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+	.awards-carousel {
+		margin-top: 30px;
+		.container {
+			width: 100%;
+			max-width: 100%;
+			padding: 0;
+			margin-top: 30px;
+			.slick-slider {
+				.slick-list {
+					.slick-track {
+						.slick-slide {
+							.awards-carousel-outer {
+								padding: 15px;
+								background: rgb(49, 81, 98);
+								.awards-carousel-inner {
+									border: 1px solid #fff;
+									padding: 30px 15px;
+									display: flex;
+									.awards-carousel-desc {
+										flex-basis: 50%;
+										display: flex;
+										flex-direction: column;
+										justify-content: center;
+										align-items: center;
+										color: #fff;
+										.awards-name {
+											font-size: 24px;
+											text-align: center;
+											.first {
+												color: #f05c5c;
+												font-size: 28px;
+											}
+										}
+										.awards-year {
+											font-size: 24px;
+											color: #15b095;
+											position: relative;
+											&:before {
+												position: absolute;
+												content: "";
+												top: 0px;
+												width: 100%;
+												height: 1px;
+												background: #15b095;
+											}
+										}
+									}
+									.awards-carousel-pic {
+										flex-basis: 50%;
+										img {
+											width: 100%;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				.slick-dots {
+					position: absolute;
+					bottom: 18px;
+					li {						
+						button {
+							&:before {
+								color: #FFF;
+								font-size: 15px;
+								opacity: 1;
+							}
+						}
+					}
+					.slick-active {
+						button {
+							&:before {
+								color: #f05c5c;
+								font-size: 20px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+} // 576 - 767
+
+@media screen and (max-width: 575px){
+	.awards-carousel {
+		margin-top: 30px;
+		.container {
+			width: 100%;
+			max-width: 100%;
+			padding: 0;
+			margin-top: 30px;
+			.slick-slider {
+				.slick-list {
+					.slick-track {
+						.slick-slide {
+							.awards-carousel-outer {
+								padding: 15px;
+								background: rgb(49, 81, 98);
+								.awards-carousel-inner {
+									border: 1px solid #fff;
+									padding: 30px 15px;
+									display: flex;
+									.awards-carousel-desc {
+										flex-basis: 50%;
+										display: flex;
+										flex-direction: column;
+										justify-content: center;
+										align-items: center;
+										color: #fff;
+										.awards-name {
+											font-size: 24px;
+											text-align: center;
+											.first {
+												color: #f05c5c;
+												font-size: 28px;
+											}
+										}
+										.awards-year {
+											font-size: 24px;
+											color: #15b095;
+											position: relative;
+											&:before {
+												position: absolute;
+												content: "";
+												top: 0px;
+												width: 100%;
+												height: 1px;
+												background: #15b095;
+											}
+										}
+									}
+									.awards-carousel-pic {
+										flex-basis: 50%;
+										img {
+											width: 100%;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				.slick-dots {
+					position: absolute;
+					bottom: 18px;
+					li {						
+						button {
+							&:before {
+								color: #FFF;
+								font-size: 15px;
+								opacity: 1;
+							}
+						}
+					}
+					.slick-active {
+						button {
+							&:before {
+								color: #f05c5c;
+								font-size: 20px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+} // max 575

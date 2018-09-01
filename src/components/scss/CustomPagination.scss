@@ -1,0 +1,234 @@
+@media screen and (min-width: 1200px) {
+	.customPagination {
+		padding-left: 15px;
+		padding-right: 15px;
+		margin: 30px auto 0 auto;
+		display: flex;
+		justify-content: center;
+		ul {
+			li {
+				margin: 0 5px;
+				a {
+					border-radius: 0;
+					color: #151515;
+					background: #FFF;
+					transition: .3s all;
+					&:focus {
+						box-shadow: none;
+					}
+				}
+				&:hover {
+					a {
+						border: 1px solid #f05c5c;
+						background: #f05c5c;;
+						color: #FFF;
+					}
+				}
+			}
+			.active {
+				a {
+					border: 1px solid #f05c5c !important;
+					background: #f05c5c !important;
+					color: #FFF !important;
+
+				}
+			}
+			.etc {
+				&:hover {
+					a {
+						color: #151515;
+						background: #FFF;
+						border: 1px solid #dee2e6;
+					}
+				}
+			}
+		}
+	} // .customPagination
+} // .min-width: 1200
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.customPagination {
+		padding-left: 15px;
+		padding-right: 15px;
+		margin: 30px auto 0 auto;
+		display: flex;
+		justify-content: center;
+		ul {
+			li {
+				margin: 0 5px;
+				a {
+					border-radius: 0;
+					color: #151515;
+					background: #FFF;
+					transition: .3s all;
+					&:focus {
+						box-shadow: none;
+					}
+				}
+				&:hover {
+					a {
+						border: 1px solid #f05c5c;
+						background: #f05c5c;;
+						color: #FFF;
+					}
+				}
+			}
+			.active {
+				a {
+					border: 1px solid #f05c5c !important;
+					background: #f05c5c !important;
+					color: #FFF !important;
+				}
+			}
+			.etc {
+				&:hover {
+					a {
+						color: #151515;
+						background: #FFF;
+						border: 1px solid #dee2e6;
+					}
+				}
+			}
+		}
+	} // .customPagination
+} // 992 - 1199
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.customPagination {
+		padding-left: 15px;
+		padding-right: 15px;
+		margin: 30px auto 0 auto;
+		display: flex;
+		justify-content: center;
+		ul {
+			li {
+				margin: 0 5px;
+				a {
+					border-radius: 0;
+					color: #151515;
+					background: #FFF;
+					transition: .3s all;
+					&:focus {
+						box-shadow: none;
+					}
+				}
+				&:hover {
+					a {
+						border: 1px solid #f05c5c;
+						background: #f05c5c;;
+						color: #FFF;
+					}
+				}
+			}
+			.active {
+				a {
+					border: 1px solid #f05c5c !important;
+					background: #f05c5c !important;
+					color: #FFF !important;
+				}
+			}
+			.etc {
+				&:hover {
+					a {
+						color: #151515;
+						background: #FFF;
+						border: 1px solid #dee2e6;
+					}
+				}
+			}
+		}
+	} // .customPagination
+} // 768 - 991
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+	.customPagination {
+		padding-left: 15px;
+		padding-right: 15px;
+		margin: 30px auto 0 auto;
+		display: flex;
+		justify-content: center;
+		ul {
+			li {
+				margin: 0 5px;
+				a {
+					border-radius: 0;
+					color: #151515;
+					background: #FFF;
+					transition: .3s all;
+					&:focus {
+						box-shadow: none;
+					}
+				}
+				&:hover {
+					a {
+						border: 1px solid #f05c5c;
+						background: #f05c5c;;
+						color: #FFF;
+					}
+				}
+			}
+			.active {
+				a {
+					border: 1px solid #f05c5c !important;
+					background: #f05c5c !important;
+					color: #FFF !important;
+				}
+			}
+			.etc {
+				&:hover {
+					a {
+						color: #151515;
+						background: #FFF;
+						border: 1px solid #dee2e6;
+					}
+				}
+			}
+		}
+	} // .customPagination
+} // 576 - 767
+
+@media screen and (max-width: 575px){
+	.customPagination {
+		font-size: 12px;
+		margin: 30px auto 0 auto;
+		display: flex;
+		justify-content: center;
+		ul {
+			li {
+				margin: 0 5px;
+				a {
+					border-radius: 0;
+					color: #151515;
+					background: #FFF;
+					transition: .3s all;
+					&:focus {
+						box-shadow: none;
+					}
+				}
+				&:hover {
+					a {
+						border: 1px solid #f05c5c;
+						background: #f05c5c;;
+						color: #FFF;
+					}
+				}
+			}
+			.active {
+				a {
+					border: 1px solid #f05c5c !important;
+					background: #f05c5c !important;
+					color: #FFF !important;
+				}
+			}
+			.etc {
+				&:hover {
+					a {
+						color: #151515;
+						background: #FFF;
+						border: 1px solid #dee2e6;
+					}
+				}
+			}
+		}
+	} // .customPagination
+} // max 575

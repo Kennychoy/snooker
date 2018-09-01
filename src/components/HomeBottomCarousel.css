@@ -1,0 +1,1208 @@
+@media screen and (min-width: 1200px) {
+  /* line 2, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  /* line 5, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer {
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  /* line 13, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.45);
+  }
+  /* line 18, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    padding-top: 15px;
+  }
+  /* line 24, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+  }
+  /* line 29, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li a i {
+    color: #cacaca;
+    font-size: 24px;
+    font-weight: 600;
+    transition: .3s all;
+  }
+  /* line 38, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li:hover a i {
+    color: #FFF;
+  }
+  /* line 44, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .disabled i {
+    color: #999;
+  }
+  /* line 47, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .disabled:hover {
+    cursor: default;
+  }
+  /* line 49, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .disabled:hover i {
+    color: #999;
+  }
+  /* line 54, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul {
+    position: absolute;
+    bottom: -600%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background: #FFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 1;
+  }
+  /* line 65, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul:after {
+    position: absolute;
+    content: "";
+    top: -20px;
+    right: 0;
+    bottom: auto;
+    left: auto;
+    border-width: 20px 20px 0 0;
+    border-color: transparent #fff;
+    border-style: solid;
+    width: 0;
+    display: block;
+  }
+  /* line 78, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li {
+    margin: 0;
+  }
+  /* line 80, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:hover {
+    background: rgba(0, 0, 0, 0.07);
+  }
+  /* line 83, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li a {
+    color: #333;
+    display: block;
+    white-space: pre;
+    padding: 4px 12px;
+    font-size: 12px;
+  }
+  /* line 89, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li a .inner-social-icon {
+    display: inline-block;
+    float: none;
+    width: 20px;
+    font-size: 20px;
+    height: auto;
+    line-height: 1;
+    margin-right: 8px;
+    padding: 0;
+    border-radius: 50%;
+    text-align: center;
+  }
+  /* line 100, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li a .inner-social-icon i {
+    color: #FFF;
+    font-size: 12px;
+  }
+  /* line 106, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li a .inner-social-name {
+    color: #333;
+    display: inline-block;
+    line-height: 1;
+    margin-top: -3px;
+    vertical-align: middle;
+  }
+  /* line 116, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:first-of-type a .inner-social-icon {
+    background: #3b5998;
+  }
+  /* line 126, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:nth-of-type(2) a .inner-social-icon {
+    background: #00aced;
+  }
+  /* line 136, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:nth-of-type(3) a .inner-social-icon {
+    background: #dd4b39;
+  }
+  /* line 146, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:last-of-type a .inner-social-icon {
+    background: #cb2027;
+  }
+  /* line 156, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .toggleUL {
+    display: none !important;
+    border: 1px solid black;
+  }
+  /* line 163, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  /* line 169, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-img img {
+    width: 960px;
+    height: 640px;
+    transform: scale(1);
+    transition: .3s all;
+  }
+  /* line 179, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-arrow {
+    transform: scale(1);
+    transition: .3s all;
+  }
+  /* line 182, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-arrow:hover {
+    transform: scale(1.5);
+  }
+  /* line 186, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-prev {
+    left: -10px;
+  }
+  /* line 188, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-prev::before {
+    content: "\f060";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: gray;
+  }
+  /* line 195, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-next {
+    right: -10px;
+  }
+  /* line 197, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-next::before {
+    content: "\f061";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: gray;
+  }
+  /* line 207, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /* line 210, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  /* line 217, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a:hover img {
+    transform: scale(1.2);
+    filter: grayscale(70%);
+  }
+  /* line 222, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a:hover span i {
+    opacity: 1;
+  }
+  /* line 227, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a img {
+    width: 100%;
+    height: 100%;
+    transition: .3s all;
+  }
+  /* line 232, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* line 237, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a span i {
+    font-size: 2rem;
+    color: #FFF;
+    opacity: 0;
+    transition: .3s all;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 256, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  /* line 259, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer {
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  /* line 267, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.45);
+  }
+  /* line 272, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    padding-top: 15px;
+  }
+  /* line 278, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+  }
+  /* line 283, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li a i {
+    color: #cacaca;
+    font-size: 24px;
+    font-weight: 600;
+    transition: .3s all;
+  }
+  /* line 292, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li:hover a i {
+    color: #FFF;
+  }
+  /* line 298, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .disabled i {
+    color: #999;
+  }
+  /* line 301, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .disabled:hover {
+    cursor: default;
+  }
+  /* line 303, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .disabled:hover i {
+    color: #999;
+  }
+  /* line 308, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul {
+    position: absolute;
+    bottom: -600%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background: #FFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 1;
+  }
+  /* line 319, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul:after {
+    position: absolute;
+    content: "";
+    top: -20px;
+    right: 0;
+    bottom: auto;
+    left: auto;
+    border-width: 20px 20px 0 0;
+    border-color: transparent #fff;
+    border-style: solid;
+    width: 0;
+    display: block;
+  }
+  /* line 332, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li {
+    margin: 0;
+  }
+  /* line 334, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:hover {
+    background: rgba(0, 0, 0, 0.07);
+  }
+  /* line 337, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li a {
+    color: #333;
+    display: block;
+    white-space: pre;
+    padding: 4px 12px;
+    font-size: 12px;
+  }
+  /* line 343, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li a .inner-social-icon {
+    display: inline-block;
+    float: none;
+    width: 20px;
+    font-size: 20px;
+    height: auto;
+    line-height: 1;
+    margin-right: 8px;
+    padding: 0;
+    border-radius: 50%;
+    text-align: center;
+  }
+  /* line 354, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li a .inner-social-icon i {
+    color: #FFF;
+    font-size: 12px;
+  }
+  /* line 360, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li a .inner-social-name {
+    color: #333;
+    display: inline-block;
+    line-height: 1;
+    margin-top: -3px;
+    vertical-align: middle;
+  }
+  /* line 370, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:first-of-type a .inner-social-icon {
+    background: #3b5998;
+  }
+  /* line 380, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:nth-of-type(2) a .inner-social-icon {
+    background: #00aced;
+  }
+  /* line 390, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:nth-of-type(3) a .inner-social-icon {
+    background: #dd4b39;
+  }
+  /* line 400, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:last-of-type a .inner-social-icon {
+    background: #cb2027;
+  }
+  /* line 410, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .toggleUL {
+    display: none !important;
+    border: 1px solid black;
+  }
+  /* line 417, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    width: 90%;
+  }
+  /* line 424, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-img img {
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    transition: .3s all;
+  }
+  /* line 434, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-arrow {
+    transform: scale(1);
+    transition: .3s all;
+  }
+  /* line 437, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-arrow:hover {
+    transform: scale(1.5);
+  }
+  /* line 441, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-prev {
+    left: -10px;
+  }
+  /* line 443, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-prev::before {
+    content: "\f060";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: gray;
+  }
+  /* line 450, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-next {
+    right: -10px;
+  }
+  /* line 452, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-next::before {
+    content: "\f061";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: gray;
+  }
+  /* line 462, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /* line 465, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  /* line 472, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a:hover img {
+    transform: scale(1.2);
+    filter: grayscale(70%);
+  }
+  /* line 477, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a:hover span i {
+    opacity: 1;
+  }
+  /* line 482, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a img {
+    width: 100%;
+    height: 100%;
+    transition: .3s all;
+  }
+  /* line 487, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* line 492, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a span i {
+    font-size: 2rem;
+    color: #FFF;
+    opacity: 0;
+    transition: .3s all;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 511, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  /* line 514, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer {
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  /* line 522, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.45);
+  }
+  /* line 527, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    padding-top: 15px;
+  }
+  /* line 533, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+  }
+  /* line 538, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li a i {
+    color: #cacaca;
+    font-size: 24px;
+    font-weight: 600;
+    transition: .3s all;
+  }
+  /* line 547, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li:hover a i {
+    color: #FFF;
+  }
+  /* line 553, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .disabled i {
+    color: #999;
+  }
+  /* line 556, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .disabled:hover {
+    cursor: default;
+  }
+  /* line 558, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .disabled:hover i {
+    color: #999;
+  }
+  /* line 563, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul {
+    position: absolute;
+    bottom: -600%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background: #FFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 1;
+  }
+  /* line 574, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul:after {
+    position: absolute;
+    content: "";
+    top: -20px;
+    right: 0;
+    bottom: auto;
+    left: auto;
+    border-width: 20px 20px 0 0;
+    border-color: transparent #fff;
+    border-style: solid;
+    width: 0;
+    display: block;
+  }
+  /* line 587, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li {
+    margin: 0;
+  }
+  /* line 589, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:hover {
+    background: rgba(0, 0, 0, 0.07);
+  }
+  /* line 592, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li a {
+    color: #333;
+    display: block;
+    white-space: pre;
+    padding: 4px 12px;
+    font-size: 12px;
+  }
+  /* line 598, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li a .inner-social-icon {
+    display: inline-block;
+    float: none;
+    width: 20px;
+    font-size: 20px;
+    height: auto;
+    line-height: 1;
+    margin-right: 8px;
+    padding: 0;
+    border-radius: 50%;
+    text-align: center;
+  }
+  /* line 609, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li a .inner-social-icon i {
+    color: #FFF;
+    font-size: 12px;
+  }
+  /* line 615, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li a .inner-social-name {
+    color: #333;
+    display: inline-block;
+    line-height: 1;
+    margin-top: -3px;
+    vertical-align: middle;
+  }
+  /* line 625, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:first-of-type a .inner-social-icon {
+    background: #3b5998;
+  }
+  /* line 635, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:nth-of-type(2) a .inner-social-icon {
+    background: #00aced;
+  }
+  /* line 645, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:nth-of-type(3) a .inner-social-icon {
+    background: #dd4b39;
+  }
+  /* line 655, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:last-of-type a .inner-social-icon {
+    background: #cb2027;
+  }
+  /* line 665, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .toggleUL {
+    display: none !important;
+    border: 1px solid black;
+  }
+  /* line 672, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    width: 90%;
+  }
+  /* line 679, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-img img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    transform: scale(1);
+    transition: .3s all;
+  }
+  /* line 690, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-arrow {
+    transform: scale(1);
+    transition: .3s all;
+  }
+  /* line 693, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-arrow:hover {
+    transform: scale(1.5);
+  }
+  /* line 697, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-prev {
+    left: -10px;
+  }
+  /* line 699, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-prev::before {
+    content: "\f060";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: gray;
+  }
+  /* line 706, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-next {
+    right: -10px;
+  }
+  /* line 708, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-next::before {
+    content: "\f061";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: gray;
+  }
+  /* line 718, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /* line 721, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  /* line 728, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a:hover img {
+    transform: scale(1.2);
+    filter: grayscale(70%);
+  }
+  /* line 733, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a:hover span i {
+    opacity: 1;
+  }
+  /* line 738, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a img {
+    width: 100%;
+    height: 100%;
+    transition: .3s all;
+  }
+  /* line 743, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* line 748, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a span i {
+    font-size: 2rem;
+    color: #FFF;
+    opacity: 0;
+    transition: .3s all;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 767, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  /* line 770, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer {
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  /* line 778, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.45);
+  }
+  /* line 783, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    padding-top: 15px;
+  }
+  /* line 789, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+  }
+  /* line 794, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li a i {
+    color: #cacaca;
+    font-size: 24px;
+    font-weight: 600;
+    transition: .3s all;
+  }
+  /* line 803, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li:hover a i {
+    color: #FFF;
+  }
+  /* line 809, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .disabled i {
+    color: #999;
+  }
+  /* line 812, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .disabled:hover {
+    cursor: default;
+  }
+  /* line 814, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .disabled:hover i {
+    color: #999;
+  }
+  /* line 819, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul {
+    position: absolute;
+    bottom: -600%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background: #FFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 1;
+  }
+  /* line 830, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul:after {
+    position: absolute;
+    content: "";
+    top: -20px;
+    right: 0;
+    bottom: auto;
+    left: auto;
+    border-width: 20px 20px 0 0;
+    border-color: transparent #fff;
+    border-style: solid;
+    width: 0;
+    display: block;
+  }
+  /* line 843, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li {
+    margin: 0;
+  }
+  /* line 845, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:hover {
+    background: rgba(0, 0, 0, 0.07);
+  }
+  /* line 848, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li a {
+    color: #333;
+    display: block;
+    white-space: pre;
+    padding: 4px 12px;
+    font-size: 12px;
+  }
+  /* line 854, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li a .inner-social-icon {
+    display: inline-block;
+    float: none;
+    width: 20px;
+    font-size: 20px;
+    height: auto;
+    line-height: 1;
+    margin-right: 8px;
+    padding: 0;
+    border-radius: 50%;
+    text-align: center;
+  }
+  /* line 865, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li a .inner-social-icon i {
+    color: #FFF;
+    font-size: 12px;
+  }
+  /* line 871, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li a .inner-social-name {
+    color: #333;
+    display: inline-block;
+    line-height: 1;
+    margin-top: -3px;
+    vertical-align: middle;
+  }
+  /* line 881, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:first-of-type a .inner-social-icon {
+    background: #3b5998;
+  }
+  /* line 891, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:nth-of-type(2) a .inner-social-icon {
+    background: #00aced;
+  }
+  /* line 901, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:nth-of-type(3) a .inner-social-icon {
+    background: #dd4b39;
+  }
+  /* line 911, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:last-of-type a .inner-social-icon {
+    background: #cb2027;
+  }
+  /* line 921, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .toggleUL {
+    display: none !important;
+    border: 1px solid black;
+  }
+  /* line 928, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    width: 90%;
+  }
+  /* line 935, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-img img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    transform: scale(1);
+    transition: .3s all;
+  }
+  /* line 946, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-arrow {
+    transform: scale(1);
+    transition: .3s all;
+  }
+  /* line 949, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-arrow:hover {
+    transform: scale(1.5);
+  }
+  /* line 953, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-prev {
+    left: -10px;
+  }
+  /* line 955, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-prev::before {
+    content: "\f060";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: gray;
+  }
+  /* line 962, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-next {
+    right: -10px;
+  }
+  /* line 964, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-next::before {
+    content: "\f061";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: gray;
+  }
+  /* line 974, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /* line 977, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  /* line 984, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a:hover img {
+    transform: scale(1.2);
+    filter: grayscale(70%);
+  }
+  /* line 989, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a:hover span i {
+    opacity: 1;
+  }
+  /* line 994, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a img {
+    width: 100%;
+    height: 100%;
+    transition: .3s all;
+  }
+  /* line 999, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* line 1004, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a span i {
+    font-size: 2rem;
+    color: #FFF;
+    opacity: 0;
+    transition: .3s all;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 1023, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  /* line 1026, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  /* line 1034, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.45);
+  }
+  /* line 1039, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    padding-top: 15px;
+  }
+  /* line 1045, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+  }
+  /* line 1050, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li a i {
+    color: #cacaca;
+    font-size: 24px;
+    font-weight: 600;
+    transition: .3s all;
+  }
+  /* line 1059, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li:hover a i {
+    color: #FFF;
+  }
+  /* line 1065, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .disabled i {
+    color: #999;
+  }
+  /* line 1068, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .disabled:hover {
+    cursor: default;
+  }
+  /* line 1070, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .disabled:hover i {
+    color: #999;
+  }
+  /* line 1075, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul {
+    position: absolute;
+    bottom: -600%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background: #FFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 1;
+  }
+  /* line 1086, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul:after {
+    position: absolute;
+    content: "";
+    top: -20px;
+    right: 0;
+    bottom: auto;
+    left: auto;
+    border-width: 20px 20px 0 0;
+    border-color: transparent #fff;
+    border-style: solid;
+    width: 0;
+    display: block;
+  }
+  /* line 1099, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li {
+    margin: 0;
+  }
+  /* line 1101, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:hover {
+    background: rgba(0, 0, 0, 0.07);
+  }
+  /* line 1104, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li a {
+    color: #333;
+    display: block;
+    white-space: pre;
+    padding: 4px 12px;
+    font-size: 12px;
+  }
+  /* line 1110, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li a .inner-social-icon {
+    display: inline-block;
+    float: none;
+    width: 20px;
+    font-size: 20px;
+    height: auto;
+    line-height: 1;
+    margin-right: 8px;
+    padding: 0;
+    border-radius: 50%;
+    text-align: center;
+  }
+  /* line 1121, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li a .inner-social-icon i {
+    color: #FFF;
+    font-size: 12px;
+  }
+  /* line 1127, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li a .inner-social-name {
+    color: #333;
+    display: inline-block;
+    line-height: 1;
+    margin-top: -3px;
+    vertical-align: middle;
+  }
+  /* line 1137, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:first-of-type a .inner-social-icon {
+    background: #3b5998;
+  }
+  /* line 1147, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:nth-of-type(2) a .inner-social-icon {
+    background: #00aced;
+  }
+  /* line 1157, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:nth-of-type(3) a .inner-social-icon {
+    background: #dd4b39;
+  }
+  /* line 1167, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .fullscreen-inner-ul li:last-of-type a .inner-social-icon {
+    background: #cb2027;
+  }
+  /* line 1177, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-ul .fullscreen-outer-ul li .toggleUL {
+    display: none !important;
+    border: 1px solid black;
+  }
+  /* line 1184, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    width: 90%;
+  }
+  /* line 1191, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .fullscreen-layer .layer-img img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    transform: scale(1);
+    transition: .3s all;
+  }
+  /* line 1202, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-arrow {
+    transform: scale(1);
+    transition: .3s all;
+  }
+  /* line 1205, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-arrow:hover {
+    transform: scale(1.5);
+  }
+  /* line 1209, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-prev {
+    left: -10px;
+  }
+  /* line 1211, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-prev::before {
+    content: "\f060";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: gray;
+  }
+  /* line 1218, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-next {
+    right: -10px;
+  }
+  /* line 1220, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-next::before {
+    content: "\f061";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: gray;
+  }
+  /* line 1230, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /* line 1233, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  /* line 1240, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a:hover img {
+    transform: scale(1.2);
+    filter: grayscale(70%);
+  }
+  /* line 1245, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a:hover span i {
+    opacity: 1;
+  }
+  /* line 1250, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a img {
+    width: 100%;
+    height: 100%;
+    transition: .3s all;
+  }
+  /* line 1255, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* line 1260, C:/Users/User/snooker2/src/components/scss/HomeBottomCarousel.scss */
+  .homeBottomCarousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .bottom-carousel-item a span i {
+    font-size: 2rem;
+    color: #FFF;
+    opacity: 0;
+    transition: .3s all;
+  }
+}
+
+/*# sourceMappingURL=../HomeBottomCarousel.map */

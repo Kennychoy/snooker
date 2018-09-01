@@ -1,0 +1,311 @@
+@media screen and (min-width: 1200px) {
+  /* line 2, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel {
+    margin-top: 30px;
+  }
+  /* line 5, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider {
+    position: relative;
+  }
+  /* line 8, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-arrow {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    border: 1px solid #151515;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    transition: .3s all;
+  }
+  /* line 18, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-arrow:before {
+    color: #151515;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transition: .3s all;
+  }
+  /* line 24, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-arrow:hover {
+    background: #15b095;
+  }
+  /* line 26, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-arrow:hover:before {
+    color: #FFF;
+  }
+  /* line 31, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-prev {
+    left: 90%;
+  }
+  /* line 33, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-prev:before {
+    content: "\f104";
+  }
+  /* line 37, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-next {
+    right: 20px;
+  }
+  /* line 39, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-next:before {
+    content: "\f105";
+  }
+  /* line 46, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-list .slick-track .slick-slide .blogpost-carousel-item {
+    padding: 15px;
+  }
+  /* line 49, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-list .slick-track .slick-slide .blogpost-carousel-item a img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 63, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel {
+    margin-top: 30px;
+  }
+  /* line 66, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider {
+    position: relative;
+  }
+  /* line 69, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-arrow {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    border: 1px solid #151515;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    transition: .3s all;
+  }
+  /* line 79, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-arrow:before {
+    color: #151515;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transition: .3s all;
+  }
+  /* line 85, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-arrow:hover {
+    background: #15b095;
+  }
+  /* line 87, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-arrow:hover:before {
+    color: #FFF;
+  }
+  /* line 92, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-prev {
+    left: 88%;
+  }
+  /* line 94, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-prev:before {
+    content: "\f104";
+  }
+  /* line 98, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-next {
+    right: 20px;
+  }
+  /* line 100, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-next:before {
+    content: "\f105";
+  }
+  /* line 107, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-list .slick-track .slick-slide .blogpost-carousel-item {
+    padding: 15px;
+  }
+  /* line 110, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-list .slick-track .slick-slide .blogpost-carousel-item a img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 124, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel {
+    margin-top: 30px;
+  }
+  /* line 127, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider {
+    position: relative;
+  }
+  /* line 130, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-arrow {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    border: 1px solid #151515;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    transition: .3s all;
+  }
+  /* line 140, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-arrow:before {
+    color: #151515;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transition: .3s all;
+  }
+  /* line 146, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-arrow:hover {
+    background: #15b095;
+  }
+  /* line 148, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-arrow:hover:before {
+    color: #FFF;
+  }
+  /* line 153, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-prev {
+    left: 88%;
+  }
+  /* line 155, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-prev:before {
+    content: "\f104";
+  }
+  /* line 159, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-next {
+    right: 20px;
+  }
+  /* line 161, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-next:before {
+    content: "\f105";
+  }
+  /* line 168, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-list .slick-track .slick-slide .blogpost-carousel-item {
+    padding: 15px;
+  }
+  /* line 171, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-list .slick-track .slick-slide .blogpost-carousel-item a img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 185, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel {
+    margin-top: 30px;
+  }
+  /* line 188, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider {
+    position: relative;
+  }
+  /* line 191, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-arrow {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    border: 1px solid #151515;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    transition: .3s all;
+  }
+  /* line 201, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-arrow:before {
+    color: #151515;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transition: .3s all;
+  }
+  /* line 207, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-arrow:hover {
+    background: #15b095;
+  }
+  /* line 209, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-arrow:hover:before {
+    color: #FFF;
+  }
+  /* line 214, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-prev {
+    left: 85%;
+  }
+  /* line 216, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-prev:before {
+    content: "\f104";
+  }
+  /* line 220, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-next {
+    right: 20px;
+  }
+  /* line 222, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-next:before {
+    content: "\f105";
+  }
+  /* line 229, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-list .slick-track .slick-slide .blogpost-carousel-item {
+    padding: 15px;
+  }
+  /* line 232, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-list .slick-track .slick-slide .blogpost-carousel-item a img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 246, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel {
+    margin-top: 30px;
+  }
+  /* line 249, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider {
+    position: relative;
+  }
+  /* line 252, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-arrow {
+    position: absolute;
+    top: -35px;
+    right: 0;
+    border: 1px solid #151515;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    transition: .3s all;
+  }
+  /* line 262, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-arrow:before {
+    color: #151515;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transition: .3s all;
+  }
+  /* line 268, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-arrow:hover {
+    background: #15b095;
+  }
+  /* line 270, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-arrow:hover:before {
+    color: #FFF;
+  }
+  /* line 275, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-prev {
+    left: 75%;
+  }
+  /* line 277, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-prev:before {
+    content: "\f104";
+  }
+  /* line 281, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-next {
+    right: 20px;
+  }
+  /* line 283, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-next:before {
+    content: "\f105";
+  }
+  /* line 290, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-list .slick-track .slick-slide .blogpost-carousel-item {
+    padding: 15px;
+  }
+  /* line 293, C:/Users/User/snooker2/src/components/scss/BlogPostCarousel.scss */
+  .blogpost-carousel .container .slick-slider .slick-list .slick-track .slick-slide .blogpost-carousel-item a img {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=../BlogPostCarousel.map */

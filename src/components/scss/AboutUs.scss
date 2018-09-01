@@ -1,0 +1,27 @@
+@media screen and (min-width: 1200px) {
+	.about-us {} // .about-us
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.about-us {
+		margin-top: 69px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.about-us {
+		margin-top: 69px;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+	.about-us {
+		margin-top: 69px;
+	}
+}
+
+@media screen and (max-width: 575px){
+	.about-us {
+		margin-top: 69px;
+	}
+}

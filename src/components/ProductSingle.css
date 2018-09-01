@@ -1,0 +1,2211 @@
+@media screen and (min-width: 1200px) {
+  /* line 4, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel {
+    margin-top: 30px;
+  }
+  /* line 11, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper {
+    display: flex;
+  }
+  /* line 13, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .carousel-img {
+    width: 50%;
+  }
+  /* line 15, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .carousel-img img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 20, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 50%;
+  }
+  /* line 25, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content {
+    background: transparent;
+  }
+  /* line 27, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content h1 {
+    font-size: 24px;
+    color: #151515;
+    text-transform: uppercase;
+  }
+  /* line 32, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings {
+    display: flex;
+    align-items: center;
+  }
+  /* line 35, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-price {
+    display: flex;
+    align-items: center;
+  }
+  /* line 38, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-price .carousel-current {
+    color: #3f82c0;
+    font-size: 24px;
+  }
+  /* line 42, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-price .carousel-original {
+    font-size: 16px;
+    color: #9b9b9b;
+    text-decoration: line-through;
+    margin: 0 15px;
+  }
+  /* line 49, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-rating {
+    position: relative;
+    display: inline-block;
+  }
+  /* line 52, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-rating:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 200;
+    color: #f2f2f2;
+    width: 100%;
+  }
+  /* line 59, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-rating .carousel-rating-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50%;
+  }
+  /* line 66, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-rating .carousel-rating-inner:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ffcc00;
+  }
+  /* line 75, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .carousel-text {
+    margin-bottom: 10px;
+  }
+  /* line 80, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  /* line 84, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .carousel-label {
+    color: #151515;
+    font-size: 14px;
+    min-width: 60px;
+  }
+  /* line 89, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .select-oz {
+    display: flex;
+  }
+  /* line 91, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .select-oz .oz-single {
+    padding: 5px 10px;
+    margin: 0 5px;
+    color: #151515;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    transition: .3s all;
+  }
+  /* line 98, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .select-oz .oz-single:hover {
+    border-color: #15b095;
+    color: #15b095;
+    cursor: pointer;
+  }
+  /* line 104, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .select-oz .active {
+    border-color: #15b095;
+    color: #15b095;
+  }
+  /* line 110, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  /* line 114, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .carousel-label {
+    color: #151515;
+    font-size: 14px;
+    min-width: 60px;
+  }
+  /* line 119, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .select-piece {
+    display: flex;
+  }
+  /* line 121, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .select-piece .piece-single {
+    padding: 5px 10px;
+    margin: 0 5px;
+    color: #151515;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    transition: .3s all;
+  }
+  /* line 128, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .select-piece .piece-single:hover {
+    border-color: #15b095;
+    color: #15b095;
+    cursor: pointer;
+  }
+  /* line 134, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .select-piece .active {
+    border-color: #15b095;
+    color: #15b095;
+  }
+  /* line 140, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  /* line 144, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .carousel-label {
+    font-size: 14px;
+    min-width: 60px;
+  }
+  /* line 148, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .quanity-ctrl {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 151, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .quanity-ctrl button {
+    background: transparent;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 0 5px;
+    font-size: 18px;
+  }
+  /* line 158, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .quanity-ctrl button:hover {
+    cursor: pointer;
+  }
+  /* line 162, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .quanity-ctrl input {
+    width: 100px;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    background: transparent;
+  }
+  /* line 171, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns {
+    display: flex;
+  }
+  /* line 173, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: .3s all;
+  }
+  /* line 180, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button:hover {
+    cursor: pointer;
+  }
+  /* line 183, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button:first-of-type {
+    background: #15b095;
+    border: 1px solid #15b095;
+    margin-right: 15px;
+  }
+  /* line 187, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button:first-of-type i {
+    margin-right: 15px;
+  }
+  /* line 190, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button:first-of-type:hover {
+    background: #e45d5d;
+    border-color: #e45d5d;
+  }
+  /* line 196, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share {
+    display: flex;
+  }
+  /* line 198, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share button {
+    background: #e45d5d;
+    border: 1px solid #e45d5d;
+    margin-right: 0;
+    width: auto;
+    overflow: hidden;
+    transition: .3s all;
+  }
+  /* line 205, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share button i {
+    margin: 0;
+  }
+  /* line 209, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    background: #FFF;
+    color: #151515;
+    width: 0;
+    overflow: hidden;
+    transition: .3s all;
+  }
+  /* line 219, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li {
+    margin: 0 5px;
+  }
+  /* line 221, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li:first-of-type {
+    color: #9b9b9b;
+    font-size: 14px;
+  }
+  /* line 226, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li a i {
+    color: #151515;
+    transition: .3s all;
+  }
+  /* line 231, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li:hover {
+    cursor: pointer;
+  }
+  /* line 234, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li:hover a i {
+    color: #15b095;
+  }
+  /* line 242, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share:hover button {
+    width: 0;
+    padding: 0;
+    border: none;
+  }
+  /* line 247, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share:hover ul {
+    width: 100%;
+  }
+  /* line 263, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content {
+    background: #FFF;
+    color: #9b9b9b;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 270, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link {
+    border-radius: 0;
+    position: relative;
+    padding: 15px 30px;
+  }
+  /* line 274, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 100%;
+    background: #15b095;
+    z-index: 1;
+    transition: .3s all;
+  }
+  /* line 286, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link span {
+    z-index: 2;
+    background: transparent;
+    margin: auto;
+    position: relative;
+    text-transform: uppercase;
+  }
+  /* line 293, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link:hover {
+    cursor: pointer;
+  }
+  /* line 295, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link:hover span {
+    color: #FFF;
+  }
+  /* line 298, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link:hover:after {
+    width: 100%;
+  }
+  /* line 303, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .active {
+    border: 1px solid #9b9b9b;
+    color: #FFF;
+    background: #15b095;
+  }
+  /* line 313, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 {
+    padding: 30px;
+    color: #9b9b9b;
+  }
+  /* line 317, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single {
+    display: flex;
+  }
+  /* line 319, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-img {
+    width: 5%;
+  }
+  /* line 321, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-img img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  /* line 326, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text {
+    width: 95%;
+    margin-left: 15px;
+  }
+  /* line 329, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* line 333, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviewer-time {
+    display: flex;
+    align-items: center;
+  }
+  /* line 336, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviewer-time .reviewer-name {
+    color: #151515;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  /* line 341, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviewer-time .reviews-time {
+    font-size: 14px;
+    color: #9b9b9b;
+    margin-left: 30px;
+    position: relative;
+  }
+  /* line 346, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviewer-time .reviews-time:before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    width: 1px;
+    height: 100%;
+    background: #9b9b9b;
+  }
+  /* line 356, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviews-rating {
+    position: relative;
+    display: inline-block;
+  }
+  /* line 359, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviews-rating:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 200;
+    color: #f2f2f2;
+    width: 100%;
+  }
+  /* line 366, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviews-rating .reviews-rating-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50%;
+  }
+  /* line 373, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviews-rating .reviews-rating-inner:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ffcc00;
+  }
+  /* line 382, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-content {
+    font-size: 16px;
+    color: #9b9b9b;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 402, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel {
+    margin-top: 30px;
+  }
+  /* line 409, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper {
+    display: flex;
+  }
+  /* line 411, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .carousel-img {
+    width: 50%;
+  }
+  /* line 413, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .carousel-img img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 418, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 50%;
+  }
+  /* line 423, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content {
+    background: transparent;
+  }
+  /* line 425, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content h1 {
+    font-size: 24px;
+    color: #151515;
+    text-transform: uppercase;
+  }
+  /* line 430, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings {
+    display: flex;
+    align-items: center;
+  }
+  /* line 433, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-price {
+    display: flex;
+    align-items: center;
+  }
+  /* line 436, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-price .carousel-current {
+    color: #3f82c0;
+    font-size: 24px;
+  }
+  /* line 440, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-price .carousel-original {
+    font-size: 16px;
+    color: #9b9b9b;
+    text-decoration: line-through;
+    margin: 0 15px;
+  }
+  /* line 447, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-rating {
+    position: relative;
+    display: inline-block;
+  }
+  /* line 450, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-rating:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 200;
+    color: #f2f2f2;
+    width: 100%;
+  }
+  /* line 457, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-rating .carousel-rating-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50%;
+  }
+  /* line 464, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-rating .carousel-rating-inner:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ffcc00;
+  }
+  /* line 473, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .carousel-text {
+    margin-bottom: 10px;
+  }
+  /* line 478, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  /* line 482, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .carousel-label {
+    color: #151515;
+    font-size: 14px;
+    min-width: 60px;
+  }
+  /* line 487, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .select-oz {
+    display: flex;
+  }
+  /* line 489, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .select-oz .oz-single {
+    padding: 5px 10px;
+    margin: 0 5px;
+    color: #151515;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    transition: .3s all;
+  }
+  /* line 496, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .select-oz .oz-single:hover {
+    border-color: #15b095;
+    color: #15b095;
+    cursor: pointer;
+  }
+  /* line 502, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .select-oz .active {
+    border-color: #15b095;
+    color: #15b095;
+  }
+  /* line 508, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  /* line 512, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .carousel-label {
+    color: #151515;
+    font-size: 14px;
+    min-width: 60px;
+  }
+  /* line 517, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .select-piece {
+    display: flex;
+  }
+  /* line 519, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .select-piece .piece-single {
+    padding: 5px 10px;
+    margin: 0 5px;
+    color: #151515;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    transition: .3s all;
+  }
+  /* line 526, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .select-piece .piece-single:hover {
+    border-color: #15b095;
+    color: #15b095;
+    cursor: pointer;
+  }
+  /* line 532, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .select-piece .active {
+    border-color: #15b095;
+    color: #15b095;
+  }
+  /* line 538, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  /* line 542, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .carousel-label {
+    font-size: 14px;
+    min-width: 60px;
+  }
+  /* line 546, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .quanity-ctrl {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 549, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .quanity-ctrl button {
+    background: transparent;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 0 5px;
+    font-size: 18px;
+  }
+  /* line 556, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .quanity-ctrl button:hover {
+    cursor: pointer;
+  }
+  /* line 560, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .quanity-ctrl input {
+    width: 100px;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    background: transparent;
+  }
+  /* line 569, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns {
+    display: flex;
+  }
+  /* line 571, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: .3s all;
+  }
+  /* line 578, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button:hover {
+    cursor: pointer;
+  }
+  /* line 581, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button:first-of-type {
+    background: #15b095;
+    border: 1px solid #15b095;
+    margin-right: 15px;
+  }
+  /* line 585, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button:first-of-type i {
+    margin-right: 15px;
+  }
+  /* line 588, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button:first-of-type:hover {
+    background: #e45d5d;
+    border-color: #e45d5d;
+  }
+  /* line 594, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share {
+    display: flex;
+  }
+  /* line 596, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share button {
+    background: #e45d5d;
+    border: 1px solid #e45d5d;
+    margin-right: 0;
+    width: auto;
+    overflow: hidden;
+    transition: .3s all;
+  }
+  /* line 603, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share button i {
+    margin: 0;
+  }
+  /* line 607, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    background: #FFF;
+    color: #151515;
+    width: 0;
+    overflow: hidden;
+    transition: .3s all;
+  }
+  /* line 617, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li {
+    margin: 0 5px;
+  }
+  /* line 619, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li:first-of-type {
+    color: #9b9b9b;
+    font-size: 14px;
+  }
+  /* line 624, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li a i {
+    color: #151515;
+    transition: .3s all;
+  }
+  /* line 629, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li:hover {
+    cursor: pointer;
+  }
+  /* line 632, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li:hover a i {
+    color: #15b095;
+  }
+  /* line 640, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share:hover button {
+    width: 0;
+    padding: 0;
+    border: none;
+  }
+  /* line 645, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share:hover ul {
+    width: 100%;
+  }
+  /* line 661, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content {
+    background: #FFF;
+    color: #9b9b9b;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 668, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link {
+    border-radius: 0;
+    position: relative;
+    padding: 15px 30px;
+  }
+  /* line 672, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 100%;
+    background: #15b095;
+    z-index: 1;
+    transition: .3s all;
+  }
+  /* line 684, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link span {
+    z-index: 2;
+    background: transparent;
+    margin: auto;
+    position: relative;
+    text-transform: uppercase;
+  }
+  /* line 691, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link:hover {
+    cursor: pointer;
+  }
+  /* line 693, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link:hover span {
+    color: #FFF;
+  }
+  /* line 696, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link:hover:after {
+    width: 100%;
+  }
+  /* line 701, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .active {
+    border: 1px solid #9b9b9b;
+    color: #FFF;
+    background: #15b095;
+  }
+  /* line 711, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 {
+    padding: 30px;
+    color: #9b9b9b;
+  }
+  /* line 715, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single {
+    display: flex;
+  }
+  /* line 717, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-img {
+    width: 8%;
+  }
+  /* line 719, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-img img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  /* line 724, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text {
+    width: 92%;
+    margin-left: 15px;
+  }
+  /* line 727, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* line 731, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviewer-time {
+    display: flex;
+    align-items: center;
+  }
+  /* line 734, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviewer-time .reviewer-name {
+    color: #151515;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  /* line 739, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviewer-time .reviews-time {
+    font-size: 14px;
+    color: #9b9b9b;
+    margin-left: 30px;
+    position: relative;
+  }
+  /* line 744, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviewer-time .reviews-time:before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    width: 1px;
+    height: 100%;
+    background: #9b9b9b;
+  }
+  /* line 754, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviews-rating {
+    position: relative;
+    display: inline-block;
+  }
+  /* line 757, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviews-rating:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 200;
+    color: #f2f2f2;
+    width: 100%;
+  }
+  /* line 764, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviews-rating .reviews-rating-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50%;
+  }
+  /* line 771, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviews-rating .reviews-rating-inner:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ffcc00;
+  }
+  /* line 780, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-content {
+    font-size: 16px;
+    color: #9b9b9b;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 800, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel {
+    margin-top: 30px;
+  }
+  /* line 807, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 810, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .carousel-img {
+    width: 100%;
+  }
+  /* line 812, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .carousel-img img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 817, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc {
+    display: flex;
+    padding: 30px;
+  }
+  /* line 820, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content {
+    padding: 0 15px;
+    background: transparent;
+    margin: 0;
+  }
+  /* line 824, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content h1 {
+    font-size: 24px;
+    color: #151515;
+    text-transform: uppercase;
+  }
+  /* line 829, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings {
+    display: flex;
+    align-items: center;
+  }
+  /* line 832, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-price {
+    display: flex;
+    align-items: center;
+  }
+  /* line 835, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-price .carousel-current {
+    color: #3f82c0;
+    font-size: 24px;
+  }
+  /* line 839, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-price .carousel-original {
+    font-size: 16px;
+    color: #9b9b9b;
+    text-decoration: line-through;
+    margin: 0 15px;
+  }
+  /* line 846, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-rating {
+    position: relative;
+    display: inline-block;
+  }
+  /* line 849, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-rating:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 200;
+    color: #f2f2f2;
+    width: 100%;
+  }
+  /* line 856, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-rating .carousel-rating-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50%;
+  }
+  /* line 863, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-rating .carousel-rating-inner:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ffcc00;
+  }
+  /* line 872, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .carousel-text {
+    margin-bottom: 10px;
+  }
+  /* line 876, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter {
+    padding: 0 15px;
+  }
+  /* line 878, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  /* line 882, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .carousel-label {
+    color: #151515;
+    font-size: 14px;
+    min-width: 60px;
+  }
+  /* line 887, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .select-oz {
+    display: flex;
+  }
+  /* line 889, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .select-oz .oz-single {
+    padding: 5px 10px;
+    margin: 0 5px;
+    color: #151515;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    transition: .3s all;
+  }
+  /* line 896, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .select-oz .oz-single:hover {
+    border-color: #15b095;
+    color: #15b095;
+    cursor: pointer;
+  }
+  /* line 902, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .select-oz .active {
+    border-color: #15b095;
+    color: #15b095;
+  }
+  /* line 908, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  /* line 912, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .carousel-label {
+    color: #151515;
+    font-size: 14px;
+    min-width: 60px;
+  }
+  /* line 917, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .select-piece {
+    display: flex;
+  }
+  /* line 919, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .select-piece .piece-single {
+    padding: 5px 10px;
+    margin: 0 5px;
+    color: #151515;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    transition: .3s all;
+  }
+  /* line 926, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .select-piece .piece-single:hover {
+    border-color: #15b095;
+    color: #15b095;
+    cursor: pointer;
+  }
+  /* line 932, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .select-piece .active {
+    border-color: #15b095;
+    color: #15b095;
+  }
+  /* line 938, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  /* line 942, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .carousel-label {
+    font-size: 14px;
+    min-width: 60px;
+  }
+  /* line 946, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .quanity-ctrl {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 949, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .quanity-ctrl button {
+    background: transparent;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 0 5px;
+    font-size: 18px;
+  }
+  /* line 956, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .quanity-ctrl button:hover {
+    cursor: pointer;
+  }
+  /* line 960, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .quanity-ctrl input {
+    width: 100px;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    background: transparent;
+  }
+  /* line 969, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 972, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: .3s all;
+  }
+  /* line 979, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button:hover {
+    cursor: pointer;
+  }
+  /* line 982, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button:first-of-type {
+    background: #15b095;
+    border: 1px solid #15b095;
+    margin-bottom: 15px;
+  }
+  /* line 986, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button:first-of-type i {
+    margin-right: 15px;
+  }
+  /* line 989, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button:first-of-type:hover {
+    background: #e45d5d;
+    border-color: #e45d5d;
+  }
+  /* line 995, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share {
+    display: flex;
+  }
+  /* line 997, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share button {
+    background: #e45d5d;
+    border: 1px solid #e45d5d;
+    margin-right: 0;
+    margin-bottom: 0;
+    width: auto;
+    overflow: hidden;
+    transition: .3s all;
+  }
+  /* line 1005, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share button i {
+    margin: 0;
+  }
+  /* line 1009, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    background: #FFF;
+    border-radius: 5px;
+    color: #151515;
+    width: 0;
+    overflow: hidden;
+    transition: .3s all;
+  }
+  /* line 1020, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li {
+    margin: 0 5px;
+  }
+  /* line 1022, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li:first-of-type {
+    color: #9b9b9b;
+    font-size: 14px;
+  }
+  /* line 1027, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li a i {
+    color: #151515;
+    transition: .3s all;
+  }
+  /* line 1032, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li:hover {
+    cursor: pointer;
+  }
+  /* line 1035, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li:hover a i {
+    color: #15b095;
+  }
+  /* line 1043, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share:hover button {
+    width: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+  }
+  /* line 1049, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share:hover ul {
+    width: 100%;
+    height: 34px;
+  }
+  /* line 1066, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content {
+    background: #FFF;
+    color: #9b9b9b;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 1073, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link {
+    border-radius: 0;
+    position: relative;
+    padding: 15px 30px;
+  }
+  /* line 1077, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 100%;
+    background: #15b095;
+    z-index: 1;
+    transition: .3s all;
+  }
+  /* line 1089, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link span {
+    z-index: 2;
+    background: transparent;
+    margin: auto;
+    position: relative;
+    text-transform: uppercase;
+  }
+  /* line 1096, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link:hover {
+    cursor: pointer;
+  }
+  /* line 1098, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link:hover span {
+    color: #FFF;
+  }
+  /* line 1101, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link:hover:after {
+    width: 100%;
+  }
+  /* line 1106, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .active {
+    border: 1px solid #9b9b9b;
+    color: #FFF;
+    background: #15b095;
+  }
+  /* line 1116, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 {
+    padding: 30px;
+    color: #9b9b9b;
+  }
+  /* line 1120, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single {
+    display: flex;
+  }
+  /* line 1122, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-img {
+    width: 8%;
+  }
+  /* line 1124, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-img img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  /* line 1129, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text {
+    width: 92%;
+    margin-left: 15px;
+  }
+  /* line 1132, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* line 1136, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviewer-time {
+    display: flex;
+    align-items: center;
+  }
+  /* line 1139, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviewer-time .reviewer-name {
+    color: #151515;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  /* line 1144, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviewer-time .reviews-time {
+    font-size: 14px;
+    color: #9b9b9b;
+    margin-left: 30px;
+    position: relative;
+  }
+  /* line 1149, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviewer-time .reviews-time:before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    width: 1px;
+    height: 100%;
+    background: #9b9b9b;
+  }
+  /* line 1159, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviews-rating {
+    position: relative;
+    display: inline-block;
+  }
+  /* line 1162, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviews-rating:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 200;
+    color: #f2f2f2;
+    width: 100%;
+  }
+  /* line 1169, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviews-rating .reviews-rating-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50%;
+  }
+  /* line 1176, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviews-rating .reviews-rating-inner:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ffcc00;
+  }
+  /* line 1185, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-content {
+    font-size: 16px;
+    color: #9b9b9b;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 1205, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel {
+    margin-top: 30px;
+  }
+  /* line 1212, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 1215, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .carousel-img {
+    width: 100%;
+  }
+  /* line 1217, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .carousel-img img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 1222, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+  /* line 1226, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content {
+    padding: 0 15px;
+    background: transparent;
+    margin-top: 0;
+  }
+  /* line 1230, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content h1 {
+    font-size: 24px;
+    color: #151515;
+    text-transform: uppercase;
+  }
+  /* line 1235, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings {
+    display: flex;
+    align-items: center;
+  }
+  /* line 1238, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-price {
+    display: flex;
+    align-items: center;
+  }
+  /* line 1241, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-price .carousel-current {
+    color: #3f82c0;
+    font-size: 24px;
+  }
+  /* line 1245, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-price .carousel-original {
+    font-size: 16px;
+    color: #9b9b9b;
+    text-decoration: line-through;
+    margin: 0 15px;
+  }
+  /* line 1252, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-rating {
+    position: relative;
+    display: inline-block;
+  }
+  /* line 1255, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-rating:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 200;
+    color: #f2f2f2;
+    width: 100%;
+  }
+  /* line 1262, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-rating .carousel-rating-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50%;
+  }
+  /* line 1269, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-rating .carousel-rating-inner:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ffcc00;
+  }
+  /* line 1278, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .carousel-text {
+    margin-bottom: 10px;
+  }
+  /* line 1282, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter {
+    padding: 0 15px;
+  }
+  /* line 1284, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  /* line 1288, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .carousel-label {
+    color: #151515;
+    font-size: 14px;
+    min-width: 60px;
+  }
+  /* line 1293, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .select-oz {
+    display: flex;
+  }
+  /* line 1295, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .select-oz .oz-single {
+    padding: 5px 10px;
+    margin: 0 5px;
+    color: #151515;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    transition: .3s all;
+  }
+  /* line 1302, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .select-oz .oz-single:hover {
+    border-color: #15b095;
+    color: #15b095;
+    cursor: pointer;
+  }
+  /* line 1308, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .select-oz .active {
+    border-color: #15b095;
+    color: #15b095;
+  }
+  /* line 1314, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  /* line 1318, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .carousel-label {
+    color: #151515;
+    font-size: 14px;
+    min-width: 60px;
+  }
+  /* line 1323, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .select-piece {
+    display: flex;
+  }
+  /* line 1325, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .select-piece .piece-single {
+    padding: 5px 10px;
+    margin: 0 5px;
+    color: #151515;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    transition: .3s all;
+  }
+  /* line 1332, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .select-piece .piece-single:hover {
+    border-color: #15b095;
+    color: #15b095;
+    cursor: pointer;
+  }
+  /* line 1338, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .select-piece .active {
+    border-color: #15b095;
+    color: #15b095;
+  }
+  /* line 1344, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  /* line 1348, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .carousel-label {
+    font-size: 14px;
+    min-width: 60px;
+  }
+  /* line 1352, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .quanity-ctrl {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 1355, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .quanity-ctrl button {
+    background: transparent;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 0 5px;
+    font-size: 18px;
+  }
+  /* line 1362, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .quanity-ctrl button:hover {
+    cursor: pointer;
+  }
+  /* line 1366, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .quanity-ctrl input {
+    width: 100px;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    background: transparent;
+  }
+  /* line 1375, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 1378, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: .3s all;
+  }
+  /* line 1385, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button:hover {
+    cursor: pointer;
+  }
+  /* line 1388, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button:first-of-type {
+    background: #15b095;
+    border: 1px solid #15b095;
+    margin-bottom: 15px;
+  }
+  /* line 1392, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button:first-of-type i {
+    margin-right: 15px;
+  }
+  /* line 1395, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button:first-of-type:hover {
+    background: #e45d5d;
+    border-color: #e45d5d;
+  }
+  /* line 1401, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share {
+    display: flex;
+  }
+  /* line 1403, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share button {
+    display: none;
+    background: #e45d5d;
+    border: 1px solid #e45d5d;
+    margin-right: 0;
+    margin-bottom: 0;
+    width: auto;
+    overflow: hidden;
+    transition: .3s all;
+  }
+  /* line 1412, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share button i {
+    margin: 0;
+  }
+  /* line 1416, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0;
+    background: #FFF;
+    border-radius: 5px;
+    color: #151515;
+    height: 34px;
+    width: 100%;
+    overflow: hidden;
+    transition: .3s all;
+  }
+  /* line 1429, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li {
+    margin: 0 5px;
+  }
+  /* line 1431, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li:first-of-type {
+    color: #9b9b9b;
+    font-size: 14px;
+  }
+  /* line 1436, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li a i {
+    color: #151515;
+    transition: .3s all;
+  }
+  /* line 1441, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li:hover {
+    cursor: pointer;
+  }
+  /* line 1444, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li:hover a i {
+    color: #15b095;
+  }
+  /* line 1452, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share:hover button {
+    width: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+  }
+  /* line 1458, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share:hover ul {
+    width: 100%;
+    height: 34px;
+  }
+  /* line 1475, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content {
+    background: #FFF;
+    color: #9b9b9b;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 1482, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link {
+    border-radius: 0;
+    position: relative;
+    padding: 15px 30px;
+  }
+  /* line 1486, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 100%;
+    background: #15b095;
+    z-index: 1;
+    transition: .3s all;
+  }
+  /* line 1498, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link span {
+    z-index: 2;
+    background: transparent;
+    margin: auto;
+    position: relative;
+    text-transform: uppercase;
+  }
+  /* line 1505, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link:hover {
+    cursor: pointer;
+  }
+  /* line 1507, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link:hover span {
+    color: #FFF;
+  }
+  /* line 1510, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link:hover:after {
+    width: 100%;
+  }
+  /* line 1515, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .active {
+    border: 1px solid #9b9b9b;
+    color: #FFF;
+    background: #15b095;
+  }
+  /* line 1525, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 {
+    padding: 30px;
+    color: #9b9b9b;
+  }
+  /* line 1529, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single {
+    display: flex;
+  }
+  /* line 1531, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-img {
+    width: 10%;
+  }
+  /* line 1533, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-img img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  /* line 1538, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text {
+    width: 90%;
+    margin-left: 15px;
+  }
+  /* line 1541, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* line 1545, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviewer-time {
+    display: flex;
+    align-items: center;
+  }
+  /* line 1548, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviewer-time .reviewer-name {
+    color: #151515;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  /* line 1553, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviewer-time .reviews-time {
+    font-size: 14px;
+    color: #9b9b9b;
+    margin-left: 30px;
+    position: relative;
+  }
+  /* line 1558, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviewer-time .reviews-time:before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    width: 1px;
+    height: 100%;
+    background: #9b9b9b;
+  }
+  /* line 1568, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviews-rating {
+    position: relative;
+    display: inline-block;
+  }
+  /* line 1571, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviews-rating:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 200;
+    color: #f2f2f2;
+    width: 100%;
+  }
+  /* line 1578, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviews-rating .reviews-rating-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50%;
+  }
+  /* line 1585, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviews-rating .reviews-rating-inner:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ffcc00;
+  }
+  /* line 1594, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-content {
+    font-size: 16px;
+    color: #9b9b9b;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 1614, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel {
+    margin-top: 30px;
+  }
+  /* line 1621, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 1624, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .carousel-img {
+    width: 100%;
+  }
+  /* line 1626, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .carousel-img img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 1631, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  /* line 1635, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content {
+    background: transparent;
+    margin: 15px 0;
+  }
+  /* line 1638, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content h1 {
+    font-size: 24px;
+    color: #151515;
+    text-transform: uppercase;
+  }
+  /* line 1643, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 1646, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-price {
+    display: flex;
+    align-items: center;
+  }
+  /* line 1649, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-price .carousel-current {
+    color: #3f82c0;
+    font-size: 24px;
+  }
+  /* line 1653, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-price .carousel-original {
+    font-size: 16px;
+    color: #9b9b9b;
+    text-decoration: line-through;
+    margin: 0 15px;
+  }
+  /* line 1660, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-rating {
+    position: relative;
+    display: inline-block;
+  }
+  /* line 1663, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-rating:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 200;
+    color: #f2f2f2;
+    width: 100%;
+  }
+  /* line 1670, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-rating .carousel-rating-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50%;
+  }
+  /* line 1677, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .priceAndRatings .carousel-rating .carousel-rating-inner:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ffcc00;
+  }
+  /* line 1686, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-content .carousel-text {
+    margin-bottom: 10px;
+  }
+  /* line 1690, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter {
+    font-size: 14px;
+  }
+  /* line 1692, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  /* line 1696, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .carousel-label {
+    color: #151515;
+    font-size: 14px;
+    min-width: 60px;
+  }
+  /* line 1701, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .select-oz {
+    display: flex;
+  }
+  /* line 1703, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .select-oz .oz-single {
+    padding: 5px 10px;
+    margin: 0 3px;
+    color: #151515;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    transition: .3s all;
+  }
+  /* line 1710, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .select-oz .oz-single:hover {
+    border-color: #15b095;
+    color: #15b095;
+    cursor: pointer;
+  }
+  /* line 1716, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-oz .select-oz .active {
+    border-color: #15b095;
+    color: #15b095;
+  }
+  /* line 1722, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  /* line 1726, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .carousel-label {
+    color: #151515;
+    font-size: 14px;
+    min-width: 60px;
+  }
+  /* line 1731, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .select-piece {
+    display: flex;
+  }
+  /* line 1733, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .select-piece .piece-single {
+    padding: 5px 10px;
+    margin: 0 5px;
+    color: #151515;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    transition: .3s all;
+  }
+  /* line 1740, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .select-piece .piece-single:hover {
+    border-color: #15b095;
+    color: #15b095;
+    cursor: pointer;
+  }
+  /* line 1746, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-piece .select-piece .active {
+    border-color: #15b095;
+    color: #15b095;
+  }
+  /* line 1752, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  /* line 1756, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .carousel-label {
+    font-size: 14px;
+    min-width: 60px;
+  }
+  /* line 1760, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .quanity-ctrl {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 1763, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .quanity-ctrl button {
+    background: transparent;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 0 5px;
+    font-size: 18px;
+  }
+  /* line 1770, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .quanity-ctrl button:hover {
+    cursor: pointer;
+  }
+  /* line 1774, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-quanity .quanity-ctrl input {
+    width: 100px;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    background: transparent;
+  }
+  /* line 1783, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 1786, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: .3s all;
+  }
+  /* line 1793, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button:hover {
+    cursor: pointer;
+  }
+  /* line 1796, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button:first-of-type {
+    background: #15b095;
+    border: 1px solid #15b095;
+    margin-bottom: 15px;
+  }
+  /* line 1800, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button:first-of-type i {
+    margin-right: 15px;
+  }
+  /* line 1803, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns button:first-of-type:hover {
+    background: #e45d5d;
+    border-color: #e45d5d;
+  }
+  /* line 1809, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share {
+    display: flex;
+  }
+  /* line 1811, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share button {
+    display: none;
+    background: #e45d5d;
+    border: 1px solid #e45d5d;
+    margin-right: 0;
+    margin-bottom: 0;
+    width: auto;
+    overflow: hidden;
+    transition: .3s all;
+  }
+  /* line 1820, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share button i {
+    margin: 0;
+  }
+  /* line 1824, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0;
+    background: #FFF;
+    border-radius: 5px;
+    color: #151515;
+    height: 34px;
+    width: 100%;
+    overflow: hidden;
+    transition: .3s all;
+  }
+  /* line 1837, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li {
+    margin: 0 5px;
+  }
+  /* line 1839, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li:first-of-type {
+    color: #9b9b9b;
+    font-size: 14px;
+  }
+  /* line 1844, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li a i {
+    color: #151515;
+    transition: .3s all;
+  }
+  /* line 1849, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li:hover {
+    cursor: pointer;
+  }
+  /* line 1852, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share ul li:hover a i {
+    color: #15b095;
+  }
+  /* line 1860, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share:hover button {
+    width: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+  }
+  /* line 1866, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-carousel .slick-slider .slick-list .slick-track .slick-slide .carousel-item .item-wrapper .product-desc .product-filter .carousel-btns .carousel-share:hover ul {
+    width: 100%;
+    height: 34px;
+  }
+  /* line 1883, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content {
+    background: #FFF;
+    color: #9b9b9b;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 1890, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link {
+    border-radius: 0;
+    position: relative;
+    padding: 15px 30px;
+  }
+  /* line 1894, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 100%;
+    background: #15b095;
+    z-index: 1;
+    transition: .3s all;
+  }
+  /* line 1906, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link span {
+    z-index: 2;
+    background: transparent;
+    margin: auto;
+    position: relative;
+    text-transform: uppercase;
+  }
+  /* line 1913, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link:hover {
+    cursor: pointer;
+  }
+  /* line 1915, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link:hover span {
+    color: #FFF;
+  }
+  /* line 1918, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .nav-link:hover:after {
+    width: 100%;
+  }
+  /* line 1923, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .nav-tabs .nav-item .active {
+    border: 1px solid #9b9b9b;
+    color: #FFF;
+    background: #15b095;
+  }
+  /* line 1933, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 {
+    padding: 30px;
+    color: #9b9b9b;
+  }
+  /* line 1937, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single {
+    display: flex;
+  }
+  /* line 1939, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-img {
+    width: 15%;
+  }
+  /* line 1941, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-img img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  /* line 1946, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text {
+    width: 85%;
+    margin-left: 15px;
+  }
+  /* line 1949, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  /* line 1954, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviewer-time {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  /* line 1958, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviewer-time .reviewer-name {
+    color: #151515;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  /* line 1963, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviewer-time .reviews-time {
+    font-size: 14px;
+    color: #9b9b9b;
+    position: relative;
+  }
+  /* line 1969, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviews-rating {
+    position: relative;
+    display: inline-block;
+  }
+  /* line 1972, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviews-rating:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 200;
+    color: #f2f2f2;
+    width: 100%;
+  }
+  /* line 1979, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviews-rating .reviews-rating-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 50%;
+  }
+  /* line 1986, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-subtle .reviews-rating .reviews-rating-inner:before {
+    content: "\f005 \f005 \f005 \f005 \f005 ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ffcc00;
+  }
+  /* line 1995, C:/Users/User/snooker2/src/components/scss/ProductSingle.scss */
+  .product-single .container .product-content .tab-content .tab-pane .row .col-12 .reviews .reviews-single .reviews-text .reviews-content {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #9b9b9b;
+  }
+}
+
+/*# sourceMappingURL=../ProductSingle.map */

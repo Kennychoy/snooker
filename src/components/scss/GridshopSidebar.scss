@@ -1,0 +1,563 @@
+@media screen and (min-width: 1200px) {
+	.gridshop-sidebar {
+		.row {
+			.col-12 {
+				margin-bottom: 30px;
+				.checkbox-wrapper {
+					background: #FFF;
+					padding: 15px;
+					margin-top: 30px;
+					text-transform: uppercase;
+					.categories-checkbox {
+						display: flex;
+						justify-content: space-between;
+						margin: 15px 0;
+						.categories-items {
+							.form-check {
+								.form-check-label {
+									input {}
+								}
+							}
+						}
+						.stocks {
+							color: #9b9b9b;
+							font-weight: 500;
+						}
+					}
+				} // .checkbox-wrapper
+				
+
+				.price-wrapper {
+					.price-values {
+						display: flex;
+						justify-content: space-around;
+						margin-top: 30px;
+						margin-bottom: 30px;
+						input {
+							width: 35%;
+							text-align: center;
+						}
+						span {
+						}
+					}
+					.price-range {}
+				} // .price-wrapper
+				
+				.color-wrapper {
+					display: flex;
+					flex-wrap: wrap;
+					background: #FFF;
+					padding: 15px;
+					margin-top: 15px;
+					span {
+						width: 40px;
+						height: 40px;
+						margin: 8px;
+						position: relative;
+						border-radius: 3px;
+						transition: .3s all;
+						&:hover {
+							cursor: pointer;
+						}
+						&:first-of-type {background: #0066ff;}
+						&:nth-of-type(2) {background: #ff3399;}
+						&:nth-of-type(3) {background: #cc0099;}
+						&:nth-of-type(4) {background: #800000;}
+						&:nth-of-type(5) {background: #ff9933;}
+						&:nth-of-type(6) {background: #33cc33;}
+						&:nth-of-type(7) {background: #00cc99;}
+						&:last-of-type {background: #003366;}
+					}
+					.color-tick {
+						&:after {
+							position: absolute;
+							content: "\f00c";
+							left: 50%;
+							top: 50%;
+							transform: translate(-50%, -50%);
+							color: #FFF;
+							font-weight: 600;
+							font-family: "Font Awesome 5 Free";
+							font-size: 24px;
+						}
+					}
+				} // .color-wrapper
+				
+				.oz-wrapper {
+					display: flex;
+					flex-wrap: wrap;
+					.oz-sq {
+						background: #FFF;
+						color: #151515;
+						font-size: 18px;
+						border: 1px solid #e1e1e1;
+						border-radius: 5px;
+						margin: 8px;
+						padding: 5px 12px;
+						transition: .3s all;
+						&:hover {
+							cursor: pointer;
+						}
+					}
+					.active {
+						border: 1px solid #15b095;
+						color: #15b095;
+					}
+				}
+
+			}
+		}
+	}
+} // .min-width: 1200
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.gridshop-sidebar {
+		margin-top: 30px;
+		.row {
+			.col-12 {
+				margin-bottom: 30px;
+				.checkbox-wrapper {
+					background: #FFF;
+					padding: 15px;
+					margin-top: 30px;
+					text-transform: uppercase;
+					.categories-checkbox {
+						display: flex;
+						justify-content: space-between;
+						margin: 15px 0;
+						.categories-items {
+							.form-check {
+								.form-check-label {
+									input {}
+								}
+							}
+						}
+						.stocks {
+							color: #9b9b9b;
+							font-weight: 500;
+						}
+					}
+				} // .checkbox-wrapper
+				
+
+				.price-wrapper {
+					.price-values {
+						display: flex;
+						justify-content: space-around;
+						margin-top: 30px;
+						margin-bottom: 30px;
+						input {
+							width: 35%;
+							text-align: center;
+						}
+						span {
+						}
+					}
+					.price-range {}
+				} // .price-wrapper
+				
+				.color-wrapper {
+					display: flex;
+					flex-wrap: wrap;
+					background: #FFF;
+					padding: 15px;
+					margin-top: 15px;
+					span {
+						width: 40px;
+						height: 40px;
+						margin: 8px;
+						position: relative;
+						border-radius: 3px;
+						transition: .3s all;
+						&:hover {
+							cursor: pointer;
+						}
+						&:first-of-type {background: #0066ff;}
+						&:nth-of-type(2) {background: #ff3399;}
+						&:nth-of-type(3) {background: #cc0099;}
+						&:nth-of-type(4) {background: #800000;}
+						&:nth-of-type(5) {background: #ff9933;}
+						&:nth-of-type(6) {background: #33cc33;}
+						&:nth-of-type(7) {background: #00cc99;}
+						&:last-of-type {background: #003366;}
+					}
+					.color-tick {
+						&:after {
+							position: absolute;
+							content: "\f00c";
+							left: 50%;
+							top: 50%;
+							transform: translate(-50%, -50%);
+							color: #FFF;
+							font-weight: 600;
+							font-family: "Font Awesome 5 Free";
+							font-size: 24px;
+						}
+					}
+				} // .color-wrapper
+				
+				.oz-wrapper {
+					display: flex;
+					flex-wrap: wrap;
+					.oz-sq {
+						background: #FFF;
+						color: #151515;
+						font-size: 18px;
+						border: 1px solid #e1e1e1;
+						border-radius: 5px;
+						margin: 8px;
+						padding: 5px 12px;
+						transition: .3s all;
+						&:hover {
+							cursor: pointer;
+						}
+					}
+					.active {
+						border: 1px solid #15b095;
+						color: #15b095;
+					}
+				}
+
+			}
+		}
+	}
+} // 992 - 1199
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.gridshop-sidebar {
+		margin-top: 30px;
+		.row {
+			.col-12 {
+				margin-bottom: 30px;
+				.checkbox-wrapper {
+					background: #FFF;
+					padding: 15px;
+					margin-top: 30px;
+					text-transform: uppercase;
+					.categories-checkbox {
+						display: flex;
+						justify-content: space-between;
+						margin: 15px 0;
+						.categories-items {
+							.form-check {
+								.form-check-label {
+									input {}
+								}
+							}
+						}
+						.stocks {
+							color: #9b9b9b;
+							font-weight: 500;
+						}
+					}
+				} // .checkbox-wrapper
+				
+
+				.price-wrapper {
+					.price-values {
+						display: flex;
+						justify-content: space-around;
+						margin-top: 30px;
+						margin-bottom: 30px;
+						input {
+							width: 35%;
+							text-align: center;
+						}
+						span {
+						}
+					}
+					.price-range {}
+				} // .price-wrapper
+				
+				.color-wrapper {
+					display: flex;
+					flex-wrap: wrap;
+					background: #FFF;
+					padding: 15px;
+					margin-top: 15px;
+					span {
+						width: 40px;
+						height: 40px;
+						margin: 8px;
+						position: relative;
+						border-radius: 3px;
+						transition: .3s all;
+						&:hover {
+							cursor: pointer;
+						}
+						&:first-of-type {background: #0066ff;}
+						&:nth-of-type(2) {background: #ff3399;}
+						&:nth-of-type(3) {background: #cc0099;}
+						&:nth-of-type(4) {background: #800000;}
+						&:nth-of-type(5) {background: #ff9933;}
+						&:nth-of-type(6) {background: #33cc33;}
+						&:nth-of-type(7) {background: #00cc99;}
+						&:last-of-type {background: #003366;}
+					}
+					.color-tick {
+						&:after {
+							position: absolute;
+							content: "\f00c";
+							left: 50%;
+							top: 50%;
+							transform: translate(-50%, -50%);
+							color: #FFF;
+							font-weight: 600;
+							font-family: "Font Awesome 5 Free";
+							font-size: 24px;
+						}
+					}
+				} // .color-wrapper
+				
+				.oz-wrapper {
+					display: flex;
+					flex-wrap: wrap;
+					.oz-sq {
+						background: #FFF;
+						color: #151515;
+						font-size: 18px;
+						border: 1px solid #e1e1e1;
+						border-radius: 5px;
+						margin: 8px;
+						padding: 5px 12px;
+						transition: .3s all;
+						&:hover {
+							cursor: pointer;
+						}
+					}
+					.active {
+						border: 1px solid #15b095;
+						color: #15b095;
+					}
+				}
+
+			}
+		}
+	}
+} // 768 - 991
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+	.gridshop-sidebar {
+		margin-top: 30px;
+		.row {
+			.col-12 {
+				margin-bottom: 30px;
+				.checkbox-wrapper {
+					background: #FFF;
+					padding: 15px;
+					margin-top: 30px;
+					text-transform: uppercase;
+					.categories-checkbox {
+						display: flex;
+						justify-content: space-between;
+						margin: 15px 0;
+						.categories-items {
+							.form-check {
+								.form-check-label {
+									input {}
+								}
+							}
+						}
+						.stocks {
+							color: #9b9b9b;
+							font-weight: 500;
+						}
+					}
+				} // .checkbox-wrapper
+				
+
+				.price-wrapper {
+					.price-values {
+						display: flex;
+						justify-content: space-around;
+						margin-top: 30px;
+						margin-bottom: 30px;
+						input {
+							width: 35%;
+							text-align: center;
+						}
+						span {
+						}
+					}
+					.price-range {}
+				} // .price-wrapper
+				
+				.color-wrapper {
+					display: flex;
+					flex-wrap: wrap;
+					background: #FFF;
+					padding: 15px;
+					margin-top: 15px;
+					span {
+						width: 40px;
+						height: 40px;
+						margin: 8px;
+						position: relative;
+						border-radius: 3px;
+						transition: .3s all;
+						&:hover {
+							cursor: pointer;
+						}
+						&:first-of-type {background: #0066ff;}
+						&:nth-of-type(2) {background: #ff3399;}
+						&:nth-of-type(3) {background: #cc0099;}
+						&:nth-of-type(4) {background: #800000;}
+						&:nth-of-type(5) {background: #ff9933;}
+						&:nth-of-type(6) {background: #33cc33;}
+						&:nth-of-type(7) {background: #00cc99;}
+						&:last-of-type {background: #003366;}
+					}
+					.color-tick {
+						&:after {
+							position: absolute;
+							content: "\f00c";
+							left: 50%;
+							top: 50%;
+							transform: translate(-50%, -50%);
+							color: #FFF;
+							font-weight: 600;
+							font-family: "Font Awesome 5 Free";
+							font-size: 24px;
+						}
+					}
+				} // .color-wrapper
+				
+				.oz-wrapper {
+					display: flex;
+					flex-wrap: wrap;
+					.oz-sq {
+						background: #FFF;
+						color: #151515;
+						font-size: 18px;
+						border: 1px solid #e1e1e1;
+						border-radius: 5px;
+						margin: 8px;
+						padding: 5px 12px;
+						transition: .3s all;
+						&:hover {
+							cursor: pointer;
+						}
+					}
+					.active {
+						border: 1px solid #15b095;
+						color: #15b095;
+					}
+				}
+
+			}
+		}
+	}
+} // 576 - 767
+
+@media screen and (max-width: 575px){
+	.gridshop-sidebar {
+		margin-top: 30px;
+		.row {
+			.col-12 {
+				margin-bottom: 30px;
+				.checkbox-wrapper {
+					background: #FFF;
+					padding: 15px;
+					margin-top: 30px;
+					text-transform: uppercase;
+					.categories-checkbox {
+						display: flex;
+						justify-content: space-between;
+						margin: 15px 0;
+						.categories-items {
+							.form-check {
+								.form-check-label {
+									input {}
+								}
+							}
+						}
+						.stocks {
+							color: #9b9b9b;
+							font-weight: 500;
+						}
+					}
+				} // .checkbox-wrapper
+				
+
+				.price-wrapper {
+					.price-values {
+						display: flex;
+						justify-content: space-around;
+						margin-top: 30px;
+						margin-bottom: 30px;
+						input {
+							width: 35%;
+							text-align: center;
+						}
+						span {
+						}
+					}
+					.price-range {}
+				} // .price-wrapper
+				
+				.color-wrapper {
+					display: flex;
+					flex-wrap: wrap;
+					background: #FFF;
+					padding: 15px;
+					margin-top: 15px;
+					span {
+						width: 40px;
+						height: 40px;
+						margin: 8px;
+						position: relative;
+						border-radius: 3px;
+						transition: .3s all;
+						&:hover {
+							cursor: pointer;
+						}
+						&:first-of-type {background: #0066ff;}
+						&:nth-of-type(2) {background: #ff3399;}
+						&:nth-of-type(3) {background: #cc0099;}
+						&:nth-of-type(4) {background: #800000;}
+						&:nth-of-type(5) {background: #ff9933;}
+						&:nth-of-type(6) {background: #33cc33;}
+						&:nth-of-type(7) {background: #00cc99;}
+						&:last-of-type {background: #003366;}
+					}
+					.color-tick {
+						&:after {
+							position: absolute;
+							content: "\f00c";
+							left: 50%;
+							top: 50%;
+							transform: translate(-50%, -50%);
+							color: #FFF;
+							font-weight: 600;
+							font-family: "Font Awesome 5 Free";
+							font-size: 24px;
+						}
+					}
+				} // .color-wrapper
+				
+				.oz-wrapper {
+					display: flex;
+					flex-wrap: wrap;
+					.oz-sq {
+						background: #FFF;
+						color: #151515;
+						font-size: 18px;
+						border: 1px solid #e1e1e1;
+						border-radius: 5px;
+						margin: 8px;
+						padding: 5px 12px;
+						transition: .3s all;
+						&:hover {
+							cursor: pointer;
+						}
+					}
+					.active {
+						border: 1px solid #15b095;
+						color: #15b095;
+					}
+				}
+
+			}
+		}
+	}
+} // max 575

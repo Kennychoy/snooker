@@ -1,0 +1,1432 @@
+@media screen and (min-width: 1200px) {
+  /* line 5, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  /* line 13, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .homepage-titles h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 18, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .homepage-titles h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 30, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    margin-left: 5px;
+  }
+  /* line 35, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button {
+    background: transparent;
+    border: 1px solid #c6c6c6;
+    padding: 5px;
+    transition: .3s all;
+  }
+  /* line 40, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button:hover {
+    background: #15b095;
+    cursor: pointer;
+  }
+  /* line 43, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button:hover span {
+    color: #fff;
+  }
+  /* line 47, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button:focus {
+    outline: none;
+  }
+  /* line 50, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button span {
+    background: none;
+    color: #111;
+    transition: .3s all;
+  }
+  /* line 64, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 68, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 72, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-date {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  /* line 76, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-date .upcoming-day {
+    font-size: 60px;
+    line-height: 1;
+  }
+  /* line 80, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-date .upcoming-month {
+    font-size: 18px;
+  }
+  /* line 85, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-time-weekday {
+    text-align: center;
+  }
+  /* line 87, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-time-weekday .upcoming-time {
+    color: #15b095;
+  }
+  /* line 96, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .upcoming-photo .upcoming-img-wrapper .upcoming-img img {
+    width: 100%;
+  }
+  /* line 104, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details {
+    background: #FFF;
+    position: relative;
+  }
+  /* line 107, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -5px;
+    background: #FFF;
+    width: 10px;
+    height: 10px;
+    transform: skew(15deg, 10deg);
+  }
+  /* line 117, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-title {
+    font-size: 33px;
+    color: #151515;
+  }
+  /* line 121, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-location {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 124, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-location span {
+    color: #15b095;
+    margin-right: 5px;
+  }
+  /* line 129, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-location .event-address {
+    color: #9b9b9b;
+  }
+  /* line 133, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-countdown {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 139, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-countdown .event-countdown-wrapper {
+    display: flex;
+    margin-right: 10px;
+    flex-direction: row;
+  }
+  /* line 143, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-countdown .event-countdown-wrapper .event-countdown-num {
+    margin-right: 5px;
+  }
+  /* line 146, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-countdown .event-countdown-wrapper .event-countdown-unit {
+    color: #9b9b9b;
+  }
+  /* line 151, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-description {
+    margin-bottom: 15px;
+  }
+  /* line 154, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+  }
+  /* line 158, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share {
+    margin-right: 30px;
+  }
+  /* line 160, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button {
+    border: none;
+    width: 38px;
+    height: 40px;
+    position: relative;
+  }
+  /* line 165, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button:focus {
+    outline: none;
+  }
+  /* line 168, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul {
+    list-style: none;
+    background: #f05c5c;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    width: 38px;
+    overflow-x: hidden;
+    top: 0;
+    position: absolute;
+  }
+  /* line 179, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul:hover {
+    cursor: pointer;
+    overflow-x: visible;
+  }
+  /* line 184, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul:hover li a i {
+    opacity: 1;
+  }
+  /* line 190, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li {
+    padding: 8px 22px 8px 10px;
+    background: #f05c5c;
+    color: #FFF;
+  }
+  /* line 196, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a i {
+    color: #FFF;
+    opacity: 0;
+    transition: opacity .3s;
+  }
+  /* line 200, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a i:hover {
+    color: rgba(21, 21, 21, 0.5);
+  }
+  /* line 204, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a .fa-facebook-f {
+    transition-delay: 0;
+  }
+  /* line 207, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a .fa-twitter {
+    transition-delay: .2s;
+  }
+  /* line 210, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a .fa-google-plus-g {
+    transition-delay: .4s;
+  }
+  /* line 213, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a .fa-instagram {
+    transition-delay: .6s;
+  }
+  /* line 221, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-readmore {
+    margin-right: 30px;
+  }
+  /* line 223, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-readmore button {
+    background: #15b095;
+    border: 1px solid #15b095;
+    padding: 8px 25px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 229, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-readmore button:hover {
+    cursor: pointer;
+    background: #f05c5c;
+    border-color: #f05c5c;
+  }
+  /* line 234, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-readmore button:focus {
+    outline: none;
+  }
+  /* line 240, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-buytickets button {
+    background: #FFF;
+    color: #151515;
+    border: 1px solid #151515;
+    padding: 8px 25px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 247, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-buytickets button:hover {
+    background: #151515;
+    color: #FFF;
+    cursor: pointer;
+  }
+  /* line 252, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-buytickets button:focus {
+    outline: none;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 273, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  /* line 281, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .homepage-titles h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 286, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .homepage-titles h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 298, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    margin-left: 5px;
+  }
+  /* line 303, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button {
+    background: transparent;
+    border: 1px solid #c6c6c6;
+    padding: 5px;
+    transition: .3s all;
+  }
+  /* line 308, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button:hover {
+    background: #15b095;
+    cursor: pointer;
+  }
+  /* line 311, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button:hover span {
+    color: #fff;
+  }
+  /* line 315, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button:focus {
+    outline: none;
+  }
+  /* line 318, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button span {
+    background: none;
+    color: #111;
+    transition: .3s all;
+  }
+  /* line 332, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 336, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 339, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* line 344, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-date {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  /* line 348, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-date .upcoming-day {
+    font-size: 60px;
+    line-height: 1;
+  }
+  /* line 352, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-date .upcoming-month {
+    font-size: 18px;
+    align-items: center;
+  }
+  /* line 357, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-time-weekday {
+    text-align: center;
+  }
+  /* line 359, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-time-weekday .upcoming-time {
+    color: #15b095;
+  }
+  /* line 368, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .upcoming-photo .upcoming-img-wrapper .upcoming-img img {
+    width: 100%;
+  }
+  /* line 376, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details {
+    background: #FFF;
+    position: relative;
+  }
+  /* line 379, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -5px;
+    background: #FFF;
+    width: 10px;
+    height: 10px;
+    transform: skew(15deg, 10deg);
+  }
+  /* line 389, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-title {
+    font-size: 33px;
+    color: #151515;
+  }
+  /* line 393, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-location {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 396, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-location span {
+    color: #15b095;
+    margin-right: 5px;
+  }
+  /* line 401, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-location .event-address {
+    color: #9b9b9b;
+  }
+  /* line 405, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-countdown {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 411, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-countdown .event-countdown-wrapper {
+    display: flex;
+    margin-right: 10px;
+    flex-direction: row;
+  }
+  /* line 415, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-countdown .event-countdown-wrapper .event-countdown-num {
+    margin-right: 5px;
+  }
+  /* line 418, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-countdown .event-countdown-wrapper .event-countdown-unit {
+    color: #9b9b9b;
+  }
+  /* line 423, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-description {
+    margin-bottom: 15px;
+    padding-right: 15px;
+  }
+  /* line 427, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+  }
+  /* line 431, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share {
+    margin-right: 30px;
+  }
+  /* line 433, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button {
+    border: none;
+    width: 38px;
+    height: 40px;
+    position: relative;
+  }
+  /* line 438, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button:focus {
+    outline: none;
+  }
+  /* line 441, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul {
+    list-style: none;
+    background: #f05c5c;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    width: 38px;
+    overflow-x: hidden;
+    top: 0;
+    position: absolute;
+  }
+  /* line 452, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul:hover {
+    cursor: pointer;
+    overflow-x: visible;
+  }
+  /* line 457, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul:hover li a i {
+    opacity: 1;
+  }
+  /* line 463, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li {
+    padding: 8px 22px 8px 10px;
+    background: #f05c5c;
+    color: #FFF;
+  }
+  /* line 469, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a i {
+    color: #FFF;
+    opacity: 0;
+    transition: opacity .3s;
+  }
+  /* line 473, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a i:hover {
+    color: rgba(21, 21, 21, 0.5);
+  }
+  /* line 477, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a .fa-facebook-f {
+    transition-delay: 0;
+  }
+  /* line 480, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a .fa-twitter {
+    transition-delay: .2s;
+  }
+  /* line 483, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a .fa-google-plus-g {
+    transition-delay: .4s;
+  }
+  /* line 486, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a .fa-instagram {
+    transition-delay: .6s;
+  }
+  /* line 494, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-readmore {
+    margin-right: 30px;
+  }
+  /* line 496, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-readmore button {
+    background: #15b095;
+    border: 1px solid #15b095;
+    padding: 8px 25px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 502, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-readmore button:hover {
+    cursor: pointer;
+    background: #f05c5c;
+    border-color: #f05c5c;
+  }
+  /* line 507, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-readmore button:focus {
+    outline: none;
+  }
+  /* line 513, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-buytickets button {
+    background: #FFF;
+    color: #151515;
+    border: 1px solid #151515;
+    padding: 8px 25px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 520, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-buytickets button:hover {
+    background: #151515;
+    color: #FFF;
+    cursor: pointer;
+  }
+  /* line 525, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-buytickets button:focus {
+    outline: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 546, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  /* line 554, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .homepage-titles h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 559, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .homepage-titles h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 571, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    margin-left: 5px;
+  }
+  /* line 576, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button {
+    background: transparent;
+    border: 1px solid #c6c6c6;
+    padding: 5px;
+    transition: .3s all;
+  }
+  /* line 581, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button:hover {
+    background: #15b095;
+    cursor: pointer;
+  }
+  /* line 584, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button:hover span {
+    color: #fff;
+  }
+  /* line 588, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button:focus {
+    outline: none;
+  }
+  /* line 591, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button span {
+    background: none;
+    color: #111;
+    transition: .3s all;
+  }
+  /* line 605, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 609, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 612, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* line 617, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-date {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  /* line 621, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-date .upcoming-day {
+    font-size: 60px;
+    line-height: 1;
+  }
+  /* line 625, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-date .upcoming-month {
+    font-size: 18px;
+    align-items: center;
+  }
+  /* line 630, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-time-weekday {
+    text-align: center;
+  }
+  /* line 632, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-time-weekday .upcoming-time {
+    color: #15b095;
+  }
+  /* line 641, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .upcoming-photo .upcoming-img-wrapper .upcoming-img img {
+    width: 100%;
+  }
+  /* line 649, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details {
+    background: #FFF;
+    position: relative;
+  }
+  /* line 652, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -5px;
+    background: #FFF;
+    width: 10px;
+    height: 10px;
+    transform: skew(15deg, 10deg);
+  }
+  /* line 662, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-title {
+    font-size: 33px;
+    color: #151515;
+  }
+  /* line 666, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-location {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 669, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-location span {
+    color: #15b095;
+    margin-right: 5px;
+  }
+  /* line 674, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-location .event-address {
+    color: #9b9b9b;
+  }
+  /* line 678, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-countdown {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 684, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-countdown .event-countdown-wrapper {
+    display: flex;
+    margin-right: 10px;
+    flex-direction: row;
+  }
+  /* line 688, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-countdown .event-countdown-wrapper .event-countdown-num {
+    margin-right: 5px;
+  }
+  /* line 691, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-countdown .event-countdown-wrapper .event-countdown-unit {
+    color: #9b9b9b;
+  }
+  /* line 696, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-description {
+    margin-bottom: 15px;
+    padding-right: 15px;
+  }
+  /* line 700, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+  }
+  /* line 704, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share {
+    margin-right: 30px;
+  }
+  /* line 706, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button {
+    border: none;
+    width: 38px;
+    height: 40px;
+    position: relative;
+  }
+  /* line 711, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button:focus {
+    outline: none;
+  }
+  /* line 714, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul {
+    list-style: none;
+    background: #f05c5c;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    width: 38px;
+    overflow-x: hidden;
+    top: 0;
+    position: absolute;
+  }
+  /* line 725, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul:hover {
+    cursor: pointer;
+    overflow-x: visible;
+  }
+  /* line 730, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul:hover li a i {
+    opacity: 1;
+  }
+  /* line 736, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li {
+    padding: 8px 22px 8px 10px;
+    background: #f05c5c;
+    color: #FFF;
+  }
+  /* line 742, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a i {
+    color: #FFF;
+    opacity: 0;
+    transition: opacity .3s;
+  }
+  /* line 746, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a i:hover {
+    color: rgba(21, 21, 21, 0.5);
+  }
+  /* line 750, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a .fa-facebook-f {
+    transition-delay: 0;
+  }
+  /* line 753, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a .fa-twitter {
+    transition-delay: .2s;
+  }
+  /* line 756, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a .fa-google-plus-g {
+    transition-delay: .4s;
+  }
+  /* line 759, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a .fa-instagram {
+    transition-delay: .6s;
+  }
+  /* line 767, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-readmore {
+    margin-right: 30px;
+  }
+  /* line 769, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-readmore button {
+    background: #15b095;
+    border: 1px solid #15b095;
+    padding: 8px 25px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 775, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-readmore button:hover {
+    cursor: pointer;
+    background: #f05c5c;
+    border-color: #f05c5c;
+  }
+  /* line 780, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-readmore button:focus {
+    outline: none;
+  }
+  /* line 786, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-buytickets button {
+    background: #FFF;
+    color: #151515;
+    border: 1px solid #151515;
+    padding: 8px 25px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 793, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-buytickets button:hover {
+    background: #151515;
+    color: #FFF;
+    cursor: pointer;
+  }
+  /* line 798, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-buytickets button:focus {
+    outline: none;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 819, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  /* line 827, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .homepage-titles h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 832, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .homepage-titles h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 844, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    margin-left: 5px;
+  }
+  /* line 849, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button {
+    background: transparent;
+    border: 1px solid #c6c6c6;
+    padding: 5px;
+    transition: .3s all;
+  }
+  /* line 854, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button:hover {
+    background: #15b095;
+    cursor: pointer;
+  }
+  /* line 857, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button:hover span {
+    color: #fff;
+  }
+  /* line 861, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button:focus {
+    outline: none;
+  }
+  /* line 864, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button span {
+    background: none;
+    color: #111;
+    transition: .3s all;
+  }
+  /* line 878, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 882, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 885, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* line 890, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-date {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  /* line 894, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-date .upcoming-day {
+    font-size: 60px;
+    line-height: 1;
+  }
+  /* line 898, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-date .upcoming-month {
+    font-size: 18px;
+    align-items: center;
+  }
+  /* line 903, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-time-weekday {
+    text-align: center;
+  }
+  /* line 905, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-time-weekday .upcoming-time {
+    color: #15b095;
+  }
+  /* line 914, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .upcoming-photo .upcoming-img-wrapper .upcoming-img img {
+    width: 100%;
+  }
+  /* line 922, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details {
+    background: #FFF;
+    position: relative;
+    padding: 30px;
+    margin-top: 30px;
+  }
+  /* line 927, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    right: 50%;
+    bottom: auto;
+    left: auto;
+    width: 15px;
+    height: 10px;
+    border-style: solid;
+    border-width: 0 15px 15px;
+    border-color: #fff transparent;
+    display: block;
+  }
+  /* line 941, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-title {
+    font-size: 28px;
+    color: #151515;
+  }
+  /* line 945, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-location {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 948, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-location span {
+    color: #15b095;
+    margin-right: 5px;
+  }
+  /* line 953, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-location .event-address {
+    color: #9b9b9b;
+  }
+  /* line 957, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-countdown {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 963, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-countdown .event-countdown-wrapper {
+    display: flex;
+    margin-right: 10px;
+    flex-direction: row;
+  }
+  /* line 967, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-countdown .event-countdown-wrapper .event-countdown-num {
+    margin-right: 5px;
+  }
+  /* line 970, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-countdown .event-countdown-wrapper .event-countdown-unit {
+    color: #9b9b9b;
+  }
+  /* line 975, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-description {
+    margin-bottom: 15px;
+    padding-right: 15px;
+  }
+  /* line 979, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+  }
+  /* line 983, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share {
+    margin-right: 30px;
+  }
+  /* line 985, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button {
+    border: none;
+    width: 38px;
+    height: 40px;
+    position: relative;
+  }
+  /* line 990, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button:focus {
+    outline: none;
+  }
+  /* line 993, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul {
+    list-style: none;
+    background: #f05c5c;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    width: 38px;
+    overflow-x: hidden;
+    top: 0;
+    position: absolute;
+  }
+  /* line 1004, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul:hover {
+    cursor: pointer;
+    overflow-x: visible;
+  }
+  /* line 1009, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul:hover li a i {
+    opacity: 1;
+  }
+  /* line 1015, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li {
+    padding: 8px 22px 8px 10px;
+    background: #f05c5c;
+    color: #FFF;
+  }
+  /* line 1021, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a i {
+    color: #FFF;
+    opacity: 0;
+    transition: opacity .3s;
+  }
+  /* line 1025, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a i:hover {
+    color: rgba(21, 21, 21, 0.5);
+  }
+  /* line 1029, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a .fa-facebook-f {
+    transition-delay: 0;
+  }
+  /* line 1032, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a .fa-twitter {
+    transition-delay: .2s;
+  }
+  /* line 1035, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a .fa-google-plus-g {
+    transition-delay: .4s;
+  }
+  /* line 1038, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a .fa-instagram {
+    transition-delay: .6s;
+  }
+  /* line 1046, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-readmore {
+    margin-right: 30px;
+  }
+  /* line 1048, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-readmore button {
+    background: #15b095;
+    border: 1px solid #15b095;
+    padding: 8px 25px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 1054, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-readmore button:hover {
+    cursor: pointer;
+    background: #f05c5c;
+    border-color: #f05c5c;
+  }
+  /* line 1059, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-readmore button:focus {
+    outline: none;
+  }
+  /* line 1065, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-buytickets button {
+    background: #FFF;
+    color: #151515;
+    border: 1px solid #151515;
+    padding: 8px 25px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 1072, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-buytickets button:hover {
+    background: #151515;
+    color: #FFF;
+    cursor: pointer;
+  }
+  /* line 1077, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-buytickets button:focus {
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 1098, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  /* line 1106, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .homepage-titles h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 1111, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .homepage-titles h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 1123, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    margin-left: 5px;
+  }
+  /* line 1128, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button {
+    background: transparent;
+    border: 1px solid #c6c6c6;
+    padding: 5px;
+    transition: .3s all;
+  }
+  /* line 1133, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button:hover {
+    background: #15b095;
+    cursor: pointer;
+  }
+  /* line 1136, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button:hover span {
+    color: #fff;
+  }
+  /* line 1140, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button:focus {
+    outline: none;
+  }
+  /* line 1143, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container .upcoming-heading .upcoming-controls a button span {
+    background: none;
+    color: #111;
+    transition: .3s all;
+  }
+  /* line 1157, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 1161, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 1164, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* line 1169, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-date {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  /* line 1173, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-date .upcoming-day {
+    font-size: 60px;
+    line-height: 1;
+  }
+  /* line 1177, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-date .upcoming-month {
+    font-size: 18px;
+    align-items: center;
+  }
+  /* line 1182, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-time-weekday {
+    text-align: center;
+  }
+  /* line 1184, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .time-wrapper .upcoming-time-weekday .upcoming-time {
+    color: #15b095;
+  }
+  /* line 1193, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-time-date .row .upcoming-photo .upcoming-img-wrapper .upcoming-img img {
+    width: 100%;
+  }
+  /* line 1201, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details {
+    background: #FFF;
+    position: relative;
+    padding: 30px;
+    margin-top: 30px;
+  }
+  /* line 1206, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    right: 50%;
+    bottom: auto;
+    left: auto;
+    width: 15px;
+    height: 10px;
+    border-style: solid;
+    border-width: 0 15px 15px;
+    border-color: #fff transparent;
+    display: block;
+  }
+  /* line 1220, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-title {
+    font-size: 20px;
+    color: #151515;
+  }
+  /* line 1224, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-location {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+  }
+  /* line 1228, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-location span {
+    color: #15b095;
+    margin-right: 5px;
+  }
+  /* line 1233, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-location .event-address {
+    color: #9b9b9b;
+  }
+  /* line 1237, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-countdown {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 1243, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-countdown .event-countdown-wrapper {
+    display: flex;
+    margin-right: 10px;
+    flex-direction: row;
+  }
+  /* line 1247, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-countdown .event-countdown-wrapper .event-countdown-num {
+    margin-right: 5px;
+  }
+  /* line 1250, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-countdown .event-countdown-wrapper .event-countdown-unit {
+    color: #9b9b9b;
+  }
+  /* line 1255, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-description {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+  }
+  /* line 1260, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  /* line 1264, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share {
+    margin-right: 30px;
+  }
+  /* line 1266, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button {
+    border: none;
+    width: 38px;
+    height: 40px;
+    position: relative;
+  }
+  /* line 1271, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button:focus {
+    outline: none;
+  }
+  /* line 1274, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul {
+    list-style: none;
+    background: #f05c5c;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    width: 38px;
+    overflow-x: hidden;
+    top: 0;
+    position: absolute;
+  }
+  /* line 1285, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul:hover {
+    cursor: pointer;
+    overflow-x: visible;
+  }
+  /* line 1290, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul:hover li a i {
+    opacity: 1;
+  }
+  /* line 1296, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li {
+    padding: 8px 5px 8px 10px;
+    background: #f05c5c;
+    color: #FFF;
+  }
+  /* line 1302, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a i {
+    color: #FFF;
+    opacity: 0;
+    transition: opacity .3s;
+  }
+  /* line 1306, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a i:hover {
+    color: rgba(21, 21, 21, 0.5);
+  }
+  /* line 1310, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a .fa-facebook-f {
+    transition-delay: 0;
+  }
+  /* line 1313, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a .fa-twitter {
+    transition-delay: .2s;
+  }
+  /* line 1316, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a .fa-google-plus-g {
+    transition-delay: .4s;
+  }
+  /* line 1319, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-share button ul li a .fa-instagram {
+    transition-delay: .6s;
+  }
+  /* line 1327, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-readmore {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 1330, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-readmore button {
+    background: #15b095;
+    border: 1px solid #15b095;
+    padding: 8px 25px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 1336, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-readmore button:hover {
+    cursor: pointer;
+    background: #f05c5c;
+    border-color: #f05c5c;
+  }
+  /* line 1341, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-readmore button:focus {
+    outline: none;
+  }
+  /* line 1347, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-buytickets button {
+    background: #FFF;
+    color: #151515;
+    border: 1px solid #151515;
+    padding: 8px 25px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 1354, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-buytickets button:hover {
+    background: #151515;
+    color: #FFF;
+    cursor: pointer;
+  }
+  /* line 1359, C:/Users/User/snooker2/src/components/scss/UpcomingEvent.scss */
+  .upcoming-event .container #upcoming-carousel .carousel-inner .carousel-item .row .carousel-details .event-btns .event-buytickets button:focus {
+    outline: none;
+  }
+}
+
+/*# sourceMappingURL=../UpcomingEvent.map */

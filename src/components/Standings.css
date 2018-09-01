@@ -1,0 +1,611 @@
+@media screen and (min-width: 1200px) {
+  /* line 2, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings {
+    margin-top: 50px;
+  }
+  /* line 4, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+    text-transform: uppercase;
+  }
+  /* line 12, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 17, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 26, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles h5 i {
+    margin-right: 5px;
+    color: #fd6565;
+  }
+  /* line 31, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles a {
+    font-size: 12px;
+    color: #151515;
+    border: 1px solid #151515;
+    background: transparent;
+    padding: 5px 8px;
+    letter-spacing: .05rem;
+    transition: .3s all;
+  }
+  /* line 39, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles a:hover {
+    background: #151515;
+    color: #fff;
+    text-decoration: none;
+  }
+  /* line 46, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  /* line 50, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table thead {
+    background: #15b095;
+    color: #FFF;
+  }
+  /* line 58, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr {
+    background: #FFF;
+    transition: .3s all;
+  }
+  /* line 61, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr:hover {
+    background: #f5f7f9;
+  }
+  /* line 64, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr:hover th span {
+    background: #15b095;
+  }
+  /* line 66, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr:hover th span:after {
+    border-color: transparent #15b095;
+  }
+  /* line 72, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr th {
+    vertical-align: middle;
+  }
+  /* line 74, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr th span {
+    padding: 8px 20px;
+    background: #edeff4;
+    position: relative;
+    transition: .3s all;
+  }
+  /* line 79, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr th span:after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    right: -10px;
+    bottom: auto;
+    left: auto;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent #edeff4;
+    border-style: solid;
+    display: block;
+    transition: .3s all;
+  }
+  /* line 94, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr td {
+    vertical-align: middle;
+  }
+  /* line 97, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr td .standing-nameandcountry .standing-name {
+    text-transform: uppercase;
+  }
+  /* line 100, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr td .standing-nameandcountry .standing-country {
+    font-size: 12px;
+    color: #9b9b9b;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 114, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings {
+    margin-top: 50px;
+  }
+  /* line 116, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+    text-transform: uppercase;
+  }
+  /* line 124, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 129, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 138, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles h5 i {
+    margin-right: 5px;
+    color: #fd6565;
+  }
+  /* line 143, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles a {
+    font-size: 12px;
+    color: #151515;
+    border: 1px solid #151515;
+    background: transparent;
+    padding: 5px 8px;
+    letter-spacing: .05rem;
+    transition: .3s all;
+  }
+  /* line 151, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles a:hover {
+    background: #151515;
+    color: #fff;
+    text-decoration: none;
+  }
+  /* line 158, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  /* line 162, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table thead {
+    background: #15b095;
+    color: #FFF;
+  }
+  /* line 170, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr {
+    background: #FFF;
+    transition: .3s all;
+  }
+  /* line 173, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr:hover {
+    background: #f5f7f9;
+  }
+  /* line 176, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr:hover th span {
+    background: #15b095;
+  }
+  /* line 178, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr:hover th span:after {
+    border-color: transparent #15b095;
+  }
+  /* line 184, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr th {
+    vertical-align: middle;
+  }
+  /* line 186, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr th span {
+    padding: 8px 20px;
+    background: #edeff4;
+    position: relative;
+    transition: .3s all;
+  }
+  /* line 191, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr th span:after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    right: -10px;
+    bottom: auto;
+    left: auto;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent #edeff4;
+    border-style: solid;
+    display: block;
+    transition: .3s all;
+  }
+  /* line 206, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr td {
+    vertical-align: middle;
+  }
+  /* line 209, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr td .standing-nameandcountry .standing-name {
+    text-transform: uppercase;
+  }
+  /* line 212, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr td .standing-nameandcountry .standing-country {
+    font-size: 12px;
+    color: #9b9b9b;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 226, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings {
+    margin-top: 50px;
+  }
+  /* line 228, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+    text-transform: uppercase;
+  }
+  /* line 236, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 241, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 250, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles h5 i {
+    margin-right: 5px;
+    color: #fd6565;
+  }
+  /* line 255, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles a {
+    font-size: 12px;
+    color: #151515;
+    border: 1px solid #151515;
+    background: transparent;
+    padding: 5px 8px;
+    letter-spacing: .05rem;
+    transition: .3s all;
+  }
+  /* line 263, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles a:hover {
+    background: #151515;
+    color: #fff;
+    text-decoration: none;
+  }
+  /* line 270, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  /* line 274, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table thead {
+    background: #15b095;
+    color: #FFF;
+  }
+  /* line 282, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr {
+    background: #FFF;
+    transition: .3s all;
+  }
+  /* line 285, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr:hover {
+    background: #f5f7f9;
+  }
+  /* line 288, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr:hover th span {
+    background: #15b095;
+  }
+  /* line 290, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr:hover th span:after {
+    border-color: transparent #15b095;
+  }
+  /* line 296, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr th {
+    vertical-align: middle;
+  }
+  /* line 298, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr th span {
+    padding: 8px 20px;
+    background: #edeff4;
+    position: relative;
+    transition: .3s all;
+  }
+  /* line 303, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr th span:after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    right: -10px;
+    bottom: auto;
+    left: auto;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent #edeff4;
+    border-style: solid;
+    display: block;
+    transition: .3s all;
+  }
+  /* line 318, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr td {
+    vertical-align: middle;
+  }
+  /* line 321, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr td .standing-nameandcountry .standing-name {
+    text-transform: uppercase;
+  }
+  /* line 324, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr td .standing-nameandcountry .standing-country {
+    font-size: 12px;
+    color: #9b9b9b;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 338, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings {
+    margin-top: 50px;
+  }
+  /* line 340, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+    text-transform: uppercase;
+  }
+  /* line 348, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 353, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 362, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles h5 i {
+    margin-right: 5px;
+    color: #fd6565;
+  }
+  /* line 367, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles a {
+    font-size: 12px;
+    color: #151515;
+    border: 1px solid #151515;
+    background: transparent;
+    padding: 5px 8px;
+    letter-spacing: .05rem;
+    transition: .3s all;
+  }
+  /* line 375, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles a:hover {
+    background: #151515;
+    color: #fff;
+    text-decoration: none;
+  }
+  /* line 382, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  /* line 386, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table thead {
+    background: #15b095;
+    color: #FFF;
+  }
+  /* line 394, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr {
+    background: #FFF;
+    transition: .3s all;
+  }
+  /* line 397, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr:hover {
+    background: #f5f7f9;
+  }
+  /* line 400, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr:hover th span {
+    background: #15b095;
+  }
+  /* line 402, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr:hover th span:after {
+    border-color: transparent #15b095;
+  }
+  /* line 408, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr th {
+    vertical-align: middle;
+  }
+  /* line 410, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr th span {
+    padding: 8px 20px;
+    background: #edeff4;
+    position: relative;
+    transition: .3s all;
+  }
+  /* line 415, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr th span:after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    right: -10px;
+    bottom: auto;
+    left: auto;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent #edeff4;
+    border-style: solid;
+    display: block;
+    transition: .3s all;
+  }
+  /* line 430, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr td {
+    vertical-align: middle;
+  }
+  /* line 433, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr td .standing-nameandcountry .standing-name {
+    text-transform: uppercase;
+  }
+  /* line 436, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr td .standing-nameandcountry .standing-country {
+    font-size: 12px;
+    color: #9b9b9b;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 450, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings {
+    margin-top: 50px;
+  }
+  /* line 452, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+    text-transform: uppercase;
+  }
+  /* line 460, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 465, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 474, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles h5 i {
+    margin-right: 5px;
+    color: #fd6565;
+  }
+  /* line 479, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles a {
+    font-size: 12px;
+    color: #151515;
+    border: 1px solid #151515;
+    background: transparent;
+    padding: 5px 8px;
+    letter-spacing: .05rem;
+    transition: .3s all;
+  }
+  /* line 487, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings .homepage-titles a:hover {
+    background: #151515;
+    color: #fff;
+    text-decoration: none;
+  }
+  /* line 494, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  /* line 498, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table thead {
+    background: #15b095;
+    color: #FFF;
+  }
+  /* line 506, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr {
+    background: #FFF;
+    transition: .3s all;
+  }
+  /* line 509, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr:hover {
+    background: #f5f7f9;
+  }
+  /* line 512, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr:hover th span {
+    background: #15b095;
+  }
+  /* line 514, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr:hover th span:after {
+    border-color: transparent #15b095;
+  }
+  /* line 520, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr th {
+    vertical-align: middle;
+  }
+  /* line 522, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr th span {
+    padding: 8px 20px;
+    background: #edeff4;
+    position: relative;
+    transition: .3s all;
+  }
+  /* line 527, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr th span:after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    right: -10px;
+    bottom: auto;
+    left: auto;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent #edeff4;
+    border-style: solid;
+    display: block;
+    transition: .3s all;
+  }
+  /* line 542, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr td {
+    vertical-align: middle;
+  }
+  /* line 545, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr td .standing-nameandcountry .standing-name {
+    text-transform: uppercase;
+  }
+  /* line 548, C:/Users/User/snooker2/src/components/scss/Standings.scss */
+  .standings table tbody tr td .standing-nameandcountry .standing-country {
+    font-size: 12px;
+    color: #9b9b9b;
+    text-transform: uppercase;
+  }
+}
+
+/*# sourceMappingURL=../Standings.map */

@@ -1,0 +1,416 @@
+@media screen and (min-width: 1200px) {
+  /* line 2, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel {
+    margin-top: 30px;
+  }
+  /* line 4, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin-top: 30px;
+  }
+  /* line 13, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer {
+    padding: 15px;
+    background: #315162;
+  }
+  /* line 16, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner {
+    border: 1px solid #fff;
+    padding: 30px 15px;
+    display: flex;
+  }
+  /* line 20, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  /* line 27, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc .awards-name {
+    font-size: 24px;
+    text-align: center;
+  }
+  /* line 30, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc .awards-name .first {
+    color: #f05c5c;
+    font-size: 28px;
+  }
+  /* line 35, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc .awards-year {
+    font-size: 24px;
+    color: #15b095;
+    position: relative;
+  }
+  /* line 39, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc .awards-year:before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    width: 100%;
+    height: 1px;
+    background: #15b095;
+  }
+  /* line 49, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-pic {
+    flex-basis: 50%;
+  }
+  /* line 51, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-pic img {
+    width: 100%;
+  }
+  /* line 60, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-dots {
+    position: absolute;
+    bottom: 18px;
+  }
+  /* line 65, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-dots li button:before {
+    color: #FFF;
+    font-size: 15px;
+    opacity: 1;
+  }
+  /* line 74, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-dots .slick-active button:before {
+    color: #f05c5c;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 87, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel {
+    margin-top: 30px;
+  }
+  /* line 89, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin-top: 30px;
+  }
+  /* line 98, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer {
+    padding: 15px;
+    background: #315162;
+  }
+  /* line 101, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner {
+    border: 1px solid #fff;
+    padding: 30px 15px;
+    display: flex;
+  }
+  /* line 105, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  /* line 112, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc .awards-name {
+    font-size: 24px;
+    text-align: center;
+  }
+  /* line 115, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc .awards-name .first {
+    color: #f05c5c;
+    font-size: 28px;
+  }
+  /* line 120, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc .awards-year {
+    font-size: 24px;
+    color: #15b095;
+    position: relative;
+  }
+  /* line 124, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc .awards-year:before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    width: 100%;
+    height: 1px;
+    background: #15b095;
+  }
+  /* line 134, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-pic {
+    flex-basis: 50%;
+  }
+  /* line 136, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-pic img {
+    width: 100%;
+  }
+  /* line 145, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-dots {
+    position: absolute;
+    bottom: 18px;
+  }
+  /* line 150, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-dots li button:before {
+    color: #FFF;
+    font-size: 15px;
+    opacity: 1;
+  }
+  /* line 159, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-dots .slick-active button:before {
+    color: #f05c5c;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 172, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel {
+    margin-top: 30px;
+  }
+  /* line 174, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin-top: 30px;
+  }
+  /* line 183, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer {
+    padding: 15px;
+    background: #315162;
+  }
+  /* line 186, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner {
+    border: 1px solid #fff;
+    padding: 30px 15px;
+    display: flex;
+  }
+  /* line 190, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  /* line 197, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc .awards-name {
+    font-size: 24px;
+    text-align: center;
+  }
+  /* line 200, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc .awards-name .first {
+    color: #f05c5c;
+    font-size: 28px;
+  }
+  /* line 205, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc .awards-year {
+    font-size: 24px;
+    color: #15b095;
+    position: relative;
+  }
+  /* line 209, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc .awards-year:before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    width: 100%;
+    height: 1px;
+    background: #15b095;
+  }
+  /* line 219, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-pic {
+    flex-basis: 50%;
+  }
+  /* line 221, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-pic img {
+    width: 100%;
+  }
+  /* line 230, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-dots {
+    position: absolute;
+    bottom: 18px;
+  }
+  /* line 235, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-dots li button:before {
+    color: #FFF;
+    font-size: 15px;
+    opacity: 1;
+  }
+  /* line 244, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-dots .slick-active button:before {
+    color: #f05c5c;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 257, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel {
+    margin-top: 30px;
+  }
+  /* line 259, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin-top: 30px;
+  }
+  /* line 268, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer {
+    padding: 15px;
+    background: #315162;
+  }
+  /* line 271, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner {
+    border: 1px solid #fff;
+    padding: 30px 15px;
+    display: flex;
+  }
+  /* line 275, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  /* line 282, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc .awards-name {
+    font-size: 24px;
+    text-align: center;
+  }
+  /* line 285, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc .awards-name .first {
+    color: #f05c5c;
+    font-size: 28px;
+  }
+  /* line 290, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc .awards-year {
+    font-size: 24px;
+    color: #15b095;
+    position: relative;
+  }
+  /* line 294, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc .awards-year:before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    width: 100%;
+    height: 1px;
+    background: #15b095;
+  }
+  /* line 304, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-pic {
+    flex-basis: 50%;
+  }
+  /* line 306, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-pic img {
+    width: 100%;
+  }
+  /* line 315, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-dots {
+    position: absolute;
+    bottom: 18px;
+  }
+  /* line 320, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-dots li button:before {
+    color: #FFF;
+    font-size: 15px;
+    opacity: 1;
+  }
+  /* line 329, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-dots .slick-active button:before {
+    color: #f05c5c;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 342, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel {
+    margin-top: 30px;
+  }
+  /* line 344, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin-top: 30px;
+  }
+  /* line 353, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer {
+    padding: 15px;
+    background: #315162;
+  }
+  /* line 356, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner {
+    border: 1px solid #fff;
+    padding: 30px 15px;
+    display: flex;
+  }
+  /* line 360, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  /* line 367, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc .awards-name {
+    font-size: 24px;
+    text-align: center;
+  }
+  /* line 370, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc .awards-name .first {
+    color: #f05c5c;
+    font-size: 28px;
+  }
+  /* line 375, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc .awards-year {
+    font-size: 24px;
+    color: #15b095;
+    position: relative;
+  }
+  /* line 379, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-desc .awards-year:before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    width: 100%;
+    height: 1px;
+    background: #15b095;
+  }
+  /* line 389, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-pic {
+    flex-basis: 50%;
+  }
+  /* line 391, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-list .slick-track .slick-slide .awards-carousel-outer .awards-carousel-inner .awards-carousel-pic img {
+    width: 100%;
+  }
+  /* line 400, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-dots {
+    position: absolute;
+    bottom: 18px;
+  }
+  /* line 405, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-dots li button:before {
+    color: #FFF;
+    font-size: 15px;
+    opacity: 1;
+  }
+  /* line 414, C:/Users/User/snooker2/src/components/scss/AwardsCarousel.scss */
+  .awards-carousel .container .slick-slider .slick-dots .slick-active button:before {
+    color: #f05c5c;
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=../AwardsCarousel.map */

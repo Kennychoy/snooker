@@ -1,0 +1,358 @@
+@media screen and (min-width: 1200px) {
+  /* line 3, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .homepage-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  /* line 10, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .homepage-titles h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 15, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .homepage-titles h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 24, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .homepage-titles h5 i {
+    margin-right: 5px;
+    color: #fd6565;
+  }
+  /* line 31, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper {
+    margin-top: 30px;
+  }
+  /* line 33, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article {
+    padding: 25px 35px 20px 25px;
+    border: 1px solid #e1e1e1;
+    background: #FFF;
+    font-size: 12px;
+    transition: .3s all;
+  }
+  /* line 39, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article:hover {
+    background: #f5f7f9;
+  }
+  /* line 42, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article .hot-hours {
+    color: #9b9b9b;
+  }
+  /* line 46, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article .hot-headlines a {
+    color: #151515;
+    transition: .3s all;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .05rem;
+    margin-top: 8px;
+    text-transform: uppercase;
+  }
+  /* line 54, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article .hot-headlines a:hover {
+    color: #15b095;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 67, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .homepage-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  /* line 74, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .homepage-titles h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 79, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .homepage-titles h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 88, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .homepage-titles h5 i {
+    margin-right: 5px;
+    color: #fd6565;
+  }
+  /* line 95, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper {
+    margin-top: 30px;
+  }
+  /* line 97, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article {
+    padding: 25px 35px 20px 25px;
+    border: 1px solid #e1e1e1;
+    background: #FFF;
+    font-size: 12px;
+    transition: .3s all;
+  }
+  /* line 103, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article:hover {
+    background: #f5f7f9;
+  }
+  /* line 106, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article .hot-hours {
+    color: #9b9b9b;
+  }
+  /* line 110, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article .hot-headlines a {
+    color: #151515;
+    transition: .3s all;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .05rem;
+    margin-top: 8px;
+    text-transform: uppercase;
+  }
+  /* line 118, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article .hot-headlines a:hover {
+    color: #15b095;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 130, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews {
+    margin-top: 50px;
+  }
+  /* line 132, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .homepage-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  /* line 139, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .homepage-titles h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 144, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .homepage-titles h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 153, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .homepage-titles h5 i {
+    margin-right: 5px;
+    color: #fd6565;
+  }
+  /* line 160, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper {
+    margin-top: 30px;
+  }
+  /* line 162, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article {
+    padding: 25px 35px 20px 25px;
+    border: 1px solid #e1e1e1;
+    background: #FFF;
+    font-size: 12px;
+    transition: .3s all;
+  }
+  /* line 168, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article:hover {
+    background: #f5f7f9;
+  }
+  /* line 171, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article .hot-hours {
+    color: #9b9b9b;
+  }
+  /* line 175, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article .hot-headlines a {
+    color: #151515;
+    transition: .3s all;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .05rem;
+    margin-top: 8px;
+    text-transform: uppercase;
+  }
+  /* line 183, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article .hot-headlines a:hover {
+    color: #15b095;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 195, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews {
+    margin-top: 50px;
+  }
+  /* line 197, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .homepage-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  /* line 204, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .homepage-titles h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 209, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .homepage-titles h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 218, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .homepage-titles h5 i {
+    margin-right: 5px;
+    color: #fd6565;
+  }
+  /* line 225, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper {
+    margin-top: 30px;
+  }
+  /* line 227, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article {
+    padding: 25px 35px 20px 25px;
+    border: 1px solid #e1e1e1;
+    background: #FFF;
+    font-size: 12px;
+    transition: .3s all;
+  }
+  /* line 233, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article:hover {
+    background: #f5f7f9;
+  }
+  /* line 236, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article .hot-hours {
+    color: #9b9b9b;
+  }
+  /* line 240, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article .hot-headlines a {
+    color: #151515;
+    transition: .3s all;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .05rem;
+    margin-top: 8px;
+    text-transform: uppercase;
+  }
+  /* line 248, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article .hot-headlines a:hover {
+    color: #15b095;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 260, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews {
+    margin-top: 50px;
+  }
+  /* line 262, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .homepage-titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  /* line 269, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .homepage-titles h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 274, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .homepage-titles h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 283, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .homepage-titles h5 i {
+    margin-right: 5px;
+    color: #fd6565;
+  }
+  /* line 290, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper {
+    margin-top: 30px;
+  }
+  /* line 292, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article {
+    padding: 25px 35px 20px 25px;
+    border: 1px solid #e1e1e1;
+    background: #FFF;
+    font-size: 12px;
+    transition: .3s all;
+  }
+  /* line 298, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article:hover {
+    background: #f5f7f9;
+  }
+  /* line 301, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article .hot-hours {
+    color: #9b9b9b;
+  }
+  /* line 305, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article .hot-headlines a {
+    color: #151515;
+    transition: .3s all;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .05rem;
+    margin-top: 8px;
+    text-transform: uppercase;
+  }
+  /* line 313, C:/Users/User/snooker2/src/components/scss/HotNews.scss */
+  .hotnews .hot-news-wrapper article .hot-headlines a:hover {
+    color: #15b095;
+    text-decoration: none;
+  }
+}
+
+/*# sourceMappingURL=../HotNews.map */

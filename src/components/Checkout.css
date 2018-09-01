@@ -1,0 +1,729 @@
+@media screen and (min-width: 1200px) {
+  /* line 2, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout {
+    margin-top: 30px;
+  }
+  /* line 10, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset .col-md-6 {
+    width: calc(50% - 15px);
+  }
+  /* line 12, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset .col-md-6:nth-of-type(odd) {
+    margin-right: 15px;
+  }
+  /* line 15, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset .col-md-6:nth-of-type(even) {
+    margin-left: 15px;
+  }
+  /* line 19, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset input {
+    padding: 15px;
+    margin: 15px 0;
+    border: #9b9b9b;
+    transition: .3s all;
+  }
+  /* line 24, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset input::placeholder {
+    padding-left: 15px;
+    color: #9b9b9b;
+    transition: .3s all;
+  }
+  /* line 29, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset input:focus {
+    outline-color: #15b095;
+  }
+  /* line 31, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset input:focus::placeholder {
+    color: transparent;
+  }
+  /* line 39, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-check {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  /* line 50, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .shopping-cart .container .cart-footer {
+    display: none;
+  }
+  /* line 60, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container {
+    background: #FFF;
+    padding: 30px;
+    margin-top: 30px;
+  }
+  /* line 64, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper {
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  /* line 67, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper:hover {
+    cursor: pointer;
+  }
+  /* line 70, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .custom-checkbox {
+    display: flex;
+    align-items: center;
+  }
+  /* line 73, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .custom-checkbox span {
+    border: 1px solid #9b9b9b;
+    margin-right: 5px;
+    border-radius: 3px;
+  }
+  /* line 77, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .custom-checkbox span i {
+    padding: 5px;
+    color: transparent;
+  }
+  /* line 82, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .custom-checkbox label {
+    color: #151515;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  /* line 89, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .checkbox-hidden {
+    color: #9b9b9b;
+    font-size: 14px;
+    height: 0;
+    transition: .3s all;
+  }
+  /* line 99, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .active .custom-checkbox span i {
+    color: #15b095;
+  }
+  /* line 105, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .active .checkbox-hidden {
+    height: auto;
+  }
+  /* line 112, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .cart-total .cartTotal-container {
+    background: #FFF;
+    margin-top: 30px;
+  }
+  /* line 115, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .cart-total .cartTotal-container .cartTotal-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom: 1px solid #9b9b9b;
+  }
+  /* line 120, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .cart-total .cartTotal-container .cartTotal-item:last-of-type {
+    border: none;
+  }
+  /* line 132, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .checkout-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 137, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .checkout-btn button {
+    color: #fff;
+    background: #15b095;
+    border: 1px solid #15b095;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 144, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .checkout-btn button:hover {
+    background: #f05c5c;
+    border-color: #f05c5c;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 155, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout {
+    margin-top: calc(30px + 69px);
+  }
+  /* line 163, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset .col-md-6 {
+    width: calc(50% - 15px);
+  }
+  /* line 165, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset .col-md-6:nth-of-type(odd) {
+    margin-right: 15px;
+  }
+  /* line 168, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset .col-md-6:nth-of-type(even) {
+    margin-left: 15px;
+  }
+  /* line 172, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset input {
+    padding: 15px;
+    margin: 15px 0;
+    border: #9b9b9b;
+    transition: .3s all;
+  }
+  /* line 177, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset input::placeholder {
+    padding-left: 15px;
+    color: #9b9b9b;
+    transition: .3s all;
+  }
+  /* line 182, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset input:focus {
+    outline-color: #15b095;
+  }
+  /* line 184, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset input:focus::placeholder {
+    color: transparent;
+  }
+  /* line 192, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-check {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  /* line 201, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .shopping-cart {
+    margin-top: 50px;
+  }
+  /* line 204, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .shopping-cart .container .cart-footer {
+    display: none;
+  }
+  /* line 214, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container {
+    background: #FFF;
+    padding: 30px;
+    margin-top: 30px;
+  }
+  /* line 218, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper {
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  /* line 221, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper:hover {
+    cursor: pointer;
+  }
+  /* line 224, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .custom-checkbox {
+    display: flex;
+    align-items: center;
+  }
+  /* line 227, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .custom-checkbox span {
+    border: 1px solid #9b9b9b;
+    margin-right: 5px;
+    border-radius: 3px;
+  }
+  /* line 231, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .custom-checkbox span i {
+    padding: 5px;
+    color: transparent;
+  }
+  /* line 236, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .custom-checkbox label {
+    color: #151515;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  /* line 243, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .checkbox-hidden {
+    color: #9b9b9b;
+    font-size: 14px;
+    height: 0;
+    transition: .3s all;
+  }
+  /* line 253, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .active .custom-checkbox span i {
+    color: #15b095;
+  }
+  /* line 259, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .active .checkbox-hidden {
+    height: auto;
+  }
+  /* line 266, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .cart-total .cartTotal-container {
+    background: #FFF;
+    margin-top: 30px;
+  }
+  /* line 269, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .cart-total .cartTotal-container .cartTotal-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom: 1px solid #9b9b9b;
+  }
+  /* line 274, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .cart-total .cartTotal-container .cartTotal-item:last-of-type {
+    border: none;
+  }
+  /* line 286, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .checkout-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 291, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .checkout-btn button {
+    color: #fff;
+    background: #15b095;
+    border: 1px solid #15b095;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 298, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .checkout-btn button:hover {
+    background: #f05c5c;
+    border-color: #f05c5c;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 309, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout {
+    margin-top: calc(30px + 69px);
+  }
+  /* line 315, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body:first-of-type {
+    margin-bottom: 30px;
+  }
+  /* line 320, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset .col-md-6 {
+    width: calc(50% - 15px);
+  }
+  /* line 322, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset .col-md-6:nth-of-type(odd) {
+    margin-right: 15px;
+  }
+  /* line 325, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset .col-md-6:nth-of-type(even) {
+    margin-left: 15px;
+  }
+  /* line 329, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset input {
+    padding: 15px;
+    margin: 15px 0;
+    border: #9b9b9b;
+    transition: .3s all;
+  }
+  /* line 334, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset input::placeholder {
+    padding-left: 15px;
+    color: #9b9b9b;
+    transition: .3s all;
+  }
+  /* line 339, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset input:focus {
+    outline-color: #15b095;
+  }
+  /* line 341, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset input:focus::placeholder {
+    color: transparent;
+  }
+  /* line 349, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-check {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  /* line 358, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .shopping-cart {
+    margin-top: 50px;
+  }
+  /* line 361, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .shopping-cart .container .cart-footer {
+    display: none;
+  }
+  /* line 371, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container {
+    background: #FFF;
+    padding: 30px;
+    margin-top: 30px;
+  }
+  /* line 375, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper {
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  /* line 378, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper:hover {
+    cursor: pointer;
+  }
+  /* line 381, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .custom-checkbox {
+    display: flex;
+    align-items: center;
+  }
+  /* line 384, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .custom-checkbox span {
+    border: 1px solid #9b9b9b;
+    margin-right: 5px;
+    border-radius: 3px;
+  }
+  /* line 388, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .custom-checkbox span i {
+    padding: 5px;
+    color: transparent;
+  }
+  /* line 393, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .custom-checkbox label {
+    color: #151515;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  /* line 400, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .checkbox-hidden {
+    color: #9b9b9b;
+    font-size: 14px;
+    height: 0;
+    transition: .3s all;
+  }
+  /* line 410, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .active .custom-checkbox span i {
+    color: #15b095;
+  }
+  /* line 416, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .active .checkbox-hidden {
+    height: auto;
+  }
+  /* line 423, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .cart-total .cartTotal-container {
+    background: #FFF;
+    margin-top: 30px;
+  }
+  /* line 426, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .cart-total .cartTotal-container .cartTotal-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom: 1px solid #9b9b9b;
+  }
+  /* line 431, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .cart-total .cartTotal-container .cartTotal-item:last-of-type {
+    border: none;
+  }
+  /* line 443, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .checkout-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 448, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .checkout-btn button {
+    color: #fff;
+    background: #15b095;
+    border: 1px solid #15b095;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 455, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .checkout-btn button:hover {
+    background: #f05c5c;
+    border-color: #f05c5c;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 466, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout {
+    margin-top: calc(30px + 69px);
+  }
+  /* line 472, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body:first-of-type {
+    margin-bottom: 30px;
+  }
+  /* line 477, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset .col-md-6 {
+    width: calc(50% - 15px);
+  }
+  /* line 479, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset .col-md-6:nth-of-type(odd) {
+    margin-right: 15px;
+  }
+  /* line 482, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset .col-md-6:nth-of-type(even) {
+    margin-left: 15px;
+  }
+  /* line 486, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset input {
+    padding: 15px;
+    margin: 15px 0;
+    border: #9b9b9b;
+    transition: .3s all;
+  }
+  /* line 491, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset input::placeholder {
+    padding-left: 15px;
+    color: #9b9b9b;
+    transition: .3s all;
+  }
+  /* line 496, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset input:focus {
+    outline-color: #15b095;
+  }
+  /* line 498, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset input:focus::placeholder {
+    color: transparent;
+  }
+  /* line 506, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-check {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  /* line 515, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .shopping-cart {
+    margin-top: 50px;
+  }
+  /* line 518, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .shopping-cart .container .cart-footer {
+    display: none;
+  }
+  /* line 527, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method {
+    margin-bottom: 30px;
+  }
+  /* line 529, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container {
+    background: #FFF;
+    padding: 30px;
+    margin-top: 30px;
+  }
+  /* line 533, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper {
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  /* line 536, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper:hover {
+    cursor: pointer;
+  }
+  /* line 539, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .custom-checkbox {
+    display: flex;
+    align-items: center;
+  }
+  /* line 542, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .custom-checkbox span {
+    border: 1px solid #9b9b9b;
+    margin-right: 5px;
+    border-radius: 3px;
+  }
+  /* line 546, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .custom-checkbox span i {
+    padding: 5px;
+    color: transparent;
+  }
+  /* line 551, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .custom-checkbox label {
+    color: #151515;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  /* line 558, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .checkbox-hidden {
+    color: #9b9b9b;
+    font-size: 14px;
+    height: 0;
+    transition: .3s all;
+  }
+  /* line 568, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .active .custom-checkbox span i {
+    color: #15b095;
+  }
+  /* line 574, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .active .checkbox-hidden {
+    height: auto;
+  }
+  /* line 581, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .cart-total .cartTotal-container {
+    background: #FFF;
+    margin-top: 30px;
+  }
+  /* line 584, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .cart-total .cartTotal-container .cartTotal-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom: 1px solid #9b9b9b;
+  }
+  /* line 589, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .cart-total .cartTotal-container .cartTotal-item:last-of-type {
+    border: none;
+  }
+  /* line 601, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .checkout-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 606, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .checkout-btn button {
+    color: #fff;
+    background: #15b095;
+    border: 1px solid #15b095;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 613, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .checkout-btn button:hover {
+    background: #f05c5c;
+    border-color: #f05c5c;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 624, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout {
+    margin-top: calc(30px + 69px);
+  }
+  /* line 630, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body:first-of-type {
+    margin-bottom: 30px;
+  }
+  /* line 635, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset .col-md-6 {
+    width: 100%;
+  }
+  /* line 638, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset input {
+    padding: 15px;
+    margin: 15px 0;
+    border: #9b9b9b;
+    transition: .3s all;
+  }
+  /* line 643, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset input::placeholder {
+    padding-left: 15px;
+    color: #9b9b9b;
+    transition: .3s all;
+  }
+  /* line 648, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset input:focus {
+    outline-color: #15b095;
+  }
+  /* line 650, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-body form fieldset input:focus::placeholder {
+    color: transparent;
+  }
+  /* line 658, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .billingAndDelivery .container .row .form-check {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  /* line 667, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .shopping-cart {
+    margin-top: 50px;
+  }
+  /* line 670, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .shopping-cart .container .cart-footer {
+    display: none;
+  }
+  /* line 679, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method {
+    margin-bottom: 30px;
+  }
+  /* line 681, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container {
+    background: #FFF;
+    padding: 30px;
+    margin-top: 30px;
+  }
+  /* line 685, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper {
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  /* line 688, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper:hover {
+    cursor: pointer;
+  }
+  /* line 691, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .custom-checkbox {
+    display: flex;
+    align-items: center;
+  }
+  /* line 694, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .custom-checkbox span {
+    border: 1px solid #9b9b9b;
+    margin-right: 5px;
+    border-radius: 3px;
+  }
+  /* line 698, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .custom-checkbox span i {
+    padding: 5px;
+    color: transparent;
+  }
+  /* line 703, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .custom-checkbox label {
+    color: #151515;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  /* line 710, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .payment-wrapper .checkbox-hidden {
+    color: #9b9b9b;
+    font-size: 14px;
+    height: 0;
+    transition: .3s all;
+  }
+  /* line 720, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .active .custom-checkbox span i {
+    color: #15b095;
+  }
+  /* line 726, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .payment-method .payment-container .active .checkbox-hidden {
+    height: auto;
+  }
+  /* line 733, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .cart-total .cartTotal-container {
+    background: #FFF;
+    margin-top: 30px;
+  }
+  /* line 736, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .cart-total .cartTotal-container .cartTotal-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom: 1px solid #9b9b9b;
+  }
+  /* line 741, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .paymentAndCartTotal .container .row .cart-total .cartTotal-container .cartTotal-item:last-of-type {
+    border: none;
+  }
+  /* line 753, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .checkout-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 758, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .checkout-btn button {
+    color: #fff;
+    background: #15b095;
+    border: 1px solid #15b095;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 765, C:/Users/User/snooker2/src/components/scss/Checkout.scss */
+  .checkout .checkout-btn button:hover {
+    background: #f05c5c;
+    border-color: #f05c5c;
+    cursor: pointer;
+  }
+}
+
+/*# sourceMappingURL=../Checkout.map */

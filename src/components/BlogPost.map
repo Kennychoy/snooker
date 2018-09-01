@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "scss/BlogPost.css",
+	"sources": [
+		"scss/BlogPost.scss"
+	],
+	"sourcesContent": [
+		"@media screen and (min-width: 1200px) {\r\n\t.blogpost {\r\n\t\t.container {\r\n\t\t\tmargin-top: 50px;\r\n\t\t\tmargin-bottom: 50px;\r\n\t\t\t.row {\r\n\t\t\t\t.col-12 {}\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n} // .min-width: 1200\r\n\r\n@media screen and (min-width: 992px) and (max-width: 1199px){\r\n\t.blogpost {\r\n\t\t.container {\r\n\t\t\tmargin-top: 50px;\r\n\t\t\tmargin-bottom: 50px;\r\n\t\t\t.row {\r\n\t\t\t\t.col-12 {}\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n} // 992 - 1199\r\n\r\n@media screen and (min-width: 768px) and (max-width: 991px){\r\n\t.blogpost {\r\n\t\t.container {\r\n\t\t\tmargin-top: 50px;\r\n\t\t\tmargin-bottom: 50px;\r\n\t\t\t.row {\r\n\t\t\t\t.col-12 {}\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n} // 768 - 991\r\n\r\n@media screen and (min-width: 576px) and (max-width: 767px){\r\n\t.blogpost {\r\n\t\t.container {\r\n\t\t\tmargin-top: 50px;\r\n\t\t\tmargin-bottom: 50px;\r\n\t\t\t.row {\r\n\t\t\t\t.col-12 {}\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n} // 576 - 767\r\n\r\n@media screen and (max-width: 575px){\r\n\t.blogpost {\r\n\t\t.container {\r\n\t\t\tmargin-top: 50px;\r\n\t\t\tmargin-bottom: 50px;\r\n\t\t\t.row {\r\n\t\t\t\t.col-12 {}\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n} // max 575"
+	],
+	"mappings": "AAAA,MAAM,CAAN,MAAM,MAAM,SAAS,EAAE,MAAM;;EAC5B,AACC,SADQ,CACR,UAAU,CAAC;IACV,UAAU,EAAE,IAAK;IACjB,aAAa,EAAE,IAAK;GAIpB;;;AAIH,MAAM,CAAN,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,MAAM;;EACnD,AACC,SADQ,CACR,UAAU,CAAC;IACV,UAAU,EAAE,IAAK;IACjB,aAAa,EAAE,IAAK;GAIpB;;;AAIH,MAAM,CAAN,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;;EAClD,AACC,SADQ,CACR,UAAU,CAAC;IACV,UAAU,EAAE,IAAK;IACjB,aAAa,EAAE,IAAK;GAIpB;;;AAIH,MAAM,CAAN,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;;EAClD,AACC,SADQ,CACR,UAAU,CAAC;IACV,UAAU,EAAE,IAAK;IACjB,aAAa,EAAE,IAAK;GAIpB;;;AAIH,MAAM,CAAN,MAAM,MAAM,SAAS,EAAE,KAAK;;EAC3B,AACC,SADQ,CACR,UAAU,CAAC;IACV,UAAU,EAAE,IAAK;IACjB,aAAa,EAAE,IAAK;GAIpB",
+	"names": []
+}

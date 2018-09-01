@@ -1,0 +1,662 @@
+@media screen and (min-width: 1200px) {
+  /* line 3, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  /* line 6, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table {
+    text-align: center;
+    margin-top: 30px;
+  }
+  /* line 14, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody {
+    font-size: 24px;
+  }
+  /* line 17, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr td {
+    vertical-align: middle;
+  }
+  /* line 20, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-productName {
+    width: 35%;
+  }
+  /* line 22, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-productName .picAndName {
+    display: flex;
+  }
+  /* line 24, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-productName .picAndName img {
+    width: 50%;
+    height: 150px;
+  }
+  /* line 28, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-productName .picAndName .productName {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+  }
+  /* line 36, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-pieces {
+    width: 12.5%;
+  }
+  /* line 39, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-weight {
+    width: 12.5%;
+  }
+  /* line 42, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity {
+    width: 15%;
+  }
+  /* line 44, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity {
+    display: flex;
+    justify-content: space-around;
+  }
+  /* line 47, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity button {
+    background: transparent;
+    padding: 5px 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 53, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity button:hover {
+    cursor: pointer;
+    border-color: #15b095;
+  }
+  /* line 56, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity button:hover i {
+    color: #15b095;
+  }
+  /* line 60, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity button i {
+    transition: .3s all;
+  }
+  /* line 64, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity input {
+    width: 30%;
+    text-align: center;
+    background: transparent;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+  }
+  /* line 73, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-price {
+    width: 12.5%;
+  }
+  /* line 77, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-bin {
+    width: 12.5%;
+  }
+  /* line 79, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-bin i {
+    color: #fb7979;
+  }
+  /* line 86, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer {
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  /* line 91, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer .total-text {
+    color: #9b9b9b;
+  }
+  /* line 94, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer .total-price {
+    color: #151515;
+    margin-left: 15px;
+  }
+  /* line 99, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer button {
+    color: #fff;
+    background: #15b095;
+    border: 1px solid #15b095;
+    margin-left: 15px;
+    padding: 8px 24px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 107, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer button:hover {
+    background: #f05c5c;
+    border-color: #f05c5c;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 119, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart {
+    margin-top: calc(69px + 50px);
+    margin-bottom: 50px;
+  }
+  /* line 123, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table {
+    text-align: center;
+    margin-top: 30px;
+  }
+  /* line 131, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody {
+    font-size: 20px;
+  }
+  /* line 134, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr td {
+    vertical-align: middle;
+  }
+  /* line 137, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-productName {
+    width: 35%;
+  }
+  /* line 139, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-productName .picAndName {
+    display: flex;
+  }
+  /* line 141, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-productName .picAndName img {
+    width: 50%;
+    height: 150px;
+  }
+  /* line 145, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-productName .picAndName .productName {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+  }
+  /* line 153, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-pieces {
+    width: 12.5%;
+  }
+  /* line 156, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-weight {
+    width: 12.5%;
+  }
+  /* line 159, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity {
+    width: 15%;
+  }
+  /* line 161, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity {
+    display: flex;
+    justify-content: space-around;
+  }
+  /* line 164, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity button {
+    background: transparent;
+    padding: 5px 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 170, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity button:hover {
+    cursor: pointer;
+    border-color: #15b095;
+  }
+  /* line 173, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity button:hover i {
+    color: #15b095;
+  }
+  /* line 177, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity button i {
+    transition: .3s all;
+  }
+  /* line 181, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity input {
+    width: 30%;
+    text-align: center;
+    background: transparent;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+  }
+  /* line 190, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-price {
+    width: 12.5%;
+  }
+  /* line 194, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-bin {
+    width: 12.5%;
+  }
+  /* line 196, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-bin i {
+    color: #fb7979;
+  }
+  /* line 203, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer {
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  /* line 208, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer .total-text {
+    color: #9b9b9b;
+  }
+  /* line 211, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer .total-price {
+    color: #151515;
+    margin-left: 15px;
+  }
+  /* line 216, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer button {
+    color: #fff;
+    background: #15b095;
+    border: 1px solid #15b095;
+    margin-left: 15px;
+    padding: 8px 24px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 224, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer button:hover {
+    background: #f05c5c;
+    border-color: #f05c5c;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 236, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart {
+    margin-top: calc(69px + 50px);
+    margin-bottom: 50px;
+  }
+  /* line 240, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table {
+    text-align: center;
+    margin-top: 30px;
+  }
+  /* line 248, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody {
+    font-size: 20px;
+  }
+  /* line 251, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr td {
+    vertical-align: middle;
+  }
+  /* line 254, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-productName {
+    width: 35%;
+  }
+  /* line 256, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-productName .picAndName {
+    display: flex;
+  }
+  /* line 258, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-productName .picAndName img {
+    width: 50%;
+    height: 150px;
+  }
+  /* line 262, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-productName .picAndName .productName {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+  }
+  /* line 270, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-pieces {
+    width: 12.5%;
+  }
+  /* line 273, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-weight {
+    width: 12.5%;
+  }
+  /* line 276, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity {
+    width: 15%;
+    padding: 0;
+  }
+  /* line 279, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity {
+    display: flex;
+    justify-content: space-around;
+  }
+  /* line 282, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity button {
+    background: transparent;
+    padding: 3px 8px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 288, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity button:hover {
+    cursor: pointer;
+    border-color: #15b095;
+  }
+  /* line 291, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity button:hover i {
+    color: #15b095;
+  }
+  /* line 295, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity button i {
+    transition: .3s all;
+  }
+  /* line 299, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity input {
+    width: 30%;
+    text-align: center;
+    background: transparent;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+  }
+  /* line 308, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-price {
+    width: 12.5%;
+  }
+  /* line 312, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-bin {
+    width: 12.5%;
+  }
+  /* line 314, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-bin i {
+    color: #fb7979;
+  }
+  /* line 321, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer {
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  /* line 326, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer .total-text {
+    color: #9b9b9b;
+  }
+  /* line 329, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer .total-price {
+    color: #151515;
+    margin-left: 15px;
+  }
+  /* line 334, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer button {
+    color: #fff;
+    background: #15b095;
+    border: 1px solid #15b095;
+    margin-left: 15px;
+    padding: 8px 24px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 342, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer button:hover {
+    background: #f05c5c;
+    border-color: #f05c5c;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 354, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart {
+    margin-top: calc(69px + 50px);
+    margin-bottom: 50px;
+  }
+  /* line 358, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table {
+    text-align: center;
+    margin-top: 30px;
+  }
+  /* line 361, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table thead {
+    display: none;
+  }
+  /* line 367, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody {
+    font-size: 20px;
+  }
+  /* line 369, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    border-bottom: 3px dotted #9b9b9b;
+  }
+  /* line 374, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr td {
+    width: 100%;
+    border: none;
+  }
+  /* line 377, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr td:before {
+    content: attr(data-desc);
+    float: left;
+    color: #9b9b9b;
+  }
+  /* line 385, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-productName .picAndName {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  /* line 389, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-productName .picAndName img {
+    width: 50%;
+    height: 150px;
+  }
+  /* line 393, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-productName .picAndName .productName {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    padding-right: 0;
+  }
+  /* line 408, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity {
+    padding: 0.75em;
+  }
+  /* line 410, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity {
+    display: flex;
+    justify-content: flex-end;
+  }
+  /* line 413, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity button {
+    background: transparent;
+    padding: 5px 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 419, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity button:hover {
+    cursor: pointer;
+    border-color: #15b095;
+  }
+  /* line 422, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity button:hover i {
+    color: #15b095;
+  }
+  /* line 426, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity button i {
+    transition: .3s all;
+  }
+  /* line 430, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity input {
+    width: 15%;
+    text-align: center;
+    background: transparent;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+  }
+  /* line 445, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-bin i {
+    color: #fb7979;
+  }
+  /* line 452, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer {
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  /* line 457, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer .total-text {
+    color: #9b9b9b;
+  }
+  /* line 460, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer .total-price {
+    color: #151515;
+    margin-left: 15px;
+  }
+  /* line 465, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer button {
+    color: #fff;
+    background: #15b095;
+    border: 1px solid #15b095;
+    margin-left: 15px;
+    padding: 8px 24px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 473, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer button:hover {
+    background: #f05c5c;
+    border-color: #f05c5c;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 485, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart {
+    margin-top: calc(69px + 50px);
+    margin-bottom: 50px;
+  }
+  /* line 489, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table {
+    text-align: center;
+    margin-top: 30px;
+  }
+  /* line 492, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table thead {
+    display: none;
+  }
+  /* line 498, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody {
+    font-size: 20px;
+  }
+  /* line 500, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    border-bottom: 3px dotted #9b9b9b;
+  }
+  /* line 505, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr td {
+    width: 100%;
+    border: none;
+  }
+  /* line 508, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr td:before {
+    content: attr(data-desc);
+    float: left;
+    color: #9b9b9b;
+    font-size: 14px;
+  }
+  /* line 517, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-productName .picAndName {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  /* line 521, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-productName .picAndName img {
+    width: 50%;
+    height: 150px;
+  }
+  /* line 525, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-productName .picAndName .productName {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    padding-right: 0;
+  }
+  /* line 540, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity {
+    padding: 0.75em;
+  }
+  /* line 542, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity {
+    display: flex;
+    justify-content: flex-end;
+  }
+  /* line 545, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity button {
+    background: transparent;
+    padding: 5px 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 551, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity button:hover {
+    cursor: pointer;
+    border-color: #15b095;
+  }
+  /* line 554, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity button:hover i {
+    color: #15b095;
+  }
+  /* line 558, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity button i {
+    transition: .3s all;
+  }
+  /* line 562, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-quanity .cart-quanity input {
+    width: 15%;
+    text-align: center;
+    background: transparent;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+  }
+  /* line 577, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container table tbody tr .t-bin i {
+    color: #fb7979;
+  }
+  /* line 584, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer {
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  /* line 590, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer .total-text {
+    color: #9b9b9b;
+  }
+  /* line 593, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer .total-price {
+    color: #151515;
+    margin-left: 15px;
+  }
+  /* line 598, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer button {
+    color: #fff;
+    background: #15b095;
+    border: 1px solid #15b095;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 8px 24px;
+    border-radius: 5px;
+    transition: .3s all;
+  }
+  /* line 607, C:/Users/User/snooker2/src/components/scss/ShoppingCart.scss */
+  .shopping-cart .container .cart-footer button:hover {
+    background: #f05c5c;
+    border-color: #f05c5c;
+    cursor: pointer;
+  }
+}
+
+/*# sourceMappingURL=../ShoppingCart.map */

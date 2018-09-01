@@ -1,0 +1,29 @@
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 6, C:/Users/User/snooker2/src/components/scss/AboutUs.scss */
+  .about-us {
+    margin-top: 69px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 12, C:/Users/User/snooker2/src/components/scss/AboutUs.scss */
+  .about-us {
+    margin-top: 69px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 18, C:/Users/User/snooker2/src/components/scss/AboutUs.scss */
+  .about-us {
+    margin-top: 69px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 24, C:/Users/User/snooker2/src/components/scss/AboutUs.scss */
+  .about-us {
+    margin-top: 69px;
+  }
+}
+
+/*# sourceMappingURL=../AboutUs.map */

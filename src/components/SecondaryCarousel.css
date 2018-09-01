@@ -1,0 +1,654 @@
+@media screen and (min-width: 1200px) {
+  /* line 4, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  /* line 12, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -20%);
+    display: flex;
+    flex-direction: column;
+    transition: .3s all;
+  }
+  /* line 20, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner button {
+    text-align: right;
+    color: #FFF;
+    font-size: 2.5rem;
+    transition: .3s all;
+  }
+  /* line 25, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner button:hover {
+    color: #15b095;
+  }
+  /* line 28, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner button:focus {
+    outline: none;
+  }
+  /* line 32, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner iframe {
+    width: 560px;
+    height: 315px;
+  }
+  /* line 39, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid {
+    padding: 50px 0;
+  }
+  /* line 43, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-arrow:before {
+    color: gray;
+  }
+  /* line 47, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-prev {
+    left: 0;
+  }
+  /* line 50, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-next {
+    right: 0;
+  }
+  /* line 55, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide {
+    padding: 0 15px;
+  }
+  /* line 57, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper {
+    overflow: hidden;
+    position: relative;
+  }
+  /* line 60, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper img {
+    width: 100%;
+    max-width: 100%;
+    transition: .3s all;
+  }
+  /* line 65, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-play {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+  }
+  /* line 69, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-play:hover {
+    cursor: pointer;
+  }
+  /* line 71, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-play:hover .fa-play {
+    color: #15b095;
+  }
+  /* line 75, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-play .fa-play {
+    background: #FFF;
+    border-radius: 50%;
+    padding: 15px;
+    transition: .3s all;
+  }
+  /* line 82, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    color: #FFF;
+  }
+  /* line 89, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-title h2 a {
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 92, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-title h2 a:hover {
+    color: #f05c5c;
+    text-decoration: none;
+  }
+  /* line 99, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 1;
+  }
+  /* line 104, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-details .details-subtle {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+  }
+  /* line 108, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-details .details-subtle i {
+    margin-right: 5px;
+    color: #f05c5c;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 132, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  /* line 140, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -20%);
+    display: flex;
+    flex-direction: column;
+    transition: .3s all;
+  }
+  /* line 148, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner button {
+    text-align: right;
+    color: #FFF;
+    font-size: 2.5rem;
+    transition: .3s all;
+  }
+  /* line 153, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner button:hover {
+    color: #15b095;
+  }
+  /* line 156, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner button:focus {
+    outline: none;
+  }
+  /* line 160, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner iframe {
+    width: 560px;
+    height: 315px;
+  }
+  /* line 167, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid {
+    padding: 50px 0;
+  }
+  /* line 171, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-arrow:before {
+    color: gray;
+  }
+  /* line 175, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-prev {
+    left: 0;
+  }
+  /* line 178, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-next {
+    right: 0;
+  }
+  /* line 183, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide {
+    padding: 0 15px;
+  }
+  /* line 185, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper {
+    overflow: hidden;
+    position: relative;
+  }
+  /* line 188, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper img {
+    width: 100%;
+    max-width: 100%;
+    transition: .3s all;
+  }
+  /* line 193, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-play {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+  }
+  /* line 197, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-play:hover {
+    cursor: pointer;
+  }
+  /* line 199, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-play:hover .fa-play {
+    color: #15b095;
+  }
+  /* line 203, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-play .fa-play {
+    background: #FFF;
+    border-radius: 50%;
+    padding: 15px;
+    transition: .3s all;
+  }
+  /* line 210, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    color: #FFF;
+  }
+  /* line 217, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-title h2 a {
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 220, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-title h2 a:hover {
+    color: #f05c5c;
+    text-decoration: none;
+  }
+  /* line 227, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 1;
+  }
+  /* line 232, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-details .details-subtle {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+  }
+  /* line 236, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-details .details-subtle i {
+    margin-right: 5px;
+    color: #f05c5c;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 260, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  /* line 268, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -20%);
+    display: flex;
+    flex-direction: column;
+    transition: .3s all;
+  }
+  /* line 276, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner button {
+    text-align: right;
+    color: #FFF;
+    font-size: 2.5rem;
+    transition: .3s all;
+  }
+  /* line 281, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner button:hover {
+    color: #15b095;
+  }
+  /* line 284, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner button:focus {
+    outline: none;
+  }
+  /* line 288, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner iframe {
+    width: 560px;
+    height: 315px;
+  }
+  /* line 295, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid {
+    padding: 50px 0;
+  }
+  /* line 299, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-arrow:before {
+    color: gray;
+  }
+  /* line 303, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-prev {
+    left: 0;
+  }
+  /* line 306, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-next {
+    right: 0;
+  }
+  /* line 311, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide {
+    padding: 0 15px;
+  }
+  /* line 313, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper {
+    overflow: hidden;
+    position: relative;
+  }
+  /* line 316, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper img {
+    width: 100%;
+    max-width: 100%;
+    transition: .3s all;
+  }
+  /* line 321, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-play {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+  }
+  /* line 325, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-play:hover {
+    cursor: pointer;
+  }
+  /* line 327, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-play:hover .fa-play {
+    color: #15b095;
+  }
+  /* line 331, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-play .fa-play {
+    background: #FFF;
+    border-radius: 50%;
+    padding: 15px;
+    transition: .3s all;
+  }
+  /* line 338, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    color: #FFF;
+  }
+  /* line 345, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-title h2 a {
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 348, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-title h2 a:hover {
+    color: #f05c5c;
+    text-decoration: none;
+  }
+  /* line 355, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 1;
+  }
+  /* line 360, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-details .details-subtle {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+  }
+  /* line 364, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-details .details-subtle i {
+    margin-right: 5px;
+    color: #f05c5c;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 388, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  /* line 396, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -20%);
+    display: flex;
+    flex-direction: column;
+    transition: .3s all;
+  }
+  /* line 404, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner button {
+    text-align: right;
+    color: #FFF;
+    font-size: 2.5rem;
+    transition: .3s all;
+  }
+  /* line 409, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner button:hover {
+    color: #15b095;
+  }
+  /* line 412, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner button:focus {
+    outline: none;
+  }
+  /* line 416, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner iframe {
+    width: 500px;
+    height: 281.25px;
+  }
+  /* line 423, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid {
+    padding: 50px 0;
+  }
+  /* line 427, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-arrow:before {
+    color: gray;
+  }
+  /* line 431, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-prev {
+    left: 0;
+  }
+  /* line 434, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-next {
+    right: 0;
+  }
+  /* line 439, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide {
+    padding: 0 15px;
+  }
+  /* line 441, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper {
+    overflow: hidden;
+    position: relative;
+  }
+  /* line 444, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper img {
+    width: 100%;
+    max-width: 100%;
+    transition: .3s all;
+  }
+  /* line 449, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-play {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+  }
+  /* line 453, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-play:hover {
+    cursor: pointer;
+  }
+  /* line 455, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-play:hover .fa-play {
+    color: #15b095;
+  }
+  /* line 459, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-play .fa-play {
+    background: #FFF;
+    border-radius: 50%;
+    padding: 10px;
+    transition: .3s all;
+  }
+  /* line 466, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    color: #FFF;
+  }
+  /* line 473, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-title h2 a {
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 476, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-title h2 a:hover {
+    color: #f05c5c;
+    text-decoration: none;
+  }
+  /* line 483, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 1;
+  }
+  /* line 488, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-details .details-subtle {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+  }
+  /* line 492, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-details .details-subtle i {
+    margin-right: 5px;
+    color: #f05c5c;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 516, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  /* line 524, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -20%);
+    display: flex;
+    flex-direction: column;
+    transition: .3s all;
+  }
+  /* line 532, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner button {
+    text-align: right;
+    color: #FFF;
+    font-size: 2.5rem;
+    transition: .3s all;
+  }
+  /* line 537, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner button:hover {
+    color: #15b095;
+  }
+  /* line 540, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .youtube-layer .youtube-inner button:focus {
+    outline: none;
+  }
+  /* line 549, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid {
+    padding: 50px 0;
+  }
+  /* line 552, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-arrow {
+    display: none !important;
+  }
+  /* line 554, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-arrow:before {
+    color: gray;
+  }
+  /* line 558, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-prev {
+    left: 0;
+  }
+  /* line 561, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-next {
+    right: 0;
+  }
+  /* line 566, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide {
+    padding: 0 15px;
+  }
+  /* line 568, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper {
+    overflow: hidden;
+    position: relative;
+  }
+  /* line 571, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper img {
+    width: 100%;
+    max-width: 100%;
+    transition: .3s all;
+  }
+  /* line 576, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-play {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+  }
+  /* line 580, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-play:hover {
+    cursor: pointer;
+  }
+  /* line 582, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-play:hover .fa-play {
+    color: #15b095;
+  }
+  /* line 586, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-play .fa-play {
+    background: #FFF;
+    border-radius: 50%;
+    padding: 10px;
+    transition: .3s all;
+  }
+  /* line 593, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    color: #FFF;
+  }
+  /* line 599, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-title h2 {
+    font-size: 18px;
+  }
+  /* line 601, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-title h2 a {
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 604, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-title h2 a:hover {
+    color: #f05c5c;
+    text-decoration: none;
+  }
+  /* line 611, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 1;
+  }
+  /* line 616, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-details .details-subtle {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+  }
+  /* line 620, C:/Users/User/snooker2/src/components/scss/SecondaryCarousel.scss */
+  .secondary-carousel .container-fluid .slick-slider .slick-list .slick-track .slick-slide .carousel-wrapper .carousel-text .carousel-details .details-subtle i {
+    margin-right: 5px;
+    color: #f05c5c;
+  }
+}
+
+/*# sourceMappingURL=../SecondaryCarousel.map */

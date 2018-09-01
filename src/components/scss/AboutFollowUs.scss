@@ -1,0 +1,634 @@
+@media screen and (min-width: 1200px) {
+	.about-follow-us {
+		margin-top: 30px;
+		.about-follow-wrapper {
+			display: flex;
+			flex-direction: row;
+			color: #FFF;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			margin-top: 30px;
+			.about-follow-divs {
+				flex-basis: calc(49% - 10px);
+				display: flex;
+				flex-direction: row;
+				margin-top: 10px;
+				&:hover {
+					cursor: pointer;
+					.about-follow-icon {
+						&:after {
+							transform: translateX(10px);
+						}
+					}
+				}
+				.about-follow-icon {
+					flex-basis: 50%;
+					position: relative;
+					&:after {
+						position: absolute;
+						left: 0;
+						font-weight: 900;
+						font-size: 5.5rem;
+						line-height: 1;
+						color: rgba(255, 255, 255, .5);
+						transition: .3s all;
+					}
+				}
+				.about-follow-text {
+					flex-basis: 49%;
+					display: flex;
+					padding: 20px;
+					flex-direction: column;
+					.about-follow-num {}
+					.about-follow-btn {
+						display: flex;
+						flex-direction: row;
+						align-items: center;
+						.about-follow-like {}
+						.about-follow-plus {
+							margin-left: 10px;
+							i {
+								border: 3px solid #FFF;
+								border-radius: 50%;
+								padding: 5px;
+								font-size: 12px;
+							}
+						}
+					}
+				}
+				&:first-of-type {
+					background: #3e74bd;
+					.about-follow-icon {
+						&:after {
+							content: "\f39e";
+							font-family: "Font Awesome 5 Brands";													
+						}
+					}
+					.about-follow-text {
+						.about-follow-num {}
+						.about-follow-btn {
+							.about-follow-like {}
+							.about-follow-plus {}
+						}
+					}
+				}
+				&:nth-of-type(2) {
+					background: #37b5e9;
+					.about-follow-icon {
+						&:after {
+							content: "\f099";
+							font-family: "Font Awesome 5 Brands";													
+						}
+					}
+					.about-follow-text {
+						.about-follow-num {}
+						.about-follow-btn {
+							.about-follow-like {}
+							.about-follow-plus {}
+						}
+					}
+				}
+				&:nth-of-type(3) {
+					background: #f06868;
+					.about-follow-icon {
+						&:after {
+							content: "\f1a0";
+							font-family: "Font Awesome 5 Brands";													
+						}
+					}
+					.about-follow-text {
+						.about-follow-num {}
+						.about-follow-btn {
+							.about-follow-like {}
+							.about-follow-plus {}
+						}
+					}
+				}
+				&:last-of-type {
+					background: #425c7f;;
+					.about-follow-icon {
+						&:after {
+							content: "\f16d";
+							font-family: "Font Awesome 5 Brands";													
+						}
+					}
+					.about-follow-text {
+						.about-follow-num {}
+						.about-follow-btn {
+							.about-follow-like {}
+							.about-follow-plus {}
+						}
+					}
+				}
+			}
+		}
+	} // .about-follow-us
+} // .min-width: 1200
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.about-follow-us {
+		margin-top: 30px;
+		.about-follow-wrapper {
+			display: flex;
+			flex-direction: row;
+			color: #FFF;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			margin-top: 30px;
+			.about-follow-divs {
+				flex-basis: calc(49% - 10px);
+				display: flex;
+				flex-direction: row;
+				margin-top: 10px;
+				&:hover {
+					cursor: pointer;
+					.about-follow-icon {
+						&:after {
+							transform: translateX(10px);
+						}
+					}
+				}
+				.about-follow-icon {
+					flex-basis: 50%;
+					position: relative;
+					&:after {
+						position: absolute;
+						left: 0;
+						font-weight: 900;
+						font-size: 5.5rem;
+						line-height: 1;
+						color: rgba(255, 255, 255, .5);
+						transition: .3s all;
+					}
+				}
+				.about-follow-text {
+					flex-basis: 49%;
+					display: flex;
+					padding: 20px;
+					flex-direction: column;
+					.about-follow-num {}
+					.about-follow-btn {
+						display: flex;
+						flex-direction: row;
+						align-items: center;
+						.about-follow-like {}
+						.about-follow-plus {
+							margin-left: 10px;
+							i {
+								border: 3px solid #FFF;
+								border-radius: 50%;
+								padding: 5px;
+								font-size: 12px;
+							}
+						}
+					}
+				}
+				&:first-of-type {
+					background: #3e74bd;
+					.about-follow-icon {
+						&:after {
+							content: "\f39e";
+							font-family: "Font Awesome 5 Brands";													
+						}
+					}
+					.about-follow-text {
+						.about-follow-num {}
+						.about-follow-btn {
+							.about-follow-like {}
+							.about-follow-plus {}
+						}
+					}
+				}
+				&:nth-of-type(2) {
+					background: #37b5e9;
+					.about-follow-icon {
+						&:after {
+							content: "\f099";
+							font-family: "Font Awesome 5 Brands";													
+						}
+					}
+					.about-follow-text {
+						.about-follow-num {}
+						.about-follow-btn {
+							.about-follow-like {}
+							.about-follow-plus {}
+						}
+					}
+				}
+				&:nth-of-type(3) {
+					background: #f06868;
+					.about-follow-icon {
+						&:after {
+							content: "\f1a0";
+							font-family: "Font Awesome 5 Brands";													
+						}
+					}
+					.about-follow-text {
+						.about-follow-num {}
+						.about-follow-btn {
+							.about-follow-like {}
+							.about-follow-plus {}
+						}
+					}
+				}
+				&:last-of-type {
+					background: #425c7f;;
+					.about-follow-icon {
+						&:after {
+							content: "\f16d";
+							font-family: "Font Awesome 5 Brands";													
+						}
+					}
+					.about-follow-text {
+						.about-follow-num {}
+						.about-follow-btn {
+							.about-follow-like {}
+							.about-follow-plus {}
+						}
+					}
+				}
+			}
+		}
+	} // .about-follow-us
+} // 992 - 1199
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.about-follow-us {
+		margin-top: 30px;
+		.about-follow-wrapper {
+			display: flex;
+			flex-direction: row;
+			color: #FFF;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			margin-top: 30px;
+			.about-follow-divs {
+				flex-basis: calc(49% - 10px);
+				display: flex;
+				flex-direction: row;
+				margin-top: 10px;
+				&:hover {
+					cursor: pointer;
+					.about-follow-icon {
+						&:after {
+							transform: translateX(10px);
+						}
+					}
+				}
+				.about-follow-icon {
+					flex-basis: 50%;
+					position: relative;
+					&:after {
+						position: absolute;
+						left: 0;
+						font-weight: 900;
+						font-size: 5.5rem;
+						line-height: 1;
+						color: rgba(255, 255, 255, .5);
+						transition: .3s all;
+					}
+				}
+				.about-follow-text {
+					flex-basis: 49%;
+					display: flex;
+					padding: 20px;
+					flex-direction: column;
+					.about-follow-num {}
+					.about-follow-btn {
+						display: flex;
+						flex-direction: row;
+						align-items: center;
+						.about-follow-like {}
+						.about-follow-plus {
+							margin-left: 10px;
+							i {
+								border: 3px solid #FFF;
+								border-radius: 50%;
+								padding: 5px;
+								font-size: 12px;
+							}
+						}
+					}
+				}
+				&:first-of-type {
+					background: #3e74bd;
+					.about-follow-icon {
+						&:after {
+							content: "\f39e";
+							font-family: "Font Awesome 5 Brands";													
+						}
+					}
+					.about-follow-text {
+						.about-follow-num {}
+						.about-follow-btn {
+							.about-follow-like {}
+							.about-follow-plus {}
+						}
+					}
+				}
+				&:nth-of-type(2) {
+					background: #37b5e9;
+					.about-follow-icon {
+						&:after {
+							content: "\f099";
+							font-family: "Font Awesome 5 Brands";													
+						}
+					}
+					.about-follow-text {
+						.about-follow-num {}
+						.about-follow-btn {
+							.about-follow-like {}
+							.about-follow-plus {}
+						}
+					}
+				}
+				&:nth-of-type(3) {
+					background: #f06868;
+					.about-follow-icon {
+						&:after {
+							content: "\f1a0";
+							font-family: "Font Awesome 5 Brands";													
+						}
+					}
+					.about-follow-text {
+						.about-follow-num {}
+						.about-follow-btn {
+							.about-follow-like {}
+							.about-follow-plus {}
+						}
+					}
+				}
+				&:last-of-type {
+					background: #425c7f;;
+					.about-follow-icon {
+						&:after {
+							content: "\f16d";
+							font-family: "Font Awesome 5 Brands";													
+						}
+					}
+					.about-follow-text {
+						.about-follow-num {}
+						.about-follow-btn {
+							.about-follow-like {}
+							.about-follow-plus {}
+						}
+					}
+				}
+			}
+		}
+	} // .about-follow-us
+} // 768 - 991
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+	.about-follow-us {
+		margin-top: 30px;
+		.about-follow-wrapper {
+			display: flex;
+			flex-direction: row;
+			color: #FFF;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			margin-top: 30px;
+			.about-follow-divs {
+				flex-basis: calc(49% - 10px);
+				display: flex;
+				flex-direction: row;
+				margin-top: 10px;
+				&:hover {
+					cursor: pointer;
+					.about-follow-icon {
+						&:after {
+							transform: translateX(10px);
+						}
+					}
+				}
+				.about-follow-icon {
+					flex-basis: 50%;
+					position: relative;
+					&:after {
+						position: absolute;
+						left: 0;
+						font-weight: 900;
+						font-size: 5.5rem;
+						line-height: 1;
+						color: rgba(255, 255, 255, .5);
+						transition: .3s all;
+					}
+				}
+				.about-follow-text {
+					flex-basis: 49%;
+					display: flex;
+					padding: 20px;
+					flex-direction: column;
+					.about-follow-num {}
+					.about-follow-btn {
+						display: flex;
+						flex-direction: row;
+						align-items: center;
+						.about-follow-like {}
+						.about-follow-plus {
+							margin-left: 10px;
+							i {
+								border: 3px solid #FFF;
+								border-radius: 50%;
+								padding: 5px;
+								font-size: 12px;
+							}
+						}
+					}
+				}
+				&:first-of-type {
+					background: #3e74bd;
+					.about-follow-icon {
+						&:after {
+							content: "\f39e";
+							font-family: "Font Awesome 5 Brands";													
+						}
+					}
+					.about-follow-text {
+						.about-follow-num {}
+						.about-follow-btn {
+							.about-follow-like {}
+							.about-follow-plus {}
+						}
+					}
+				}
+				&:nth-of-type(2) {
+					background: #37b5e9;
+					.about-follow-icon {
+						&:after {
+							content: "\f099";
+							font-family: "Font Awesome 5 Brands";													
+						}
+					}
+					.about-follow-text {
+						.about-follow-num {}
+						.about-follow-btn {
+							.about-follow-like {}
+							.about-follow-plus {}
+						}
+					}
+				}
+				&:nth-of-type(3) {
+					background: #f06868;
+					.about-follow-icon {
+						&:after {
+							content: "\f1a0";
+							font-family: "Font Awesome 5 Brands";													
+						}
+					}
+					.about-follow-text {
+						.about-follow-num {}
+						.about-follow-btn {
+							.about-follow-like {}
+							.about-follow-plus {}
+						}
+					}
+				}
+				&:last-of-type {
+					background: #425c7f;;
+					.about-follow-icon {
+						&:after {
+							content: "\f16d";
+							font-family: "Font Awesome 5 Brands";													
+						}
+					}
+					.about-follow-text {
+						.about-follow-num {}
+						.about-follow-btn {
+							.about-follow-like {}
+							.about-follow-plus {}
+						}
+					}
+				}
+			}
+		}
+	} // .about-follow-us
+} // 576 - 767
+
+@media screen and (max-width: 575px){
+	.about-follow-us {
+		margin-top: 30px;
+		.about-follow-wrapper {
+			display: flex;
+			flex-direction: row;
+			color: #FFF;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			margin-top: 30px;
+			.about-follow-divs {
+				flex-basis: calc(49% - 10px);
+				display: flex;
+				flex-direction: row;
+				margin-top: 10px;
+				&:hover {
+					cursor: pointer;
+					.about-follow-icon {
+						&:after {
+							transform: translateX(10px);
+						}
+					}
+				}
+				.about-follow-icon {
+					flex-basis: 50%;
+					position: relative;
+					&:after {
+						position: absolute;
+						left: 0;
+						font-weight: 900;
+						font-size: 5.5rem;
+						line-height: 1;
+						color: rgba(255, 255, 255, .5);
+						transition: .3s all;
+					}
+				}
+				.about-follow-text {
+					flex-basis: 49%;
+					display: flex;
+					padding: 20px;
+					flex-direction: column;
+					.about-follow-num {}
+					.about-follow-btn {
+						display: flex;
+						flex-direction: row;
+						align-items: center;
+						.about-follow-like {}
+						.about-follow-plus {
+							margin-left: 10px;
+							i {
+								border: 3px solid #FFF;
+								border-radius: 50%;
+								padding: 5px;
+								font-size: 12px;
+							}
+						}
+					}
+				}
+				&:first-of-type {
+					background: #3e74bd;
+					.about-follow-icon {
+						&:after {
+							content: "\f39e";
+							font-family: "Font Awesome 5 Brands";													
+						}
+					}
+					.about-follow-text {
+						.about-follow-num {}
+						.about-follow-btn {
+							.about-follow-like {}
+							.about-follow-plus {}
+						}
+					}
+				}
+				&:nth-of-type(2) {
+					background: #37b5e9;
+					.about-follow-icon {
+						&:after {
+							content: "\f099";
+							font-family: "Font Awesome 5 Brands";													
+						}
+					}
+					.about-follow-text {
+						.about-follow-num {}
+						.about-follow-btn {
+							.about-follow-like {}
+							.about-follow-plus {}
+						}
+					}
+				}
+				&:nth-of-type(3) {
+					background: #f06868;
+					.about-follow-icon {
+						&:after {
+							content: "\f1a0";
+							font-family: "Font Awesome 5 Brands";													
+						}
+					}
+					.about-follow-text {
+						.about-follow-num {}
+						.about-follow-btn {
+							.about-follow-like {}
+							.about-follow-plus {}
+						}
+					}
+				}
+				&:last-of-type {
+					background: #425c7f;;
+					.about-follow-icon {
+						&:after {
+							content: "\f16d";
+							font-family: "Font Awesome 5 Brands";													
+						}
+					}
+					.about-follow-text {
+						.about-follow-num {}
+						.about-follow-btn {
+							.about-follow-like {}
+							.about-follow-plus {}
+						}
+					}
+				}
+			}
+		}
+	} // .about-follow-us
+} // max 575

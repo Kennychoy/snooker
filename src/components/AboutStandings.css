@@ -1,0 +1,710 @@
+@media screen and (min-width: 1200px) {
+  /* line 2, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 5, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  /* line 13, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .head-text h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 18, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .head-text h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 29, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper {
+    display: flex;
+  }
+  /* line 32, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown button {
+    background: transparent;
+    color: #151515;
+    padding: 3px 6px;
+    font-size: 14px;
+    transition: .3s all;
+  }
+  /* line 37, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown button:focus {
+    box-shadow: none;
+  }
+  /* line 41, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown .dropdown-menu {
+    background: #edeff4;
+  }
+  /* line 43, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown .dropdown-menu .dropdown-item {
+    transition: .3s all;
+  }
+  /* line 45, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown .dropdown-menu .dropdown-item:hover {
+    cursor: pointer;
+    color: #FFF;
+    background: #15b095;
+  }
+  /* line 52, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown:nth-of-type(2) {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  /* line 56, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown:last-of-type {
+    margin-right: 0;
+  }
+  /* line 58, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown:last-of-type .dropdown-menu {
+    min-width: 60px;
+  }
+  /* line 68, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 72, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .table-head {
+    background: #15b095;
+    color: #FFF;
+  }
+  /* line 76, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .expand-standings-content {
+    background: #f5f7f9 !important;
+  }
+  /* line 79, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content {
+    background: #FFF;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    align-items: center;
+    transition: .3s all;
+  }
+  /* line 86, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name {
+    display: flex;
+    justify-content: flex-start;
+  }
+  /* line 89, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name .table-img {
+    max-width: 60px;
+  }
+  /* line 91, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name .table-img img {
+    width: 100%;
+  }
+  /* line 95, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name .table-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10px;
+  }
+  /* line 102, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name .table-name .player-country {
+    color: #9b9b9b;
+    font-size: 12px;
+  }
+  /* line 110, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .toggle-btn a {
+    color: #151515;
+    background: #f5f7f9;
+    padding: 8px 13px;
+    transition: .3s all;
+  }
+  /* line 115, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .toggle-btn a:hover {
+    color: #15b095;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 129, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 132, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  /* line 140, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .head-text h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 145, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .head-text h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 156, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper {
+    display: flex;
+  }
+  /* line 159, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown button {
+    background: transparent;
+    color: #151515;
+    padding: 3px 6px;
+    font-size: 14px;
+    transition: .3s all;
+  }
+  /* line 164, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown button:focus {
+    box-shadow: none;
+  }
+  /* line 168, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown .dropdown-menu {
+    background: #edeff4;
+  }
+  /* line 170, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown .dropdown-menu .dropdown-item {
+    transition: .3s all;
+  }
+  /* line 172, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown .dropdown-menu .dropdown-item:hover {
+    cursor: pointer;
+    color: #FFF;
+    background: #15b095;
+  }
+  /* line 179, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown:nth-of-type(2) {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  /* line 183, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown:last-of-type {
+    margin-right: 0;
+  }
+  /* line 185, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown:last-of-type .dropdown-menu {
+    min-width: 60px;
+  }
+  /* line 195, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 199, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .table-head {
+    background: #15b095;
+    color: #FFF;
+  }
+  /* line 203, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .expand-standings-content {
+    background: #f5f7f9 !important;
+  }
+  /* line 206, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content {
+    background: #FFF;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    align-items: center;
+    transition: .3s all;
+  }
+  /* line 213, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name {
+    display: flex;
+    justify-content: flex-start;
+  }
+  /* line 216, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name .table-img {
+    max-width: 60px;
+  }
+  /* line 218, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name .table-img img {
+    width: 100%;
+  }
+  /* line 222, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name .table-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10px;
+  }
+  /* line 229, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name .table-name .player-country {
+    color: #9b9b9b;
+    font-size: 12px;
+  }
+  /* line 237, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .toggle-btn a {
+    color: #151515;
+    background: #f5f7f9;
+    padding: 8px 13px;
+    transition: .3s all;
+  }
+  /* line 242, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .toggle-btn a:hover {
+    color: #15b095;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 256, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 259, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  /* line 267, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .head-text h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 272, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .head-text h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 283, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper {
+    display: flex;
+  }
+  /* line 286, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown button {
+    background: transparent;
+    color: #151515;
+    padding: 3px 6px;
+    font-size: 14px;
+    transition: .3s all;
+  }
+  /* line 291, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown button:focus {
+    box-shadow: none;
+  }
+  /* line 295, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown .dropdown-menu {
+    background: #edeff4;
+  }
+  /* line 297, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown .dropdown-menu .dropdown-item {
+    transition: .3s all;
+  }
+  /* line 299, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown .dropdown-menu .dropdown-item:hover {
+    cursor: pointer;
+    color: #FFF;
+    background: #15b095;
+  }
+  /* line 306, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown:nth-of-type(2) {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  /* line 310, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown:last-of-type {
+    margin-right: 0;
+  }
+  /* line 312, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown:last-of-type .dropdown-menu {
+    min-width: 60px;
+  }
+  /* line 322, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 326, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .table-head {
+    background: #15b095;
+    color: #FFF;
+  }
+  /* line 330, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .expand-standings-content {
+    background: #f5f7f9 !important;
+  }
+  /* line 333, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content {
+    background: #FFF;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    align-items: center;
+    transition: .3s all;
+  }
+  /* line 340, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name {
+    display: flex;
+    justify-content: flex-start;
+  }
+  /* line 343, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name .table-img {
+    max-width: 60px;
+  }
+  /* line 345, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name .table-img img {
+    width: 100%;
+  }
+  /* line 349, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name .table-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10px;
+  }
+  /* line 356, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name .table-name .player-country {
+    color: #9b9b9b;
+    font-size: 12px;
+  }
+  /* line 364, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .toggle-btn a {
+    color: #151515;
+    background: #f5f7f9;
+    padding: 8px 13px;
+    transition: .3s all;
+  }
+  /* line 369, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .toggle-btn a:hover {
+    color: #15b095;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 383, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 386, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  /* line 394, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .head-text h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 399, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .head-text h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 410, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper {
+    display: flex;
+  }
+  /* line 413, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown button {
+    background: transparent;
+    color: #151515;
+    padding: 3px 6px;
+    font-size: 14px;
+    transition: .3s all;
+  }
+  /* line 418, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown button:focus {
+    box-shadow: none;
+  }
+  /* line 422, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown .dropdown-menu {
+    background: #edeff4;
+  }
+  /* line 424, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown .dropdown-menu .dropdown-item {
+    transition: .3s all;
+  }
+  /* line 426, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown .dropdown-menu .dropdown-item:hover {
+    cursor: pointer;
+    color: #FFF;
+    background: #15b095;
+  }
+  /* line 433, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown:nth-of-type(2) {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  /* line 437, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown:last-of-type {
+    margin-right: 0;
+  }
+  /* line 439, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown:last-of-type .dropdown-menu {
+    min-width: 60px;
+  }
+  /* line 447, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table {
+    font-size: 12px;
+  }
+  /* line 450, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 454, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .table-head {
+    background: #15b095;
+    color: #FFF;
+  }
+  /* line 457, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .table-head .col-5 {
+    max-width: 35%;
+  }
+  /* line 461, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .expand-standings-content {
+    background: #f5f7f9 !important;
+  }
+  /* line 464, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content {
+    background: #FFF;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    align-items: center;
+    transition: .3s all;
+  }
+  /* line 470, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 {
+    max-width: 35%;
+  }
+  /* line 472, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name {
+    display: flex;
+    justify-content: flex-start;
+  }
+  /* line 475, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name .table-img {
+    max-width: 60px;
+  }
+  /* line 477, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name .table-img img {
+    width: 100%;
+  }
+  /* line 481, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name .table-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10px;
+  }
+  /* line 488, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name .table-name .player-country {
+    color: #9b9b9b;
+    font-size: 12px;
+  }
+  /* line 495, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .expand-row {
+    margin-left: 60%;
+  }
+  /* line 499, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .toggle-btn a {
+    color: #151515;
+    background: #f5f7f9;
+    padding: 8px 13px;
+    transition: .3s all;
+  }
+  /* line 504, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .toggle-btn a:hover {
+    color: #15b095;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 518, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 521, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  /* line 529, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .head-text h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-indent: 15px;
+    position: relative;
+  }
+  /* line 534, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .head-text h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #15b095;
+  }
+  /* line 545, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper {
+    display: flex;
+  }
+  /* line 548, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown button {
+    background: transparent;
+    color: #151515;
+    padding: 3px 6px;
+    font-size: 14px;
+    transition: .3s all;
+  }
+  /* line 553, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown button:focus {
+    box-shadow: none;
+  }
+  /* line 557, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown .dropdown-menu {
+    background: #edeff4;
+  }
+  /* line 559, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown .dropdown-menu .dropdown-item {
+    transition: .3s all;
+  }
+  /* line 561, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown .dropdown-menu .dropdown-item:hover {
+    cursor: pointer;
+    color: #FFF;
+    background: #15b095;
+  }
+  /* line 568, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown:nth-of-type(2) {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  /* line 572, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown:last-of-type {
+    margin-right: 0;
+  }
+  /* line 574, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .section-head .select-wrapper .dropdown:last-of-type .dropdown-menu {
+    min-width: 60px;
+  }
+  /* line 582, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table {
+    font-size: 10px;
+    margin-top: 30px;
+  }
+  /* line 586, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* line 590, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .table-head {
+    background: #15b095;
+    color: #FFF;
+  }
+  /* line 593, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .table-head .col-5 {
+    max-width: 25%;
+  }
+  /* line 597, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .expand-standings-content {
+    background: #f5f7f9 !important;
+  }
+  /* line 600, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content {
+    background: #FFF;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    align-items: center;
+    transition: .3s all;
+  }
+  /* line 606, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 {
+    max-width: 25%;
+  }
+  /* line 608, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name {
+    display: flex;
+    justify-content: flex-start;
+  }
+  /* line 611, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name .table-img {
+    display: none;
+    max-width: 60px;
+  }
+  /* line 614, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name .table-img img {
+    width: 100%;
+  }
+  /* line 618, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name .table-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10px;
+  }
+  /* line 625, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .col-5 .table-img-name .table-name .player-country {
+    color: #9b9b9b;
+    font-size: 12px;
+  }
+  /* line 632, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .expand-row {
+    margin-left: 53%;
+  }
+  /* line 636, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .toggle-btn a {
+    color: #151515;
+    background: #f5f7f9;
+    padding: 8px 13px;
+    transition: .3s all;
+  }
+  /* line 641, C:/Users/User/snooker2/src/components/scss/AboutStandings.scss */
+  .about-standings .standings-table .container .standings-content .toggle-btn a:hover {
+    color: #15b095;
+  }
+}
+
+/*# sourceMappingURL=../AboutStandings.map */

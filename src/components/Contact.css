@@ -1,0 +1,483 @@
+@media screen and (min-width: 1200px) {
+  /* line 2, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact {
+    margin-top: 50px;
+  }
+  /* line 8, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form {
+    margin-top: 30px;
+  }
+  /* line 11, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset input {
+    width: calc(50% - 15px);
+    border: 1px solid #e1e1e1;
+    padding: 15px;
+  }
+  /* line 15, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset input:nth-of-type(odd) {
+    margin-right: 15px;
+  }
+  /* line 18, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset input:nth-of-type(even) {
+    margin-left: 15px;
+  }
+  /* line 22, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset textarea {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e1e1e1;
+    padding: 15px;
+  }
+  /* line 29, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset button {
+    width: calc(50% - 15px);
+    margin-left: 15px;
+    padding: 15px;
+    background: #15b095;
+    border: 1px solid #15b095;
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 37, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset button:hover {
+    cursor: pointer;
+    background: #f05c5c;
+    border-color: #f05c5c;
+  }
+  /* line 47, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper {
+    background: #FFF;
+    margin-top: 30px;
+  }
+  /* line 50, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single {
+    padding: 15px;
+    border-bottom: 1px solid #9b9b9b;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 55, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single:last-of-type {
+    border: none;
+  }
+  /* line 58, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .details-desc {
+    text-transform: uppercase;
+    color: #15b095;
+  }
+  /* line 62, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .icon-text {
+    display: flex;
+    align-item: center;
+  }
+  /* line 66, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .icon-text .details-icon i {
+    color: #15b095;
+    margin-right: 15px;
+  }
+  /* line 71, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .icon-text .details-text {
+    color: #151515;
+    transition: .3s all;
+  }
+  /* line 74, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .icon-text .details-text:hover {
+    cursor: pointer;
+    color: #15b095;
+  }
+  /* line 87, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact #map {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 94, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact {
+    margin-top: 50px;
+  }
+  /* line 100, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form {
+    margin-top: 30px;
+  }
+  /* line 103, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset input {
+    width: calc(50% - 15px);
+    border: 1px solid #e1e1e1;
+    padding: 15px;
+  }
+  /* line 107, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset input:nth-of-type(odd) {
+    margin-right: 15px;
+  }
+  /* line 110, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset input:nth-of-type(even) {
+    margin-left: 15px;
+  }
+  /* line 114, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset textarea {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e1e1e1;
+    padding: 15px;
+  }
+  /* line 121, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset button {
+    width: calc(50% - 15px);
+    margin-left: 15px;
+    padding: 15px;
+    background: #15b095;
+    border: 1px solid #15b095;
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 129, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset button:hover {
+    cursor: pointer;
+    background: #f05c5c;
+    border-color: #f05c5c;
+  }
+  /* line 139, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper {
+    background: #FFF;
+    margin-top: 30px;
+  }
+  /* line 142, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single {
+    padding: 15px;
+    border-bottom: 1px solid #9b9b9b;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 147, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single:last-of-type {
+    border: none;
+  }
+  /* line 150, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .details-desc {
+    text-transform: uppercase;
+    color: #15b095;
+  }
+  /* line 154, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .icon-text {
+    display: flex;
+    align-item: center;
+  }
+  /* line 158, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .icon-text .details-icon i {
+    color: #15b095;
+    margin-right: 15px;
+  }
+  /* line 163, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .icon-text .details-text {
+    color: #151515;
+    transition: .3s all;
+  }
+  /* line 166, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .icon-text .details-text:hover {
+    cursor: pointer;
+    color: #15b095;
+  }
+  /* line 179, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact #map {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 186, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact {
+    margin-top: calc(50px + 69px);
+  }
+  /* line 192, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form {
+    margin-top: 30px;
+  }
+  /* line 195, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset input {
+    width: calc(50% - 15px);
+    border: 1px solid #e1e1e1;
+    padding: 15px;
+  }
+  /* line 199, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset input:nth-of-type(odd) {
+    margin-right: 15px;
+  }
+  /* line 202, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset input:nth-of-type(even) {
+    margin-left: 15px;
+  }
+  /* line 206, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset textarea {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e1e1e1;
+    padding: 15px;
+  }
+  /* line 213, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset button {
+    width: calc(50% - 15px);
+    margin-left: 15px;
+    padding: 15px;
+    background: #15b095;
+    border: 1px solid #15b095;
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 221, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset button:hover {
+    cursor: pointer;
+    background: #f05c5c;
+    border-color: #f05c5c;
+  }
+  /* line 230, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details {
+    margin-top: 30px;
+  }
+  /* line 232, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper {
+    background: #FFF;
+    margin-top: 30px;
+  }
+  /* line 235, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single {
+    padding: 15px;
+    border-bottom: 1px solid #9b9b9b;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 240, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single:last-of-type {
+    border: none;
+  }
+  /* line 243, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .details-desc {
+    text-transform: uppercase;
+    color: #15b095;
+  }
+  /* line 247, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .icon-text {
+    display: flex;
+    align-item: center;
+  }
+  /* line 251, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .icon-text .details-icon i {
+    color: #15b095;
+    margin-right: 15px;
+  }
+  /* line 256, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .icon-text .details-text {
+    color: #151515;
+    transition: .3s all;
+  }
+  /* line 259, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .icon-text .details-text:hover {
+    cursor: pointer;
+    color: #15b095;
+  }
+  /* line 272, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact #map {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 279, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact {
+    margin-top: calc(50px + 69px);
+  }
+  /* line 285, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form {
+    margin-top: 30px;
+  }
+  /* line 288, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset input {
+    width: calc(50% - 15px);
+    border: 1px solid #e1e1e1;
+    padding: 15px;
+  }
+  /* line 292, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset input:nth-of-type(odd) {
+    margin-right: 15px;
+  }
+  /* line 295, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset input:nth-of-type(even) {
+    margin-left: 15px;
+  }
+  /* line 299, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset textarea {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e1e1e1;
+    padding: 15px;
+  }
+  /* line 306, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset button {
+    width: calc(50% - 15px);
+    margin-left: 15px;
+    padding: 15px;
+    background: #15b095;
+    border: 1px solid #15b095;
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 314, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset button:hover {
+    cursor: pointer;
+    background: #f05c5c;
+    border-color: #f05c5c;
+  }
+  /* line 323, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details {
+    margin-top: 30px;
+  }
+  /* line 325, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper {
+    background: #FFF;
+    margin-top: 30px;
+  }
+  /* line 328, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single {
+    padding: 15px;
+    border-bottom: 1px solid #9b9b9b;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 333, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single:last-of-type {
+    border: none;
+  }
+  /* line 336, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .details-desc {
+    text-transform: uppercase;
+    color: #15b095;
+  }
+  /* line 340, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .icon-text {
+    display: flex;
+    align-item: center;
+  }
+  /* line 344, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .icon-text .details-icon i {
+    color: #15b095;
+    margin-right: 15px;
+  }
+  /* line 349, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .icon-text .details-text {
+    color: #151515;
+    transition: .3s all;
+  }
+  /* line 352, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .icon-text .details-text:hover {
+    cursor: pointer;
+    color: #15b095;
+  }
+  /* line 365, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact #map {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 372, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact {
+    margin-top: calc(50px + 69px);
+  }
+  /* line 378, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form {
+    margin-top: 30px;
+  }
+  /* line 381, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset input {
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    padding: 15px;
+  }
+  /* line 385, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset input:first-of-type {
+    margin-bottom: 15px;
+  }
+  /* line 388, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset input:last-of-type {
+    margin-bottom: 15px;
+  }
+  /* line 392, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset textarea {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e1e1e1;
+    padding: 15px;
+  }
+  /* line 399, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset button {
+    width: 100%;
+    padding: 15px;
+    background: #15b095;
+    border: 1px solid #15b095;
+    border-radius: 8px;
+    color: #FFF;
+    transition: .3s all;
+  }
+  /* line 407, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .get-in-touch form fieldset button:hover {
+    cursor: pointer;
+    background: #f05c5c;
+    border-color: #f05c5c;
+  }
+  /* line 416, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details {
+    margin-top: 30px;
+  }
+  /* line 418, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper {
+    background: #FFF;
+    margin-top: 30px;
+  }
+  /* line 421, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single {
+    padding: 15px;
+    border-bottom: 1px solid #9b9b9b;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 426, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single:last-of-type {
+    border: none;
+  }
+  /* line 429, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .details-desc {
+    text-transform: uppercase;
+    color: #15b095;
+  }
+  /* line 433, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .icon-text {
+    display: flex;
+    align-item: center;
+  }
+  /* line 437, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .icon-text .details-icon i {
+    color: #15b095;
+    margin-right: 15px;
+  }
+  /* line 442, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .icon-text .details-text {
+    color: #151515;
+    transition: .3s all;
+  }
+  /* line 445, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact .contact-form .container .row .contact-details .details-wrapper .details-single .icon-text .details-text:hover {
+    cursor: pointer;
+    color: #15b095;
+  }
+  /* line 458, C:/Users/User/snooker2/src/components/scss/Contact.scss */
+  .contact #map {
+    margin-top: 50px;
+  }
+}
+
+/*# sourceMappingURL=../Contact.map */

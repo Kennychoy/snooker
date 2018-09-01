@@ -1,0 +1,151 @@
+@media screen and (min-width: 1200px) {
+  /* line 2, C:/Users/User/snooker2/src/components/scss/SidebarTags.scss */
+  .sidebar-tags {
+    margin-top: 30px;
+  }
+  /* line 4, C:/Users/User/snooker2/src/components/scss/SidebarTags.scss */
+  .sidebar-tags .tags-wrapper {
+    margin-top: 30px;
+  }
+  /* line 6, C:/Users/User/snooker2/src/components/scss/SidebarTags.scss */
+  .sidebar-tags .tags-wrapper button {
+    background: #FFF;
+    color: #151515;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    transition: .3s all;
+    padding: 5px 10px;
+    margin: 3px;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  /* line 16, C:/Users/User/snooker2/src/components/scss/SidebarTags.scss */
+  .sidebar-tags .tags-wrapper button:hover {
+    cursor: pointer;
+    color: #FFF;
+    background: #15b095;
+    border-color: #15b095;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 28, C:/Users/User/snooker2/src/components/scss/SidebarTags.scss */
+  .sidebar-tags {
+    margin-top: 30px;
+  }
+  /* line 30, C:/Users/User/snooker2/src/components/scss/SidebarTags.scss */
+  .sidebar-tags .tags-wrapper {
+    margin-top: 30px;
+  }
+  /* line 32, C:/Users/User/snooker2/src/components/scss/SidebarTags.scss */
+  .sidebar-tags .tags-wrapper button {
+    background: #FFF;
+    color: #151515;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    transition: .3s all;
+    padding: 5px 10px;
+    margin: 3px;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  /* line 42, C:/Users/User/snooker2/src/components/scss/SidebarTags.scss */
+  .sidebar-tags .tags-wrapper button:hover {
+    cursor: pointer;
+    color: #FFF;
+    background: #15b095;
+    border-color: #15b095;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 54, C:/Users/User/snooker2/src/components/scss/SidebarTags.scss */
+  .sidebar-tags {
+    margin-top: 30px;
+  }
+  /* line 56, C:/Users/User/snooker2/src/components/scss/SidebarTags.scss */
+  .sidebar-tags .tags-wrapper {
+    margin-top: 30px;
+  }
+  /* line 58, C:/Users/User/snooker2/src/components/scss/SidebarTags.scss */
+  .sidebar-tags .tags-wrapper button {
+    background: #FFF;
+    color: #151515;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    transition: .3s all;
+    padding: 5px 10px;
+    margin: 3px;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  /* line 68, C:/Users/User/snooker2/src/components/scss/SidebarTags.scss */
+  .sidebar-tags .tags-wrapper button:hover {
+    cursor: pointer;
+    color: #FFF;
+    background: #15b095;
+    border-color: #15b095;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 80, C:/Users/User/snooker2/src/components/scss/SidebarTags.scss */
+  .sidebar-tags {
+    margin-top: 30px;
+  }
+  /* line 82, C:/Users/User/snooker2/src/components/scss/SidebarTags.scss */
+  .sidebar-tags .tags-wrapper {
+    margin-top: 30px;
+  }
+  /* line 84, C:/Users/User/snooker2/src/components/scss/SidebarTags.scss */
+  .sidebar-tags .tags-wrapper button {
+    background: #FFF;
+    color: #151515;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    transition: .3s all;
+    padding: 5px 10px;
+    margin: 3px;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  /* line 94, C:/Users/User/snooker2/src/components/scss/SidebarTags.scss */
+  .sidebar-tags .tags-wrapper button:hover {
+    cursor: pointer;
+    color: #FFF;
+    background: #15b095;
+    border-color: #15b095;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 106, C:/Users/User/snooker2/src/components/scss/SidebarTags.scss */
+  .sidebar-tags {
+    margin-top: 30px;
+  }
+  /* line 108, C:/Users/User/snooker2/src/components/scss/SidebarTags.scss */
+  .sidebar-tags .tags-wrapper {
+    margin-top: 30px;
+  }
+  /* line 110, C:/Users/User/snooker2/src/components/scss/SidebarTags.scss */
+  .sidebar-tags .tags-wrapper button {
+    background: #FFF;
+    color: #151515;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    transition: .3s all;
+    padding: 5px 10px;
+    margin: 3px;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  /* line 120, C:/Users/User/snooker2/src/components/scss/SidebarTags.scss */
+  .sidebar-tags .tags-wrapper button:hover {
+    cursor: pointer;
+    color: #FFF;
+    background: #15b095;
+    border-color: #15b095;
+  }
+}
+
+/*# sourceMappingURL=../SidebarTags.map */

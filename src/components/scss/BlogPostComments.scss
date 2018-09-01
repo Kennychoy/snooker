@@ -1,0 +1,319 @@
+@media screen and (min-width: 1200px) {
+	.blogpost-comments {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		.blogpost-comments-inner {			
+			color: #151515;
+			background: #FFF;
+			padding: 15px;
+			margin-top: 30px;
+		}
+		.blogpost-comment-input {
+			display: flex;
+			padding: 15px;
+			background: #FFF;
+			.commentor-avatar {
+				flex-basis: 10%;
+				margin-right: 15px;
+				img {
+					width: 100%;
+					border-radius: 50%;
+				}
+			}
+			.commentor-nameAndBox {
+				flex-basis: 90%;
+				.commentor-name {
+					font-size: 18px;
+				}
+				.commentor-box {
+					textarea {
+					    border: 1px solid #edeff4;
+						background: #edeff4;
+						margin-top: 15px;
+						margin-bottom: 15px;
+						&::placeholder {
+							color: #9b9b9b;
+						}
+						&:focus {
+							border: 1px solid #edeff4;
+							box-shadow: none;
+							&::placeholder {
+								color: transparent;
+							}
+						}
+					}
+				}
+			}
+			button {
+				color: #FFF;
+				background: #15b095;
+				border: 1px solid #15b095;
+				border-radius: 3px;
+				padding: 5px 30px;
+				&:focus {
+					border: 1px solid #15b095;
+					outline: none;
+				}
+				&:hover {
+					cursor: pointer;
+				}
+			}
+		}
+	}
+} // .min-width: 1200
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.blogpost-comments {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		.blogpost-comments-inner {			
+			color: #151515;
+			background: #FFF;
+			padding: 15px;
+			margin-top: 30px;
+		}
+		.blogpost-comment-input {
+			display: flex;
+			padding: 15px;
+			background: #FFF;
+			.commentor-avatar {
+				flex-basis: 10%;
+				margin-right: 15px;
+				img {
+					width: 100%;
+					border-radius: 50%;
+				}
+			}
+			.commentor-nameAndBox {
+				flex-basis: 90%;
+				.commentor-name {
+					font-size: 18px;
+				}
+				.commentor-box {
+					textarea {
+					    border: 1px solid #edeff4;
+						background: #edeff4;
+						margin-top: 15px;
+						margin-bottom: 15px;
+						&::placeholder {
+							color: #9b9b9b;
+						}
+						&:focus {
+							border: 1px solid #edeff4;
+							box-shadow: none;
+							&::placeholder {
+								color: transparent;
+							}
+						}
+					}
+				}
+			}
+			button {
+				color: #FFF;
+				background: #15b095;
+				border: 1px solid #15b095;
+				border-radius: 3px;
+				padding: 5px 30px;
+				&:focus {
+					border: 1px solid #15b095;
+					outline: none;
+				}
+				&:hover {
+					cursor: pointer;
+				}
+			}
+		}
+	}
+} // 992 - 1199
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.blogpost-comments {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		.blogpost-comments-inner {			
+			color: #151515;
+			background: #FFF;
+			padding: 15px;
+			margin-top: 30px;
+		}
+		.blogpost-comment-input {
+			display: flex;
+			padding: 15px;
+			background: #FFF;
+			.commentor-avatar {
+				flex-basis: 10%;
+				margin-right: 15px;
+				img {
+					width: 100%;
+					border-radius: 50%;
+				}
+			}
+			.commentor-nameAndBox {
+				flex-basis: 90%;
+				.commentor-name {
+					font-size: 18px;
+				}
+				.commentor-box {
+					textarea {
+					    border: 1px solid #edeff4;
+						background: #edeff4;
+						margin-top: 15px;
+						margin-bottom: 15px;
+						&::placeholder {
+							color: #9b9b9b;
+						}
+						&:focus {
+							border: 1px solid #edeff4;
+							box-shadow: none;
+							&::placeholder {
+								color: transparent;
+							}
+						}
+					}
+				}
+			}
+			button {
+				color: #FFF;
+				background: #15b095;
+				border: 1px solid #15b095;
+				border-radius: 3px;
+				padding: 5px 30px;
+				&:focus {
+					border: 1px solid #15b095;
+					outline: none;
+				}
+				&:hover {
+					cursor: pointer;
+				}
+			}
+		}
+	}
+} // 768 - 991
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+	.blogpost-comments {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		.blogpost-comments-inner {			
+			color: #151515;
+			background: #FFF;
+			padding: 15px;
+			margin-top: 30px;
+		}
+		.blogpost-comment-input {
+			display: flex;
+			padding: 15px;
+			background: #FFF;
+			.commentor-avatar {
+				flex-basis: 10%;
+				margin-right: 15px;
+				img {
+					width: 100%;
+					border-radius: 50%;
+				}
+			}
+			.commentor-nameAndBox {
+				flex-basis: 90%;
+				.commentor-name {
+					font-size: 18px;
+				}
+				.commentor-box {
+					textarea {
+					    border: 1px solid #edeff4;
+						background: #edeff4;
+						margin-top: 15px;
+						margin-bottom: 15px;
+						&::placeholder {
+							color: #9b9b9b;
+						}
+						&:focus {
+							border: 1px solid #edeff4;
+							box-shadow: none;
+							&::placeholder {
+								color: transparent;
+							}
+						}
+					}
+				}
+			}
+			button {
+				color: #FFF;
+				background: #15b095;
+				border: 1px solid #15b095;
+				border-radius: 3px;
+				padding: 5px 30px;
+				&:focus {
+					border: 1px solid #15b095;
+					outline: none;
+				}
+				&:hover {
+					cursor: pointer;
+				}
+			}
+		}
+	}
+} // 576 - 767
+
+@media screen and (max-width: 575px){
+	.blogpost-comments {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		.blogpost-comments-inner {			
+			color: #151515;
+			background: #FFF;
+			padding: 15px;
+			margin-top: 30px;
+		}
+		.blogpost-comment-input {
+			display: flex;
+			flex-direction: column;
+			padding: 15px;
+			background: #FFF;
+			.commentor-avatar {
+				width: 15%;
+				img {
+					width: 100%;
+					border-radius: 50%;
+				}
+			}
+			.commentor-nameAndBox {
+				flex-basis: 90%;
+				.commentor-name {
+					font-size: 18px;
+				}
+				.commentor-box {
+					textarea {
+					    border: 1px solid #edeff4;
+						background: #edeff4;
+						margin-top: 15px;
+						margin-bottom: 15px;
+						&::placeholder {
+							color: #9b9b9b;
+						}
+						&:focus {
+							border: 1px solid #edeff4;
+							box-shadow: none;
+							&::placeholder {
+								color: transparent;
+							}
+						}
+					}
+				}
+			}
+			button {
+				color: #FFF;
+				background: #15b095;
+				border: 1px solid #15b095;
+				border-radius: 3px;
+				padding: 5px 30px;
+				&:focus {
+					border: 1px solid #15b095;
+					outline: none;
+				}
+				&:hover {
+					cursor: pointer;
+				}
+			}
+		}
+	}
+} // max 575

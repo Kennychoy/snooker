@@ -1,0 +1,503 @@
+@media screen and (min-width: 1200px) {
+  /* line 2, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-child {
+    margin-left: 10%;
+  }
+  /* line 5, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-child .commentor-img:after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    top: 20%;
+    left: -70%;
+    background: #e1e1e1;
+  }
+  /* line 14, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-child .commentor-img:before {
+    content: "";
+    position: absolute;
+    left: -70%;
+    top: -60%;
+    width: 1px;
+    height: 80%;
+    background: #e1e1e1;
+  }
+  /* line 25, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  /* line 28, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .commentor-img {
+    flex-basis: 10%;
+    margin-right: 15px;
+    position: relative;
+  }
+  /* line 32, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .commentor-img img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  /* line 37, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body {
+    flex-basis: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 41, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-nameandtime {
+    display: flex;
+  }
+  /* line 43, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-nameandtime .commentor-name {
+    margin-right: 30px;
+    position: relative;
+    font-size: 18px;
+  }
+  /* line 47, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-nameandtime .commentor-name:after {
+    content: "";
+    position: absolute;
+    right: -15px;
+    width: 1px;
+    height: 100%;
+    background: #e1e1e1;
+  }
+  /* line 56, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-nameandtime .comment-time {
+    font-size: 14px;
+    color: #9b9b9b;
+    display: flex;
+    align-items: center;
+  }
+  /* line 63, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-text {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 68, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc {
+    display: flex;
+    font-size: 14px;
+  }
+  /* line 71, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc .comment-subtle {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+  /* line 75, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc .comment-subtle i {
+    color: #15b095;
+    margin-right: 7px;
+  }
+  /* line 79, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc .comment-subtle .comment-subtle-text {
+    transition: .3s all;
+  }
+  /* line 81, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc .comment-subtle .comment-subtle-text:hover {
+    color: #15b095;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 93, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-child {
+    margin-left: 10%;
+  }
+  /* line 96, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-child .commentor-img:after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    top: 20%;
+    left: -70%;
+    background: #e1e1e1;
+  }
+  /* line 105, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-child .commentor-img:before {
+    content: "";
+    position: absolute;
+    left: -70%;
+    top: -80%;
+    width: 1px;
+    height: 100%;
+    background: #e1e1e1;
+  }
+  /* line 116, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  /* line 119, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .commentor-img {
+    flex-basis: 10%;
+    margin-right: 15px;
+    position: relative;
+  }
+  /* line 123, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .commentor-img img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  /* line 128, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body {
+    flex-basis: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 132, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-nameandtime {
+    display: flex;
+  }
+  /* line 134, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-nameandtime .commentor-name {
+    margin-right: 30px;
+    position: relative;
+    font-size: 18px;
+  }
+  /* line 138, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-nameandtime .commentor-name:after {
+    content: "";
+    position: absolute;
+    right: -15px;
+    width: 1px;
+    height: 100%;
+    background: #e1e1e1;
+  }
+  /* line 147, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-nameandtime .comment-time {
+    font-size: 14px;
+    color: #9b9b9b;
+    display: flex;
+    align-items: center;
+  }
+  /* line 154, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-text {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 159, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc {
+    display: flex;
+    font-size: 14px;
+  }
+  /* line 162, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc .comment-subtle {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+  /* line 166, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc .comment-subtle i {
+    color: #15b095;
+    margin-right: 7px;
+  }
+  /* line 170, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc .comment-subtle .comment-subtle-text {
+    transition: .3s all;
+  }
+  /* line 172, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc .comment-subtle .comment-subtle-text:hover {
+    color: #15b095;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 184, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-child {
+    margin-left: 10%;
+  }
+  /* line 187, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-child .commentor-img:after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    top: 20%;
+    left: -70%;
+    background: #e1e1e1;
+  }
+  /* line 196, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-child .commentor-img:before {
+    content: "";
+    position: absolute;
+    left: -70%;
+    top: -65%;
+    width: 1px;
+    height: 85%;
+    background: #e1e1e1;
+  }
+  /* line 207, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  /* line 210, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .commentor-img {
+    flex-basis: 10%;
+    margin-right: 15px;
+    position: relative;
+  }
+  /* line 214, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .commentor-img img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  /* line 219, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body {
+    flex-basis: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 223, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-nameandtime {
+    display: flex;
+  }
+  /* line 225, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-nameandtime .commentor-name {
+    margin-right: 30px;
+    position: relative;
+    font-size: 18px;
+  }
+  /* line 229, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-nameandtime .commentor-name:after {
+    content: "";
+    position: absolute;
+    right: -15px;
+    width: 1px;
+    height: 100%;
+    background: #e1e1e1;
+  }
+  /* line 238, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-nameandtime .comment-time {
+    font-size: 14px;
+    color: #9b9b9b;
+    display: flex;
+    align-items: center;
+  }
+  /* line 245, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-text {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 250, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc {
+    display: flex;
+    font-size: 14px;
+  }
+  /* line 253, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc .comment-subtle {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+  /* line 257, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc .comment-subtle i {
+    color: #15b095;
+    margin-right: 7px;
+  }
+  /* line 261, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc .comment-subtle .comment-subtle-text {
+    transition: .3s all;
+  }
+  /* line 263, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc .comment-subtle .comment-subtle-text:hover {
+    color: #15b095;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 275, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-child {
+    margin-left: 10%;
+  }
+  /* line 278, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-child .commentor-img:after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    top: 10%;
+    left: -70%;
+    background: #e1e1e1;
+  }
+  /* line 287, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-child .commentor-img:before {
+    content: "";
+    position: absolute;
+    left: -70%;
+    top: -75%;
+    width: 1px;
+    height: 85%;
+    background: #e1e1e1;
+  }
+  /* line 298, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  /* line 301, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .commentor-img {
+    flex-basis: 10%;
+    margin-right: 15px;
+    position: relative;
+  }
+  /* line 305, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .commentor-img img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  /* line 310, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body {
+    flex-basis: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 314, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-nameandtime {
+    display: flex;
+  }
+  /* line 316, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-nameandtime .commentor-name {
+    margin-right: 30px;
+    position: relative;
+    font-size: 18px;
+  }
+  /* line 320, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-nameandtime .commentor-name:after {
+    content: "";
+    position: absolute;
+    right: -15px;
+    width: 1px;
+    height: 100%;
+    background: #e1e1e1;
+  }
+  /* line 329, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-nameandtime .comment-time {
+    font-size: 14px;
+    color: #9b9b9b;
+    display: flex;
+    align-items: center;
+  }
+  /* line 336, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-text {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 341, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc {
+    display: flex;
+    font-size: 14px;
+  }
+  /* line 344, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc .comment-subtle {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+  /* line 348, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc .comment-subtle i {
+    color: #15b095;
+    margin-right: 7px;
+  }
+  /* line 352, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc .comment-subtle .comment-subtle-text {
+    transition: .3s all;
+  }
+  /* line 354, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc .comment-subtle .comment-subtle-text:hover {
+    color: #15b095;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 366, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-child {
+    margin-left: 10%;
+  }
+  /* line 369, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  /* line 373, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .commentor-img {
+    width: 15%;
+    margin-right: 15px;
+    position: relative;
+  }
+  /* line 377, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .commentor-img img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  /* line 382, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 385, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-nameandtime {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 388, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-nameandtime .commentor-name {
+    margin-right: 30px;
+    position: relative;
+    font-size: 18px;
+  }
+  /* line 393, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-nameandtime .comment-time {
+    font-size: 14px;
+    color: #9b9b9b;
+    display: flex;
+    align-items: center;
+  }
+  /* line 400, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-text {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 405, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc {
+    display: flex;
+    font-size: 14px;
+  }
+  /* line 408, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc .comment-subtle {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+  /* line 412, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc .comment-subtle i {
+    color: #15b095;
+    margin-right: 7px;
+  }
+  /* line 416, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc .comment-subtle .comment-subtle-text {
+    transition: .3s all;
+  }
+  /* line 418, C:/Users/User/snooker2/src/components/scss/BlogPostCommentsSingle.scss */
+  .comment-single .comment-body .comment-misc .comment-subtle .comment-subtle-text:hover {
+    color: #15b095;
+    cursor: pointer;
+  }
+}
+
+/*# sourceMappingURL=../BlogPostCommentsSingle.map */

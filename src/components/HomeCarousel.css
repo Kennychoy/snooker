@@ -1,0 +1,745 @@
+@media screen and (min-width: 1200px) {
+  /* line 3, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 90%;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin: 10% 0;
+    list-style: none;
+    flex-direction: column;
+  }
+  /* line 17, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators li {
+    margin: 20px 0;
+    background: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    text-indent: 0;
+  }
+  /* line 25, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators li::after {
+    background: #FFF;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* line 36, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators li .indicator-text {
+    position: absolute;
+    right: -60px;
+    color: #FFF;
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: .3s all;
+  }
+  /* line 43, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators li .indicator-text::before {
+    position: absolute;
+    left: -35px;
+    top: 50%;
+    width: 25px;
+    height: 2px;
+    background: #FFF;
+    content: "";
+  }
+  /* line 54, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators .active {
+    border: 1px solid #FFF;
+  }
+  /* line 56, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators .active::after {
+    background: #f05c5c;
+  }
+  /* line 59, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators .active .indicator-text {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  /* line 68, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item img {
+    width: 100%;
+  }
+  /* line 71, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption {
+    text-align: left;
+  }
+  /* line 73, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption h1 {
+    text-transform: uppercase;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: .2s all;
+  }
+  /* line 79, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    text-indent: 60px;
+    position: reltaive;
+    text-transform: uppercase;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: .4s all;
+  }
+  /* line 88, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption h3:before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 3px;
+    top: 48%;
+    left: 0px;
+    background: #f05c5c;
+  }
+  /* line 98, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption button {
+    background: transparent;
+    border-color: white;
+    color: #FFF;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: none;
+    transition: border-color .3s, background .3s, opacity .6s, transform .6s;
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  /* line 109, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption button:hover {
+    background: #15b095;
+    border-color: #15b095;
+    cursor: pointer;
+  }
+  /* line 119, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .active .carousel-caption h1 {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  /* line 123, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .active .carousel-caption h3 {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  /* line 127, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .active .carousel-caption button {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 139, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 90%;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin: 10% 0;
+    list-style: none;
+    flex-direction: column;
+  }
+  /* line 153, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators li {
+    margin: 20px 0;
+    background: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    text-indent: 0;
+  }
+  /* line 161, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators li::after {
+    background: #FFF;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* line 172, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators li .indicator-text {
+    position: absolute;
+    right: -60px;
+    color: #FFF;
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: .3s all;
+  }
+  /* line 179, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators li .indicator-text::before {
+    position: absolute;
+    left: -35px;
+    top: 50%;
+    width: 25px;
+    height: 2px;
+    background: #FFF;
+    content: "";
+  }
+  /* line 190, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators .active {
+    border: 1px solid #FFF;
+  }
+  /* line 192, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators .active::after {
+    background: #f05c5c;
+  }
+  /* line 195, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators .active .indicator-text {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  /* line 204, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item img {
+    width: 100%;
+  }
+  /* line 207, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption {
+    text-align: left;
+  }
+  /* line 209, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption h1 {
+    text-transform: uppercase;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: .2s all;
+  }
+  /* line 215, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    text-indent: 60px;
+    position: reltaive;
+    text-transform: uppercase;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: .4s all;
+  }
+  /* line 224, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption h3:before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 3px;
+    top: 48%;
+    left: 0px;
+    background: #f05c5c;
+  }
+  /* line 234, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption button {
+    background: transparent;
+    border-color: white;
+    color: #FFF;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: none;
+    transition: border-color .3s, background .3s, opacity .6s, transform .6s;
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  /* line 245, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption button:hover {
+    background: #15b095;
+    border-color: #15b095;
+    cursor: pointer;
+  }
+  /* line 255, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .active .carousel-caption h1 {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  /* line 259, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .active .carousel-caption h3 {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  /* line 263, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .active .carousel-caption button {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 275, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators {
+    position: absolute;
+    right: 5%;
+    bottom: 10px;
+    left: 90%;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin: 10% 0;
+    list-style: none;
+    flex-direction: column;
+  }
+  /* line 289, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators li {
+    margin: 20px 0;
+    background: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    text-indent: 0;
+  }
+  /* line 297, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators li::after {
+    background: #FFF;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* line 308, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators li .indicator-text {
+    position: absolute;
+    right: -40px;
+    color: #FFF;
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: .3s all;
+  }
+  /* line 315, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators li .indicator-text::before {
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    width: 15px;
+    height: 2px;
+    background: #FFF;
+    content: "";
+  }
+  /* line 326, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators .active {
+    border: 1px solid #FFF;
+  }
+  /* line 328, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators .active::after {
+    background: #f05c5c;
+  }
+  /* line 331, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators .active .indicator-text {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  /* line 339, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item {
+    height: 500px;
+  }
+  /* line 341, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 345, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption {
+    text-align: left;
+    left: 5%;
+  }
+  /* line 348, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption h1 {
+    text-transform: uppercase;
+    opacity: 0;
+    transform: translateX(-100px);
+    font-size: 24px;
+    font-weight: 600;
+    transition: .2s all;
+  }
+  /* line 356, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption h3 {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .05rem;
+    margin-top: 20px;
+    text-indent: 60px;
+    position: reltaive;
+    text-transform: uppercase;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: .4s all;
+  }
+  /* line 367, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption h3:before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 3px;
+    top: 20%;
+    left: 0px;
+    background: #f05c5c;
+  }
+  /* line 377, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption button {
+    background: transparent;
+    border-color: white;
+    color: #FFF;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 14px;
+    box-shadow: none;
+    transition: border-color .3s, background .3s, opacity .6s, transform .6s;
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  /* line 389, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption button:hover {
+    background: #15b095;
+    border-color: #15b095;
+    cursor: pointer;
+  }
+  /* line 399, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .active .carousel-caption h1 {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  /* line 403, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .active .carousel-caption h3 {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  /* line 407, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .active .carousel-caption button {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 419, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators {
+    position: absolute;
+    right: 10%;
+    bottom: 10px;
+    left: 80%;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin: 10% 0;
+    list-style: none;
+    flex-direction: column;
+  }
+  /* line 433, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators li {
+    margin: 20px 0;
+    background: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    text-indent: 0;
+  }
+  /* line 441, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators li::after {
+    background: #FFF;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* line 452, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators li .indicator-text {
+    position: absolute;
+    right: -40px;
+    color: #FFF;
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: .3s all;
+  }
+  /* line 459, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators li .indicator-text::before {
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    width: 15px;
+    height: 2px;
+    background: #FFF;
+    content: "";
+  }
+  /* line 470, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators .active {
+    border: 1px solid #FFF;
+  }
+  /* line 472, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators .active::after {
+    background: #f05c5c;
+  }
+  /* line 475, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators .active .indicator-text {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  /* line 483, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item {
+    height: 500px;
+  }
+  /* line 485, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 489, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption {
+    text-align: left;
+    left: 5%;
+  }
+  /* line 492, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption h1 {
+    text-transform: uppercase;
+    opacity: 0;
+    transform: translateX(-100px);
+    font-size: 24px;
+    font-weight: 600;
+    transition: .2s all;
+  }
+  /* line 500, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption h3 {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .05rem;
+    margin-top: 20px;
+    text-indent: 60px;
+    position: reltaive;
+    text-transform: uppercase;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: .4s all;
+  }
+  /* line 511, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption h3:before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 3px;
+    top: 20%;
+    left: 0px;
+    background: #f05c5c;
+  }
+  /* line 521, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption button {
+    background: transparent;
+    border-color: white;
+    color: #FFF;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 14px;
+    box-shadow: none;
+    transition: border-color .3s, background .3s, opacity .6s, transform .6s;
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  /* line 533, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption button:hover {
+    background: #15b095;
+    border-color: #15b095;
+    cursor: pointer;
+  }
+  /* line 543, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .active .carousel-caption h1 {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  /* line 547, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .active .carousel-caption h3 {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  /* line 551, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .active .carousel-caption button {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 563, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators {
+    position: absolute;
+    right: 10%;
+    bottom: 10px;
+    left: 80%;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin: 10% 0;
+    list-style: none;
+    flex-direction: column;
+  }
+  /* line 577, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators li {
+    margin: 20px 0;
+    background: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    text-indent: 0;
+  }
+  /* line 585, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators li::after {
+    background: #FFF;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* line 596, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators li .indicator-text {
+    position: absolute;
+    top: -45%;
+    right: -40px;
+    color: #FFF;
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: .3s all;
+  }
+  /* line 604, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators li .indicator-text::before {
+    position: absolute;
+    left: -15px;
+    top: 45%;
+    width: 10px;
+    height: 2px;
+    background: #FFF;
+    content: "";
+  }
+  /* line 615, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators .active {
+    border: 1px solid #FFF;
+  }
+  /* line 617, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators .active::after {
+    background: #f05c5c;
+  }
+  /* line 620, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-indicators .active .indicator-text {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  /* line 628, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item {
+    height: 350px;
+  }
+  /* line 630, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 634, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption {
+    text-align: left;
+    left: 5%;
+  }
+  /* line 637, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption h1 {
+    text-transform: uppercase;
+    opacity: 0;
+    transform: translateX(-100px);
+    font-size: 16px;
+    font-weight: 600;
+    transition: .2s all;
+  }
+  /* line 645, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption h3 {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .05rem;
+    margin-top: 20px;
+    text-indent: 30px;
+    position: reltaive;
+    text-transform: uppercase;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: .4s all;
+  }
+  /* line 656, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption h3:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 3px;
+    top: 20%;
+    left: 0px;
+    background: #f05c5c;
+  }
+  /* line 666, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption button {
+    background: transparent;
+    border-color: white;
+    color: #FFF;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 12px;
+    box-shadow: none;
+    transition: border-color .3s, background .3s, opacity .6s, transform .6s;
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  /* line 678, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .carousel-item .carousel-caption button:hover {
+    background: #15b095;
+    border-color: #15b095;
+    cursor: pointer;
+  }
+  /* line 688, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .active .carousel-caption h1 {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  /* line 692, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .active .carousel-caption h3 {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  /* line 696, C:/Users/User/snooker2/src/components/scss/HomeCarousel.scss */
+  #homeCarousel .carousel-inner .active .carousel-caption button {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/*# sourceMappingURL=../HomeCarousel.map */

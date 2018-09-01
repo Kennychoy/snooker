@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "scss/ProductBtns.css",
+	"sources": [
+		"scss/ProductBtns.scss"
+	],
+	"sourcesContent": [
+		"@media screen and (min-width: 1200px) {\r\n\r\n} // .min-width: 1200\r\n\r\n@media screen and (min-width: 992px) and (max-width: 1199px){\r\n\r\n} // 992 - 1199\r\n\r\n@media screen and (min-width: 768px) and (max-width: 991px){\r\n\r\n} // 768 - 991\r\n\r\n@media screen and (min-width: 576px) and (max-width: 767px){\r\n\r\n} // 576 - 767\r\n\r\n@media screen and (max-width: 575px){\r\n\r\n} // max 575"
+	],
+	"mappings": "",
+	"names": []
+}
