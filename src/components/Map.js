@@ -38,7 +38,7 @@ class GoogleMap extends Component {
 		<div id="map">
 			<Map
 				id="map1"
-				apiKey="AIzaSyDnZHCNVuYH8lZSMZtuHzJ4677eUi6AE8w"
+				apiKey=API_KEY
 				mapOptions= {mapOptions}
 				style={{ width: "100%", height: '650px' }}
 				onLoad={setMarker}
